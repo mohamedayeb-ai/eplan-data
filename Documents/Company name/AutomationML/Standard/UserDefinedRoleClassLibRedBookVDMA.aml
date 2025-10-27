@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile FileName="UserDefinedRoleClassLibRedBookVDMA.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AdditionalInformation AutomationMLVersion="2.0" />
+	<AdditionalInformation>
+		<WriterHeader>
+			<WriterName>AutomationML e.V.</WriterName>
+			<WriterID>AutomationML e.V.</WriterID>
+			<WriterVendor>AutomationML e.V.</WriterVendor>
+			<WriterVendorURL>www.AutomationML.org</WriterVendorURL>
+			<WriterVersion>1.0</WriterVersion>
+			<WriterRelease>1.0.0</WriterRelease>
+			<LastWritingDateTime>2013-05-15T15:57:10+01:00</LastWritingDateTime>
+			<WriterProjectTitle>AutomationML UserDefined Libraries</WriterProjectTitle>
+			<WriterProjectID>AutomationML UserDefined Libraries</WriterProjectID>
+		</WriterHeader>
+	</AdditionalInformation>
+	<ExternalReference Path="../automationml development/AutomationML Libraries/RoleClass Libraries/AutomationMLDMIRoleClassLib.aml" Alias="AutomationMLDMIRoleClassLib" />
+	<RoleClassLib Name="UserDefinedRoleClassLib_RedBookVDMA">
+		<Version>2.1.0</Version>
+		<RoleClass Name="Spanende Werkzeugmaschinen" RefBaseClassPath="AutomationMLDMIRoleClassLib@AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Machine">
+			<RoleClass Name="Drehmaschinen und Drehautomaten" RefBaseClassPath="Spanende Werkzeugmaschinen" />
+			<RoleClass Name="Bohrmaschinen" RefBaseClassPath="Spanende Werkzeugmaschinen" />
+			<RoleClass Name="Fraesmaschinen" RefBaseClassPath="Spanende Werkzeugmaschinen" />
+			<RoleClass Name="Hobelmaschinen. Stossmaschinen, Raeummaschinen" RefBaseClassPath="Spanende Werkzeugmaschinen" />
+			<RoleClass Name="Saegemaschinen" RefBaseClassPath="Spanende Werkzeugmaschinen" />
+			<RoleClass Name="Schleifmaschinen" RefBaseClassPath="Spanende Werkzeugmaschinen" />
+			<RoleClass Name="Honmaschinen, Finishmaschinen, Laeppmaschinen, Poliermaschinen" RefBaseClassPath="Spanende Werkzeugmaschinen" />
+			<RoleClass Name="Transfermaschinen, Bearbeitungszentren, Flexible Fertigungszellen, Flexible Fertigungssysteme" RefBaseClassPath="Spanende Werkzeugmaschinen" />
+			<RoleClass Name="Baueinheiten fuer Werkzeugmaschinen" RefBaseClassPath="Spanende Werkzeugmaschinen" />
+			<RoleClass Name="Verzahnmaschinen und -Pruefmaschinen" RefBaseClassPath="Spanende Werkzeugmaschinen" />
+			<RoleClass Name="Sondermaschinen fuer die spanende Metallbearbeitung" RefBaseClassPath="Spanende Werkzeugmaschinen" />
+		</RoleClass>
+		<RoleClass Name="Abtrage Werkzeuge" RefBaseClassPath="AutomationMLDMIRoleClassLib@AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Machine">
+			<RoleClass Name="Funkenerodieranlagen (EDM-Technik)" RefBaseClassPath="Abtrage Werkzeuge" />
+			<RoleClass Name="Elektrochemisch abtragende Anlagen (ECM-Technik)" RefBaseClassPath="Abtrage Werkzeuge" />
+			<RoleClass Name="Thermisch abtragende Anlagen (TEM-Technik)" RefBaseClassPath="Abtrage Werkzeuge" />
+			<RoleClass Name="Termische Strahlanlagen und Strahquellen" RefBaseClassPath="Abtrage Werkzeuge" />
+			<RoleClass Name="Sonstige abtragende Werkzeugmaschinen" RefBaseClassPath="Abtrage Werkzeuge" />
+		</RoleClass>
+		<RoleClass Name="Zerteilende Werkzeugmaschinen" RefBaseClassPath="AutomationMLDMIRoleClassLib@AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Machine">
+			<RoleClass Name="Scheren fuer Blechbearbeitung" RefBaseClassPath="Zerteilende Werkzeugmaschinen" />
+			<RoleClass Name="Scheren fuer Profilmaterial" RefBaseClassPath="Zerteilende Werkzeugmaschinen" />
+			<RoleClass Name="Schneidpressen" RefBaseClassPath="Zerteilende Werkzeugmaschinen" />
+			<RoleClass Name="Kombinierte Stanz-, Nibbel-, Umform-, und Stahlschneid-Maschinen" RefBaseClassPath="Zerteilende Werkzeugmaschinen" />
+			<RoleClass Name="Sonstige zerteilende Werkzeuge" RefBaseClassPath="Zerteilende Werkzeugmaschinen" />
+		</RoleClass>
+		<RoleClass Name="Umformende Werkzeugmaschinen" RefBaseClassPath="AutomationMLDMIRoleClassLib@AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Machine">
+			<RoleClass Name="Exzenterpressen" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Kurbelpressen" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Kniehebelpressen" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Spindelpressen" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Sonstige mechanische Pressen" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Hydraulische Pressen" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Biege- und Richtpressen" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Pressen fuer Spezialanwendungen" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Pressenstrassen" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Flexible automatische Pressenstrassen und Pressensysteme" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Haemmer" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Walzmaschinen" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Biegemaschinen und Richtmaschinen" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Ziehmaschinen" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Sonstige Umformmaschinen" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+			<RoleClass Name="Sondermaschinen fuer die zerteilende und umformende Metallbearbeitung" RefBaseClassPath="Umformende Werkzeugmaschinen" />
+		</RoleClass>
+	</RoleClassLib>
+</CAEXFile>

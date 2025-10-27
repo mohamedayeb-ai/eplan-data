@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- OfflineNumerationGui_PROJECT_DetailedConfigScheme: ONco.PageIdentifierCounter.xml -->
+<Settings format="2">
+ <CAT name="PROJECT">
+  <MOD name="OfflineNumerationGui">
+   <LEV1 name="DetailedConfigScheme" nodekind="scheme">
+    <LEV2 name="Seite Kennbuchstabe Zähler">
+     <LEV3 name="Data" nodekind="block">
+      <Setting name="LeaveAlphaNumParts" type="bool"/>
+      <Setting name="LeaveCounter" type="bool"/>
+      <LEV4 name="SettingsElements">
+       <Setting name="Element" type="int">
+        <Val/>
+        <Val>2</Val>
+        <Val>6</Val>
+       </Setting>
+       <Setting name="ID" type="int">
+        <Val>2</Val>
+        <Val/>
+        <Val>1</Val>
+       </Setting>
+       <LEV5 name="IdentifyingLetter0">
+        <Setting name="FieldWidth" type="int">
+         <Val>1</Val>
+        </Setting>
+        <Setting name="FillSigns" type="string"/>
+       </LEV5>
+       <LEV5 name="Page2">
+        <Setting name="FieldWidth" type="int">
+         <Val>1</Val>
+        </Setting>
+        <Setting name="FillSigns" type="string">
+         <Val>0</Val>
+        </Setting>
+       </LEV5>
+       <LEV5 name="PageColumnByColumn1">
+        <Setting name="FieldWidth" type="int">
+         <Val>1</Val>
+        </Setting>
+        <Setting name="FillNumber" type="bool">
+         <Val>1</Val>
+        </Setting>
+        <Setting name="FillSigns" type="string"/>
+       </LEV5>
+      </LEV4>
+     </LEV3>
+     <Setting name="Description" type="mlstring">
+      <Val>##_##@1004/SchemeDataProject;??_??@Page Identifier sequential counter (per page);</Val>
+     </Setting>
+     <Setting name="Name" type="mlstring">
+      <Val>##_##@1005/SchemeDataProject;??_??@Page Identifier Counter;</Val>
+     </Setting>
+     <Setting name="ReadOnly" type="bool"/>
+    </LEV2>
+   </LEV1>
+  </MOD>
+ </CAT>
+</Settings>

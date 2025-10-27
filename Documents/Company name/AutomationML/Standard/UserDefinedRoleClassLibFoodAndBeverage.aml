@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile FileName="UserDefinedRoleClassLibFoodAndBeverage.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AdditionalInformation AutomationMLVersion="2.0" />
+	<AdditionalInformation>
+		<WriterHeader>
+			<WriterName>AutomationML e.V.</WriterName>
+			<WriterID>AutomationML e.V.</WriterID>
+			<WriterVendor>AutomationML e.V.</WriterVendor>
+			<WriterVendorURL>www.AutomationML.org</WriterVendorURL>
+			<WriterVersion>1.0</WriterVersion>
+			<WriterRelease>1.0.0</WriterRelease>
+			<LastWritingDateTime>2013-02-08T09:57:10.5827798+01:00</LastWritingDateTime>
+			<WriterProjectTitle>AutomationML UserDefined Libraries</WriterProjectTitle>
+			<WriterProjectID>AutomationML UserDefined Libraries</WriterProjectID>
+		</WriterHeader>
+	</AdditionalInformation>
+	<ExternalReference Path="../automationml development/AutomationML Libraries/RoleClass Libraries/AutomationMLBaseRoleClassLib.aml" Alias="AutomationMLBaseRoleClassLib" />
+	<RoleClassLib Name="UserDefinedRoleClassLibFoodAndBeverage">
+		<Version>2.0.0</Version>
+		<RoleClass Name="FoodAndBeverageEquipment" RefBaseClassPath="AutomationMLBaseRoleClassLib@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource">
+			<RoleClass Name="FillingMachine" RefBaseClassPath="UserDefinedRoleClassLibFoodAndBeverage/FoodAndBeverageEquipment" />
+			<RoleClass Name="PackagingMachine" RefBaseClassPath="UserDefinedRoleClassLibFoodAndBeverage/FoodAndBeverageEquipment" />
+			<RoleClass Name="ClosingMachine" RefBaseClassPath="UserDefinedRoleClassLibFoodAndBeverage/FoodAndBeverageEquipment" />
+		</RoleClass>
+		<RoleClass Name="FoodAndBeverageProcesses" RefBaseClassPath="AutomationMLBaseRoleClassLib@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Process">
+			<RoleClass Name="Fill" RefBaseClassPath="UserDefinedRoleClassLibFoodAndBeverage/FoodAndBeverageProcesses">
+				<Description>Fill substance in an entity</Description>
+			</RoleClass>
+			<RoleClass Name="Package" RefBaseClassPath="UserDefinedRoleClassLibFoodAndBeverage/FoodAndBeverageProcesses">
+				<Description>Cluster primary packages in different packaging constellations</Description>
+			</RoleClass>
+			<RoleClass Name="Close" RefBaseClassPath="UserDefinedRoleClassLibFoodAndBeverage/FoodAndBeverageProcesses">
+				<Description>Close entity e.g. put lid on jar</Description>
+			</RoleClass>
+		</RoleClass>
+		<RoleClass Name="FoodAndBeverageProducts" RefBaseClassPath="AutomationMLBaseRoleClassLib@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Product">
+			<RoleClass Name="InfantFormula" RefBaseClassPath="UserDefinedRoleClassLibFoodAndBeverage/FoodAndBeverageProducts" />
+			<RoleClass Name="BabyFood" RefBaseClassPath="UserDefinedRoleClassLibFoodAndBeverage/FoodAndBeverageProducts" />
+			<RoleClass Name="PrimaryPackage" RefBaseClassPath="UserDefinedRoleClassLibFoodAndBeverage/FoodAndBeverageProducts">
+				<Description>beverage carton/tetrapack</Description>
+			</RoleClass>
+			<RoleClass Name="SecondaryPackage" RefBaseClassPath="UserDefinedRoleClassLibFoodAndBeverage/FoodAndBeverageProducts">
+				<Description>6-pack</Description>
+			</RoleClass>
+			<RoleClass Name="Lid" RefBaseClassPath="UserDefinedRoleClassLibFoodAndBeverage/FoodAndBeverageProducts" />
+			<RoleClass Name="Jar" RefBaseClassPath="UserDefinedRoleClassLibFoodAndBeverage/FoodAndBeverageProducts" />
+		</RoleClass>
+	</RoleClassLib>
+</CAEXFile>

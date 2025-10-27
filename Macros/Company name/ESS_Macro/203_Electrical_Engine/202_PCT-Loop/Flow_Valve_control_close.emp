@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<EplanPxfRoot Name="Flow_Valve_control_close" Type="PageMacro" Version="2022.0.17539" PxfVersion="1.23" SchemaVersion="1.7.17539" Source="" SourceProject="D:\Program Files\EPLAN\2022.0.1.17539\Data\Projekte\QS\ESS_Sample_Macros.elk" Description="de_DE@SPS-Adresse PLT-Stelle;en_US@PLC address PCT loop;es_ES@Dirección PLC posición de PCS;fr_FR@Adresse API position PCT;nl_NL@PLC-adres PLT-systeem;sv_SE@PLC-adress PLT-plats;da_DK@PLC-adresse PCT-loop;ru_RU@Адрес ПЛК технологического контура;zh_CN@PCT 回路 PLC 地址;pl_PL@Adres PLC pętla PCT;pt_BR@Endereço CLP do ponto de PCT;cs_CZ@PLC adresa PCT loop;it_IT@Indirizzo PLC posizione PCT loop;hu_HU@PLC-cím mérőkör;pt_PT@Endereço PLC Ponto de PCT;ko_KR@PLC 주소 PCT 루프;ja_JP@PLC アドレス、PCT ループ;tr_TR@PLC adresi PCT döngüsü;ro_RO@Adresă PLC buclă PCT;zh_TW@PLC 定址 PCT 迴路;" ConfigurationFlags="74241" NumMainObjects="1" NumProjectSteps="1" NumMDSteps="0" Customgost="0" StreamSchema="EBitmap, ,2,1,2;EPosition3D, ,0,3,2;ERay3D, ,0,4,2;EStreamableVector, ,0,5,2;BaseTextLine@W3D, ,2,9,2;Box3d@W3D, ,0,10,2;DMNCDataSet, ,1,12,2;DMNCDataSetVector, ,1,13,2;Linetype@W3D, ,0,15,2;Color@W3D, ,0,16,2;Material@W3D, ,3,17,2;Mesh3d@W3D, ,8,19,2;Mesh3dX@W3D, ,2,20,2;MeshBox@W3D, ,5,21,2;MeshEdge3d@W3D, ,0,22,2;MeshFace3d@W3D, ,2,23,2;MeshPoint3d@W3D, ,1,24,2;MeshPolygon3d@W3D, ,1,25,2;MeshSimpleTextureTriangle3d@W3D, ,2,26,2;MeshSimpleTriangle3d@W3D, ,1,27,2;MeshText3dX@W3D, ,0,28,2;MeshTriangle3d@W3D, ,2,29,2;MeshTriangleFace3d@W3D, ,0,30,2;MeshTriangleFaceEdge3D@W3D, ,0,31,2;CTexture@W3D,W3dBaseGeometry,0,76,2;MeshMate@W3D,W3dMeshModeller,7,77,2;MeshMateFace@W3D,W3dMeshModeller,1,78,2;MeshMateGrid@W3D,W3dMeshModeller,8,79,2;MeshMateGridLine@W3D,W3dMeshModeller,1,80,2;MeshMateLine@W3D,W3dMeshModeller,1,81,2">
+ <EplPxfDir>
+  <EplPxfDirEntry MacroFuncType="-1" VariantId="-1"/>
+ </EplPxfDir>
+ <MacroVariant>
+  <ESymLib Name="SPECIAL" ID="0"/>
+  <ESymLib Name="IEC_symbol" ID="1"/>
+  <ESymLib/>
+  <ESymLib Name="GRAPHICS" ID="3"/>
+  <ESymLib Name="PID_ESS" ID="4"/>
+  <ESymLib Name="PNE1ESS" ID="5"/>
+  <ESymLib/>
+  <O14 Build="17534" A1="14/1" A3="0" A13="0" A14="0" A133="ESS_Sample_Macros@1543412823" A134="2022.0.1.17534" A135="0">
+  <P11 P10000="EPL_DEMO" P10002="&lt;1100&gt;&lt;1101&gt;&lt;1102&gt;&lt;1103&gt;&lt;1104&gt;&lt;1105&gt;&lt;1106&gt;&lt;1107&gt;&lt;1108&gt;&lt;1109&gt;" P10004="&lt;1200&gt;&lt;1201&gt;&lt;1202&gt;&lt;1203&gt;&lt;1204&gt;&lt;1205&gt;&lt;1206&gt;&lt;1207&gt;&lt;1208&gt;&lt;1209&gt;" P10006="&lt;1500&gt;" P10007="&lt;1600&gt;&lt;1601&gt;&lt;1602&gt;&lt;1603&gt;&lt;1604&gt;&lt;1605&gt;&lt;1606&gt;&lt;1607&gt;&lt;1608&gt;&lt;1609&gt;" P10008="0" P10011="de_DE@Beispiel-Makroprojekt;en_US@Sample macro project;es_ES@Proyecto de macros de ejemplo;fr_FR@Projet de macro d&apos;exemple de projet;nl_NL@Voorbeeld-macroproject;sv_SE@Exempelmakroprojekt;da_DK@Makroprojekteksempel;ru_RU@Образец проекта макросов;zh_CN@示例宏项目;pl_PL@Przykładowy projekt makr;pt_BR@Exemplo de projeto de macros;cs_CZ@Vzorový projekt maker;it_IT@Progetto macro di esempio;hu_HU@Makróprojekt példa;pt_PT@Exemplo de projeto de macros;ko_KR@샘플 매크로 프로젝트;ja_JP@サンプル マクロ プロジェクト;tr_TR@Örnek makro projesi;ro_RO@Proiect macro eșantion;zh_TW@樣本巨集專案;" P10012="0" P10013="001" P10014="de_DE@EPLAN;en_US@EPLAN;es_ES@EPLAN;fr_FR@EPLAN;nl_NL@EPLAN;sv_SE@EPLAN;da_DK@EPLAN;ru_RU@EPLAN;zh_CN@EPLAN;pl_PL@EPLAN;pt_BR@EPLAN;cs_CZ@EPLAN;it_IT@EPLAN;hu_HU@EPLAN;pt_PT@EPLAN;ko_KR@EPLAN;ja_JP@EPLAN;tr_TR@EPLAN;ro_RO@EPLAN;zh_TW@EPLAN;" P10015="EPLAN GmbH &amp; Co. KG" P10016="An der alten Ziegelei 2" P10017="D-40789 Monheim am Rhein / Germany" P10018="16&#9;==&#9;.&#9;=&#9;.&#9;++&#9;.&#9;+&#9;.&#9;&#9;&#9;&amp;&#9;&#9;#&#9;#&#9;-&#9;-" P10019="16&#9;1&#9;1&#9;1&#9;1&#9;1&#9;1&#9;1&#9;1&#9;0&#9;0&#9;0&#9;0&#9;1&#9;0&#9;1&#9;0" P10020="EPL" P10021="1494972000" P10024="1628172512" P10025="EPLAN" P10029="4&#9;0&#9;0&#9;0&#9;0" P10034="de_DE@Keine;en_US@None;es_ES@Ninguno;fr_FR@Aucune;nl_NL@Geen;sv_SE@Inga;da_DK@Ingen;ru_RU@Нет;zh_CN@无;pl_PL@Brak;pt_BR@Nenhum;cs_CZ@Žádné;it_IT@Nessuno;hu_HU@Nincs;pt_PT@Nenhum;ko_KR@없음;ja_JP@なし;tr_TR@Yok;ro_RO@Niciuna;zh_TW@無;" P10042="2016/2017" P10050="&lt;10007&gt;&lt;10006&gt;&lt;11012&gt;&lt;11013&gt;" P10051="&lt;10002&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;" P10053="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10054="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10055="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10056="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10057="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10059="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10060="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10061="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10062="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10063="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10064="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10069="ESS_Sample_Macros.elk" P10070="&lt;10007&gt;&lt;10006&gt;&lt;11012&gt;&lt;11013&gt;" P10071="&lt;10002&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;" P10072="17539" P10073="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10074="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10075="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10076="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10077="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10079="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10080="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10081="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10082="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10083="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10084="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10085="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10086="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10089="&lt;10001&gt;&lt;10002&gt;&lt;10003&gt;&lt;10004&gt;&lt;10007&gt;&lt;10006&gt;&lt;10005&gt;" P10090="0" P10092="3&#9;10007&#9;0&#9;1&#9;11017&#9;0&#9;0&#9;10006&#9;0&#9;0" P10093="0" P10094="3&#9;10002&#9;0&#9;1&#9;10004&#9;0&#9;1&#9;20012&#9;0&#9;0&#9;20013&#9;0&#9;1&#9;20014&#9;0&#9;0&#9;20015&#9;0&#9;0" P10095="0" P10097="0" P10100="Muster GmbH" P10118_1="13256&#9;13272&#9;EsProjectCorrectionPlcStructForBusTerminals" P10230="EPLAN" P10231="Firma" P10232="EPLAN GmbH &amp; Co. KG" P10235="An der alten Ziegelei 2" P10237="40789" P10238="Monheim am Rhein" P10239="Deutschland" P10240="+49 (0)2173 - 39 64 - 0" P10241="+49 (0)2173 - 39 64 - 25" P10310="5" P10311="1" P10400="##_##@1541/SchemeDataProject;??_??@User-specific 3;" P10401="##_##@701/SchemeDataProject;" P10403="##_##@715/SchemeDataProject;" P10405="##_##@703/SchemeDataProject;" P10406="##_##@703/SchemeDataProject;" P10407="##_##@703/SchemeDataProject;" P10409="##_##@715/SchemeDataProject;" P10410="##_##@715/SchemeDataProject;" P10411="##_##@715/SchemeDataProject;" P10412="##_##@703/SchemeDataProject;" P10413="##_##@703/SchemeDataProject;" P10414="##_##@715/SchemeDataProject;" P10420="##_##@1540/SchemeDataProject;??_??@User-defined structure and document type &apos;Identifying&apos;;" P10421="##_##@701/SchemeDataProject;" P10423="##_##@715/SchemeDataProject;" P10425="##_##@703/SchemeDataProject;" P10426="##_##@703/SchemeDataProject;" P10427="##_##@703/SchemeDataProject;" P10429="##_##@715/SchemeDataProject;" P10430="##_##@715/SchemeDataProject;" P10431="##_##@715/SchemeDataProject;" P10432="##_##@703/SchemeDataProject;" P10433="##_##@703/SchemeDataProject;" P10434="##_##@715/SchemeDataProject;" P10450="2" P10510="1" P10511="1" P10512="1" P10513="0" P10514="0" P10515="0" P10516="0" P10517="D:\Masterdata\Sample" P10518="Version 2022" P10607_1="[117,1&lt;22069,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;]" P10608_10="[20203,6&lt;20201&lt;31090,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0,0&gt;&gt;]" P10609_5="[20221&lt;20010,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;]-[20222,1&lt;4&lt;11037,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,5&gt;&gt;][20222,1&lt;4&lt;11042,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]-[20222,1&lt;20221&lt;19006,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]/[20222,1&lt;20221&lt;19005,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]" P10660_5="=│de_DE@0;en_US@1;es_ES@1;fr_FR@1;nl_NL@1;sv_SE@1;da_DK@1;ru_RU@1;zh_CN@1;pl_PL@1;pt_BR@1;cs_CZ@1;it_IT@1;hu_HU@1;pt_PT@1;ko_KR@1;│de_DE@E;en_US@E;es_ES@E;fr_FR@E;nl_NL@E;sv_SE@E;da_DK@E;ru_RU@E;zh_CN@E;pl_PL@E;pt_BR@E;cs_CZ@E;it_IT@E;hu_HU@E;pt_PT@E;ko_KR@E;ja_JP@E;║=│de_DE@2;en_US@2;es_ES@2;fr_FR@2;nl_NL@2;sv_SE@2;da_DK@2;ru_RU@2;zh_CN@2;pl_PL@2;pt_BR@2;cs_CZ@2;it_IT@2;hu_HU@2;pt_PT@2;ko_KR@2;│de_DE@H;en_US@H;es_ES@H;fr_FR@H;nl_NL@H;sv_SE@H;da_DK@H;ru_RU@H;zh_CN@H;pl_PL@H;pt_BR@H;cs_CZ@H;it_IT@H;hu_HU@H;pt_PT@H;ko_KR@H;ja_JP@H;║=│de_DE@3;en_US@3;es_ES@3;fr_FR@3;nl_NL@3;sv_SE@3;da_DK@3;ru_RU@3;zh_CN@3;pl_PL@3;pt_BR@3;cs_CZ@3;it_IT@3;hu_HU@3;pt_PT@3;ko_KR@3;│de_DE@P;en_US@P;es_ES@P;fr_FR@P;nl_NL@P;sv_SE@P;da_DK@P;ru_RU@P;zh_CN@P;pl_PL@P;pt_BR@P;cs_CZ@P;it_IT@P;hu_HU@P;pt_PT@P;ko_KR@P;ja_JP@P;║=│de_DE@4;en_US@4;es_ES@4;fr_FR@4;nl_NL@4;sv_SE@4;da_DK@4;ru_RU@4;zh_CN@4;pl_PL@4;pt_BR@4;cs_CZ@4;it_IT@4;hu_HU@4;pt_PT@4;ko_KR@4;│de_DE@C;en_US@C;es_ES@C;fr_FR@C;nl_NL@C;sv_SE@C;da_DK@C;ru_RU@C;zh_CN@C;pl_PL@C;pt_BR@C;cs_CZ@C;it_IT@C;hu_HU@C;pt_PT@C;ko_KR@C;ja_JP@C;║=│de_DE@5;en_US@5;es_ES@5;fr_FR@5;nl_NL@5;sv_SE@5;da_DK@5;ru_RU@5;zh_CN@5;pl_PL@5;pt_BR@5;cs_CZ@5;it_IT@5;hu_HU@5;pt_PT@5;ko_KR@5;│de_DE@L;en_US@L;es_ES@L;fr_FR@L;nl_NL@L;sv_SE@L;da_DK@L;ru_RU@L;zh_CN@L;pl_PL@L;pt_BR@L;cs_CZ@L;it_IT@L;hu_HU@L;pt_PT@L;ko_KR@L;ja_JP@L;║=│??_??@6;│de_DE@V;en_US@V;es_ES@V;fr_FR@V;nl_NL@V;sv_SE@V;da_DK@V;ru_RU@V;zh_CN@V;pl_PL@V;pt_BR@V;cs_CZ@V;it_IT@V;hu_HU@V;pt_PT@V;ko_KR@V;ja_JP@V;║=│de_DE@7;en_US@7;es_ES@7;fr_FR@7;nl_NL@7;sv_SE@7;da_DK@7;ru_RU@7;zh_CN@7;pl_PL@7;pt_BR@7;cs_CZ@7;it_IT@7;hu_HU@7;pt_PT@7;ko_KR@7;│de_DE@F;en_US@F;es_ES@F;fr_FR@F;nl_NL@F;sv_SE@F;da_DK@F;ru_RU@F;zh_CN@F;pl_PL@F;pt_BR@F;cs_CZ@F;it_IT@F;hu_HU@F;pt_PT@F;ko_KR@F;ja_JP@F;║=│??_??@8;│de_DE@K;en_US@K;es_ES@K;fr_FR@K;nl_NL@K;sv_SE@K;da_DK@K;ru_RU@K;zh_CN@K;pl_PL@K;pt_BR@K;cs_CZ@K;it_IT@K;hu_HU@K;pt_PT@K;ko_KR@K;ja_JP@K;║=│??_??@9;│de_DE@G;en_US@G;es_ES@G;fr_FR@G;nl_NL@G;sv_SE@G;da_DK@G;ru_RU@G;zh_CN@G;pl_PL@G;pt_BR@G;cs_CZ@G;it_IT@G;hu_HU@G;pt_PT@G;ko_KR@G;ja_JP@G;" P10902="2" P10904="0" P19031="[14&lt;10155,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;][LF][14&lt;10157,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;][LF][14&lt;10158,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;]"/>
+  </O14>
+  <O6 Build="11300" A1="6/1413" A3="0" A13="0" A14="0" A81="1500" A82="" A83="0" A85="10006" A86="" A4049="0"/>
+  <O6 Build="17404" A1="6/1377" A3="0" A13="0" A14="0" A81="1601" A82="202" A83="1.93504050925926" R84="6/1267" A85="10007" A86="" A4049="0">
+  <P11 P1002="de_DE@PLT-Messstelle;en_US@PCT loop;es_ES@Punto de medición de PCS;fr_FR@Point de mesure PCT;nl_NL@PLT-meetplaats;sv_SE@PLT-loop;da_DK@PCT-loop;ru_RU@Измерительный контур;zh_CN@PCT 回路;pl_PL@Miejsce pomiaru PCT;pt_BR@Loop de PCT;cs_CZ@Měřicí bod PLT;it_IT@Punto di misurazione PCT;hu_HU@Mérőkör mérési hely;pt_PT@Anel PCT;ko_KR@PCT 루프;ja_JP@PCT ループ;tr_TR@PCT döngüsü;ro_RO@Buclă PCT;zh_TW@PCT 迴路;"/>
+  </O6>
+  <O6 Build="10367" A1="6/4" A3="0" A13="0" A14="0" A81="1100" A82="" A83="-13.0204678362573" A85="10002" A86="" A4049="0"/>
+  <O6 Build="17404" A1="6/1245" A3="0" A13="0" A14="0" A81="1200" A82="A1" A83="13.0291666666667" A85="10004" A86="" A4049="0">
+  <P11 P1002="de_DE@Schaltschrank 1;en_US@Enclosure 1;es_ES@Armario 1;fr_FR@Armoire de distribution 1;nl_NL@Schakelkast 1;sv_SE@Kopplingsskåp 1;da_DK@Tavle 1;ru_RU@Электрошкаф 1;zh_CN@箱柜 1;pl_PL@Szafa sterownicza 1;pt_BR@Painel 1;cs_CZ@Rozvaděč 1;it_IT@Armadio elettrico 1;hu_HU@1 kapcsolószekrény;pt_PT@Quadro 1;ko_KR@인클로저 1;ja_JP@エンクロージャ 1;tr_TR@Şalt panosu 1;ro_RO@Tablou 1;zh_TW@機箱 1;"/>
+  </O6>
+  <O6 Build="17529" A1="6/1412" A3="0" A13="0" A14="0" A81="1200" A82="ZS1" A83="22.0291666666667" A85="10004" A86="" A4049="0">
+  <P11 P1002="de_DE@Position Zentralschaltschrank;en_US@Position central enclosure;es_ES@Posición de armario central;fr_FR@Position de l&apos;armoire de distribution centrale;nl_NL@Positie centrale schakelkast;sv_SE@Position centralt kopplingsskåp;da_DK@Position centraltavle;ru_RU@Позиция центрального электрошкафа;zh_CN@中央箱柜位置;pl_PL@Pozycja centralnej szafy sterowniczej;pt_BR@Posição do painel central;cs_CZ@Poloha centrální rozvaděč;it_IT@Posizione armadio elettrico centrale;hu_HU@Központi kapcsolószekrény elhelyezkedés;pt_PT@Posição do quadro central;ko_KR@위치 중앙 인클로저;ja_JP@配置、中央エンクロージャ;tr_TR@Merkezi şalt panosu pozisyonu;ro_RO@Poziție panou central;zh_TW@位置中央機箱;"/>
+  </O6>
+  <O6 Build="17404" A1="6/1225" A3="0" A13="0" A14="0" A81="1200" A82="A2" A83="9.02916666666667" A85="10004" A86="" A4049="0">
+  <P11 P1002="de_DE@Schaltschrank 2;en_US@Enclosure 2;es_ES@Armario 2;fr_FR@Armoire de distribution 2;nl_NL@Schakelkast 2;sv_SE@Kopplingsskåp 2;da_DK@Tavle 2;ru_RU@Электрошкаф 2;zh_CN@箱柜 2;pl_PL@Szafa sterownicza 2;pt_BR@Painel 2;cs_CZ@Rozvaděč 2;it_IT@Armadio elettrico 2;hu_HU@2 kapcsolószekrény;pt_PT@Quadro 2;ko_KR@인클로저 2;ja_JP@エンクロージャ 2;tr_TR@Şalt panosu 2;ro_RO@Tablou 2;zh_TW@機箱 2;"/>
+  </O6>
+  <O6 Build="17404" A1="6/1720" A3="0" A13="0" A14="0" A81="1100" A82="K2" A83="63.6659125188537" A85="10002" A86="" A4049="0">
+  <P11 P1002="de_DE@Ventilsteuerung;en_US@Valve control;es_ES@Control de válvula;fr_FR@Commande de soupape;nl_NL@Ventielbesturing;sv_SE@Ventilstyrning;da_DK@Ventilstyring;ru_RU@Управление клапаном;zh_CN@阀门控制系统;pl_PL@Sterowanie zaworem;pt_BR@Comando da válvula;cs_CZ@Řízení ventilu;it_IT@Comando valvola;hu_HU@Szelepvezérlés;pt_PT@Comando da válvula;ko_KR@밸브 제어;ja_JP@弁制御;tr_TR@Valf kumandası;ro_RO@Control supapă;zh_TW@閥控制;"/>
+  </O6>
+  <O6 Build="9380" A1="6/5" A3="0" A13="0" A14="0" A81="1200" A82="" A83="-14.9166666666667" A85="10004" A86="" A4049="0"/>
+  <O212 Build="17529" A1="212/516664" A3="0" A13="0" A14="0" A2861="-6007" A2862="ESS.PCT-Loop.Working_temperature" A2863="en_US@ESS.PCT loop.Operating temperature;de_DE@ESS.PLT-Stelle.Arbeitstemperatur ;es_ES@ESS.Posición de PCS.Temperatura de trabajo;fr_FR@ESS.Position PCT.Température de service;nl_NL@ESS.PLT-systeem.Werktemperatuur;sv_SE@ESS.PLT-plats.Arbetstemperatur;da_DK@ESS.PCT-loop.Arbejdstemperatur;ru_RU@ESS.Технологический контур.Рабочая температура;zh_CN@ESS.PCT 回路.工作温度;pl_PL@ESS.Pętla PCT.Temperatura robocza;pt_BR@ESS.Ponto de PCT.Temperatura de trabalho;cs_CZ@ESS.PCT loop.Pracovní teplota;it_IT@ESS.Posizione PCT loop.Temperatura di lavoro;hu_HU@ESS.Mérőkör.Üzemi hőmérséklet;pt_PT@ESS.Ponto de PCT.Temperatura de trabalho;ko_KR@ESS.PCT 루프.작동 온도;ja_JP@ESS.PCT ループ.動作温度;tr_TR@ESS.PCT döngüsü.Çalışma sıcaklığı;ro_RO@ESS.Buclă PCT.Temperatură de lucru;zh_TW@ESS.PCT 迴路.操作溫度;" A2865="24" A2866="217;218;261;263" A2867="5101" A2868="0" A2869="1615546289" A2935="1615542689" A4057="15" A4058="0" A4069="0" A4070="" A4071="1"/>
+  <O212 Build="17529" A1="212/516665" A3="0" A13="0" A14="0" A2861="-5885" A2862="ESS.PCT-Loop.Upper_Limit_3" A2863="de_DE@ESS.PLT-Stelle.oberer_Grenzwert_3;en_US@ESS.PCT loop.Upper_Limit_3;es_ES@ESS.Posición de PCS.Valor_límite_superior_3;fr_FR@ESS.Position PCT.Valeur_limite_supérieure_3;nl_NL@ESS.PLT-systeem.Bovenste_grenswaarde_3;sv_SE@ESS.PLT-plats.Övre_gränsvärde_3;da_DK@ESS.PCT-loop.Øvre_grænseværdi_3;ru_RU@ESS.Технологический контур.Верхнее_предельное значение_3;zh_CN@ESS.PCT 回路.上边界值_3;pl_PL@ESS.Pętla PCT.górna_wartość graniczna_3;pt_BR@ESS.Ponto de PCT.Limite_superior_3;cs_CZ@ESS.PCT loop.horní_mezní hodnota_3;it_IT@ESS.Posizione PCT loop.Valore limite_superiore_3;hu_HU@ESS.Mérőkör.felső_határérték_3;pt_PT@ESS.Ponto de PCT.Limite_superior_3;ko_KR@ESS.PCT 루프.Upper_Limit_3;ja_JP@ESS.PCT ループ.上限 3;tr_TR@ESS.PCT döngüsü.üst_limit_3;ro_RO@ESS.Buclă PCT.limita_superioară_3;zh_TW@ESS.PCT 迴路.上限_3;" A2865="24" A2866="217;218;261;263" A2867="5101" A2868="0" A2869="1615546289" A2935="1615542689" A4057="15" A4058="0" A4069="0" A4070="" A4071="1"/>
+  <O212 Build="17529" A1="212/516666" A3="0" A13="0" A14="0" A2861="-5884" A2862="ESS.PCT-Loop.Upper_Limit_2" A2863="de_DE@ESS.PLT-Stelle.oberer_Grenzwert_2;en_US@ESS.PCT loop.Upper_Limit_2;es_ES@ESS.Posición de PCS.Valor_límite_superior_2;fr_FR@ESS.Position PCT.Valeur_limite_supérieure_2;nl_NL@ESS.PLT-systeem.Bovenste_grenswaarde_2;sv_SE@ESS.PLT-plats.Övre_gränsvärde_2;da_DK@ESS.PCT-loop.Øvre_grænseværdi_2;ru_RU@ESS.Технологический контур.Верхнее_предельное значение_2;zh_CN@ESS.PCT 回路.上边界值_2;pl_PL@ESS.Pętla PCT.górna_wartość graniczna_2;pt_BR@ESS.Ponto de PCT.Limite_superior_2;cs_CZ@ESS.PCT loop.horní_mezní hodnota_2;it_IT@ESS.Posizione PCT loop.Valore limite_superiore_2;hu_HU@ESS.Mérőkör.felső_határérték_2;pt_PT@ESS.Ponto de PCT.Limite_superior_2;ko_KR@ESS.PCT 루프.Upper_Limit_2;ja_JP@ESS.PCT ループ.上限 2;tr_TR@ESS.PCT döngüsü.üst_limit_2;ro_RO@ESS.Buclă PCT.limita_superioară_2;zh_TW@ESS.PCT 迴路.上限_2;" A2865="24" A2866="217;218;261;263" A2867="5101" A2868="0" A2869="1615546289" A2935="1615542689" A4057="15" A4058="0" A4069="0" A4070="" A4071="1"/>
+  <O212 Build="17529" A1="212/516667" A3="0" A13="0" A14="0" A2861="-5883" A2862="ESS.PCT-Loop.Upper_Limit_1" A2863="de_DE@ESS.PLT-Stelle.oberer_Grenzwert_1;en_US@ESS.PCT loop.Upper_Limit_1;es_ES@ESS.Posición de PCS.Valor_límite_superior_1;fr_FR@ESS.Position PCT.Valeur_limite_supérieure_1;nl_NL@ESS.PLT-systeem.Bovenste_grenswaarde_1;sv_SE@ESS.PLT-plats.Övre_gränsvärde_1;da_DK@ESS.PCT-loop.Øvre_grænseværdi_1;ru_RU@ESS.Технологический контур.Верхнее_предельное значение_1;zh_CN@ESS.PCT 回路.上边界值_1;pl_PL@ESS.Pętla PCT.górna_wartość graniczna_1;pt_BR@ESS.Ponto de PCT.Limite_superior_1;cs_CZ@ESS.PCT loop.horní_mezní hodnota_1;it_IT@ESS.Posizione PCT loop.Valore limite_superiore_1;hu_HU@ESS.Mérőkör.felső_határérték_1;pt_PT@ESS.Ponto de PCT.Limite_superior_1;ko_KR@ESS.PCT 루프.Upper_Limit_1;ja_JP@ESS.PCT ループ.上限 1;tr_TR@ESS.PCT döngüsü.üst_limit_1;ro_RO@ESS.Buclă PCT.limita_superioară_1;zh_TW@ESS.PCT 迴路.上限_1;" A2865="24" A2866="217;218;261;263" A2867="5101" A2868="0" A2869="1615546289" A2935="1615542689" A4057="15" A4058="0" A4069="0" A4070="" A4071="1"/>
+  <O212 Build="17529" A1="212/516668" A3="0" A13="0" A14="0" A2861="-5882" A2862="ESS.PCT-Loop.Lower_Limit_3" A2863="de_DE@ESS.PLT-Stelle.unterer_Grenzwert_3;en_US@ESS.PCT loop.Lower_Limit_3;es_ES@ESS.Posición de PCS.Valor_límite_inferior_3;fr_FR@ESS.Position PCT.Valeur_limite_inférieure_3;nl_NL@ESS.PLT-systeem.Onderste_grenswaarde_3;sv_SE@ESS.PLT-plats.Undre_gränsvärde_3;da_DK@ESS.PCT-loop.Nedre_grænseværdi_3;ru_RU@ESS.Технологический контур.Нижнее_предельное значение_3;zh_CN@ESS.PCT 回路.下边界值_3;pl_PL@ESS.Pętla PCT.dolna_wartość graniczna_3;pt_BR@ESS.Ponto de PCT.Limite_inferior_3;cs_CZ@ESS.PCT loop.dolní_mezní hodnota_3;it_IT@ESS.Posizione PCT loop.Valore limite_inferiore_3;hu_HU@ESS.Mérőkör.alsó_határérték_3;pt_PT@ESS.Ponto de PCT.Limite_inferior_3;ko_KR@ESS.PCT 루프.Lower_Limit_3;ja_JP@ESS.PCT ループ.下限 3;tr_TR@ESS.PCT döngüsü.alt_limit_3;ro_RO@ESS.Buclă PCT.limita_inferioară_3;zh_TW@ESS.PCT 迴路.下限_3;" A2865="24" A2866="217;218;261;263" A2867="5101" A2868="0" A2869="1615546289" A2935="1615542689" A4057="15" A4058="0" A4069="0" A4070="" A4071="1"/>
+  <O212 Build="17529" A1="212/516669" A3="0" A13="0" A14="0" A2861="-5881" A2862="ESS.PCT-Loop.Lower_Limit_2" A2863="de_DE@ESS.PLT-Stelle.unterer_Grenzwert_2;en_US@ESS.PCT loop.Lower_Limit_2;es_ES@ESS.Posición de PCS.Valor_límite_inferior_2;fr_FR@ESS.Position PCT.Valeur_limite_inférieure_2;nl_NL@ESS.PLT-systeem.Onderste_grenswaarde_2;sv_SE@ESS.PLT-plats.Undre_gränsvärde_2;da_DK@ESS.PCT-loop.Nedre_grænseværdi_2;ru_RU@ESS.Технологический контур.Нижнее_предельное значение_2;zh_CN@ESS.PCT 回路.下边界值_2;pl_PL@ESS.Pętla PCT.dolna_wartość graniczna_2;pt_BR@ESS.Ponto de PCT.Limite_inferior_2;cs_CZ@ESS.PCT loop.dolní_mezní hodnota_2;it_IT@ESS.Posizione PCT loop.Valore limite_inferiore_2;hu_HU@ESS.Mérőkör.alsó_határérték_2;pt_PT@ESS.Ponto de PCT.Limite_inferior_2;ko_KR@ESS.PCT 루프.Lower_Limit_2;ja_JP@ESS.PCT ループ.下限 2;tr_TR@ESS.PCT döngüsü.alt_limit_2;ro_RO@ESS.Buclă PCT.limita_inferioară_2;zh_TW@ESS.PCT 迴路.下限_2;" A2865="24" A2866="217;218;261;263" A2867="5101" A2868="0" A2869="1615546289" A2935="1615542689" A4057="15" A4058="0" A4069="0" A4070="" A4071="1"/>
+  <O212 Build="17529" A1="212/516670" A3="0" A13="0" A14="0" A2861="-5880" A2862="ESS.PCT-Loop.Lower_Limit_1" A2863="de_DE@ESS.PLT-Stelle.unterer_Grenzwert_1;en_US@ESS.PCT loop.Lower_Limit_1;es_ES@ESS.Posición de PCS.Valor_límite_inferior_1;fr_FR@ESS.Position PCT.Valeur_limite_inférieure_1;nl_NL@ESS.PLT-systeem.Onderste_grenswaarde_1;sv_SE@ESS.PLT-plats.Undre_gränsvärde_1;da_DK@ESS.PCT-loop.Nedre_grænseværdi_1;ru_RU@ESS.Технологический контур.Нижнее_предельное значение_1;zh_CN@ESS.PCT 回路.下边界值_1;pl_PL@ESS.Pętla PCT.dolna_wartość graniczna_1;pt_BR@ESS.Ponto de PCT.Limite_inferior_1;cs_CZ@ESS.PCT loop.dolní_mezní hodnota_1;it_IT@ESS.Posizione PCT loop.Valore limite_inferiore_1;hu_HU@ESS.Mérőkör.alsó_határérték_1;pt_PT@ESS.Ponto de PCT.Limite_inferior_1;ko_KR@ESS.PCT 루프.Lower_Limit_1;ja_JP@ESS.PCT ループ.下限 1;tr_TR@ESS.PCT döngüsü.alt_limit_1;ro_RO@ESS.Buclă PCT.limita_inferioară_1;zh_TW@ESS.PCT 迴路.下限_1;" A2865="24" A2866="217;218;261;263" A2867="5101" A2868="0" A2869="1615546289" A2935="1615542689" A4057="15" A4058="0" A4069="0" A4070="" A4071="1"/>
+  <O212 Build="17529" A1="212/516671" A3="0" A13="0" A14="0" A2861="-5874" A2862="ESS.PCT-Loop.Input signal" A2863="de_DE@ESS.PLT-Stelle.Eingangssignal;en_US@ESS.PCT loop.Input signal;es_ES@ESS.Posición de PCS.Señal de entrada;fr_FR@ESS.Position PCT.Signal d&apos;entrée;nl_NL@ESS.PLT-systeem.Ingangssignaal;sv_SE@ESS.PLT-plats.Ingångssignal;da_DK@ESS.PCT-loop.Indgangssignal;ru_RU@ESS.Технологический контур.Сигнал входа;zh_CN@ESS.PCT 回路.输入端信号;pl_PL@ESS.Pętla PCT.Sygnał wejściowy;pt_BR@ESS.Ponto de PCT.Sinal de entrada;cs_CZ@ESS.PCT loop.Vstupní signál;it_IT@ESS.Posizione PCT loop.Segnale di ingresso;hu_HU@ESS.Mérőkör.Bemeneti jel;pt_PT@ESS.Ponto de PCT.Sinal de entrada;ko_KR@ESS.PCT 루프.입력 신호;ja_JP@ESS.PCT ループ.入力信号;tr_TR@ESS.PCT döngüsü.Giriş sinyali;ro_RO@ESS.Buclă PCT.Semnal intrare;zh_TW@ESS.PCT 迴路.輸入信號;" A2865="24" A2866="217;218;261;263" A2867="5101" A2868="0" A2869="1615546289" A2935="1615542689" A4057="15" A4058="0" A4069="0" A4070="" A4071="1"/>
+  <O4 Build="17529" A1="4/3055" A3="0" A13="0" A14="0" A47="1" A48="1611045465" A50="64" A59="28" A404="1" A405="64" A406="0" A407="0" A431="1" A699="1397035fccf64de41f187f308c8e95b2" A700="00000000-0000-0000-0000-000000000000" A1101="6" A1102="" A1103="" A4043="0" A4049="0">
+  <P11 P10185="EPLSNWHNWA" P11008_1="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P11011="de_DE@Durchflussventilsteuerung: Geschlossen;en_US@Flow valve control: Closed;es_ES@Control de válvula de caudal: Cerrado;fr_FR@Commande de vanne de débit : Fermé;nl_NL@Volumestroomventielbesturing: Gesloten;sv_SE@Flödesventilstyrning: Stängd;da_DK@Gennemstrømningsventilstyring: Lukket;ru_RU@Управление проточным клапаном: Закрыт;zh_CN@流量阀控制系统:关闭;pl_PL@Sterowanie zaworem przepływu: Zamknięty;pt_BR@Comando da válvula de fluxo: fechado;cs_CZ@Řízení průtokového ventilu: Zavřeno;it_IT@Comando valvola di portata: Chiusa;hu_HU@Átfolyószelep-vezérlés: zárva;pt_PT@Comando da válvula de fluxo: fechado;ko_KR@유량 밸브 제어: 닫힘;ja_JP@流量弁制御: 閉;tr_TR@Akış valfı kumandası: Kapalı;ro_RO@Control supapă debit: Închis;zh_TW@流量閥控制：關閉;" P11014_1="de_DE@SPS-Adresse PLT-Stelle;en_US@PLC address PCT loop;es_ES@Dirección PLC posición de PCS;fr_FR@Adresse API position PCT;nl_NL@PLC-adres PLT-systeem;sv_SE@PLC-adress PLT-plats;da_DK@PLC-adresse PCT-loop;ru_RU@Адрес ПЛК технологического контура;zh_CN@PCT 回路 PLC 地址;pl_PL@Adres PLC pętla PCT;pt_BR@Endereço CLP do ponto de PCT;cs_CZ@PLC adresa PCT loop;it_IT@Indirizzo PLC posizione PCT loop;hu_HU@PLC-cím mérőkör;pt_PT@Endereço PLC Ponto de PCT;ko_KR@PLC 주소 PCT 루프;ja_JP@PLC アドレス、PCT ループ;tr_TR@PLC adresi PCT döngüsü;ro_RO@Adresă PLC buclă PCT;zh_TW@PLC 定址 PCT 迴路;" P11020="EPL" P11021="1529579389" P11022="EPL" P11024="1628172523" P11048="1" P11050="0" P11051="4" P11056="ESS_Sample_Macros" P11057="de_DE@SPS-Adresse PLT-Stelle;en_US@PLC address PCT loop;es_ES@Dirección PLC posición de PCS;fr_FR@Adresse API position PCT;nl_NL@PLC-adres PLT-systeem;sv_SE@PLC-adress PLT-plats;da_DK@PLC-adresse PCT-loop;ru_RU@Адрес ПЛК технологического контура;zh_CN@PCT 回路 PLC 地址;pl_PL@Adres PLC pętla PCT;pt_BR@Endereço CLP do ponto de PCT;cs_CZ@PLC adresa PCT loop;it_IT@Indirizzo PLC posizione PCT loop;hu_HU@PLC-cím mérőkör;pt_PT@Endereço PLC Ponto de PCT;ko_KR@PLC 주소 PCT 루프;ja_JP@PLC アドレス、PCT ループ;tr_TR@PLC adresi PCT döngüsü;ro_RO@Adresă PLC buclă PCT;zh_TW@PLC 定址 PCT 迴路;" P11910="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P11911="2020" P23006="EPL"/>
+  <P49 P1600="203" P1601="202" P11012="6"/>
+  <O42 Build="12388" A1="42/204334" A3="0" A13="0" A14="0" A404="5" A405="64" A406="0" A407="0" A792="0" A793="3" A794="0" A1261="0" A1262="66" A1263="3">
+  <S40x1201 A762="44/148">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  </O42>
+  <O42 Build="12388" A1="42/204335" A3="0" A13="0" A14="0" A404="5" A405="64" A406="0" A407="0" A792="0" A793="3" A794="0" A1261="0" A1262="66" A1263="3">
+  <S40x1201 A762="52/156">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  </O42>
+  <O106 Build="12388" A1="106/204336" A3="2" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A408="0" A792="-128" A793="0" A794="0" A1261="0" A1262="323" A1263="0" A1892="Analog output" A1896="Function text;PLC address" A1897="0" A1900="1;0" A4073="1" A4074="0">
+  <S40x1201 A762="84/236">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <S114x1894 A2011="&lt;Symbolic Address&gt;" A2012="??_??@[20171&lt;218&lt;44025,1,0,0,0,0,0,0,0,%%_%%,0,0,0,0,0,0,0&gt;&gt;]\;;[20171&lt;218&lt;44023,1,0,0,0,0,0,0,0,%%_%%,0,0,0,0,0,0,0&gt;&gt;]"/>
+  <S109x1895 R1906="17/57045"/>
+  <S109x1895 R1906="17/57048">
+  <S115x1904 A1911="20011" A1912="0" A1913="??_??@&lt;Function text&gt;;"/>
+  <S115x1904 A1911="20400" A1912="0" A1913="??_??@&lt;PLC address&gt;;"/>
+  </S109x1895>
+  <S108x1898/>
+  <S108x4072/>
+  <P11 P19008="ESS_Platzhalter" P19301="&lt;Symbolic Address&gt;"/>
+  <S53x5 Build="12388" A3="0" A4="1" R7="106/204336" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="551" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-3/1" A503="4" A506="0" A771="19300" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="12388" A3="0" A4="2" R7="106/204336" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="551" A412="L" A413="L" A414="L" A415="L" A416="0" A502="106/204336/1" A503="14" A506="0" A771="19301" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O106>
+  <O106 Build="12388" A1="106/204337" A3="2" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A408="0" A792="-128" A793="0" A794="0" A1261="0" A1262="323" A1263="0" A1892="Page Description" A1896="Page Description" A1897="1" A1900="0" A4073="1" A4074="0">
+  <S40x1201 A762="16/272">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <S114x1894 A2011="Page Description" A2012="??_??@&lt;44005&gt;\;"/>
+  <S108x1898>
+  <S115x1904 A1911="11011" A1912="0" A1913="de_DE@Durchflussventilsteuerung: Geschlossen&#10;&lt;Page Description&gt;;en_US@Flow valve control: Closed&#10;&lt;Page Description&gt;;es_ES@Control de válvula de caudal: Cerrado&#10;&lt;Page Description&gt;;fr_FR@Commande de vanne de débit : Fermé&#10;&lt;Page Description&gt;;nl_NL@Volumestroomventielbesturing: Gesloten&#10;&lt;Page Description&gt;;sv_SE@Flödesventilstyrning: Stängd&#10;&lt;Page Description&gt;;da_DK@Gennemstrømningsventilstyring: Lukket&#10;&lt;Page Description&gt;;ru_RU@Управление проточным клапаном: Закрыт&#10;&lt;Page Description&gt;;zh_CN@流量阀控制系统:关闭&#10;&lt;Page Description&gt;;pl_PL@Sterowanie zaworem przepływu: Zamknięty&#10;&lt;Page Description&gt;;pt_BR@Comando da válvula de fluxo: fechado&#10;&lt;Page Description&gt;;cs_CZ@Řízení průtokového ventilu: Zavřeno&#10;&lt;Page Description&gt;;it_IT@Comando valvola di portata: Chiusa&#10;&lt;Page Description&gt;;hu_HU@Átfolyószelep-vezérlés: zárva&#10;&lt;Page Description&gt;;pt_PT@Comando da válvula de fluxo: fechado&#10;&lt;Page Description&gt;;ko_KR@유량 밸브 제어: 닫힘&#10;&lt;Page Description&gt;;ja_JP@流量弁制御: 閉&#10;&lt;Page Description&gt;;tr_TR@Akış valfı kumandası: Kapalı&#10;&lt;Page Description&gt;;ro_RO@Control supapă debit: Închis&#10;&lt;Page Description&gt;;"/>
+  </S108x1898>
+  <S108x4072/>
+  <P11 P19008="ESS_Platzhalter" P19301="Page Description"/>
+  <S53x5 Build="12388" A3="0" A4="1" R7="106/204337" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="551" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-3/1" A503="4" A506="0" A771="19300" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="12388" A3="0" A4="2" R7="106/204337" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="551" A412="L" A413="L" A414="L" A415="L" A416="0" A502="106/204337/1" A503="14" A506="0" A771="19301" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O106>
+  <O106 Build="12388" A1="106/204338" A3="6" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A408="0" A792="-128" A793="0" A794="0" A1261="0" A1262="323" A1263="0" A1892="digital input" A1896="Function text;PLC address" A1897="0" A1900="1;0" A4073="1" A4074="0">
+  <S40x1201 A762="188/236">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <S114x1894 A2011="&lt;Symbolic Address&gt;" A2012="??_??@[20171&lt;218&lt;44025,2,0,0,0,0,0,0,0,%%_%%,0,0,0,0,0,0,0&gt;&gt;]\;;[20171&lt;218&lt;44023,2,0,0,0,0,0,0,0,%%_%%,0,0,0,0,0,0,0&gt;&gt;]"/>
+  <S109x1895 R1906="17/57055">
+  <S115x1904 A1911="20011" A1912="0" A1913="??_??@&lt;Function text&gt;;"/>
+  <S115x1904 A1911="20400" A1912="0" A1913="??_??@&lt;PLC address&gt;;"/>
+  </S109x1895>
+  <S109x1895 R1906="17/57057">
+  <S115x1904 A1911="20011" A1912="0" A1913="??_??@&lt;Function text&gt;;"/>
+  </S109x1895>
+  <S108x1898/>
+  <S108x4072/>
+  <P11 P19008="ESS_Platzhalter" P19301="&lt;Symbolic Address&gt;"/>
+  <S53x5 Build="12388" A3="0" A4="5" R7="106/204338" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="551" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-3/1" A503="4" A506="0" A771="19300" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="12388" A3="0" A4="6" R7="106/204338" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="551" A412="L" A413="L" A414="L" A415="L" A416="0" A502="106/204338/5" A503="14" A506="0" A771="19301" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O106>
+  <O42 Build="12388" A1="42/204339" A3="0" A13="0" A14="0" A404="5" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="70" A1263="1">
+  <S40x1201 A762="212/64">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  </O42>
+  <O42 Build="12388" A1="42/204340" A3="0" A13="0" A14="0" A404="5" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="70" A1263="2">
+  <S40x1201 A762="220/64">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  </O42>
+  <O26 Build="12388" A1="26/204341" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1">
+  <O26 Build="12388" A1="26/204342" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1">
+  <O30 Build="12388" A1="30/204343" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="441" A412="L" A413="L" A414="L" A415="L" A416="0" A501="96/76" A503="10" A506="0" A511="">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O31 Build="12388" A1="31/204344" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="100/90" A532="106/90"/>
+  <O30 Build="12388" A1="30/204345" A3="0" A13="0" A14="0" A404="17" A405="64" A406="0" A407="0" A411="300" A412="L" A413="L" A414="L" A415="L" A416="0" A501="90/65" A503="0" A506="0" A511="">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="10" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O31 Build="12388" A1="31/204346" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="106/59" A532="109/59"/>
+  <O31 Build="12388" A1="31/204347" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="103/59" A532="103/90"/>
+  <O31 Build="12388" A1="31/204348" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="103/95" A532="103/93"/>
+  <O31 Build="12388" A1="31/204349" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="100/61" A532="106/57"/>
+  <O31 Build="12388" A1="31/204350" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="106/61" A532="106/57"/>
+  <O31 Build="12388" A1="31/204351" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="88/84" A532="103/83.999"/>
+  <O31 Build="12388" A1="31/204352" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="108/80" A532="108/96"/>
+  <O30 Build="17529" A1="30/204353" A3="0" A13="0" A14="0" A404="17" A405="64" A406="0" A407="0" A411="300" A412="L" A413="L" A414="L" A415="L" A416="0" A501="102.24/71.7" A503="0" A506="0" A511="de_DE@-;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="11" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O31 Build="12388" A1="31/204354" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="100/59" A532="97/59"/>
+  <O31 Build="12388" A1="31/204355" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="108/72" A532="103/72"/>
+  <O31 Build="12388" A1="31/204356" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="93/76.5" A532="103/69"/>
+  <O31 Build="12388" A1="31/204357" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="88/84" A532="88/69"/>
+  <O31 Build="12388" A1="31/204358" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="96/95" A532="103/95"/>
+  <O31 Build="12388" A1="31/204359" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="103/84" A532="93/76.5"/>
+  <O31 Build="12388" A1="31/204360" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="103/69" A532="103/84"/>
+  <O31 Build="12388" A1="31/204361" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="96/69" A532="96/64"/>
+  <O31 Build="12388" A1="31/204362" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="96/64" A532="84/64"/>
+  <O31 Build="12388" A1="31/204363" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="96/84" A532="96/95"/>
+  <O31 Build="12388" A1="31/204364" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="108/80" A532="103/80"/>
+  <O30 Build="17529" A1="30/204365" A3="0" A13="0" A14="0" A404="17" A405="64" A406="0" A407="0" A411="300" A412="L" A413="L" A414="L" A415="L" A416="0" A501="102.1/75.6" A503="0" A506="0" A511="de_DE@Y;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="11" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O31 Build="12388" A1="31/204366" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="116/72" A532="116/96"/>
+  <O31 Build="12388" A1="31/204367" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="88/69" A532="103/69"/>
+  <O31 Build="12388" A1="31/204368" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="100/61" A532="100/57"/>
+  <O32 Build="12388" A1="32/204369" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A553="0" A554="3.14159265358979" A555="103/90" A556="3/0" A557="1" A558="0" A559="0"/>
+  <O31 Build="12388" A1="31/204370" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="108/72" A532="116/72"/>
+  <O30 Build="17529" A1="30/204371" A3="0" A13="0" A14="0" A404="17" A405="64" A406="0" A407="0" A411="300" A412="L" A413="L" A414="L" A415="L" A416="0" A501="102.4/79.5" A503="0" A506="0" A511="de_DE@+;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="11" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O31 Build="12388" A1="31/204372" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="106/61" A532="100/57"/>
+  </O26>
+  <O17 Build="14054" A1="17/57033" A3="55" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="1" A190="0/-40" A191="36/0" A192="0" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="0" A1263="0" A1381="1100" A1382="99" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="84/96">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P19008="Property_arrangement_Preplanning" P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P31030="0"/>
+  <P144 P20013="BF" P20014="2"/>
+  <P150 P1200="A1" P20013="BF" P20014="2"/>
+  <S89x5 Build="14054" A3="0" A4="1" R7="17/57033" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="320" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-40" A1652="36/0" A1653="0" A1654="0" A1655="4" A1656="0" A1657="0"/>
+  <S53x5 Build="14054" A3="0" A4="38" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="400" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-1.5/-0.5" A503="4" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="1" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="39" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="440" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57033/38" A503="14" A506="0" A771="20300" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="40" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="500" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57033/39" A503="14" A506="0" A771="20027" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="41" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57033/40" A503="14" A506="0" A771="20901" A772="1" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="42" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="501" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57033/41" A503="14" A506="0" A771="20011" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="43" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="502" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57033/42" A503="14" A506="0" A771="20025" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="44" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="503" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57033/43" A503="10" A506="0" A771="20024" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="45" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="720" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-1.29258205119501/-9.28300017260403" A503="4" A506="0" A771="-21494" A772="0" A773="20171" A774="0" A951="2" A952="0" A953="0" A954="1" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="46" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="720" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-1.29258205119501/-9.28300017260403" A502="17/57033/45" A503="14" A506="0" A771="-21532" A772="0" A773="20171" A774="0" A951="2" A952="0" A953="0" A954="1" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="47" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="720" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57033/46" A503="14" A506="0" A771="-21531" A772="0" A773="20171" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="48" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="720" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57033/47" A503="14" A506="0" A771="-6007" A772="0" A773="20171" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="49" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="720" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57033/48" A503="14" A506="0" A771="-5874" A772="0" A773="20171" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="50" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="720" A412="L" A413="L" A414="L" A415="L" A416="0" A501="34.9121843812637/-4.89861181415455" A502="17/57033/49" A503="14" A506="0" A771="-5882" A772="0" A773="20171" A774="0" A951="2" A952="0" A953="0" A954="1" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="51" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="720" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57033/50" A503="14" A506="0" A771="-5881" A772="0" A773="20171" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="52" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="720" A412="L" A413="L" A414="L" A415="L" A416="0" A501="35.9065636363636/-0.835036363636362" A502="17/57033/51" A503="14" A506="0" A771="-5880" A772="0" A773="20171" A774="0" A951="2" A952="0" A953="0" A954="1" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="53" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="720" A412="L" A413="L" A414="L" A415="L" A416="0" A501="37.5766363636364/-1.87883181818182" A502="17/57033/52" A503="14" A506="0" A771="-5883" A772="0" A773="20171" A774="0" A951="2" A952="0" A953="0" A954="1" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="54" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="720" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57033/53" A503="14" A506="0" A771="-5884" A772="0" A773="20171" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="14054" A3="0" A4="55" R7="17/57033" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="720" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57033/54" A503="10" A506="0" A771="-5885" A772="0" A773="20171" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="14054" A1="17/57034" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="+" A190="1/1" A191="-1/-1" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="5" A793="0" A794="0" A1261="0" A1262="38" A1263="4" A1381="1302" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="108/96">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp"/>
+  <P150 P1200="A1" P20013="BF" P20014="2"/>
+  </O17>
+  <O17 Build="14054" A1="17/57035" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="-" A190="1/1" A191="-1/-1" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="5" A793="0" A794="0" A1261="0" A1262="38" A1263="4" A1381="1302" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="116/96">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp"/>
+  <P150 P1200="A1" P20013="BF" P20014="2"/>
+  </O17>
+  </O26>
+  <O26 Build="12388" A1="26/204373" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1">
+  <O26 Build="12388" A1="26/204374" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1">
+  <O26 Build="12388" A1="26/204375" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1">
+  <O30 Build="12388" A1="30/204376" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="501" A412="L" A413="L" A414="L" A415="L" A416="0" A501="112/152" A503="10" A506="0" A511="">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O31 Build="12388" A1="31/204377" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="107.5/159.497" A532="103.5/159.497"/>
+  <O31 Build="12388" A1="31/204378" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="108/144" A532="108/140"/>
+  <O31 Build="12388" A1="31/204379" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="102/144" A532="122/144"/>
+  <O31 Build="12388" A1="31/204380" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="118/145" A532="121/145"/>
+  <O31 Build="12388" A1="31/204381" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="104/158" A532="105/161"/>
+  <O31 Build="12388" A1="31/204382" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="102/156" A532="96/156"/>
+  <O31 Build="12388" A1="31/204383" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="105/161" A532="107/161"/>
+  <O31 Build="12388" A1="31/204384" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="121/145" A532="121/148"/>
+  <O31 Build="12388" A1="31/204385" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="102/164" A532="122/163.999"/>
+  <O31 Build="12388" A1="31/204386" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="102/164" A532="102/144"/>
+  <O31 Build="12388" A1="31/204387" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="122/144" A532="122/164"/>
+  <O30 Build="17529" A1="30/204388" A3="0" A13="0" A14="0" A404="17" A405="64" A406="0" A407="0" A411="300" A412="L" A413="L" A414="L" A415="L" A416="0" A501="116/164" A503="0" A506="0" A511="de_DE@-;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O31 Build="12388" A1="31/204389" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="116/144" A532="116/140"/>
+  <O30 Build="17529" A1="30/204390" A3="0" A13="0" A14="0" A404="17" A405="64" A406="0" A407="0" A411="300" A412="L" A413="L" A414="L" A415="L" A416="0" A501="108/164" A503="0" A506="0" A511="de_DE@+;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O31 Build="12388" A1="31/204391" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="102/148" A532="96/148"/>
+  <O31 Build="12388" A1="31/204392" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="116/164" A532="116/168"/>
+  <O31 Build="12388" A1="31/204393" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="108/164" A532="108/168"/>
+  <O31 Build="12388" A1="31/204394" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="104/158" A532="107/158"/>
+  <O31 Build="12388" A1="31/204395" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="104/148" A532="118/162"/>
+  <O31 Build="12388" A1="31/204396" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="122/164" A532="102/144"/>
+  </O26>
+  <O17 Build="12388" A1="17/57036" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="dz14;dz30" A186=";" A190="0/-20" A191="4/0" A192="2" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="427" A1263="0" A1381="1302" A1382="99" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0">
+  <S16x1062 A14="0" A161="1" A162="1" A163="" A164="0" A165="" A166="0" A167="0" A168="2" A169="0" A170="0" A171="0" A172="0" A173="0" A174="0" A175="" A176="0"/>
+  <S16x1062 A14="0" A161="2" A162="1" A163="" A164="0" A165="" A166="0" A167="0" A168="2" A169="0" A170="0" A171="0" A172="0" A173="0" A174="0" A175="" A176="0"/>
+  </S61x183>
+  <S48x601 A14="0" A861="0" A863="1"/>
+  <S48x601 A14="0" A861="1" A862="0/-19.9999999998" A863="4"/>
+  <S40x1201 A762="108/164">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp"/>
+  <P150 P1200="ZS1" P20013="TF" P20014="4"/>
+  </O17>
+  <O17 Build="12388" A1="17/57037" A3="1" A13="0" A14="0" A145="[1200]&lt;1200&gt;[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="1" A190="0/-28" A191="24/0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="0" A1263="0" A1381="1303" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="100/168">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp"/>
+  <P144 P1200="ZS1" P20013="TF" P20014="4"/>
+  <P150 P1200="ZS1" P20013="TF" P20014="4"/>
+  <S89x5 Build="12388" A3="0" A4="1" R7="17/57037" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="320" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-28" A1652="24/0" A1653="0" A1654="0" A1655="4" A1656="0" A1657="0"/>
+  </O17>
+  <O17 Build="12388" A1="17/57038" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="dz16;dz32" A186=";" A190="0/-20" A191="4/0" A192="2" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="427" A1263="0" A1381="1302" A1382="99" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0">
+  <S16x1062 A14="0" A161="1" A162="1" A163="" A164="0" A165="" A166="0" A167="0" A168="2" A169="0" A170="0" A171="0" A172="0" A173="0" A174="0" A175="" A176="0"/>
+  <S16x1062 A14="0" A161="2" A162="1" A163="" A164="0" A165="" A166="0" A167="0" A168="2" A169="0" A170="0" A171="0" A172="0" A173="0" A174="0" A175="" A176="0"/>
+  </S61x183>
+  <S48x601 A14="0" A861="0" A863="1"/>
+  <S48x601 A14="0" A861="1" A862="0/-19.9999999998" A863="4"/>
+  <S40x1201 A762="116/164">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp"/>
+  <P150 P1200="ZS1" P20013="TF" P20014="4"/>
+  </O17>
+  <O17 Build="12388" A1="17/57039" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="dz4" A190="1/1" A191="-1/-1" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="5" A793="0" A794="0" A1261="0" A1262="38" A1263="1" A1381="1302" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="100/156">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp"/>
+  <P150 P1200="ZS1" P20013="TF" P20014="4"/>
+  </O17>
+  <O17 Build="12388" A1="17/57040" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="dz2" A190="1/1" A191="-1/-1" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="5" A793="0" A794="0" A1261="0" A1262="38" A1263="1" A1381="1302" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="100/148">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp"/>
+  <P150 P1200="ZS1" P20013="TF" P20014="4"/>
+  </O17>
+  </O26>
+  <O31 Build="12388" A1="31/204397" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="116/146" A532="119/146"/>
+  <O31 Build="12388" A1="31/204398" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="119.5/147.497" A532="115.5/147.497"/>
+  <O31 Build="12388" A1="31/204399" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="117/149" A532="119/149"/>
+  <O31 Build="12388" A1="31/204400" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="300" A412="0" A413="L" A414="L" A415="L" A416="0" A531="116/146" A532="117/149"/>
+  </O26>
+  <O106 Build="12388" A1="106/204401" A3="6" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A408="0" A792="-128" A793="0" A794="0" A1261="0" A1262="323" A1263="0" A1892="Structure_Box_Cable_DO" A1896="Mounting_Location" A1897="0" A1900="0" A4073="1" A4074="0">
+  <S40x1201 A762="64/216">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <S114x1894 A2011="Mounting_Location" A2012="??_??@A2\;"/>
+  <S109x1895 R1906="88/57060">
+  <S115x1904 A1911="20002" A1912="0" A1913="??_??@+&lt;Mounting_Location&gt;;"/>
+  </S109x1895>
+  <S108x1898/>
+  <S108x4072/>
+  <P11 P19008="ESS_Platzhalter" P19301="Mounting_Location"/>
+  <S53x5 Build="12388" A3="0" A4="5" R7="106/204401" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="551" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-3/1" A503="4" A506="0" A771="19300" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="12388" A3="0" A4="6" R7="106/204401" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="551" A412="L" A413="L" A414="L" A415="L" A416="0" A502="106/204401/5" A503="14" A506="0" A771="19301" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O106>
+  <O106 Build="12388" A1="106/204402" A3="6" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A408="0" A792="-128" A793="0" A794="0" A1261="0" A1262="323" A1263="0" A1892="Structure_Box_Cable_DO" A1896="Mounting_Location" A1897="0" A1900="0" A4073="1" A4074="0">
+  <S40x1201 A762="64/124">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <S114x1894 A2011="Mounting_Location" A2012="??_??@A2\;"/>
+  <S109x1895 R1906="88/57061">
+  <S115x1904 A1911="20002" A1912="0" A1913="??_??@+&lt;Mounting_Location&gt;;"/>
+  </S109x1895>
+  <S108x1898/>
+  <S108x4072/>
+  <P11 P19008="ESS_Platzhalter" P19301="Mounting_Location"/>
+  <S53x5 Build="12388" A3="0" A4="5" R7="106/204402" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="551" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-3/1" A503="4" A506="0" A771="19300" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="12388" A3="0" A4="6" R7="106/204402" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="551" A412="L" A413="L" A414="L" A415="L" A416="0" A502="106/204402/5" A503="14" A506="0" A771="19301" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O106>
+  <O106 Build="17529" A1="106/208032" A3="2" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A408="0" A792="-128" A793="0" A794="0" A1261="0" A1262="323" A1263="0" A1892="ML_Structure_Box" A1896="Mounting_Location" A1897="0" A1900="0" A4073="1" A4074="0">
+  <S40x1201 A762="60/108">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <S114x1894 A2011="Mounting Location" A2012="[20155,1&lt;218&lt;1228,0,0,0,0,0,0,0,0,%%_%%,0,0,0,0,0,0,0&gt;&gt;]"/>
+  <S109x1895 R1906="88/57327">
+  <S115x1904 A1911="1220" A1912="0" A1913="??_??@&lt;Mounting_Location&gt;;"/>
+  </S109x1895>
+  <S108x1898/>
+  <S108x4072/>
+  <P11 P19008="ESS_Platzhalter" P19308="de_DE@Ortskennzeichen;en_US@Location designation;es_ES@Designación de localización;fr_FR@Identificateur de localisation;nl_NL@Locatie aanduiding;sv_SE@Placeringsbeteckning;da_DK@Lokationsbetegnelse;ru_RU@Место установки;zh_CN@位置代号;pl_PL@Oznaczenie miejsca;pt_BR@Designação de localização;cs_CZ@Označení umístění;it_IT@Luogo di montaggio;hu_HU@Beépítési hely;pt_PT@Designação da localização;ko_KR@부착 영역;ja_JP@位置観点;tr_TR@Konum tanımlayıcısı;ro_RO@Denumire locație;zh_TW@位置代號;"/>
+  <S53x5 Build="17529" A3="0" A4="1" R7="106/208032" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="551" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-3/1" A503="4" A506="0" A771="19300" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17529" A3="0" A4="2" R7="106/208032" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="551" A412="L" A413="L" A414="L" A415="L" A416="0" A502="106/208032/1" A503="14" A506="0" A771="19301" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O106>
+  <O106 Build="17529" A1="106/208033" A3="2" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A408="0" A792="-128" A793="0" A794="0" A1261="0" A1262="323" A1263="0" A1892="ML_Structure_Box_2" A1896="Mounting_Location" A1897="0" A1900="0" A4073="1" A4074="0">
+  <S40x1201 A762="192/108">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <S114x1894 A2011="Mounting Location" A2012="[20155,3&lt;218&lt;1228,0,0,0,0,0,0,0,0,%%_%%,0,0,0,0,0,0,0&gt;&gt;]"/>
+  <S109x1895 R1906="88/57328">
+  <S115x1904 A1911="1220" A1912="0" A1913="??_??@&lt;Mounting_Location&gt;;"/>
+  </S109x1895>
+  <S108x1898/>
+  <S108x4072/>
+  <P11 P19008="ESS_Platzhalter" P19308="de_DE@Ortskennzeichen;en_US@Location designation;es_ES@Designación de localización;fr_FR@Identificateur de localisation;nl_NL@Locatie aanduiding;sv_SE@Placeringsbeteckning;da_DK@Lokationsbetegnelse;ru_RU@Место установки;zh_CN@位置代号;pl_PL@Oznaczenie miejsca;pt_BR@Designação de localização;cs_CZ@Označení umístění;it_IT@Luogo di montaggio;hu_HU@Beépítési hely;pt_PT@Designação da localização;ko_KR@부착 영역;ja_JP@位置観点;tr_TR@Konum tanımlayıcısı;ro_RO@Denumire locație;zh_TW@位置代號;"/>
+  <S53x5 Build="17529" A3="0" A4="1" R7="106/208033" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="551" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-3/1" A503="4" A506="0" A771="19300" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17529" A3="0" A4="2" R7="106/208033" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="551" A412="L" A413="L" A414="L" A415="L" A416="0" A502="106/208033/1" A503="14" A506="0" A771="19301" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O106>
+  <O17 Build="17356" A1="17/57041" A3="0" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="0" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="108/212">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="1" P20034="0" P20035="0" P20051="0" P20054="800" P20057="2.500" P20100_1="PXC.3044076" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20262="1" P20280="0" P20283="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P20808="0" P31030="0"/>
+  <P144 P20013="XG" P20014="1021"/>
+  <P150 P1200="A2" P20013="XG" P20014="1021"/>
+  </O17>
+  <O17 Build="17356" A1="17/57042" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="0" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="116/212">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="2" P20034="0" P20035="0" P20054="800" P20057="2.500" P20100_1="PXC.3044076" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20262="1" P20280="0" P20283="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P20808="0" P31030="0"/>
+  <P150 P1200="A2" P20013="XG" P20014="1021"/>
+  </O17>
+  <O17 Build="17356" A1="17/57043" A3="0" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="0" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="108/120">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="1" P20034="0" P20035="0" P20051="0" P20054="800" P20057="2.500" P20100_1="PXC.3044076" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20262="1" P20280="0" P20283="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P20808="0" P31030="0"/>
+  <P144 P20013="XG" P20014="1023"/>
+  <P150 P1200="A2" P20013="XG" P20014="1023"/>
+  </O17>
+  <O17 Build="17356" A1="17/57044" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="0" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="116/120">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="2" P20034="0" P20035="0" P20054="800" P20057="2.500" P20100_1="PXC.3044076" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20262="1" P20280="0" P20283="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P20808="0" P31030="0"/>
+  <P150 P1200="A2" P20013="XG" P20014="1023"/>
+  </O17>
+  <O17 Build="17356" A1="17/57045" A3="27" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="1" A191="16/0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="4" A1263="0" A1381="400" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="104/104">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P19008="ESS_Kabel" P20040="PAAR-TRONIC-Li-2YCYv" P20042="4" P20043="0,22" P20044="250V" P20068="1" P20100_1="HELU.21129" P20101_1="1" P20102_1="1" P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P20904_1="0" P31030="0"/>
+  <P144 P20013="WG" P20014="38"/>
+  <P150 P1200="A1" P20013="WG" P20014="38"/>
+  <S31x5 Build="17356" A3="0" A4="1" R7="17/57045" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="304" A412="L" A413="L" A414="L" A415="L" A416="0" A532="16/0"/>
+  <S53x5 Build="17356" A3="0" A4="25" R7="17/57045" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="407" A412="L" A413="L" A414="L" A415="L" A416="0" A503="4" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="9" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17356" A3="0" A4="26" R7="17/57045" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="512" A412="L" A413="5" A414="L" A415="L" A416="0" A502="17/57045/25" A503="14" A506="0" A771="20201" A772="1" A773="0" A774="0" A951="17" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="5" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17356" A3="0" A4="27" R7="17/57045" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="440" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57045/26" A503="14" A506="0" A771="20300" A772="0" A773="0" A774="0" A951="17" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O59 Build="17356" A1="59/57046" A3="0" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="2" A793="0" A794="0" R1031="17/57045" A1261="0" A1262="311" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="108/104">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P31004="WH" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31050="1.1" P31142="1"/>
+  <P150 P1200="A1" P20013="WG" P20014="38"/>
+  </O59>
+  <O59 Build="17356" A1="59/57047" A3="0" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="2" A793="0" A794="0" R1031="17/57045" A1261="0" A1262="311" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="116/104">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P31004="BN" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31050="1.2" P31142="1"/>
+  <P150 P1200="A1" P20013="WG" P20014="38"/>
+  </O59>
+  <O17 Build="17359" A1="17/57048" A3="17" A13="0" A14="0" A145="[1100]&lt;1100&gt;[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="0" A185="13" A186="" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="1" A1262="355" A1263="2" A1381="300" A1382="1" A1383="5" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="108/232">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20011="??_??@{{[20171&lt;218&lt;44025,1,0,0,0,0,0,0,0,%%_%%,0,0,0,0,0,0,0&gt;&gt;]}};" P20051="0" P20186="0" P20202_10="[20025,1,1&lt;20201&lt;1120,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]" P20216="0" P20294="0" P20400="[20171&lt;218&lt;44023,1,0,0,0,0,0,0,0,%%_%%,0,0,0,0,0,0,0&gt;&gt;]" P20405="WORD" P20466="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P31030="0"/>
+  <P144 P1100="K2" P20013="KE" P20014="1"/>
+  <P150 P1100="K2" P20013="KE" P20014="1"/>
+  <S53x5 Build="17359" A3="0" A4="1" R7="17/57048" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/4.5" A503="16" A506="0" A771="20029" A772="1" A773="0" A774="0" A951="15" A952="0" A953="2" A954="16" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="2" R7="17/57048" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="432" A412="L" A413="L" A414="L" A415="L" A416="0" A501="2/3.8" A503="16" A506="0" A771="20028" A772="1" A773="0" A774="0" A951="15" A952="0" A953="2" A954="16" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="1" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="3" R7="17/57048" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="432" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-1/0" A503="16" A506="0" A771="20028" A772="1" A773="0" A774="0" A951="15" A952="0" A953="1" A954="16" A955="0">
+  <S54x505 A961="L" A962="1.5707963267949" A963="0" A964="L" A965="0" A966="9" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="4" R7="17/57048" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/4.5" A503="16" A506="0" A771="20029" A772="1" A773="0" A774="0" A951="15" A952="0" A953="1" A954="16" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="11" R7="17/57048" A13="0" A14="0" A189="0" A404="33" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/20" A503="0" A506="0" A771="20031" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="144" A966="8" A967="39.5" A968="8" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="12" R7="17/57048" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-2/-0.2" A503="0" A506="0" A771="20406" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="13" R7="17/57048" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/20" A503="0" A506="0" A771="20404" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="14" R7="17/57048" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/12" A503="0" A506="0" A771="20301" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="15" R7="17/57048" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/16" A503="0" A506="0" A771="20400" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="16" R7="17/57048" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/8" A503="4" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="17" R7="17/57048" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="400" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57048/16" A503="10" A506="0" A771="20045" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="17359" A1="17/57049" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="14" A190="1/1" A191="-1/-1" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="354" A1263="2" A1381="300" A1382="3" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="116/232">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P31030="0"/>
+  <P150 P1100="K2" P20013="KE" P20014="1"/>
+  </O17>
+  <O17 Build="17356" A1="17/57050" A3="27" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="1" A191="16/0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="4" A1263="0" A1381="400" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="208/104">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P19008="ESS_Kabel" P20040="PAAR-TRONIC-Li-2YCYv" P20042="4" P20043="0,22" P20044="250V" P20068="1" P20100_1="HELU.21129" P20101_1="1" P20102_1="1" P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P20904_1="0" P31030="0"/>
+  <P144 P20013="WG" P20014="39"/>
+  <P150 P1200="A1" P20013="WG" P20014="39"/>
+  <S31x5 Build="17356" A3="0" A4="1" R7="17/57050" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="304" A412="L" A413="L" A414="L" A415="L" A416="0" A532="16/0"/>
+  <S53x5 Build="17356" A3="0" A4="25" R7="17/57050" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="407" A412="L" A413="L" A414="L" A415="L" A416="0" A503="4" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="9" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17356" A3="0" A4="26" R7="17/57050" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="512" A412="L" A413="5" A414="L" A415="L" A416="0" A502="17/57050/25" A503="14" A506="0" A771="20201" A772="1" A773="0" A774="0" A951="17" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="5" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17356" A3="0" A4="27" R7="17/57050" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="440" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57050/26" A503="14" A506="0" A771="20300" A772="0" A773="0" A774="0" A951="17" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O59 Build="17356" A1="59/57051" A3="0" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="2" A793="0" A794="0" R1031="17/57050" A1261="0" A1262="311" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="212/104">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P31004="WH" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31050="1.1" P31142="1"/>
+  <P150 P1200="A1" P20013="WG" P20014="39"/>
+  </O59>
+  <O59 Build="17356" A1="59/57052" A3="0" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="2" A793="0" A794="0" R1031="17/57050" A1261="0" A1262="311" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="220/104">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P31004="BN" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31050="1.2" P31142="1"/>
+  <P150 P1200="A1" P20013="WG" P20014="39"/>
+  </O59>
+  <O17 Build="17356" A1="17/57053" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="0" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="212/120">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="3" P20034="0" P20035="0" P20051="0" P20054="800" P20057="2.500" P20100_1="PXC.3044076" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20262="1" P20280="0" P20283="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P20808="0" P31030="0"/>
+  <P150 P1200="A2" P20013="XG" P20014="1023"/>
+  </O17>
+  <O17 Build="17356" A1="17/57054" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="0" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="220/120">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="4" P20034="0" P20035="0" P20054="800" P20057="2.500" P20100_1="PXC.3044076" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20262="1" P20280="0" P20283="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P20808="0" P31030="0"/>
+  <P150 P1200="A2" P20013="XG" P20014="1023"/>
+  </O17>
+  <O17 Build="17359" A1="17/57055" A3="17" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="13" A186="" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="1" A1262="355" A1263="2" A1381="300" A1382="1" A1383="2" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="212/232">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20011="??_??@{{[20171&lt;218&lt;44025,2,0,0,0,0,0,0,0,%%_%%,0,0,0,0,0,0,0&gt;&gt;]}};" P20051="0" P20186="0" P20202_10="[20025,1,1&lt;20201&lt;1120,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]" P20216="0" P20294="0" P20400="[20171&lt;218&lt;44023,2,0,0,0,0,0,0,0,%%_%%,0,0,0,0,0,0,0&gt;&gt;]" P20405="BOOL" P20466="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P31030="0"/>
+  <P150 P1100="K2" P20013="KE" P20014="1"/>
+  <S53x5 Build="17359" A3="0" A4="1" R7="17/57055" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/4.5" A503="16" A506="0" A771="20029" A772="1" A773="0" A774="0" A951="15" A952="0" A953="2" A954="16" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="2" R7="17/57055" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="432" A412="L" A413="L" A414="L" A415="L" A416="0" A501="2/3.8" A503="16" A506="0" A771="20028" A772="1" A773="0" A774="0" A951="15" A952="0" A953="2" A954="16" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="1" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="3" R7="17/57055" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="432" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-1/0" A503="16" A506="0" A771="20028" A772="1" A773="0" A774="0" A951="15" A952="0" A953="1" A954="16" A955="0">
+  <S54x505 A961="L" A962="1.5707963267949" A963="0" A964="L" A965="0" A966="9" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="4" R7="17/57055" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/4.5" A503="16" A506="0" A771="20029" A772="1" A773="0" A774="0" A951="15" A952="0" A953="1" A954="16" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="11" R7="17/57055" A13="0" A14="0" A189="0" A404="33" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/20" A503="0" A506="0" A771="20031" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="144" A966="8" A967="39.5" A968="8" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="12" R7="17/57055" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-2/-0.2" A503="0" A506="0" A771="20406" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="13" R7="17/57055" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/20" A503="0" A506="0" A771="20404" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="14" R7="17/57055" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/12" A503="0" A506="0" A771="20301" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="15" R7="17/57055" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/16" A503="0" A506="0" A771="20400" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="16" R7="17/57055" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/8" A503="4" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="17" R7="17/57055" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="400" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/57055/16" A503="10" A506="0" A771="20045" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="17359" A1="17/57056" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="14" A190="1/1" A191="-1/-1" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="354" A1263="2" A1381="300" A1382="3" A1383="5" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="220/232">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P31030="0"/>
+  <P150 P1100="K2" P20013="KE" P20014="1"/>
+  </O17>
+  <O17 Build="17356" A1="17/57057" A3="0" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="1" A185="11;12" A186=";" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1018" A1263="0" A1381="600" A1382="2" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="212/72">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20011="??_??@{{[20171&lt;218&lt;44025,2,0,0,0,0,0,0,0,%%_%%,0,0,0,0,0,0,0&gt;&gt;]}};" P20216="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp"/>
+  <P144 P20013="BG" P20014="3"/>
+  <P150 P1200="A1" P20013="BG" P20014="3"/>
+  </O17>
+  <O17 Build="13143" A1="17/57058" A3="0" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="1" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="80/156">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="7" P20034="0" P20035="0" P20051="0" P20054="800" P20057="2.500" P20100_1="PXC.3044076" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20262="1" P20280="0" P20283="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P20808="0" P20809="0" P31030="0"/>
+  <P144 P20013="XD" P20014="1000"/>
+  <P150 P20013="XD" P20014="1000"/>
+  </O17>
+  <O17 Build="13143" A1="17/57059" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="1" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="80/148">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="8" P20034="0" P20035="1" P20051="0" P20054="800" P20057="2.500" P20100_1="PXC.3044076" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20262="1" P20280="0" P20283="0" P20468="ESS_Macro\203_Electrical_Engine\202_PCT-Loop\Flow_Valve_control_close.emp" P20808="0" P20809="0" P31030="0"/>
+  <P150 P20013="XD" P20014="1000"/>
+  </O17>
+  <O88 Build="14074" A1="88/57060" A3="1" A13="0" A14="0" A145="[1200]&lt;1200&gt;" A148="1" A404="1" A405="64" A406="0" A407="0" A792="4" A793="0" A794="0" A1261="0" A1262="2" A1263="0" A1631="0/-8" A1632="68/0">
+  <S40x1201 A762="76/216">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P144 P1200="A2"/>
+  <P150 P1200="A2"/>
+  <S89x5 Build="14074" A3="0" A4="1" R7="88/57060" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="307" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-8" A1652="68/0" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  </O88>
+  <O88 Build="12388" A1="88/57061" A3="1" A13="0" A14="0" A145="[1200]&lt;1200&gt;" A148="1" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="2" A1263="0" A1631="0/-8" A1632="168/0">
+  <S40x1201 A762="76/124">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P144 P1200="A2"/>
+  <P150 P1200="A2"/>
+  <S89x5 Build="12388" A3="0" A4="1" R7="88/57061" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="307" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-8" A1652="168/0" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  </O88>
+  <O88 Build="14054" A1="88/57327" A3="3" A13="0" A14="0" A145="[1200]&lt;1200&gt;" A148="1" A404="1" A405="64" A406="0" A407="0" A792="4" A793="0" A794="0" A1261="0" A1262="2" A1263="0" A1631="0/-92" A1632="100/0">
+  <S40x1201 A762="44/112">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P144 P1200="A1"/>
+  <P150 P1200="A1"/>
+  <S89x5 Build="14054" A3="0" A4="3" R7="88/57327" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="307" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-92" A1652="100/0" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  </O88>
+  <O88 Build="14054" A1="88/57328" A3="3" A13="0" A14="0" A145="[1200]&lt;1200&gt;" A148="1" A404="1" A405="64" A406="0" A407="0" A792="4" A793="0" A794="0" A1261="0" A1262="2" A1263="0" A1631="0/-92" A1632="68/0">
+  <S40x1201 A762="176/112">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P144 P1200="A1"/>
+  <P150 P1200="A1"/>
+  <S89x5 Build="14054" A3="0" A4="3" R7="88/57328" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="307" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-92" A1652="68/0" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  </O88>
+  <O70 Build="12388" A1="70/2927" A3="2" A13="0" A14="0" A145="&lt;20012&gt;&lt;20013&gt;" A148="1" A404="1" A405="64" A406="0" A407="0" A792="-123" A793="0" A794="0" A1261="0" A1262="8" A1263="3" A1301="100" A4049="0">
+  <S40x1201 A762="44/168">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20051="0"/>
+  <P144 P20012="24" P20013="V"/>
+  <P150 P20012="24" P20013="V"/>
+  <S53x5 Build="12388" A3="0" A4="1" R7="70/2927" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="403" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/2" A503="16" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="12388" A3="0" A4="2" R7="70/2927" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="442" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/7" A503="16" A506="0" A771="24300" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="1.5707963267949" A963="0" A964="L" A965="0" A966="10" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O70>
+  <O70 Build="12388" A1="70/2928" A3="2" A13="0" A14="0" A145="&lt;20012&gt;&lt;20013&gt;" A148="1" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="8" A1263="3" A1301="100" A4049="0">
+  <S40x1201 A762="44/132">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20051="0"/>
+  <P144 P20012="24" P20013="V"/>
+  <P150 P20012="24" P20013="V"/>
+  <S53x5 Build="12388" A3="0" A4="1" R7="70/2928" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="403" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-2" A503="0" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="12388" A3="0" A4="2" R7="70/2928" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="442" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-9" A503="0" A506="0" A771="24300" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="1.5707963267949" A963="0" A964="L" A965="0" A966="12" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O70>
+  <O70 Build="12388" A1="70/2929" A3="2" A13="0" A14="0" A145="&lt;20012&gt;&lt;20013&gt;" A148="1" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="8" A1263="3" A1301="100" A4049="0">
+  <S40x1201 A762="52/132">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20051="0"/>
+  <P144 P20012="0" P20013="V"/>
+  <P150 P20012="0" P20013="V"/>
+  <S53x5 Build="12388" A3="0" A4="1" R7="70/2929" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="403" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-2" A503="0" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="12388" A3="0" A4="2" R7="70/2929" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="442" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-9" A503="0" A506="0" A771="24300" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="1.5707963267949" A963="0" A964="L" A965="0" A966="12" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O70>
+  <O70 Build="12388" A1="70/2930" A3="2" A13="0" A14="0" A145="&lt;20012&gt;&lt;20013&gt;" A148="1" A404="1" A405="64" A406="0" A407="0" A792="-123" A793="0" A794="0" A1261="0" A1262="8" A1263="3" A1301="100" A4049="0">
+  <S40x1201 A762="52/168">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20051="0"/>
+  <P144 P20012="0" P20013="V"/>
+  <P150 P20012="0" P20013="V"/>
+  <S53x5 Build="12388" A3="0" A4="1" R7="70/2930" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="403" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/2" A503="16" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="12388" A3="0" A4="2" R7="70/2930" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="442" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/7" A503="16" A506="0" A771="24300" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="1.5707963267949" A963="0" A964="L" A965="0" A966="10" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O70>
+  </O4>
+ </MacroVariant>
+</EplanPxfRoot>

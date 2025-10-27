@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<EplanPxfRoot Name="GOST_Title _page_A4" Type="Form" Version="2022.0.17406" PxfVersion="1.23" SchemaVersion="1.7.17406" Source="" SourceProject="D:\Master Data\Forms\Translate20.elk" Description="" ConfigurationFlags="65536" NumMainObjects="0" NumProjectSteps="0" NumMDSteps="0" StreamSchema="EBitmap, ,2,1,2;EPosition3D, ,0,3,2;ERay3D, ,0,4,2;EStreamableVector, ,0,5,2;BaseTextLine@W3D, ,2,9,2;Box3d@W3D, ,0,10,2;DMNCDataSet, ,1,12,2;DMNCDataSetVector, ,1,13,2;Linetype@W3D, ,0,15,2;Color@W3D, ,0,16,2;Material@W3D, ,3,17,2;Mesh3d@W3D, ,8,19,2;Mesh3dX@W3D, ,2,20,2;MeshBox@W3D, ,5,21,2;MeshEdge3d@W3D, ,0,22,2;MeshFace3d@W3D, ,2,23,2;MeshPoint3d@W3D, ,1,24,2;MeshPolygon3d@W3D, ,1,25,2;MeshSimpleTextureTriangle3d@W3D, ,2,26,2;MeshSimpleTriangle3d@W3D, ,1,27,2;MeshText3dX@W3D, ,0,28,2;MeshTriangle3d@W3D, ,2,29,2;MeshTriangleFace3d@W3D, ,0,30,2;MeshTriangleFaceEdge3D@W3D, ,0,31,2;CTexture@W3D,W3dBaseGeometry,0,81,2;MeshMate@W3D,W3dMeshModeller,7,82,2;MeshMateFace@W3D,W3dMeshModeller,1,83,2;MeshMateGrid@W3D,W3dMeshModeller,8,84,2;MeshMateGridLine@W3D,W3dMeshModeller,1,85,2;MeshMateLine@W3D,W3dMeshModeller,1,86,2">
+ <O76 Build="17406" A1="76/13420" A3="0" A13="0" A14="0" A1422="1" A1423="1" A1424="0" A1425="" A1426="1000" A1427="0" A1428="5" A1429="0" A1430="1" A1433="0" A1434="0" A1435="0">
+ <S54x1432 A961="2" A962="0" A963="0" A964="0" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+ </O76>
+ <O51 Build="17406" A1="51/13406" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1" A901="17" A902="GOST_Title _page_A4">
+ <P11 P13001="GOST_A4_Title_page" P13004="1" P13005="1" P13006="185" P13007="20" P13008="0" P13019="1;1" P13042="0" P13055="1" P14020="EPL" P14021="1224314756" P14022="EPL" P14023="1615901626" P18011="de_DE@Titel- / Deckblatt;en_US@Title page / cover sheet;nl_NL@Titelblad / voorblad;es_ES@Hoja de título / portada;da_DK@Forside;fr_FR@Page de titre / garde;sv_SE@Titel- / försättsblad;ru_RU@Титульный лист;zh_CN@标题页/封页;pl_PL@Strona tytułowa / Okładka;pt_BR@Título / Capa;cs_CZ@Titulní strana;it_IT@Foglio del titolo / copertina;hu_HU@Címlap / fedlap;pt_PT@Título / Frontispício;ko_KR@제목 페이지/커버 시트;ja_JP@タイトル ページ / カバー シート;tr_TR@Başlık / Kapak sayfası;ro_RO@Pagină de titlu / pagină de gardă;zh_TW@首頁 / 封面頁;" P18061="4"/>
+ <O89 Build="17406" A1="89/13407" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="1" A1651="20/5" A1652="205/292" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+ <O53 Build="17406" A1="53/13408" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="451" A412="0" A413="L" A414="L" A415="L" A416="0" A501="112/277.22" A503="0" A506="22" A771="10015" A772="0" A773="0" A774="0" A951="14" A952="0" A953="0" A954="0" A955="0">
+ <S54x505 A961="5" A962="0" A963="0" A964="L" A965="18" A966="5" A967="176" A968="18" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O53>
+ <O53 Build="17406" A1="53/13409" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="451" A412="0" A413="L" A414="L" A415="L" A416="0" A501="112/237" A503="0" A506="98" A771="10011" A772="0" A773="0" A774="0" A951="14" A952="0" A953="0" A954="0" A955="0">
+ <S54x505 A961="5" A962="0" A963="0" A964="L" A965="16" A966="5" A967="144" A968="18" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O53>
+ <O53 Build="17406" A1="53/13410" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="451" A412="0" A413="L" A414="L" A415="L" A416="0" A501="112/197" A503="0" A506="22" A771="10035" A772="0" A773="0" A774="0" A951="14" A952="0" A953="0" A954="0" A955="0">
+ <S54x505 A961="7" A962="0" A963="0" A964="L" A965="16" A966="5" A967="127" A968="20" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O53>
+ <O53 Build="17406" A1="53/13411" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="451" A412="0" A413="L" A414="L" A415="L" A416="0" A501="112/157" A503="0" A506="22" A771="-25532" A772="0" A773="0" A774="0" A951="14" A952="0" A953="0" A954="0" A955="0">
+ <S54x505 A961="7" A962="0" A963="0" A964="L" A965="16" A966="5" A967="80" A968="19" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O53>
+ <O53 Build="17406" A1="53/13412" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="451" A412="0" A413="L" A414="L" A415="L" A416="0" A501="112/118.2" A503="0" A506="98" A771="10013" A772="0" A773="0" A774="0" A951="14" A952="0" A953="0" A954="0" A955="0">
+ <S54x505 A961="7" A962="0" A963="0" A964="L" A965="17" A966="5" A967="96" A968="17" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O53>
+ <O53 Build="17406" A1="53/13413" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="451" A412="0" A413="L" A414="L" A415="L" A416="0" A501="112/13.35" A503="0" A506="22" A771="10021" A772="0" A773="0" A774="0" A951="14" A952="0" A953="0" A954="0" A955="0">
+ <S54x505 A961="3.5" A962="0" A963="0" A964="L" A965="17" A966="5" A967="60" A968="8" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O53>
+ <O30 Build="17406" A1="30/13414" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="123/88" A503="0" A506="22" A511="de_DE@&quot;Genehmigt&quot;;en_US@&quot;Approved&quot;;ru_RU@&quot;Разрешено&quot;;es_ES@&quot;Autorizado&quot;;fr_FR@&quot;Approuvé&quot;;nl_NL@Goedgekeurd;sv_SE@&quot;Godkänt&quot;;da_DK@&quot;Godkendt&quot;;zh_CN@“已授权“;pl_PL@Zatwierdzone;pt_BR@&quot;Aprovado&quot;;cs_CZ@&quot;Schváleno&quot;;it_IT@&apos;Autorizzato&apos;;hu_HU@&quot;Engedélyezve&quot;;pt_PT@&quot;Autorizado&quot;;ko_KR@&quot;승인됨&quot;;ja_JP@&apos;承認済み&apos;;tr_TR@&quot;İzin verildi&quot;;ro_RO@&quot;Aprobat&quot;;zh_TW@&quot;已核准&quot;;">
+ <S54x505 A961="5" A962="0" A963="0" A964="L" A965="5" A966="10" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O53 Build="17406" A1="53/13415" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="451" A412="0" A413="L" A414="L" A415="L" A416="0" A501="123/63" A503="0" A506="22" A771="10161" A772="0" A773="0" A774="0" A951="14" A952="0" A953="0" A954="0" A955="0">
+ <S54x505 A961="3.5" A962="0" A963="0" A964="L" A965="20" A966="10" A967="3.675" A968="162.5" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O53>
+ <O53 Build="17406" A1="53/13416" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="451" A412="0" A413="L" A414="L" A415="L" A416="0" A501="123/73" A503="0" A506="22" A771="10025" A772="0" A773="0" A774="0" A951="14" A952="0" A953="0" A954="0" A955="0">
+ <S54x505 A961="3.5" A962="0" A963="0" A964="L" A965="20" A966="10" A967="3.675" A968="162.5" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O53>
+ <O30 Build="17406" A1="30/13417" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="173/38" A503="0" A506="22" A511="de_DE@Stempel;en_US@Stamp;ru_RU@М.П;es_ES@Sello;fr_FR@Tampon;nl_NL@Stempel;sv_SE@Stämpel;da_DK@Stempel;zh_CN@印章;pl_PL@Pieczęć;pt_BR@Selo;cs_CZ@Razítko;it_IT@Timbro;hu_HU@Pecsét;pt_PT@Selo;ko_KR@스탬프;ja_JP@スタンプ;tr_TR@Destek;ro_RO@Poanson;zh_TW@戳記;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="5" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O53 Build="17406" A1="53/13418" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="451" A412="0" A413="L" A414="L" A415="L" A416="0" A501="112/24" A503="0" A506="98" A771="10238" A772="0" A773="0" A774="0" A951="14" A952="0" A953="0" A954="0" A955="0">
+ <S54x505 A961="2.5" A962="0" A963="0" A964="L" A965="4" A966="5" A967="16" A968="8" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O53>
+ </O51>
+ <O212 Build="14062" A1="212/13419" A3="0" A13="0" A14="0" A2861="-25532" A2862="EPLAN.Project.UserSupplementaryField4" A2863="##_##@40004/TrDMProperty;??_??@Benutzer Zusatzfeld 4;??_??@Benutzer Zusatzfeld 4;??_??@Benutzer Zusatzfeld 4;" A2865="1" A2866="14" A2867="9000" A2868="0" A2869="1568635777" A2935="1615901626" A4057="15" A4058="0" A4069="0" A4070="" A4071="1"/>
+</EplanPxfRoot>

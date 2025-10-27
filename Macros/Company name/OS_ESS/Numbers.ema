@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<EplanPxfRoot Name="Numbers" Type="WindowMacro" Version="2022.0.17498" PxfVersion="1.23" SchemaVersion="1.7.17498" Source="" SourceProject="C:\EPLAN\2022.0.1.17498\Work\Projekte\Makroprojekt\Operational Sequence.elk" Description="de_DE@Ablaufdiagramm: Zahlensatz für die Zeitskala (passend zum Formular &quot;F28_001&quot; und &quot;F28_002&quot;);en_US@Operational sequence sheet: Number set for the time scale (suitable for form &quot;F28_001&quot; and &quot;F28_002&quot;);es_ES@Diagrama secuencial de operaciones: Conjunto de números para la escala de tiempo (adecuado para los formularios &quot;F28_001&quot; y &quot;F28_002&quot;);fr_FR@Organigramme : Jeu de chiffres pour l&apos;échelle de temps (selon le formulaire &quot;F28_001&quot; et &quot;F28_002&quot;);nl_NL@Sequential Function Chart: Getalset voor tijdschaal (passend bij formulier &quot;F28_001&quot; en &quot;F28_002&quot;);sv_SE@Flödesschema: Siffersats för tidsskalan (passande till formulär &quot;F28_001&quot; och &quot;F28_002&quot;);da_DK@Sekvensdiagram: Talsæt til tidsskala (passer til formular &quot;F28_001&quot; og &quot;F28_002&quot;);ru_RU@Блок-схема рабочего процесса: Набор цифр для шкалы времени (подходит для форм &quot;F28_001&quot; и &quot;F28_002&quot;);zh_CN@流程图:时间尺度的数集(适合于表格 &quot;F28_001&quot; 和 &quot;F28_002&quot;);pl_PL@Blokowy schemat operacyjny: Zestaw liczb dla skali czasu (pasuje do formularza &quot;F28_001&quot; i &quot;F28_002&quot;);pt_BR@Diagrama de sequência operacional: Registro de números para a escala temporizadora (de acordo com o formulário &quot;F28_001&quot; e &quot;F28_002&quot;);cs_CZ@Postupový diagram: Sada čísel pro časovou stupnici (vhodná pro formulář &quot;F28_001&quot; a &quot;F28_002&quot;);it_IT@Diagramma sequenza operativa: Set di cifre per la scala temporale (adatto al modulo &quot;F28_001&quot; e &quot;F28_002&quot;);hu_HU@Folyamatábra: Időskála számkészlete (az &quot;F28_001&quot; és &quot;F28_002&quot; űrlaphoz illeszkedően);pt_PT@Diagrama sequencial: Registo de números para a escala de tempo (adequado para o formulário &quot;F28_001&quot; e &quot;F28_002&quot;);ko_KR@작업 순서 다이어그램: 시간 단위에 대한 숫자 설정(&quot;F28_001&quot; 및 &quot;F28_002&quot; 양식에 적합);ja_JP@オペレーショナル シーケンス シート: 番号、時間スケール用 (フォーム &apos;F28_001&apos; および &apos;F28_002&apos; に使用可能);tr_TR@İşlem sırası diyagramı: Zaman skalası için sayı grubu (&quot;F28_001&quot; ve &quot;F28_002&quot; formuna uygun);ro_RO@Diagramă secvențială: Set de numere pentru scara de timp (corespunzător formelor &quot;F28_001&quot; și &quot;F28_002&quot;);zh_TW@操作流程圖：針對時間刻度設定的數目 (適合 &quot;F28_001&quot; 和 &quot;F28_002&quot; 表單);" ConfigurationFlags="8193" NumMainObjects="1" NumProjectSteps="1" NumMDSteps="0" Custompagescaleused="true" StreamSchema="EBitmap, ,2,1,2;EPosition3D, ,0,3,2;ERay3D, ,0,4,2;EStreamableVector, ,0,5,2;BaseTextLine@W3D, ,2,9,2;Box3d@W3D, ,0,10,2;DMNCDataSet, ,1,12,2;DMNCDataSetVector, ,1,13,2;Linetype@W3D, ,0,15,2;Color@W3D, ,0,16,2;Material@W3D, ,3,17,2;Mesh3d@W3D, ,8,19,2;Mesh3dX@W3D, ,2,20,2;MeshBox@W3D, ,5,21,2;MeshEdge3d@W3D, ,0,22,2;MeshFace3d@W3D, ,2,23,2;MeshPoint3d@W3D, ,1,24,2;MeshPolygon3d@W3D, ,1,25,2;MeshSimpleTextureTriangle3d@W3D, ,2,26,2;MeshSimpleTriangle3d@W3D, ,1,27,2;MeshText3dX@W3D, ,0,28,2;MeshTriangle3d@W3D, ,2,29,2;MeshTriangleFace3d@W3D, ,0,30,2;MeshTriangleFaceEdge3D@W3D, ,0,31,2;CTexture@W3D,W3dBaseGeometry,0,81,2;MeshMate@W3D,W3dMeshModeller,7,82,2;MeshMateFace@W3D,W3dMeshModeller,1,83,2;MeshMateGrid@W3D,W3dMeshModeller,8,84,2;MeshMateGridLine@W3D,W3dMeshModeller,1,85,2;MeshMateLine@W3D,W3dMeshModeller,1,86,2">
+ <EplPxfDir>
+  <EplPxfDirEntry MacroFuncType="5" VariantId="0"/>
+ </EplPxfDir>
+ <MacroVariant MacroFuncType="5" VariantId="0" ReferencePoint="120/264/0" Version="2022.0.17498" PxfVersion="1.23" SchemaVersion="1.7.17498" Source="" SourceProject="C:\EPLAN\2022.0.1.17498\Work\Projekte\Makroprojekt\Operational Sequence.elk" Description="de_DE@Ablaufdiagramm: Zahlensatz für die Zeitskala (passend zum Formular &quot;F28_001&quot; und &quot;F28_002&quot;);en_US@Operational sequence sheet: Number set for the time scale (suitable for form &quot;F28_001&quot; and &quot;F28_002&quot;);es_ES@Diagrama secuencial de operaciones: Conjunto de números para la escala de tiempo (adecuado para los formularios &quot;F28_001&quot; y &quot;F28_002&quot;);fr_FR@Organigramme : Jeu de chiffres pour l&apos;échelle de temps (selon le formulaire &quot;F28_001&quot; et &quot;F28_002&quot;);nl_NL@Sequential Function Chart: Getalset voor tijdschaal (passend bij formulier &quot;F28_001&quot; en &quot;F28_002&quot;);sv_SE@Flödesschema: Siffersats för tidsskalan (passande till formulär &quot;F28_001&quot; och &quot;F28_002&quot;);da_DK@Sekvensdiagram: Talsæt til tidsskala (passer til formular &quot;F28_001&quot; og &quot;F28_002&quot;);ru_RU@Блок-схема рабочего процесса: Набор цифр для шкалы времени (подходит для форм &quot;F28_001&quot; и &quot;F28_002&quot;);zh_CN@流程图:时间尺度的数集(适合于表格 &quot;F28_001&quot; 和 &quot;F28_002&quot;);pl_PL@Blokowy schemat operacyjny: Zestaw liczb dla skali czasu (pasuje do formularza &quot;F28_001&quot; i &quot;F28_002&quot;);pt_BR@Diagrama de sequência operacional: Registro de números para a escala temporizadora (de acordo com o formulário &quot;F28_001&quot; e &quot;F28_002&quot;);cs_CZ@Postupový diagram: Sada čísel pro časovou stupnici (vhodná pro formulář &quot;F28_001&quot; a &quot;F28_002&quot;);it_IT@Diagramma sequenza operativa: Set di cifre per la scala temporale (adatto al modulo &quot;F28_001&quot; e &quot;F28_002&quot;);hu_HU@Folyamatábra: Időskála számkészlete (az &quot;F28_001&quot; és &quot;F28_002&quot; űrlaphoz illeszkedően);pt_PT@Diagrama sequencial: Registo de números para a escala de tempo (adequado para o formulário &quot;F28_001&quot; e &quot;F28_002&quot;);ko_KR@작업 순서 다이어그램: 시간 단위에 대한 숫자 설정(&quot;F28_001&quot; 및 &quot;F28_002&quot; 양식에 적합);ja_JP@オペレーショナル シーケンス シート: 番号、時間スケール用 (フォーム &apos;F28_001&apos; および &apos;F28_002&apos; に使用可能);tr_TR@İşlem sırası diyagramı: Zaman skalası için sayı grubu (&quot;F28_001&quot; ve &quot;F28_002&quot; formuna uygun);ro_RO@Diagramă secvențială: Set de numere pentru scara de timp (corespunzător formelor &quot;F28_001&quot; și &quot;F28_002&quot;);zh_TW@操作流程圖：針對時間刻度設定的數目 (適合 &quot;F28_001&quot; 和 &quot;F28_002&quot; 表單);" ConfigurationFlags="0" DocumentType="7" SelectionArea="117/270/399/261" Customgost="0">
+  <ESymLib Name="SPECIAL" ID="0"/>
+  <ESymLib/>
+  <ESymLib/>
+  <ESymLib Name="GRAPHICS" ID="3"/>
+  <O14 Build="17471" A1="14/1" A3="0" A13="0" A14="0" A133="Kopie von  @1297687780" A134="2022.0.1.17471" A135="1">
+  <P11 P10000="EPL_DEMO" P10002="&lt;1100&gt;&lt;1101&gt;&lt;1102&gt;&lt;1103&gt;&lt;1104&gt;&lt;1105&gt;&lt;1106&gt;&lt;1107&gt;&lt;1108&gt;&lt;1109&gt;" P10004="&lt;1200&gt;&lt;1201&gt;&lt;1202&gt;&lt;1203&gt;&lt;1204&gt;&lt;1205&gt;&lt;1206&gt;&lt;1207&gt;&lt;1208&gt;&lt;1209&gt;" P10005="&lt;1700&gt;" P10012="0" P10018="14&#9;==&#9;.&#9;=&#9;.&#9;++&#9;.&#9;+&#9;.&#9;&#9;&#9;&amp;&#9;&#9;#&#9;#" P10019="11&#9;0&#9;1&#9;1&#9;1&#9;1&#9;0&#9;1&#9;0&#9;0&#9;0&#9;0" P10020="ZIM" P10021="1286265009" P10024="1625062679" P10029="4&#9;0&#9;0&#9;0&#9;0" P10050="&lt;10002&gt;&lt;10004&gt;&lt;11012&gt;&lt;11013&gt;" P10051="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;" P10053="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10054="&lt;10002&gt;&lt;10004&gt;&lt;10005&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10055="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10056="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10057="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10059="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10060="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10061="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10062="&lt;10002&gt;&lt;10004&gt;&lt;10005&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10063="&lt;10005&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10064="&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10069=" .elk" P10070="&lt;10002&gt;&lt;10004&gt;&lt;11012&gt;&lt;11013&gt;" P10071="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;" P10072="17498" P10073="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10074="&lt;10002&gt;&lt;10004&gt;&lt;10005&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10075="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10076="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10077="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10079="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10080="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10081="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10082="&lt;10002&gt;&lt;10004&gt;&lt;10005&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10083="&lt;10005&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10084="&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10085="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10086="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10090="0" P10092="3&#9;11017&#9;0&#9;0&#9;10002&#9;0&#9;1&#9;10004&#9;0&#9;1" P10093="0" P10094="3&#9;10002&#9;0&#9;1&#9;10004&#9;0&#9;1&#9;10005&#9;0&#9;1&#9;20012&#9;0&#9;0&#9;20013&#9;0&#9;0&#9;20014&#9;0&#9;0&#9;20015&#9;0&#9;0" P10095="0" P10400="##_##@703/SchemeDataProject;" P10401="##_##@703/SchemeDataProject;" P10403="##_##@703/SchemeDataProject;" P10405="##_##@703/SchemeDataProject;" P10406="##_##@703/SchemeDataProject;" P10407="##_##@703/SchemeDataProject;" P10409="##_##@703/SchemeDataProject;" P10410="##_##@703/SchemeDataProject;" P10411="##_##@703/SchemeDataProject;" P10412="##_##@707/SchemeDataProject;" P10413="##_##@717/SchemeDataProject;" P10414="##_##@703/SchemeDataProject;" P10420="##_##@703/SchemeDataProject;" P10421="##_##@703/SchemeDataProject;" P10423="##_##@703/SchemeDataProject;" P10425="##_##@703/SchemeDataProject;" P10426="##_##@703/SchemeDataProject;" P10427="##_##@703/SchemeDataProject;" P10429="##_##@703/SchemeDataProject;" P10430="##_##@703/SchemeDataProject;" P10431="##_##@703/SchemeDataProject;" P10432="##_##@707/SchemeDataProject;" P10433="##_##@717/SchemeDataProject;" P10434="##_##@703/SchemeDataProject;" P10450="0" P10510="1" P10511="1" P10512="1" P10513="0" P10514="0" P10515="0" P10516="0" P10517="D:\Projekte\P0590 PBI301655 Zusätzliche Sprache in Makroprojekte hinzufügen\Makroprojekte_aktualisiert_2p9sp1" P10518="Makro&apos;s für GRAFCET (ohne Betriebsmittel)" P10902="2" P10904="0"/>
+  </O14>
+  <O4 Build="14844" A1="4/155" A3="0" A13="0" A14="0" A47="7" A48="1493978460" A50="1" A59="1" A404="1" A405="64" A406="0" A407="0" A431="1" A699="00000000000000000000000000000000" A700="00000000-0000-0000-0000-000000000000" A1101="2" A1102="" A1103="" A4043="0" A4049="0">
+  <P11 P10185="EPLSNWHNWA" P11006="0" P11020="EPL" P11021="1297867241" P11022="EPL" P11024="1625062679" P11048="1" P11050="0" P11051="3" P11056="GRAFCET"/>
+  <P49 P11012="2"/>
+  <O26 Build="5191" A1="26/372390" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1">
+  <O30 Build="5224" A1="30/372391" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="120/264" A503="0" A506="0" A511="??_??@1;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372392" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="126/264" A503="0" A506="0" A511="??_??@2;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372393" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="132/264" A503="0" A506="0" A511="??_??@3;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372394" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="138/264" A503="0" A506="0" A511="??_??@4;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372395" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="144/264" A503="0" A506="0" A511="??_??@5;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372396" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="150/264" A503="0" A506="0" A511="??_??@6;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372397" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="156/264" A503="0" A506="0" A511="??_??@7;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372398" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="162/264" A503="0" A506="0" A511="??_??@8;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372399" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="168/264" A503="0" A506="0" A511="??_??@9;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372400" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="174/264" A503="0" A506="0" A511="??_??@10;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372401" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="180/264" A503="0" A506="0" A511="??_??@11;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372402" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="186/264" A503="0" A506="0" A511="??_??@12;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372403" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="192/264" A503="0" A506="0" A511="??_??@13;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372404" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="198/264" A503="0" A506="0" A511="??_??@14;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372405" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="204/264" A503="0" A506="0" A511="??_??@15;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372406" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="210/264" A503="0" A506="0" A511="??_??@16;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372407" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="216/264" A503="0" A506="0" A511="??_??@17;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372408" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="222/264" A503="0" A506="0" A511="??_??@18;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372409" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="228/264" A503="0" A506="0" A511="??_??@19;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372410" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="234/264" A503="0" A506="0" A511="??_??@20;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372411" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="240/264" A503="0" A506="0" A511="??_??@21;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372412" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="246/264" A503="0" A506="0" A511="??_??@22;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372413" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="252/264" A503="0" A506="0" A511="??_??@23;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372414" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="258/264" A503="0" A506="0" A511="??_??@24;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372415" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="264/264" A503="0" A506="0" A511="??_??@25;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372416" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="270/264" A503="0" A506="0" A511="??_??@26;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372417" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="276/264" A503="0" A506="0" A511="??_??@27;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372418" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="282/264" A503="0" A506="0" A511="??_??@28;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372419" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="288/264" A503="0" A506="0" A511="??_??@29;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372420" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="294/264" A503="0" A506="0" A511="??_??@30;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372421" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="300/264" A503="0" A506="0" A511="??_??@31;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372422" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="306/264" A503="0" A506="0" A511="??_??@32;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372423" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="312/264" A503="0" A506="0" A511="??_??@33;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372424" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="318/264" A503="0" A506="0" A511="??_??@34;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372425" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="324/264" A503="0" A506="0" A511="??_??@35;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372426" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="330/264" A503="0" A506="0" A511="??_??@36;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372427" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="336/264" A503="0" A506="0" A511="??_??@37;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372428" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="342/264" A503="0" A506="0" A511="??_??@38;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372429" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="348/264" A503="0" A506="0" A511="??_??@39;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372430" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="354/264" A503="0" A506="0" A511="??_??@40;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372431" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="360/264" A503="0" A506="0" A511="??_??@41;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372432" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="366/264" A503="0" A506="0" A511="??_??@42;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372433" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="372/264" A503="0" A506="0" A511="??_??@43;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372434" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="378/264" A503="0" A506="0" A511="??_??@44;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372435" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="384/264" A503="0" A506="0" A511="??_??@45;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372436" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="390/264" A503="0" A506="0" A511="??_??@46;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O30 Build="5224" A1="30/372437" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="396/264" A503="0" A506="0" A511="??_??@47;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16384" A966="8" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O30>
+  <O37 Build="14844" A1="37/372438" A3="1" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A682="0" A683="30/372391;30/372392;30/372393;30/372394;30/372395;30/372396;30/372397;30/372398;30/372399;30/372400;30/372401;30/372402;30/372403;30/372404;30/372405;30/372406;30/372407;30/372408;30/372409;30/372410;30/372411;30/372412;30/372413;30/372414;30/372415;30/372416;30/372417;30/372418;30/372419;30/372420;30/372421;30/372422;30/372423;30/372424;30/372425;30/372426;30/372427;30/372428;30/372429;30/372430;30/372431;30/372432;30/372433;30/372434;30/372435;30/372436;30/372437" A684="1" A685="120/264" A687="40" A688="2" A689="5" A690="0" A691="0" A693="0" A695="5" A699="00000000000000000000000000000000" A702="1" A792="0" A793="0" A794="0" A1261="0" A1262="44" A1263="0" A1631="0/-9" A1632="282/0">
+  <S109x692 R1906="30/372391"/>
+  <S109x692 R1906="30/372392"/>
+  <S109x692 R1906="30/372393"/>
+  <S109x692 R1906="30/372394"/>
+  <S109x692 R1906="30/372395"/>
+  <S109x692 R1906="30/372396"/>
+  <S109x692 R1906="30/372397"/>
+  <S109x692 R1906="30/372398"/>
+  <S109x692 R1906="30/372399"/>
+  <S109x692 R1906="30/372400"/>
+  <S109x692 R1906="30/372401"/>
+  <S109x692 R1906="30/372402"/>
+  <S109x692 R1906="30/372403"/>
+  <S109x692 R1906="30/372404"/>
+  <S109x692 R1906="30/372405"/>
+  <S109x692 R1906="30/372406"/>
+  <S109x692 R1906="30/372407"/>
+  <S109x692 R1906="30/372408"/>
+  <S109x692 R1906="30/372409"/>
+  <S109x692 R1906="30/372410"/>
+  <S109x692 R1906="30/372411"/>
+  <S109x692 R1906="30/372412"/>
+  <S109x692 R1906="30/372413"/>
+  <S109x692 R1906="30/372414"/>
+  <S109x692 R1906="30/372415"/>
+  <S109x692 R1906="30/372416"/>
+  <S109x692 R1906="30/372417"/>
+  <S109x692 R1906="30/372418"/>
+  <S109x692 R1906="30/372419"/>
+  <S109x692 R1906="30/372420"/>
+  <S109x692 R1906="30/372421"/>
+  <S109x692 R1906="30/372422"/>
+  <S109x692 R1906="30/372423"/>
+  <S109x692 R1906="30/372424"/>
+  <S109x692 R1906="30/372425"/>
+  <S109x692 R1906="30/372426"/>
+  <S109x692 R1906="30/372427"/>
+  <S109x692 R1906="30/372428"/>
+  <S109x692 R1906="30/372429"/>
+  <S109x692 R1906="30/372430"/>
+  <S109x692 R1906="30/372431"/>
+  <S109x692 R1906="30/372432"/>
+  <S109x692 R1906="30/372433"/>
+  <S109x692 R1906="30/372434"/>
+  <S109x692 R1906="30/372435"/>
+  <S109x692 R1906="30/372436"/>
+  <S109x692 R1906="30/372437"/>
+  <S40x1201 A762="117/270">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P11008_1="OS_ESS\Numbers.ema" P11014_1="de_DE@Ablaufdiagramm: Zahlensatz für die Zeitskala (passend zum Formular &quot;F28_001&quot; und &quot;F28_002&quot;);en_US@Operational sequence sheet: Number set for the time scale (suitable for form &quot;F28_001&quot; and &quot;F28_002&quot;);es_ES@Diagrama secuencial de operaciones: Conjunto de números para la escala de tiempo (adecuado para los formularios &quot;F28_001&quot; y &quot;F28_002&quot;);fr_FR@Organigramme : Jeu de chiffres pour l&apos;échelle de temps (selon le formulaire &quot;F28_001&quot; et &quot;F28_002&quot;);nl_NL@Sequential Function Chart: Getalset voor tijdschaal (passend bij formulier &quot;F28_001&quot; en &quot;F28_002&quot;);sv_SE@Flödesschema: Siffersats för tidsskalan (passande till formulär &quot;F28_001&quot; och &quot;F28_002&quot;);da_DK@Sekvensdiagram: Talsæt til tidsskala (passer til formular &quot;F28_001&quot; og &quot;F28_002&quot;);ru_RU@Блок-схема рабочего процесса: Набор цифр для шкалы времени (подходит для форм &quot;F28_001&quot; и &quot;F28_002&quot;);zh_CN@流程图:时间尺度的数集(适合于表格 &quot;F28_001&quot; 和 &quot;F28_002&quot;);pl_PL@Blokowy schemat operacyjny: Zestaw liczb dla skali czasu (pasuje do formularza &quot;F28_001&quot; i &quot;F28_002&quot;);pt_BR@Diagrama de sequência operacional: Registro de números para a escala temporizadora (de acordo com o formulário &quot;F28_001&quot; e &quot;F28_002&quot;);cs_CZ@Postupový diagram: Sada čísel pro časovou stupnici (vhodná pro formulář &quot;F28_001&quot; a &quot;F28_002&quot;);it_IT@Diagramma sequenza operativa: Set di cifre per la scala temporale (adatto al modulo &quot;F28_001&quot; e &quot;F28_002&quot;);hu_HU@Folyamatábra: Időskála számkészlete (az &quot;F28_001&quot; és &quot;F28_002&quot; űrlaphoz illeszkedően);pt_PT@Diagrama sequencial: Registo de números para a escala de tempo (adequado para o formulário &quot;F28_001&quot; e &quot;F28_002&quot;);ko_KR@작업 순서 다이어그램: 시간 단위에 대한 숫자 설정(&quot;F28_001&quot; 및 &quot;F28_002&quot; 양식에 적합);ja_JP@オペレーショナル シーケンス シート: 番号、時間スケール用 (フォーム &apos;F28_001&apos; および &apos;F28_002&apos; に使用可能);tr_TR@İşlem sırası diyagramı: Zaman skalası için sayı grubu (&quot;F28_001&quot; ve &quot;F28_002&quot; formuna uygun);ro_RO@Diagramă secvențială: Set de numere pentru scara de timp (corespunzător formelor &quot;F28_001&quot; și &quot;F28_002&quot;);zh_TW@操作流程圖：針對時間刻度設定的數目 (適合 &quot;F28_001&quot; 和 &quot;F28_002&quot; 表單);" P23001="OS_ESS\Numbers.ema" P23004="de_DE@Ablaufdiagramm: Zahlensatz für die Zeitskala (passend zum Formular &quot;F28_001&quot; und &quot;F28_002&quot;);en_US@Operational sequence sheet: Number set for the time scale (suitable for form &quot;F28_001&quot; and &quot;F28_002&quot;);es_ES@Diagrama secuencial de operaciones: Conjunto de números para la escala de tiempo (adecuado para los formularios &quot;F28_001&quot; y &quot;F28_002&quot;);fr_FR@Organigramme : Jeu de chiffres pour l&apos;échelle de temps (selon le formulaire &quot;F28_001&quot; et &quot;F28_002&quot;);nl_NL@Sequential Function Chart: Getalset voor tijdschaal (passend bij formulier &quot;F28_001&quot; en &quot;F28_002&quot;);sv_SE@Flödesschema: Siffersats för tidsskalan (passande till formulär &quot;F28_001&quot; och &quot;F28_002&quot;);da_DK@Sekvensdiagram: Talsæt til tidsskala (passer til formular &quot;F28_001&quot; og &quot;F28_002&quot;);ru_RU@Блок-схема рабочего процесса: Набор цифр для шкалы времени (подходит для форм &quot;F28_001&quot; и &quot;F28_002&quot;);zh_CN@流程图:时间尺度的数集(适合于表格 &quot;F28_001&quot; 和 &quot;F28_002&quot;);pl_PL@Blokowy schemat operacyjny: Zestaw liczb dla skali czasu (pasuje do formularza &quot;F28_001&quot; i &quot;F28_002&quot;);pt_BR@Diagrama de sequência operacional: Registro de números para a escala temporizadora (de acordo com o formulário &quot;F28_001&quot; e &quot;F28_002&quot;);cs_CZ@Postupový diagram: Sada čísel pro časovou stupnici (vhodná pro formulář &quot;F28_001&quot; a &quot;F28_002&quot;);it_IT@Diagramma sequenza operativa: Set di cifre per la scala temporale (adatto al modulo &quot;F28_001&quot; e &quot;F28_002&quot;);hu_HU@Folyamatábra: Időskála számkészlete (az &quot;F28_001&quot; és &quot;F28_002&quot; űrlaphoz illeszkedően);pt_PT@Diagrama sequencial: Registo de números para a escala de tempo (adequado para o formulário &quot;F28_001&quot; e &quot;F28_002&quot;);ko_KR@작업 순서 다이어그램: 시간 단위에 대한 숫자 설정(&quot;F28_001&quot; 및 &quot;F28_002&quot; 양식에 적합);ja_JP@オペレーショナル シーケンス シート: 番号、時間スケール用 (フォーム &apos;F28_001&apos; および &apos;F28_002&apos; に使用可能);tr_TR@İşlem sırası diyagramı: Zaman skalası için sayı grubu (&quot;F28_001&quot; ve &quot;F28_002&quot; formuna uygun);ro_RO@Diagramă secvențială: Set de numere pentru scara de timp (corespunzător formelor &quot;F28_001&quot; și &quot;F28_002&quot;);zh_TW@操作流程圖：針對時間刻度設定的數目 (適合 &quot;F28_001&quot; 和 &quot;F28_002&quot; 表單);"/>
+  <S89x5 Build="14844" A3="0" A4="1" R7="37/372438" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="308" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-9" A1652="282/0" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  </O37>
+  </O26>
+  </O4>
+ </MacroVariant>
+</EplanPxfRoot>

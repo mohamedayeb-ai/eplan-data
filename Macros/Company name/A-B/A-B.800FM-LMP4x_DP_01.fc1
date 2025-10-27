@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<EplanPxfRoot Name="A-B.800FM-LMP4x_DP_01" Type="ContourDefinition" Version="2.7.11647" PxfVersion="1.23" SchemaVersion="1.7.11647" Source="" SourceProject="C:\Users\Public\EPLAN\Data\Projects\Rockwell Automation2_6\PushButtons IEC.elk" Description="" ConfigurationFlags="65536" NumMainObjects="0" NumProjectSteps="0" NumMDSteps="0" StreamSchema="EBitmap, ,2,1,2;EPosition3D, ,0,3,2;ERay3D, ,0,4,2;EStreamableVector, ,0,5,2;BaseTextLine@W3D, ,2,22,2;Box3d@W3D, ,0,23,2;DMNCDataSet, ,1,25,2;DMNCDataSetVector, ,1,26,2;Linetype@W3D, ,0,28,2;Color@W3D, ,0,29,2;Material@W3D, ,3,30,2;Mesh3d@W3D, ,8,32,2;Mesh3dX@W3D, ,2,33,2;MeshBox@W3D, ,5,34,2;MeshEdge3d@W3D, ,0,35,2;MeshFace3d@W3D, ,2,36,2;MeshPoint3d@W3D, ,1,37,2;MeshPolygon3d@W3D, ,1,38,2;MeshSimpleTextureTriangle3d@W3D, ,2,39,2;MeshSimpleTriangle3d@W3D, ,1,40,2;MeshText3dX@W3D, ,0,41,2;MeshTriangle3d@W3D, ,2,42,2;MeshTriangleFace3d@W3D, ,0,43,2;MeshTriangleFaceEdge3D@W3D, ,0,44,2;CTexture@W3D,W3dBaseGeometry,0,77,2;MeshMate@W3D,W3dMeshModeller,7,78,2;MeshMateFace@W3D,W3dMeshModeller,1,79,2;MeshMateGrid@W3D,W3dMeshModeller,8,80,2;MeshMateGridLine@W3D,W3dMeshModeller,1,81,2;MeshMateLine@W3D,W3dMeshModeller,1,82,2">
+ <O169 Build="11647" A1="169/3469" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1" A901="-10" A902="A-B.800FM-LMP4x_DP_01.fc1">
+ <Stream Id="62581"><![CDATA[#,1,1{26,1,16,0}]]></Stream>
+ <P11 P14020="WKubica" P14021="1529313905" P14101="0" P18000="A-B.800FM-LMP4x_DP_01.fc1" P18021="Rockwell Automation2_6" P18061="1"/>
+ <O200 Build="11647" A1="200/3470" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1">
+ <O31 Build="11647" A1="31/3471" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="0/1.71435902159192"/>
+ <O32 Build="11647" A1="32/3472" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="1.7135024250533" A554="1.42809022853633" A555="1.599999999999/-11.1356409784081" A556="11.25/0" A557="1" A558="0" A559="0"/>
+ <O31 Build="11647" A1="31/3473" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="3.19999999999845/0" A532="3.20000000000002/1.71435902159192"/>
+ <O31 Build="11647" A1="31/3474" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="3.20000000000002/1.71435902159192" A532="0/1.71435902159192"/>
+ </O200>
+ </O169>
+</EplanPxfRoot>

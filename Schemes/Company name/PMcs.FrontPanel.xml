@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Settings format="2">
+ <CAT name="USER">
+  <MOD name="PartsManagementGui">
+   <LEV1 name="ConfigurablePropertiesScheme" nodekind="scheme">
+    <LEV2 name="Front panel">
+     <LEV3 name="Data" nodekind="block">
+      <Setting name="Identname" type="string">
+       <Val>EPLAN.ECLASS.0173-1#01-AKE465.0173-1#02-BAB664</Val>
+       <Val>EPLAN.ECLASS.0173-1#01-AKE465.0173-1#02-AAG011</Val>
+       <Val>EPLAN.ECLASS.0173-1#01-AKE465.0173-1#02-BAF785</Val>
+      </Setting>
+      <Setting name="Value" type="mlstring">
+       <Val/>
+       <Val/>
+       <Val/>
+      </Setting>
+     </LEV3>
+     <Setting name="Description" type="mlstring">
+      <Val>##_##@1862/SchemeData;??_??@Frontplatte, Blindplatte;</Val>
+     </Setting>
+     <Setting name="Name" type="mlstring">
+      <Val>##_##@1861/SchemeData;??_??@Frontplatte;</Val>
+     </Setting>
+     <Setting name="ReadOnly" type="bool">
+      <Val>0</Val>
+     </Setting>
+    </LEV2>
+   </LEV1>
+  </MOD>
+ </CAT>
+</Settings>

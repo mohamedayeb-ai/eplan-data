@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings format="2">
+  <CAT name="PROJECT">
+    <MOD name="NumerationGui">
+      <LEV1 name="NumerationScheme" nodekind="scheme">
+        <LEV2 name="Seite + Kennung + Nummer">
+          <Setting name="Description" type="mlstring">
+            <Val>##_##@891/SchemeDataProject;</Val>
+          </Setting>
+          <Setting name="Name" type="mlstring">
+            <Val>##_##@890/SchemeDataProject;</Val>
+          </Setting>
+          <Setting name="ReadOnly" type="bool">
+            <Val />
+          </Setting>
+          <LEV3 name="Data" nodekind="block">
+            <Setting name="Cable" type="string">
+              <Val>03000;0100 ;02000</Val>
+            </Setting>
+            <Setting name="DeviceBox" type="string">
+              <Val>0300;0100;0200</Val>
+            </Setting>
+            <Setting name="DeviceTerminal" type="string">
+              <Val>02000</Val>
+            </Setting>
+            <Setting name="Devices" type="string">
+              <Val>0300;0100;0200</Val>
+            </Setting>
+            <Setting name="DoNotNumeratePEAndNPins" type="bool" desc="718">
+              <Val>1</Val>
+            </Setting>
+            <Setting name="DoNotNumeratePEAndNTerminals" type="bool" desc="717">
+              <Val>1</Val>
+            </Setting>
+            <Setting name="Fluid" type="string">
+              <Val>03000;0100 ;02000</Val>
+            </Setting>
+            <Setting name="FluidDistributor" type="string">
+              <Val>03000;0100 ;02000</Val>
+            </Setting>
+            <Setting name="Hierarchie" type="bool">
+              <Val />
+            </Setting>
+            <Setting name="NumCable" type="bool">
+              <Val>1</Val>
+            </Setting>
+            <Setting name="NumDeviceBox" type="bool">
+              <Val>1</Val>
+            </Setting>
+            <Setting name="NumDeviceTerminal" type="bool">
+              <Val />
+            </Setting>
+            <Setting name="NumDevices" type="bool">
+              <Val>1</Val>
+            </Setting>
+            <Setting name="NumFluid" type="bool">
+              <Val>1</Val>
+            </Setting>
+            <Setting name="NumFluidDistributor" type="bool">
+              <Val>1</Val>
+            </Setting>
+            <Setting name="NumPLC" type="bool">
+              <Val>1</Val>
+            </Setting>
+            <Setting name="NumPLCTerminal" type="bool">
+              <Val />
+            </Setting>
+            <Setting name="NumPLCTerminalAddress" type="bool">
+              <Val>1</Val>
+            </Setting>
+            <Setting name="NumPinTerminal" type="bool">
+              <Val>1</Val>
+            </Setting>
+            <Setting name="NumPlugStrips" type="bool">
+              <Val>1</Val>
+            </Setting>
+            <Setting name="NumPlugTerminal" type="bool">
+              <Val>1</Val>
+            </Setting>
+            <Setting name="NumTerminalStrips" type="bool">
+              <Val>1</Val>
+            </Setting>
+            <Setting name="PLC" type="string">
+              <Val>0300;0100;0200</Val>
+            </Setting>
+            <Setting name="PLCTerminal" type="string">
+              <Val>02000</Val>
+            </Setting>
+            <Setting name="PinTerminal" type="string">
+              <Val>02000</Val>
+            </Setting>
+            <Setting name="PlugStrips" type="string">
+              <Val>0300;0100;0200</Val>
+            </Setting>
+            <Setting name="PlugTerminal" type="string">
+              <Val>02000</Val>
+            </Setting>
+            <Setting name="TerminalStrips" type="string">
+              <Val>0300;0100;0200</Val>
+            </Setting>
+          </LEV3>
+        </LEV2>
+      </LEV1>
+    </MOD>
+  </CAT>
+</Settings>

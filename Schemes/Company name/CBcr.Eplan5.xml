@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings format="2">
+  <CAT name="PROJECT">
+    <MOD name="CableLog">
+      <LEV1 name="CableCreateScheme" nodekind="scheme">
+        <LEV2 name="EPLAN5">
+          <Setting name="Description" type="mlstring">
+            <Val>##_##@1064/SchemeDataProject;??_??@Settings imported from EPLAN 5;</Val>
+          </Setting>
+          <Setting name="Name" type="mlstring">
+            <Val>##_##@1065/SchemeDataProject;??_??@EPLAN 5;</Val>
+          </Setting>
+          <Setting name="ReadOnly" type="bool" />
+          <LEV3 name="Data" nodekind="block">
+            <Setting name="CreateOnlyManuellCables" type="bool" />
+            <Setting name="MaxPE" type="int" range="0/2" />
+            <Setting name="MaxWireForSubCable" type="unsigned int" desc="719" />
+            <Setting name="MergeMainFunctions" type="bool">
+              <Val>1</Val>
+            </Setting>
+            <Setting name="PlacePropsAtCableLine" type="bool">
+              <Val />
+            </Setting>
+            <Setting name="PlacePropsAtVDP" type="bool" />
+          </LEV3>
+        </LEV2>
+      </LEV1>
+    </MOD>
+  </CAT>
+</Settings>

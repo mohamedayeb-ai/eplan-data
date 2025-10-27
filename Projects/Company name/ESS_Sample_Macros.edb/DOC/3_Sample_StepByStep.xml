@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration typical="Sample project (step-by-step)">
+
+
+	<ConfigurationVariables>		
+		<ConfigurationVariable name="OP_Power_supply_400V">true</ConfigurationVariable>		
+		<ConfigurationVariable name="OP_Measurement_transformer">true</ConfigurationVariable>
+		<ConfigurationVariable name="SE_Light_power">true</ConfigurationVariable>		
+		<ConfigurationVariable name="SE_Receptacle_power">2</ConfigurationVariable>		
+		<ConfigurationVariable name="OP_Power_supply_24V">true</ConfigurationVariable>
+		<ConfigurationVariable name="SE_Light_control">false</ConfigurationVariable>		
+		<ConfigurationVariable name="SE_Receptacle_control">1</ConfigurationVariable>		
+		<ConfigurationVariable name="OP_Transport_1">true</ConfigurationVariable>		
+		<ConfigurationVariable name="OP_Positioning_1">true</ConfigurationVariable>		
+		<ConfigurationVariable name="OP_Transport_2">true</ConfigurationVariable>
+		<ConfigurationVariable name="OP_Positioning_2">false</ConfigurationVariable>
+		<ConfigurationVariable name="OP_Positioning_3">true</ConfigurationVariable>
+		<ConfigurationVariable name="OP_Grinding_right">true</ConfigurationVariable>
+		<ConfigurationVariable name="OP_Grinding_left">true</ConfigurationVariable>
+		<ConfigurationVariable name="OP_Transport_3">false</ConfigurationVariable>
+		<ConfigurationVariable name="OP_Machine_protection">true</ConfigurationVariable>
+		<ConfigurationVariable name="OP_Switch_Panel">false</ConfigurationVariable>
+		<ConfigurationVariable name="OP_Machine_operation">true</ConfigurationVariable>
+		<ConfigurationVariable name="OP_Panel_Enclosure">true</ConfigurationVariable>
+		<ConfigurationVariable name="OP_Panel_Control">false</ConfigurationVariable>
+		<ConfigurationVariable name="OP_Infrastructure">true</ConfigurationVariable>
+	</ConfigurationVariables>
+
+
+</Configuration>

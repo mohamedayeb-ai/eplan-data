@@ -1,0 +1,749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings format="2">
+  <CAT name="USER">
+    <MOD name="Labelling">
+      <LEV1 name="Config" nodekind="scheme">
+        <LEV2 name="Phoenix Kabelbeschriftung">
+          <Setting name="Description" type="mlstring">
+            <Val>??_??@Phoenix Kabelbeschriftung;</Val>
+          </Setting>
+          <Setting name="Name" type="mlstring">
+            <Val>??_??@Phoenix Kabelbeschriftung;</Val>
+          </Setting>
+          <Setting name="ReadOnly" type="bool">
+            <Val />
+          </Setting>
+          <LEV3 name="Data" nodekind="block">
+            <Setting name="DocumentTypeID" type="int">
+              <Val>21</Val>
+            </Setting>
+            <LEV4 name="Article">
+              <Setting name="DissectAssemblies" type="bool" desc="486">
+                <Val />
+              </Setting>
+              <Setting name="DissectAssembliesLevel" type="int" desc="487">
+                <Val>1</Val>
+              </Setting>
+              <Setting name="IncludeCableConnectionParts" type="bool">
+                <Val />
+              </Setting>
+              <Setting name="IncludeCableParts" type="bool" desc="488">
+                <Val />
+              </Setting>
+              <Setting name="IncludeCableProjectParts" type="bool" desc="754">
+                <Val />
+              </Setting>
+              <Setting name="IncludeClampParts" type="bool" desc="489">
+                <Val />
+              </Setting>
+              <Setting name="IncludeConnectionParts" type="bool" desc="490">
+                <Val />
+              </Setting>
+              <Setting name="IncludeDeviceTagsWithoutPartNumber" type="bool" desc="491">
+                <Val />
+              </Setting>
+              <Setting name="IncludeTerminalStripParts" type="bool">
+                <Val>1</Val>
+              </Setting>
+            </LEV4>
+            <LEV4 name="File">
+              <Setting name="Destination" type="string">
+                <Val>C:\PHOENIX\PHOENIX.KBL</Val>
+              </Setting>
+              <Setting name="Format" type="string">
+                <Val>XmlLblTextExportConverterImpl</Val>
+              </Setting>
+              <Setting name="Template" type="string">
+                <Val />
+              </Setting>
+            </LEV4>
+            <LEV4 name="Footer">
+              <Setting name="OnEachPage" type="bool">
+                <Val />
+              </Setting>
+            </LEV4>
+            <LEV4 name="Header">
+              <Setting name="OnEachPage" type="bool">
+                <Val>1</Val>
+              </Setting>
+            </LEV4>
+            <LEV4 name="Record">
+              <Setting name="NrLinePerPage" type="int">
+                <Val>40</Val>
+              </Setting>
+              <Setting name="NrRecPerLine" type="int">
+                <Val>1</Val>
+              </Setting>
+              <Setting name="RecSeparator" type="string">
+                <Val>;</Val>
+              </Setting>
+              <LEV5 name="FormatElements">
+                <Setting name="Element" type="int">
+                  <Val>1</Val>
+                  <Val />
+                  <Val>1</Val>
+                  <Val />
+                  <Val>1</Val>
+                  <Val />
+                  <Val />
+                  <Val>1</Val>
+                  <Val />
+                  <Val>1</Val>
+                  <Val />
+                  <Val>1</Val>
+                  <Val />
+                  <Val />
+                  <Val>1</Val>
+                  <Val />
+                  <Val>1</Val>
+                  <Val />
+                  <Val>1</Val>
+                </Setting>
+                <Setting name="ID" type="int">
+                  <Val />
+                  <Val>1</Val>
+                  <Val>15</Val>
+                  <Val>16</Val>
+                  <Val>2</Val>
+                  <Val>3</Val>
+                  <Val>13</Val>
+                  <Val>4</Val>
+                  <Val>5</Val>
+                  <Val>6</Val>
+                  <Val>7</Val>
+                  <Val>8</Val>
+                  <Val>9</Val>
+                  <Val>14</Val>
+                  <Val>10</Val>
+                  <Val>11</Val>
+                  <Val>12</Val>
+                  <Val>17</Val>
+                  <Val>19</Val>
+                </Setting>
+                <LEV6 name="Interspace1">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="Interspace11">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="Interspace13">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>-</Val>
+                  </Setting>
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="Interspace14">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>-</Val>
+                  </Setting>
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="Interspace16">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="Interspace17">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="Interspace3">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="Interspace5">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="Interspace7">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="Interspace9">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack0">
+                  <Setting name="Length" type="int">
+                    <Val>32</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>7</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val>2084188894</Val>
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>10005</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Kabeleigenschaften</Val>
+                  </Setting>
+                  <Setting name="RelationSeparator" type="string">
+                    <Val />
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>20008</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[20008&lt;...&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P20008</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack1">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[TAB]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack10">
+                  <Setting name="Length" type="int">
+                    <Val>32</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>7</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val>2084188894</Val>
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>20030</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Betriebsmittel (Ziel)</Val>
+                  </Setting>
+                  <Setting name="RelationSeparator" type="string">
+                    <Val />
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>20008</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[20008&lt;...&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P20008</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack11">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[TAB]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack12">
+                  <Setting name="Length" type="int">
+                    <Val>32</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>1225532</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val>1225520</Val>
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>20030</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Betriebsmittel (Ziel)</Val>
+                  </Setting>
+                  <Setting name="RelationSeparator" type="string">
+                    <Val />
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>19023</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[19023&lt;...&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P19023</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack13">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>-</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>-</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack14">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>-</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>-</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack15">
+                  <Setting name="Length" type="int">
+                    <Val>32</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>7</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val>2084188894</Val>
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>20031</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Betriebsmittel (Quelle)</Val>
+                  </Setting>
+                  <Setting name="RelationSeparator" type="string">
+                    <Val />
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>1140</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[1140&lt;...&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P1140</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack16">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[TAB]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack17">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[TAB]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack19">
+                  <Setting name="Length" type="int">
+                    <Val>32</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>-1</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>20030</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Betriebsmittel (Ziel)</Val>
+                  </Setting>
+                  <Setting name="RelationSeparator" type="string">
+                    <Val />
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>19005</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[19005&lt;...&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P19005</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack2">
+                  <Setting name="Length" type="int">
+                    <Val>32</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>7</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val>2084188894</Val>
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>20031</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Betriebsmittel (Quelle)</Val>
+                  </Setting>
+                  <Setting name="RelationSeparator" type="string">
+                    <Val />
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>1240</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[1240&lt;...&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P1240</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack3">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[TAB]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack4">
+                  <Setting name="Length" type="int">
+                    <Val>32</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>7</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val>2084188894</Val>
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>20031</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Betriebsmittel (Quelle)</Val>
+                  </Setting>
+                  <Setting name="RelationSeparator" type="string">
+                    <Val />
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>20008</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[20008&lt;...&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P20008</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack5">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[TAB]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack6">
+                  <Setting name="Length" type="int">
+                    <Val>32</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>7</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val>2084188894</Val>
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>20030</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Betriebsmittel (Ziel)</Val>
+                  </Setting>
+                  <Setting name="RelationSeparator" type="string">
+                    <Val />
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>1140</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[1140&lt;...&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P1140</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack7">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[TAB]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack8">
+                  <Setting name="Length" type="int">
+                    <Val>32</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>7</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val>2084188894</Val>
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>20030</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Betriebsmittel (Ziel)</Val>
+                  </Setting>
+                  <Setting name="RelationSeparator" type="string">
+                    <Val />
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>1240</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[1240&lt;...&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P1240</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack9">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[TAB]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>TAB</Val>
+                  </Setting>
+                </LEV6>
+              </LEV5>
+            </LEV4>
+          </LEV3>
+        </LEV2>
+      </LEV1>
+    </MOD>
+  </CAT>
+</Settings>

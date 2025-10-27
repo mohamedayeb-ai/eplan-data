@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<EplanPxfRoot Name="Power_Supply" Type="WindowMacro" Version="2022.0.17539" PxfVersion="1.23" SchemaVersion="1.7.17539" Source="" SourceProject="D:\Program Files\EPLAN\2022.0.1.17539\Data\Projekte\QS\ESS_Sample_Macros.elk" Description="" ConfigurationFlags="8193" NumMainObjects="1" NumProjectSteps="1" NumMDSteps="0" Custompagescaleused="true" StreamSchema="EBitmap, ,2,1,2;EPosition3D, ,0,3,2;ERay3D, ,0,4,2;EStreamableVector, ,0,5,2;BaseTextLine@W3D, ,2,9,2;Box3d@W3D, ,0,10,2;DMNCDataSet, ,1,12,2;DMNCDataSetVector, ,1,13,2;Linetype@W3D, ,0,15,2;Color@W3D, ,0,16,2;Material@W3D, ,3,17,2;Mesh3d@W3D, ,8,19,2;Mesh3dX@W3D, ,2,20,2;MeshBox@W3D, ,5,21,2;MeshEdge3d@W3D, ,0,22,2;MeshFace3d@W3D, ,2,23,2;MeshPoint3d@W3D, ,1,24,2;MeshPolygon3d@W3D, ,1,25,2;MeshSimpleTextureTriangle3d@W3D, ,2,26,2;MeshSimpleTriangle3d@W3D, ,1,27,2;MeshText3dX@W3D, ,0,28,2;MeshTriangle3d@W3D, ,2,29,2;MeshTriangleFace3d@W3D, ,0,30,2;MeshTriangleFaceEdge3D@W3D, ,0,31,2;CTexture@W3D,W3dBaseGeometry,0,76,2;MeshMate@W3D,W3dMeshModeller,7,77,2;MeshMateFace@W3D,W3dMeshModeller,1,78,2;MeshMateGrid@W3D,W3dMeshModeller,8,79,2;MeshMateGridLine@W3D,W3dMeshModeller,1,80,2;MeshMateLine@W3D,W3dMeshModeller,1,81,2">
+ <EplPxfDir>
+  <EplPxfDirEntry MacroFuncType="1" VariantId="0"/>
+ </EplPxfDir>
+ <MacroVariant MacroFuncType="1" VariantId="0" ReferencePoint="12/92/0" Version="2022.0.17539" PxfVersion="1.23" SchemaVersion="1.7.17539" Source="" SourceProject="D:\Program Files\EPLAN\2022.0.1.17539\Data\Projekte\QS\ESS_Sample_Macros.elk" Description="" ConfigurationFlags="0" DocumentType="1" SelectionArea="4/292/420/16" Customgost="0">
+  <ESymLib Name="SPECIAL" ID="0"/>
+  <ESymLib Name="IEC_symbol" ID="1"/>
+  <ESymLib/>
+  <ESymLib Name="GRAPHICS" ID="3"/>
+  <ESymLib Name="PID_ESS" ID="4"/>
+  <ESymLib Name="PNE1ESS" ID="5"/>
+  <ESymLib/>
+  <O14 Build="17534" A1="14/1" A3="0" A13="0" A14="0" A133="ESS_Sample_Macros@1543412823" A134="2022.0.1.17534" A135="0">
+  <P11 P10000="EPL_DEMO" P10002="&lt;1100&gt;&lt;1101&gt;&lt;1102&gt;&lt;1103&gt;&lt;1104&gt;&lt;1105&gt;&lt;1106&gt;&lt;1107&gt;&lt;1108&gt;&lt;1109&gt;" P10004="&lt;1200&gt;&lt;1201&gt;&lt;1202&gt;&lt;1203&gt;&lt;1204&gt;&lt;1205&gt;&lt;1206&gt;&lt;1207&gt;&lt;1208&gt;&lt;1209&gt;" P10006="&lt;1500&gt;" P10007="&lt;1600&gt;&lt;1601&gt;&lt;1602&gt;&lt;1603&gt;&lt;1604&gt;&lt;1605&gt;&lt;1606&gt;&lt;1607&gt;&lt;1608&gt;&lt;1609&gt;" P10008="0" P10011="de_DE@Beispiel-Makroprojekt;en_US@Sample macro project;es_ES@Proyecto de macros de ejemplo;fr_FR@Projet de macro d&apos;exemple de projet;nl_NL@Voorbeeld-macroproject;sv_SE@Exempelmakroprojekt;da_DK@Makroprojekteksempel;ru_RU@Образец проекта макросов;zh_CN@示例宏项目;pl_PL@Przykładowy projekt makr;pt_BR@Exemplo de projeto de macros;cs_CZ@Vzorový projekt maker;it_IT@Progetto macro di esempio;hu_HU@Makróprojekt példa;pt_PT@Exemplo de projeto de macros;ko_KR@샘플 매크로 프로젝트;ja_JP@サンプル マクロ プロジェクト;tr_TR@Örnek makro projesi;ro_RO@Proiect macro eșantion;zh_TW@樣本巨集專案;" P10012="0" P10013="001" P10014="de_DE@EPLAN;en_US@EPLAN;es_ES@EPLAN;fr_FR@EPLAN;nl_NL@EPLAN;sv_SE@EPLAN;da_DK@EPLAN;ru_RU@EPLAN;zh_CN@EPLAN;pl_PL@EPLAN;pt_BR@EPLAN;cs_CZ@EPLAN;it_IT@EPLAN;hu_HU@EPLAN;pt_PT@EPLAN;ko_KR@EPLAN;ja_JP@EPLAN;tr_TR@EPLAN;ro_RO@EPLAN;zh_TW@EPLAN;" P10015="EPLAN GmbH &amp; Co. KG" P10016="An der alten Ziegelei 2" P10017="D-40789 Monheim am Rhein / Germany" P10018="16&#9;==&#9;.&#9;=&#9;.&#9;++&#9;.&#9;+&#9;.&#9;&#9;&#9;&amp;&#9;&#9;#&#9;#&#9;-&#9;-" P10019="16&#9;1&#9;1&#9;1&#9;1&#9;1&#9;1&#9;1&#9;1&#9;0&#9;0&#9;0&#9;0&#9;1&#9;0&#9;1&#9;0" P10020="EPL" P10021="1494972000" P10024="1628172512" P10025="EPLAN" P10029="4&#9;0&#9;0&#9;0&#9;0" P10034="de_DE@Keine;en_US@None;es_ES@Ninguno;fr_FR@Aucune;nl_NL@Geen;sv_SE@Inga;da_DK@Ingen;ru_RU@Нет;zh_CN@无;pl_PL@Brak;pt_BR@Nenhum;cs_CZ@Žádné;it_IT@Nessuno;hu_HU@Nincs;pt_PT@Nenhum;ko_KR@없음;ja_JP@なし;tr_TR@Yok;ro_RO@Niciuna;zh_TW@無;" P10042="2016/2017" P10050="&lt;10007&gt;&lt;10006&gt;&lt;11012&gt;&lt;11013&gt;" P10051="&lt;10002&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;" P10053="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10054="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10055="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10056="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10057="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10059="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10060="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10061="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10062="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10063="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10064="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10069="ESS_Sample_Macros.elk" P10070="&lt;10007&gt;&lt;10006&gt;&lt;11012&gt;&lt;11013&gt;" P10071="&lt;10002&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;" P10072="17539" P10073="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10074="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10075="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10076="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10077="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10079="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10080="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10081="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10082="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10083="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10084="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10085="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10086="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10089="&lt;10001&gt;&lt;10002&gt;&lt;10003&gt;&lt;10004&gt;&lt;10007&gt;&lt;10006&gt;&lt;10005&gt;" P10090="0" P10092="3&#9;10007&#9;0&#9;1&#9;11017&#9;0&#9;0&#9;10006&#9;0&#9;0" P10093="0" P10094="3&#9;10002&#9;0&#9;1&#9;10004&#9;0&#9;1&#9;20012&#9;0&#9;0&#9;20013&#9;0&#9;1&#9;20014&#9;0&#9;0&#9;20015&#9;0&#9;0" P10095="0" P10097="0" P10100="Muster GmbH" P10118_1="13256&#9;13272&#9;EsProjectCorrectionPlcStructForBusTerminals" P10230="EPLAN" P10231="Firma" P10232="EPLAN GmbH &amp; Co. KG" P10235="An der alten Ziegelei 2" P10237="40789" P10238="Monheim am Rhein" P10239="Deutschland" P10240="+49 (0)2173 - 39 64 - 0" P10241="+49 (0)2173 - 39 64 - 25" P10310="5" P10311="1" P10400="##_##@1541/SchemeDataProject;??_??@User-specific 3;" P10401="##_##@701/SchemeDataProject;" P10403="##_##@715/SchemeDataProject;" P10405="##_##@703/SchemeDataProject;" P10406="##_##@703/SchemeDataProject;" P10407="##_##@703/SchemeDataProject;" P10409="##_##@715/SchemeDataProject;" P10410="##_##@715/SchemeDataProject;" P10411="##_##@715/SchemeDataProject;" P10412="##_##@703/SchemeDataProject;" P10413="##_##@703/SchemeDataProject;" P10414="##_##@715/SchemeDataProject;" P10420="##_##@1540/SchemeDataProject;??_??@User-defined structure and document type &apos;Identifying&apos;;" P10421="##_##@701/SchemeDataProject;" P10423="##_##@715/SchemeDataProject;" P10425="##_##@703/SchemeDataProject;" P10426="##_##@703/SchemeDataProject;" P10427="##_##@703/SchemeDataProject;" P10429="##_##@715/SchemeDataProject;" P10430="##_##@715/SchemeDataProject;" P10431="##_##@715/SchemeDataProject;" P10432="##_##@703/SchemeDataProject;" P10433="##_##@703/SchemeDataProject;" P10434="##_##@715/SchemeDataProject;" P10450="2" P10510="1" P10511="1" P10512="1" P10513="0" P10514="0" P10515="0" P10516="0" P10517="D:\Masterdata\Sample" P10518="Version 2022" P10607_1="[117,1&lt;22069,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;]" P10608_10="[20203,6&lt;20201&lt;31090,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0,0&gt;&gt;]" P10609_5="[20221&lt;20010,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;]-[20222,1&lt;4&lt;11037,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,5&gt;&gt;][20222,1&lt;4&lt;11042,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]-[20222,1&lt;20221&lt;19006,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]/[20222,1&lt;20221&lt;19005,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]" P10660_5="=│de_DE@0;en_US@1;es_ES@1;fr_FR@1;nl_NL@1;sv_SE@1;da_DK@1;ru_RU@1;zh_CN@1;pl_PL@1;pt_BR@1;cs_CZ@1;it_IT@1;hu_HU@1;pt_PT@1;ko_KR@1;│de_DE@E;en_US@E;es_ES@E;fr_FR@E;nl_NL@E;sv_SE@E;da_DK@E;ru_RU@E;zh_CN@E;pl_PL@E;pt_BR@E;cs_CZ@E;it_IT@E;hu_HU@E;pt_PT@E;ko_KR@E;ja_JP@E;║=│de_DE@2;en_US@2;es_ES@2;fr_FR@2;nl_NL@2;sv_SE@2;da_DK@2;ru_RU@2;zh_CN@2;pl_PL@2;pt_BR@2;cs_CZ@2;it_IT@2;hu_HU@2;pt_PT@2;ko_KR@2;│de_DE@H;en_US@H;es_ES@H;fr_FR@H;nl_NL@H;sv_SE@H;da_DK@H;ru_RU@H;zh_CN@H;pl_PL@H;pt_BR@H;cs_CZ@H;it_IT@H;hu_HU@H;pt_PT@H;ko_KR@H;ja_JP@H;║=│de_DE@3;en_US@3;es_ES@3;fr_FR@3;nl_NL@3;sv_SE@3;da_DK@3;ru_RU@3;zh_CN@3;pl_PL@3;pt_BR@3;cs_CZ@3;it_IT@3;hu_HU@3;pt_PT@3;ko_KR@3;│de_DE@P;en_US@P;es_ES@P;fr_FR@P;nl_NL@P;sv_SE@P;da_DK@P;ru_RU@P;zh_CN@P;pl_PL@P;pt_BR@P;cs_CZ@P;it_IT@P;hu_HU@P;pt_PT@P;ko_KR@P;ja_JP@P;║=│de_DE@4;en_US@4;es_ES@4;fr_FR@4;nl_NL@4;sv_SE@4;da_DK@4;ru_RU@4;zh_CN@4;pl_PL@4;pt_BR@4;cs_CZ@4;it_IT@4;hu_HU@4;pt_PT@4;ko_KR@4;│de_DE@C;en_US@C;es_ES@C;fr_FR@C;nl_NL@C;sv_SE@C;da_DK@C;ru_RU@C;zh_CN@C;pl_PL@C;pt_BR@C;cs_CZ@C;it_IT@C;hu_HU@C;pt_PT@C;ko_KR@C;ja_JP@C;║=│de_DE@5;en_US@5;es_ES@5;fr_FR@5;nl_NL@5;sv_SE@5;da_DK@5;ru_RU@5;zh_CN@5;pl_PL@5;pt_BR@5;cs_CZ@5;it_IT@5;hu_HU@5;pt_PT@5;ko_KR@5;│de_DE@L;en_US@L;es_ES@L;fr_FR@L;nl_NL@L;sv_SE@L;da_DK@L;ru_RU@L;zh_CN@L;pl_PL@L;pt_BR@L;cs_CZ@L;it_IT@L;hu_HU@L;pt_PT@L;ko_KR@L;ja_JP@L;║=│??_??@6;│de_DE@V;en_US@V;es_ES@V;fr_FR@V;nl_NL@V;sv_SE@V;da_DK@V;ru_RU@V;zh_CN@V;pl_PL@V;pt_BR@V;cs_CZ@V;it_IT@V;hu_HU@V;pt_PT@V;ko_KR@V;ja_JP@V;║=│de_DE@7;en_US@7;es_ES@7;fr_FR@7;nl_NL@7;sv_SE@7;da_DK@7;ru_RU@7;zh_CN@7;pl_PL@7;pt_BR@7;cs_CZ@7;it_IT@7;hu_HU@7;pt_PT@7;ko_KR@7;│de_DE@F;en_US@F;es_ES@F;fr_FR@F;nl_NL@F;sv_SE@F;da_DK@F;ru_RU@F;zh_CN@F;pl_PL@F;pt_BR@F;cs_CZ@F;it_IT@F;hu_HU@F;pt_PT@F;ko_KR@F;ja_JP@F;║=│??_??@8;│de_DE@K;en_US@K;es_ES@K;fr_FR@K;nl_NL@K;sv_SE@K;da_DK@K;ru_RU@K;zh_CN@K;pl_PL@K;pt_BR@K;cs_CZ@K;it_IT@K;hu_HU@K;pt_PT@K;ko_KR@K;ja_JP@K;║=│??_??@9;│de_DE@G;en_US@G;es_ES@G;fr_FR@G;nl_NL@G;sv_SE@G;da_DK@G;ru_RU@G;zh_CN@G;pl_PL@G;pt_BR@G;cs_CZ@G;it_IT@G;hu_HU@G;pt_PT@G;ko_KR@G;ja_JP@G;" P10902="2" P10904="0" P19031="[14&lt;10155,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;][LF][14&lt;10157,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;][LF][14&lt;10158,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;]"/>
+  </O14>
+  <O6 Build="10367" A1="6/4" A3="0" A13="0" A14="0" A81="1100" A82="" A83="-13.0204678362573" A85="10002" A86="" A4049="0"/>
+  <O6 Build="17404" A1="6/1225" A3="0" A13="0" A14="0" A81="1200" A82="A2" A83="9.02916666666667" A85="10004" A86="" A4049="0">
+  <P11 P1002="de_DE@Schaltschrank 2;en_US@Enclosure 2;es_ES@Armario 2;fr_FR@Armoire de distribution 2;nl_NL@Schakelkast 2;sv_SE@Kopplingsskåp 2;da_DK@Tavle 2;ru_RU@Электрошкаф 2;zh_CN@箱柜 2;pl_PL@Szafa sterownicza 2;pt_BR@Painel 2;cs_CZ@Rozvaděč 2;it_IT@Armadio elettrico 2;hu_HU@2 kapcsolószekrény;pt_PT@Quadro 2;ko_KR@인클로저 2;ja_JP@エンクロージャ 2;tr_TR@Şalt panosu 2;ro_RO@Tablou 2;zh_TW@機箱 2;"/>
+  </O6>
+  <O6 Build="11300" A1="6/1413" A3="0" A13="0" A14="0" A81="1500" A82="" A83="0" A85="10006" A86="" A4049="0"/>
+  <O6 Build="10538" A1="6/1175" A3="0" A13="0" A14="0" A81="1600" A82="" A83="0" A85="10007" A86="" A4049="0"/>
+  <O6 Build="9380" A1="6/5" A3="0" A13="0" A14="0" A81="1200" A82="" A83="-14.9166666666667" A85="10004" A86="" A4049="0"/>
+  <O6 Build="17404" A1="6/1721" A3="0" A13="0" A14="0" A81="1100" A82="K1" A83="62.6659125188537" A85="10002" A86="" A4049="0">
+  <P11 P1002="de_DE@SPS-Steuerung;en_US@PLC controller;es_ES@Control PLC;fr_FR@Commande API;nl_NL@PLC-besturing;sv_SE@PLC-styrning;da_DK@PLC-styring;ru_RU@Управление ПЛК;zh_CN@PLC 控制系统;pl_PL@Sterowanie PLC;pt_BR@Comando CLP;cs_CZ@Řízení PLC;it_IT@Comando PLC;hu_HU@PLC-vezérlés;pt_PT@Comando PLC;ko_KR@PLC 컨트롤러;ja_JP@PLC 制御装置;tr_TR@PLC kumandası;ro_RO@Control PLC;zh_TW@PLC 控制器;"/>
+  </O6>
+  <O6 Build="17404" A1="6/1724" A3="0" A13="0" A14="0" A81="1100" A82="GAB1" A83="60.4659125188537" A85="10002" A86="" A4049="0">
+  <P11 P1002="de_DE@24 V Geräteversorgung;en_US@24 V device power supply;es_ES@Fuente de alimentación de dispositivo 24 V;fr_FR@Alimentation d&apos;appareil 24 V;nl_NL@24 V apparaatvoeding;sv_SE@24 V apparatmatning;da_DK@24 V komponentforsyning;ru_RU@Энергоснабжение устройства 24 В;zh_CN@24 V 设备电源;pl_PL@Zasilanie urządzeń 24 V;pt_BR@24 V alimentação do dispositivo;cs_CZ@24 V napájení přístroje;it_IT@Alimentazione apparecchi 24 V;hu_HU@24 V készüléktáp;pt_PT@Alimentação do dispositivo 24 V;ko_KR@24V 장치 전원 공급;ja_JP@24 V デバイス電源;tr_TR@24 V Cihaz beslemesi;ro_RO@24 V alimentare aparat;zh_TW@24 V 裝置電源;"/>
+  </O6>
+  <O4 Build="17529" A1="4/3017" A3="0" A13="0" A14="0" A47="1" A48="1611048337" A50="0" A59="1" A404="1" A405="64" A406="0" A407="0" A431="1" A699="00000000000000000000000000000000" A700="00000000-0000-0000-0000-000000000000" A1101="1" A1102="" A1103="" A4043="0" A4049="0">
+  <P11 P10185="EPLSNWHNWA" P11006="5" P11011="de_DE@Elektrische Einspeisung;en_EN@electrical Supply1;en_US@Electrical power supply;es_ES@Alimentación eléctrica;fr_FR@Alimentation électrique;nl_NL@Elektrische voeding;sv_SE@Elektrisk matning;da_DK@Elektrisk forsyning;ru_RU@Электропитание;zh_CN@电源;pl_PL@Zasilanie elektryczne;pt_BR@Alimentação de entrada elétrica;cs_CZ@Elektrické napájení;it_IT@Alimentazione elettrica;hu_HU@Elektromos betáplálás;pt_PT@Alimentação elétrica;ko_KR@전기 전원 공급;ja_JP@電気電源;tr_TR@Elektrik beslemesi;ro_RO@Alimentare electrică;zh_TW@電氣電源;" P11020="EPL" P11021="1525332966" P11022="EPL" P11024="1628172116" P11037="99" P11048="1" P11050="0" P11051="4"/>
+  <P49 P1500="EFS1" P1600="502" P1601="101" P1602="01" P11012="1"/>
+  <O42 Build="11647" A1="42/545321" A3="0" A13="0" A14="0" A404="5" A405="64" A406="0" A407="0" A792="0" A793="3" A794="0" A1261="0" A1262="64" A1263="0">
+  <S40x1201 A762="140/284">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  </O42>
+  <O42 Build="12392" A1="42/545322" A3="0" A13="0" A14="0" A404="5" A405="64" A406="0" A407="0" A792="0" A793="3" A794="0" A1261="0" A1262="64" A1263="0">
+  <S40x1201 A762="156/280">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  </O42>
+  <O42 Build="11647" A1="42/545323" A3="0" A13="0" A14="0" A404="5" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="70" A1263="3">
+  <S40x1201 A762="232/264">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  </O42>
+  <O42 Build="11647" A1="42/545324" A3="0" A13="0" A14="0" A404="5" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="70" A1263="0">
+  <S40x1201 A762="220/264">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  </O42>
+  <O83 Build="17404" A1="83/545325" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="110" A412="L" A413="L" A414="L" A415="L" A416="0" A501="140/48" A503="0" A506="0" A511="de_DE@Spannungsversorgung Ventilinsel;en_US@Power supply valve terminal;es_ES@Alimentación de tensión terminal de válvulas;fr_FR@Alimentation électrique Terminal de distributeurs;nl_NL@Voedingsspanning ventieleiland;sv_SE@Spänningsförsörjning ventilterminal;da_DK@Spændingsforsyning ventilø;ru_RU@Электропитание пневмоострова;zh_CN@阀岛电源;pl_PL@Zasilanie napięciem, wyspa zaworowa;pt_BR@Alimentação de tensão do terminal de válvulas;cs_CZ@Napájení ventilový terminál;it_IT@Alimentazione di tensione unità di valvole;hu_HU@Szelepsziget feszültségellátás;pt_PT@Alimentação de tensão terminal de válvulas;ko_KR@전원 공급 밸브 터미널;ja_JP@電源弁ターミナル;tr_TR@Gerilim beslemesi Valf adası;ro_RO@Alimentare tensiune unitate de supape;zh_TW@電源閥島;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="144" A966="10" A967="32" A968="13.875" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O83>
+  <O83 Build="17529" A1="83/545326" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="110" A412="L" A413="L" A414="L" A415="L" A416="0" A501="220/48" A503="0" A506="0" A511="de_DE@Störung 24 V Ventilinsel;en_US@Malfunction 24 V valve terminal;es_ES@Avería terminal de válvulas 24 V;fr_FR@Défaillance Terminal de distributeurs 24 V;nl_NL@Storing 24 V ventieleiland;sv_SE@Störning 24 V ventilterminal;da_DK@Fejl 24 V ventilø;ru_RU@Неисправность пневмоострова 24 В;zh_CN@24 V 阀岛故障;pl_PL@Usterka 24 V, wyspa zaworowa;pt_BR@Falha 24 V terminal de válvulas;cs_CZ@Porucha 24 V ventilový terminál;it_IT@Guasto 24 V unità di valvole;hu_HU@Zavar 24 V szelepsziget;pt_PT@Avaria terminal de válvulas 24 V;ko_KR@고장 24 V 밸브 터미널;ja_JP@機能不全 24 V 弁ターミナル;tr_TR@Arıza 24 V Valf adası;ro_RO@Defecțiune 24 V unitate de supape;zh_TW@24 V 閥島故障;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="144" A966="10" A967="32" A968="13.875" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O83>
+  <O89 Build="11647" A1="89/545327" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="1" A414="L" A415="L" A416="0" A1651="256/20" A1652="280/80" A1653="0" A1654="0" A1655="4" A1656="0" A1657="0"/>
+  <O37 Build="17246" A1="37/545328" A3="4" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A682="0" A683="42/545321;42/545322;42/545323;42/545324;83/545326;83/545325;89/545327;17/545332;17/545333;88/545334;59/545335;59/545336;17/545337;59/545338;59/545339;17/545340;17/545341;17/545342;17/545343;17/545344;17/545345;59/545346;17/545347;17/545348;17/545349;17/545350;17/545351;17/545352;88/545353;59/545354;59/545355;59/545356;59/545357;59/545358;70/545373;70/545374;70/545375;70/545376;89/545381;91/545382;17/545383;17/545384;89/545386;89/545387;91/545388;17/545389;17/545390;17/545391;17/545392;17/545393;31/545395;31/545396;31/545397;31/545398;32/545399;31/545400;31/545402;31/545403;31/545404;31/545405;32/545406;31/545407;42/545329;42/545330;42/545331;17/545359;59/545360;17/545361;17/545362;17/545363;17/545364;17/545365;17/545366;59/545367;59/545368;59/545369;59/545370;17/545371;59/545372;70/545377;70/545378;70/545379;31/545409;31/545410;31/545411;31/545412;32/545413;31/545414" A684="0" A687="8" A688="2" A689="1" A690="0" A691="0" A693="0" A695="5" A699="00000000000000000000000000000000" A702="1" A792="-128" A793="0" A794="0" A1261="0" A1262="44" A1263="0" A1631="0/-276" A1632="416/0">
+  <S109x692 R1906="42/545321"/>
+  <S109x692 R1906="42/545322"/>
+  <S109x692 R1906="42/545323"/>
+  <S109x692 R1906="42/545324"/>
+  <S109x692 R1906="83/545326"/>
+  <S109x692 R1906="83/545325"/>
+  <S109x692 R1906="89/545327"/>
+  <S109x692 R1906="17/545332"/>
+  <S109x692 R1906="17/545333"/>
+  <S109x692 R1906="88/545334"/>
+  <S109x692 R1906="59/545335"/>
+  <S109x692 R1906="59/545336"/>
+  <S109x692 R1906="17/545337"/>
+  <S109x692 R1906="59/545338"/>
+  <S109x692 R1906="59/545339"/>
+  <S109x692 R1906="17/545340"/>
+  <S109x692 R1906="17/545341"/>
+  <S109x692 R1906="17/545342"/>
+  <S109x692 R1906="17/545343"/>
+  <S109x692 R1906="17/545344"/>
+  <S109x692 R1906="17/545345"/>
+  <S109x692 R1906="59/545346"/>
+  <S109x692 R1906="17/545347"/>
+  <S109x692 R1906="17/545348"/>
+  <S109x692 R1906="17/545349"/>
+  <S109x692 R1906="17/545350"/>
+  <S109x692 R1906="17/545351"/>
+  <S109x692 R1906="17/545352"/>
+  <S109x692 R1906="88/545353"/>
+  <S109x692 R1906="59/545354"/>
+  <S109x692 R1906="59/545355"/>
+  <S109x692 R1906="59/545356"/>
+  <S109x692 R1906="59/545357"/>
+  <S109x692 R1906="59/545358"/>
+  <S109x692 R1906="70/545373"/>
+  <S109x692 R1906="70/545374"/>
+  <S109x692 R1906="70/545375"/>
+  <S109x692 R1906="70/545376"/>
+  <S109x692 R1906="89/545381"/>
+  <S109x692 R1906="91/545382"/>
+  <S109x692 R1906="17/545383"/>
+  <S109x692 R1906="17/545384"/>
+  <S109x692 R1906="89/545386"/>
+  <S109x692 R1906="89/545387"/>
+  <S109x692 R1906="91/545388"/>
+  <S109x692 R1906="17/545389"/>
+  <S109x692 R1906="17/545390"/>
+  <S109x692 R1906="17/545391"/>
+  <S109x692 R1906="17/545392"/>
+  <S109x692 R1906="17/545393"/>
+  <S109x692 R1906="31/545395"/>
+  <S109x692 R1906="31/545396"/>
+  <S109x692 R1906="31/545397"/>
+  <S109x692 R1906="31/545398"/>
+  <S109x692 R1906="32/545399"/>
+  <S109x692 R1906="31/545400"/>
+  <S109x692 R1906="31/545402"/>
+  <S109x692 R1906="31/545403"/>
+  <S109x692 R1906="31/545404"/>
+  <S109x692 R1906="31/545405"/>
+  <S109x692 R1906="32/545406"/>
+  <S109x692 R1906="31/545407"/>
+  <S109x692 R1906="42/545329"/>
+  <S109x692 R1906="42/545330"/>
+  <S109x692 R1906="42/545331"/>
+  <S109x692 R1906="17/545359"/>
+  <S109x692 R1906="59/545360"/>
+  <S109x692 R1906="17/545361"/>
+  <S109x692 R1906="17/545362"/>
+  <S109x692 R1906="17/545363"/>
+  <S109x692 R1906="17/545364"/>
+  <S109x692 R1906="17/545365"/>
+  <S109x692 R1906="17/545366"/>
+  <S109x692 R1906="59/545367"/>
+  <S109x692 R1906="59/545368"/>
+  <S109x692 R1906="59/545369"/>
+  <S109x692 R1906="59/545370"/>
+  <S109x692 R1906="17/545371"/>
+  <S109x692 R1906="59/545372"/>
+  <S109x692 R1906="70/545377"/>
+  <S109x692 R1906="70/545378"/>
+  <S109x692 R1906="70/545379"/>
+  <S109x692 R1906="31/545409"/>
+  <S109x692 R1906="31/545410"/>
+  <S109x692 R1906="31/545411"/>
+  <S109x692 R1906="31/545412"/>
+  <S109x692 R1906="32/545413"/>
+  <S109x692 R1906="31/545414"/>
+  <S40x1201 A762="4/292">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P11008_1="$(MD_MACROS)\ESS_Macro\502_Valve_Cluster_Controls\101_01_Variant_1\Power_Supply" P19008="ESS_Makrokasten" P23001="$(MD_MACROS)\ESS_Macro\502_Valve_Cluster_Controls\101_01_Variant_1\Power_Supply" P23002="2020"/>
+  <S89x5 Build="17246" A3="0" A4="1" R7="37/545328" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="308" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-276" A1652="416/0" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  <S53x5 Build="17246" A3="0" A4="2" R7="37/545328" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="400" A412="L" A413="L" A414="L" A415="L" A416="0" A503="4" A506="0" A771="23009" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17246" A3="0" A4="3" R7="37/545328" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="400" A412="L" A413="L" A414="L" A415="L" A416="0" A502="37/545328/2" A503="14" A506="0" A771="23008" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17246" A3="0" A4="4" R7="37/545328" A13="0" A14="0" A189="0" A404="0" A405="64" A406="1" A407="0" A411="400" A412="L" A413="L" A414="L" A415="L" A416="0" A502="37/545328/3" A503="14" A506="0" A771="23004" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O37>
+  <O42 Build="12392" A1="42/545329" A3="0" A13="0" A14="0" A404="5" A405="64" A406="0" A407="0" A792="0" A793="3" A794="0" A1261="0" A1262="66" A1263="1">
+  <S40x1201 A762="148/176">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  </O42>
+  <O42 Build="12392" A1="42/545330" A3="0" A13="0" A14="0" A404="5" A405="64" A406="0" A407="0" A792="0" A793="3" A794="0" A1261="0" A1262="66" A1263="1">
+  <S40x1201 A762="156/172">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  </O42>
+  <O42 Build="12392" A1="42/545331" A3="0" A13="0" A14="0" A404="5" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="70" A1263="3">
+  <S40x1201 A762="148/276">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  </O42>
+  <O17 Build="17108" A1="17/545332" A3="0" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="1" A185="1;2" A186=";" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="98" A1263="0" A1381="501" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="140/248">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20027="6 A" P20068="0" P20100_1="SIE.5SY4106-7" P20100_2="SIE.5ST3010" P20101_1="1" P20101_2="1" P20102_1="1" P20102_2="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20468="Ventilinsel_spannungsversorgung.ema" P31030="0"/>
+  <P144 P20013="FC" P20014="1"/>
+  <P150 P1200="A2" P20013="FC" P20014="1"/>
+  </O17>
+  <O17 Build="11647" A1="17/545333" A3="0" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="0" A185="33;34" A186=";" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1" A1263="0" A1381="201" A1382="1" A1383="2" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="220/248">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20051="0" P20216="0" P20294="0" P20468="Ventilinsel_spannungsversorgung.ema" P31030="0"/>
+  <P144 P20013="FC" P20014="1"/>
+  <P150 P1200="A2" P20013="FC" P20014="1"/>
+  </O17>
+  <O88 Build="11647" A1="88/545334" A3="1" A13="0" A14="0" A145="[1200]&lt;1200&gt;" A148="1" A404="1" A405="64" A406="0" A407="0" A792="4" A793="0" A794="0" A1261="0" A1262="2" A1263="0" A1631="0/-64" A1632="140/0">
+  <S40x1201 A762="112/268">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P144 P1200="A2"/>
+  <P150 P1200="A2"/>
+  <S89x5 Build="11647" A3="0" A4="1" R7="88/545334" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="307" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-64" A1652="140/0" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  </O88>
+  <O59 Build="11647" A1="59/545335" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="4" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="232/280">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20100_1="LAPP.4150402" P20101_1="1" P20102_1="1" P20216="0" P20468="Ventilinsel_spannungsversorgung.ema" P20904_1="0" P31002="1,5" P31004="BU" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31030="0" P31048="Multi-Standard SC 2.2" P31059="0"/>
+  </O59>
+  <O59 Build="17404" A1="59/545336" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="4" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="228/284">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20040="Multi-Standard SC 2.2" P20042="1" P20043="1,5" P20044="450/750V" P20054="450/750V" P20067="de_DE@Multi-Standard SC 2.2 1X1,5 GY;en_US@Multi-Standard SC 2.2 1X1,5 GY;pl_PL@Multi-Standard SC 2.2 1X1,5 GY;es_ES@Multi-Standard SC 2.2 1X1,5 GY;fr_FR@Multi-Standard SC 2.2 1X1,5 GY;nl_NL@Multi-Standard SC 2.2 1X1,5 GY;sv_SE@Multi-Standard SC 2.2 1X1,5 GY;da_DK@Multi-Standard SC 2.2 1X1,5 GY;ru_RU@Multi-Standard SC 2.2 1X1,5 GY;zh_CN@Multi-Standard SC 2.2 1X1,5 GY;pt_BR@Multi-Standard SC 2.2 1X1,5 GY;cs_CZ@Multi-Standard SC 2.2 1X1,5 GY;it_IT@Multi-Standard SC 2.2 1X1,5 GY;hu_HU@Multi-Standard SC 2.2 1X1,5 GY;pt_PT@Multi-Standard SC 2.2 1X1,5 GY;ko_KR@Multi-Standard SC 2.2 1X1,5 GY;ja_JP@Multi-Standard SC 2.2 1X1,5 GY;tr_TR@Multi-Standard SC 2.2 1X1,5 GY;ro_RO@Multi-Standard SC 2.2 1X1,5 GY;zh_TW@多標準 SC 2.2 1X1,5 GY;" P20068="0" P20100_1="LAPP.4150406" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20468="Ventilinsel_spannungsversorgung.ema" P20904_1="0" P31002="1,5" P31004="GY" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31030="0" P31048="Multi-Standard SC 2.2" P31059="0"/>
+  </O59>
+  <O17 Build="17404" A1="17/545337" A3="31" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="1" A191="32/0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="4" A1263="0" A1381="400" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="136/196">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P19008="ESS_Kabel" P20040="ÖLFLEX® CLASSIC 100" P20042="4G" P20043="0.75" P20044="300/500 V" P20046="3.884" P20054="300/500 V" P20064="1" P20065="4" P20067="cs_CZ@ÖLFLEX CLASSIC 100 4G0,75;da_DK@ÖLFLEX CLASSIC 100 4G0,75;de_DE@ÖLFLEX CLASSIC 100 4G0,75;en_EN@ÖLFLEX CLASSIC 100 4G0,75;en_US@ÖLFLEX CLASSIC 100 4G0,75;es_ES@ÖLFLEX CLASSIC 100 4G0,75;fr_FR@ÖLFLEX CLASSIC 100 4G0,75;it_IT@ÖLFLEX CLASSIC 100 4G0,75;ja_JP@ÖLFLEX CLASSIC 100 4G0,75;ko_KR@ÖLFLEX CLASSIC 100 4G0,75;nl_NL@ÖLFLEX CLASSIC 100 4G0,75;no_NO@ÖLFLEX CLASSIC 100 4G0,75;pl_PL@ÖLFLEX CLASSIC 100 4G0,75;pt_PT@ÖLFLEX CLASSIC 100 4G0,75;ro_RO@ÖLFLEX CLASSIC 100 4G0,75;ru_RU@ÖLFLEX CLASSIC 100 4G0,75;sv_SE@ÖLFLEX CLASSIC 100 4G0,75;tr_TR@ÖLFLEX CLASSIC 100 4G0,75;zh_CN@ÖLFLEX CLASSIC 100 4G0,75;pt_BR@ÖLFLEX CLASSIC 100 4G0,75;hu_HU@ÖLFLEX CLASSIC 100 4G0,75;zh_TW@ÖLFLEX CLASSIC 100 4G0,75;" P20068="4" P20081="0.0471 m" P20082="0.0471 m" P20100_1="LAPP.00100234" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20243="0.5471 m" P20246="0.5471 m" P20294="0" P20444="0" P20468="Ventilinsel_spannungsversorgung.ema" P31010_1="3.884" P31012_1="4" P31030="0"/>
+  <P144 P20013="WD" P20014="2"/>
+  <P150 P20013="WD" P20014="2"/>
+  <S31x5 Build="17404" A3="0" A4="1" R7="17/545337" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="304" A412="L" A413="L" A414="L" A415="L" A416="0" A532="32/0"/>
+  <S53x5 Build="17404" A3="0" A4="29" R7="17/545337" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="407" A412="L" A413="L" A414="L" A415="L" A416="0" A503="4" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="9" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17404" A3="0" A4="30" R7="17/545337" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="512" A412="L" A413="5" A414="L" A415="L" A416="0" A502="17/545337/29" A503="14" A506="0" A771="20201" A772="1" A773="0" A774="0" A951="17" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="5" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17404" A3="0" A4="31" R7="17/545337" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="440" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/545337/30" A503="14" A506="0" A771="20300" A772="0" A773="0" A774="0" A951="17" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O59 Build="12392" A1="59/545338" A3="2" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A190="1/1" A191="-1/-1" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" R1031="17/545337" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="4" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="140/196">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P19008="ESS_Kabelverbindung" P20051="0" P20216="0" P20294="0" P20468="Ventilinsel_spannungsversorgung.ema" P31000="3.8842" P31002="0.75" P31004="BK" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31059="1" P31142="1"/>
+  <P150 P20013="WD" P20014="2"/>
+  <S53x5 Build="12392" A3="0" A4="2" R7="59/545338" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="406" A412="L" A413="L" A414="L" A415="L" A416="0" A501="1.5/0.5" A503="20" A506="0" A771="31004" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="10" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  </O59>
+  <O59 Build="12392" A1="59/545339" A3="2" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A190="1/1" A191="-1/-1" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" R1031="17/545337" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="164/196">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P19008="ESS_Kabelverbindung" P20051="0" P20216="0" P20294="0" P20468="Ventilinsel_spannungsversorgung.ema" P31000="3.8842" P31002="0.75" P31004="GNYE" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31059="1" P31142="1"/>
+  <P150 P20013="WD" P20014="2"/>
+  <S53x5 Build="12392" A3="0" A4="2" R7="59/545339" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="406" A412="L" A413="L" A414="L" A415="L" A416="0" A501="1.5/0.5" A503="20" A506="0" A771="31004" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="10" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  </O59>
+  <O17 Build="11647" A1="17/545340" A3="0" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="2" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="140/188">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="1" P20034="0" P20035="0" P20051="0" P20054="1000" P20057="6" P20100_1="PXC.3211813" P20100_2="PXC.3022218" P20101_1="1" P20101_2="1" P20102_1="1" P20102_2="1" P20104_2="-1" P20164="FALSE" P20167="FALSE" P20184="FALSE" P20189="FALSE" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20367="2" P20466="0" P20468="Ventilinsel_spannungsversorgung.ema" P20808="0" P20809="2" P31030="0"/>
+  <P144 P20013="XD" P20014="1"/>
+  <P150 P20013="XD" P20014="1"/>
+  </O17>
+  <O17 Build="12392" A1="17/545341" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="2" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="148/188">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="2" P20034="0" P20035="0" P20051="0" P20054="1000" P20057="6" P20100_1="PXC.3211813" P20101_1="1" P20102_1="1" P20164="FALSE" P20167="FALSE" P20184="FALSE" P20189="FALSE" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20367="3" P20466="0" P20468="Ventilinsel_spannungsversorgung.ema" P20808="0" P20809="3" P31030="0"/>
+  <P150 P20013="XD" P20014="1"/>
+  </O17>
+  <O17 Build="13143" A1="17/545342" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="2" A1381="100" A1382="6" A1383="3" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="164/188">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="4" P20034="0" P20035="0" P20051="0" P20057="10" P20068="0" P20100_1="PXC.3211822" P20100_2="PXC.3022218" P20100_3="PXC.3212044" P20101_1="1" P20101_2="1" P20101_3="1" P20102_1="1" P20102_2="1" P20102_3="1" P20103_3="1" P20104_2="1" P20164="FALSE" P20167="FALSE" P20184="FALSE" P20189="FALSE" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20367="4" P20466="0" P20468="Ventilinsel_spannungsversorgung.ema" P20808="0" P20809="4" P20811="0" P20903_1="D" P20917_3="0" P20919_3="3212044" P20920_3="PXC" P20921_3="PXC" P31014_3="de_DE@Abschlussdeckel, Länge: 57,7 mm, Breite: 2,2 mm, Höhe: 42 mm, Farbe: grau;en_US@End cover, Length: 57.7 mm, Width: 2.2 mm, Height: 42 mm, Color: gray;zh_CN@端板, 长度: 57.7 mm, 厚度: 2.2 mm, 高度: 42 mm, 颜色: 灰色;es_ES@Tapa final, Longitud: 57,7 mm, Anchura: 2,2 mm, Altura: 42 mm, Color: gris;fr_FR@Flasque d&apos;extrémité, Longueur: 57,7 mm, Largeur: 2,2 mm, Hauteur: 42 mm, Coloris: gris;it_IT@Piastra terminale, Lunghezza: 57,7 mm, Larghezza: 2,2 mm, Altezza: 42 mm, Colore: grigio;ru_RU@Концевая крышка, Длина: 57,7 мм, Ширина: 2,2 мм, Высота: 42 мм, Цвет: cерый;nl_NL@Afsluitplaat , lengte: 57,7 mm, breedte: 2,2 mm, hoogte: 42 mm, kleur: grijs;tr_TR@Kapak, Uzunluk: 57,7 mm, Genişlik: 2,2 mm, Yükseklik: 42 mm, Renk: gri;hu_HU@Lezárófedél, Hossz: 57,7 mm, Szélesség: 2,2 mm, Magasság: 42 mm, Szín: szürke;pl_PL@Pokrywa zamykająca, Długość: 57,7 mm, Szerokość: 2,2 mm, Wysokość: 42 mm, Kolor: szary;da_DK@Endeplade, Længde: 57,7 mm, Bredde: 2,2 mm, Højde: 42 mm, Farve: grå;cs_CZ@Zakončovací kryt, Délka: 57,7 mm, Šířka: 2,2 mm, Výška: 42 mm, Barva: šedá;pt_PT@Tampa terminal, Comprimento: 57,7 mm, Largura: 2,2 mm, Altura: 42 mm, Cor: cinza;sv_SE@Ändplatta, Längd: 57,7 mm, Bredd: 2,2 mm, Höjd: 42 mm, Färg: grå;ko_KR@엔드 커버, 길이: 57.7 mm, 폭: 2.2 mm, 높이: 42 mm, 색상: 회색;no_NO@Endedeksel, Lengde: 57,7 mm, Bredde: 2,2 mm, Høyde: 42 mm, Farge: grå;" P31030="0"/>
+  <P150 P20013="XD" P20014="1"/>
+  </O17>
+  <O17 Build="13143" A1="17/545343" A3="0" A13="0" A14="0" A145="&lt;[20012]20013&lt;20014&gt;&gt;" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="0" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="140/212">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="16" P20034="0" P20035="0" P20044="1000" P20051="0" P20054="1000" P20057="6" P20068="0" P20100_1="PXC.3211813" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20367="19" P20466="0" P20468="Ventilinsel_spannungsversorgung.ema" P20808="0" P20809="17" P31030="0"/>
+  <P144 P20013="XD" P20014="11"/>
+  <P150 P1200="A2" P20013="XD" P20014="11"/>
+  </O17>
+  <O17 Build="13143" A1="17/545344" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="0" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="148/212">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="17" P20034="0" P20035="0" P20044="1000" P20054="1000" P20057="6" P20068="0" P20100_1="PXC.3211813" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20367="20" P20466="0" P20468="Ventilinsel_spannungsversorgung.ema" P20808="0" P20809="18" P31030="0"/>
+  <P150 P1200="A2" P20013="XD" P20014="11"/>
+  </O17>
+  <O17 Build="13143" A1="17/545345" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="0" A1381="100" A1382="6" A1383="3" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="164/212">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="19" P20034="0" P20035="0" P20057="10" P20068="0" P20100_1="PXC.3211822" P20100_2="PXC.3024481" P20101_1="1" P20101_2="1" P20102_1="1" P20102_2="1" P20104_2="1" P20164="FALSE" P20167="FALSE" P20184="FALSE" P20189="FALSE" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20367="21" P20466="0" P20468="Ventilinsel_spannungsversorgung.ema" P20808="0" P20809="19" P20811="0" P20903_1="D" P31030="0"/>
+  <P150 P1200="A2" P20013="XD" P20014="11"/>
+  </O17>
+  <O59 Build="12392" A1="59/545346" A3="2" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" R1031="17/545337" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="156/196">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P19008="ESS_Kabelverbindung" P20216="0" P20294="0" P20468="Ventilinsel_spannungsversorgung.ema" P31000="3.8842" P31002="0.75" P31004="BN" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31059="1" P31142="1"/>
+  <P150 P20013="WD" P20014="2"/>
+  <S53x5 Build="12392" A3="0" A4="2" R7="59/545346" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="406" A412="L" A413="L" A414="L" A415="L" A416="0" A501="1.5/0.5" A503="20" A506="0" A771="31004" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="10" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  </O59>
+  <O17 Build="17356" A1="17/545347" A3="0" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A190="1/1" A191="-1/-1" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="2" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="220/100">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="31" P20034="0" P20035="0" P20044="1000" P20054="1000" P20057="6" P20068="0" P20100_1="PXC.3211813" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20367="32" P20468="Ventilinsel_spannungsversorgung.ema" P20808="0" P20809="32" P31030="0"/>
+  <P144 P20013="XG" P20014="4"/>
+  <P150 P1200="A2" P20013="XG" P20014="4"/>
+  </O17>
+  <O17 Build="17359" A1="17/545348" A3="0" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="0" A185="7.4" A186="IN15" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="353" A1263="0" A1381="300" A1382="1" A1383="2" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="220/84">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20028_1="2.1" P20051="0" P20216="0" P20294="0" P20400="%IX4.6" P20405="BOOL" P20406="4" P20468="Ventilinsel_spannungsversorgung.ema" P31030="0"/>
+  <P144 P20013="KE" P20014="3"/>
+  <P150 P1100="K1" P1200="A2" P20013="KE" P20014="3"/>
+  </O17>
+  <O17 Build="17359" A1="17/545349" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="7.5" A186="+" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="4" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="354" A1263="0" A1381="300" A1382="3" A1383="5" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="232/84">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20028_1="2.1" P20216="0" P20294="0" P20405="BOOL" P20406="4" P20468="Ventilinsel_spannungsversorgung.ema" P31030="0"/>
+  <P150 P1100="K1" P1200="A2" P20013="KE" P20014="3"/>
+  </O17>
+  <O17 Build="17359" A1="17/545350" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="7.6" A186="-" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="4" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="354" A1263="0" A1381="300" A1382="3" A1383="7" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="244/84">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20028_1="2.1" P20216="0" P20294="0" P20405="BOOL" P20406="4" P20468="Ventilinsel_spannungsversorgung.ema" P31030="0"/>
+  <P150 P1100="K1" P1200="A2" P20013="KE" P20014="3"/>
+  </O17>
+  <O17 Build="17356" A1="17/545351" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A190="1/1" A191="-1/-1" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="2" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="232/100">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="32" P20034="0" P20035="0" P20044="1000" P20051="0" P20054="1000" P20057="6" P20068="0" P20100_1="PXC.3211813" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20367="33" P20468="Ventilinsel_spannungsversorgung.ema" P20808="0" P20809="33" P31030="0"/>
+  <P150 P1200="A2" P20013="XG" P20014="4"/>
+  </O17>
+  <O17 Build="17356" A1="17/545352" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A190="1/1" A191="-1/-1" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="2" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="244/100">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="33" P20034="0" P20035="0" P20044="1000" P20051="0" P20054="1000" P20057="6" P20068="0" P20100_1="PXC.3211813" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20367="34" P20468="Ventilinsel_spannungsversorgung.ema" P20808="0" P20809="34" P31030="0"/>
+  <P150 P1200="A2" P20013="XG" P20014="4"/>
+  </O17>
+  <O88 Build="17356" A1="88/545353" A3="3" A13="0" A14="0" A145="[1100]&lt;1100&gt;[1200]&lt;1200&gt;" A148="1" A404="1" A405="64" A406="0" A407="0" A792="4" A793="0" A794="0" A1261="0" A1262="2" A1263="0" A1631="0/-72" A1632="60/0">
+  <S40x1201 A762="192/124">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P144 P1100="K1" P1200="A2"/>
+  <P150 P1100="K1" P1200="A2"/>
+  <S89x5 Build="17356" A3="0" A4="3" R7="88/545353" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="307" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-72" A1652="60/0" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  </O88>
+  <O59 Build="11647" A1="59/545354" A3="0" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="220/108">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20100_1="LAPP.4150206" P20101_1="1" P20102_1="1" P20216="0" P20468="Ventilinsel_spannungsversorgung.ema" P20904_1="0" P31002="0,75" P31004="GY" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31030="0" P31048="Multi-Standard SC 2.2" P31059="0"/>
+  </O59>
+  <O59 Build="11647" A1="59/545355" A3="0" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="232/108">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20100_1="LAPP.4150206" P20101_1="1" P20102_1="1" P20216="0" P20468="Ventilinsel_spannungsversorgung.ema" P20904_1="0" P31002="0,75" P31004="GY" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31030="0" P31048="Multi-Standard SC 2.2" P31059="0"/>
+  </O59>
+  <O59 Build="11647" A1="59/545356" A3="0" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="220/92">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20100_1="LAPP.4150206" P20101_1="1" P20102_1="1" P20216="0" P20468="Ventilinsel_spannungsversorgung.ema" P20904_1="0" P31002="0,75" P31004="GY" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31030="0" P31048="Multi-Standard SC 2.2" P31059="0"/>
+  </O59>
+  <O59 Build="11647" A1="59/545357" A3="0" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="232/92">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20100_1="LAPP.4150206" P20101_1="1" P20102_1="1" P20216="0" P20468="Ventilinsel_spannungsversorgung.ema" P20904_1="0" P31002="0,75" P31004="GY" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31030="0" P31048="Multi-Standard SC 2.2" P31059="0"/>
+  </O59>
+  <O59 Build="11647" A1="59/545358" A3="0" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="244/92">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20100_1="LAPP.4150206" P20101_1="1" P20102_1="1" P20216="0" P20468="Ventilinsel_spannungsversorgung.ema" P20904_1="0" P31002="0,75" P31004="GY" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31030="0" P31048="Multi-Standard SC 2.2" P31059="0"/>
+  </O59>
+  <O17 Build="13143" A1="17/545359" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="0" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="156/212">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="18" P20034="0" P20035="0" P20044="1000" P20054="1000" P20057="6" P20068="0" P20100_1="PXC.3211813" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20367="20" P20466="0" P20468="Ventilinsel_spannungsversorgung.ema" P20808="0" P20809="18" P31030="0"/>
+  <P150 P1200="A2" P20013="XD" P20014="11"/>
+  </O17>
+  <O59 Build="12392" A1="59/545360" A3="2" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" R1031="17/545337" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="148/196">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P19008="ESS_Kabelverbindung" P20216="0" P20294="0" P20468="Ventilinsel_spannungsversorgung.ema" P31000="3.8842" P31002="0.75" P31004="GY" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31059="1" P31142="1"/>
+  <P150 P20013="WD" P20014="2"/>
+  <S53x5 Build="12392" A3="0" A4="2" R7="59/545360" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="406" A412="L" A413="L" A414="L" A415="L" A416="0" A501="1.5/0.5" A503="20" A506="0" A771="31004" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="10" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  </O59>
+  <O17 Build="12392" A1="17/545361" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="2" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="156/188">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="3" P20034="0" P20035="0" P20051="0" P20054="1000" P20057="6" P20100_1="PXC.3211813" P20101_1="1" P20102_1="1" P20164="FALSE" P20167="FALSE" P20184="FALSE" P20189="FALSE" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20367="3" P20466="0" P20468="Ventilinsel_spannungsversorgung.ema" P20808="0" P20809="3" P31030="0"/>
+  <P150 P20013="XD" P20014="1"/>
+  </O17>
+  <O17 Build="12402" A1="17/545362" A3="0" A13="0" A14="0" A145="&lt;[20012]20013&lt;20014&gt;&gt;" A147="1" A148="1" A182="0" A185="1;1 female" A186=";" A190="inf/inf" A191="-inf/-inf" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="234" A1263="0" A1381="101" A1382="2" A1383="5" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="140/104">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="1" P20035="0" P20051="0" P20052="0" P20216="0" P20466="0" P20808="4" P31030="0"/>
+  <P144 P20013="XD" P20014="2"/>
+  <P150 P20013="XD" P20014="2"/>
+  </O17>
+  <O17 Build="12402" A1="17/545363" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="2;2 female" A186=";" A190="inf/inf" A191="-inf/-inf" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="234" A1263="0" A1381="101" A1382="2" A1383="5" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="148/104">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="2" P20035="0" P20051="0" P20052="0" P20216="0" P20466="0" P20808="4" P31030="0"/>
+  <P150 P20013="XD" P20014="2"/>
+  </O17>
+  <O17 Build="12402" A1="17/545364" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="3;3 female" A186=";" A190="inf/inf" A191="-inf/-inf" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="234" A1263="0" A1381="101" A1382="2" A1383="5" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="156/104">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="3" P20035="0" P20051="0" P20052="0" P20216="0" P20466="0" P20808="4" P31030="0"/>
+  <P150 P20013="XD" P20014="2"/>
+  </O17>
+  <O17 Build="12402" A1="17/545365" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="PE; PE female" A186=";" A190="inf/inf" A191="-inf/-inf" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="234" A1263="0" A1381="101" A1382="2" A1383="7" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="164/104">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="PE" P20035="0" P20052="0" P20216="0" P20466="0" P20808="4" P31030="0"/>
+  <P150 P20013="XD" P20014="2"/>
+  </O17>
+  <O17 Build="17404" A1="17/545366" A3="31" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="1" A191="32/0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="4" A1263="0" A1381="400" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="136/112">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P19008="ESS_Kabel" P20040="ÖLFLEX® CLASSIC 100" P20042="4G" P20043="0.75" P20044="300/500 V" P20046="0.239" P20054="300/500 V" P20064="1" P20065="4" P20067="cs_CZ@ÖLFLEX CLASSIC 100 4G0,75;da_DK@ÖLFLEX CLASSIC 100 4G0,75;de_DE@ÖLFLEX CLASSIC 100 4G0,75;en_EN@ÖLFLEX CLASSIC 100 4G0,75;en_US@ÖLFLEX CLASSIC 100 4G0,75;es_ES@ÖLFLEX CLASSIC 100 4G0,75;fr_FR@ÖLFLEX CLASSIC 100 4G0,75;it_IT@ÖLFLEX CLASSIC 100 4G0,75;ja_JP@ÖLFLEX CLASSIC 100 4G0,75;ko_KR@ÖLFLEX CLASSIC 100 4G0,75;nl_NL@ÖLFLEX CLASSIC 100 4G0,75;no_NO@ÖLFLEX CLASSIC 100 4G0,75;pl_PL@ÖLFLEX CLASSIC 100 4G0,75;pt_PT@ÖLFLEX CLASSIC 100 4G0,75;ro_RO@ÖLFLEX CLASSIC 100 4G0,75;ru_RU@ÖLFLEX CLASSIC 100 4G0,75;sv_SE@ÖLFLEX CLASSIC 100 4G0,75;tr_TR@ÖLFLEX CLASSIC 100 4G0,75;zh_CN@ÖLFLEX CLASSIC 100 4G0,75;pt_BR@ÖLFLEX CLASSIC 100 4G0,75;hu_HU@ÖLFLEX CLASSIC 100 4G0,75;zh_TW@ÖLFLEX CLASSIC 100 4G0,75;" P20068="4" P20081="0.0471 m" P20082="0.0471 m" P20100_1="LAPP.00100234" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20243="0.5471 m" P20246="0.5471 m" P20294="0" P20444="0" P20468="Ventilinsel_spannungsversorgung.ema" P31010_1="0.239" P31012_1="4" P31030="0" P31095="+B2.Y1-U130"/>
+  <P144 P20013="WD" P20014="11"/>
+  <P150 P20013="WD" P20014="11"/>
+  <S31x5 Build="17404" A3="0" A4="1" R7="17/545366" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="304" A412="L" A413="L" A414="L" A415="L" A416="0" A532="32/0"/>
+  <S53x5 Build="17404" A3="0" A4="29" R7="17/545366" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="407" A412="L" A413="L" A414="L" A415="L" A416="0" A503="4" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="9" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17404" A3="0" A4="30" R7="17/545366" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="512" A412="L" A413="5" A414="L" A415="L" A416="0" A502="17/545366/29" A503="14" A506="0" A771="20201" A772="1" A773="0" A774="0" A951="17" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="5" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17404" A3="0" A4="31" R7="17/545366" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="440" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/545366/30" A503="14" A506="0" A771="20300" A772="0" A773="0" A774="0" A951="17" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O59 Build="12402" A1="59/545367" A3="2" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A190="1/1" A191="-1/-1" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" R1031="17/545366" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="156/112">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P19008="ESS_Kabelverbindung" P20051="0" P20216="0" P20294="0" P20468="Ventilinsel_spannungsversorgung.ema" P31000="0.237" P31004="GY" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31059="1" P31142="1"/>
+  <P150 P20013="WD" P20014="11"/>
+  <S53x5 Build="12402" A3="0" A4="2" R7="59/545367" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="406" A412="L" A413="L" A414="L" A415="L" A416="0" A501="1.5/0.5" A503="20" A506="0" A771="31004" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="10" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  </O59>
+  <O59 Build="12402" A1="59/545368" A3="2" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A190="1/1" A191="-1/-1" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" R1031="17/545366" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="164/112">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P19008="ESS_Kabelverbindung" P20051="0" P20216="0" P20294="0" P20468="Ventilinsel_spannungsversorgung.ema" P31000="0.239" P31004="GNYE" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31059="1" P31142="1"/>
+  <P150 P20013="WD" P20014="11"/>
+  <S53x5 Build="12402" A3="0" A4="2" R7="59/545368" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="406" A412="L" A413="L" A414="L" A415="L" A416="0" A501="1.5/0.5" A503="20" A506="0" A771="31004" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="10" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  </O59>
+  <O59 Build="12402" A1="59/545369" A3="2" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" R1031="17/545366" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="140/112">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P19008="ESS_Kabelverbindung" P20216="0" P20294="0" P20468="Ventilinsel_spannungsversorgung.ema" P31000="0.238" P31004="BK" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31059="1" P31142="1"/>
+  <P150 P20013="WD" P20014="11"/>
+  <S53x5 Build="12402" A3="0" A4="2" R7="59/545369" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="406" A412="L" A413="L" A414="L" A415="L" A416="0" A501="1.5/0.5" A503="20" A506="0" A771="31004" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="10" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  </O59>
+  <O59 Build="12402" A1="59/545370" A3="2" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" R1031="17/545366" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="148/112">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P19008="ESS_Kabelverbindung" P20216="0" P20294="0" P20468="Ventilinsel_spannungsversorgung.ema" P31000="0.237" P31004="BN" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31059="1" P31142="1"/>
+  <P150 P20013="WD" P20014="11"/>
+  <S53x5 Build="12402" A3="0" A4="2" R7="59/545370" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="406" A412="L" A413="L" A414="L" A415="L" A416="0" A501="1.5/0.5" A503="20" A506="0" A771="31004" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="10" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  </O59>
+  <O17 Build="13143" A1="17/545371" A3="0" A13="0" A14="0" A145="&lt;[20012]20013&lt;20014&gt;&gt;" A147="1" A148="1" A182="0" A185=";;;" A186=";;;" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="2" A1381="100" A1382="6" A1383="3" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="100/112">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="5" P20034="0" P20035="0" P20051="0" P20057="10" P20068="0" P20100_1="PXC.3211822" P20100_2="PXC.3022218" P20100_3="PXC.3212044" P20101_1="1" P20101_2="1" P20101_3="1" P20102_1="1" P20102_2="1" P20102_3="1" P20103_3="1" P20104_2="2" P20104_3="1" P20164="FALSE" P20167="FALSE" P20184="FALSE" P20189="FALSE" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20367="4" P20466="0" P20468="Ventilinsel_spannungsversorgung.ema" P20808="0" P20809="7" P20811="0" P20903_1="D" P20917_3="0" P20919_3="3212044" P20920_3="PXC" P20921_3="PXC" P31014_3="de_DE@Abschlussdeckel, Länge: 57,7 mm, Breite: 2,2 mm, Höhe: 42 mm, Farbe: grau;en_US@End cover, Length: 57.7 mm, Width: 2.2 mm, Height: 42 mm, Color: gray;zh_CN@端板, 长度: 57.7 mm, 厚度: 2.2 mm, 高度: 42 mm, 颜色: 灰色;es_ES@Tapa final, Longitud: 57,7 mm, Anchura: 2,2 mm, Altura: 42 mm, Color: gris;fr_FR@Flasque d&apos;extrémité, Longueur: 57,7 mm, Largeur: 2,2 mm, Hauteur: 42 mm, Coloris: gris;it_IT@Piastra terminale, Lunghezza: 57,7 mm, Larghezza: 2,2 mm, Altezza: 42 mm, Colore: grigio;ru_RU@Концевая крышка, Длина: 57,7 мм, Ширина: 2,2 мм, Высота: 42 мм, Цвет: cерый;nl_NL@Afsluitplaat , lengte: 57,7 mm, breedte: 2,2 mm, hoogte: 42 mm, kleur: grijs;tr_TR@Kapak, Uzunluk: 57,7 mm, Genişlik: 2,2 mm, Yükseklik: 42 mm, Renk: gri;hu_HU@Lezárófedél, Hossz: 57,7 mm, Szélesség: 2,2 mm, Magasság: 42 mm, Szín: szürke;pl_PL@Pokrywa zamykająca, Długość: 57,7 mm, Szerokość: 2,2 mm, Wysokość: 42 mm, Kolor: szary;da_DK@Endeplade, Længde: 57,7 mm, Bredde: 2,2 mm, Højde: 42 mm, Farve: grå;cs_CZ@Zakončovací kryt, Délka: 57,7 mm, Šířka: 2,2 mm, Výška: 42 mm, Barva: šedá;pt_PT@Tampa terminal, Comprimento: 57,7 mm, Largura: 2,2 mm, Altura: 42 mm, Cor: cinza;sv_SE@Ändplatta, Längd: 57,7 mm, Bredd: 2,2 mm, Höjd: 42 mm, Färg: grå;ko_KR@엔드 커버, 길이: 57.7 mm, 폭: 2.2 mm, 높이: 42 mm, 색상: 회색;" P31030="0"/>
+  <P144 P20013="XD" P20014="1"/>
+  <P150 P20013="XD" P20014="1"/>
+  </O17>
+  <O59 Build="17404" A1="59/545372" A3="0" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A190="inf/inf" A191="-inf/-inf" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="308" A1263="0" A1381="4" A1382="1" A1383="4" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="100/100">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20027="3" P20040="Multi-Standard SC 2.2" P20042="1" P20043="0,75" P20044="450/750V" P20054="450/750V" P20067="de_DE@Multi-Standard SC 2.2 1X0,75 GNYE;en_US@Multi-Standard SC 2.2 1X0,75 GNYE;pl_PL@Multi-Standard SC 2.2 1X0,75 GNYE;es_ES@Multi-Standard SC 2.2 1X0,75 GNYE;fr_FR@Multi-Standard SC 2.2 1X0,75 GNYE;nl_NL@Multi-Standard SC 2.2 1X0,75 GNYE;sv_SE@Multi-Standard SC 2.2 1X0,75 GNYE;da_DK@Multi-Standard SC 2.2 1X0,75 GNYE;ru_RU@Multi-Standard SC 2.2 1X0,75 GNYE;zh_CN@Multi-Standard SC 2.2 1X0,75 GNYE;pt_BR@Multi-Standard SC 2.2 1X0,75 GNYE;cs_CZ@Multi-Standard SC 2.2 1X0,75 GNYE;it_IT@Multi-Standard SC 2.2 1X0,75 GNYE;hu_HU@Multi-Standard SC 2.2 1X0,75 GNYE;pt_PT@Multi-Standard SC 2.2 1X0,75 GNYE;ko_KR@Multi-Standard SC 2.2 1X0,75 GNYE;ja_JP@Multi-Standard SC 2.2 1X0,75 GNYE;tr_TR@Multi-Standard SC 2.2 1X0,75 GNYE;ro_RO@Multi-Standard SC 2.2 1X0,75 GNYE;zh_TW@多標準 SC 2.2 1X0,75 GNYE;" P20068="0" P20100_1="LAPP.4150200" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20444="0" P20904_1="0" P31002="0,75" P31004="GNYE" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31030="0" P31048="Multi-Standard SC 2.2" P31059="0"/>
+  </O59>
+  <O70 Build="17356" A1="70/545373" A3="0" A13="0" A14="0" A145="&lt;[1100]1100&gt;&lt;[20012]20012&lt;20013&gt;&gt;" A148="1" A404="5" A405="64" A406="0" A407="0" A792="9" A793="0" A794="0" A1261="0" A1262="8" A1263="0" A1301="100" A4049="0">
+  <S40x1201 A762="48/284">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P144 P1100="GAB1" P20012="24" P20013="V"/>
+  <P150 P1100="GAB1" P20012="24" P20013="V"/>
+  </O70>
+  <O70 Build="17356" A1="70/545374" A3="0" A13="0" A14="0" A145="[1100]&lt;1100&gt;[20012]&lt;20012&gt;&lt;20013&gt;" A148="1" A404="5" A405="64" A406="0" A407="0" A792="9" A793="0" A794="0" A1261="0" A1262="8" A1263="0" A1301="100" A4049="0">
+  <S40x1201 A762="48/280">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P144 P1100="GAB1" P20012="0" P20013="V"/>
+  <P150 P1100="GAB1" P20012="0" P20013="V"/>
+  </O70>
+  <O70 Build="17356" A1="70/545375" A3="0" A13="0" A14="0" A145="&lt;[1100]1100&gt;&lt;[20012]20012&lt;20013&gt;&gt;" A148="1" A404="5" A405="64" A406="0" A407="0" A792="1" A793="0" A794="0" A1261="0" A1262="8" A1263="0" A1301="100" A4049="0">
+  <S40x1201 A762="376/284">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P144 P1100="GAB1" P20012="24" P20013="V"/>
+  <P150 P1100="GAB1" P20012="24" P20013="V"/>
+  </O70>
+  <O70 Build="17356" A1="70/545376" A3="0" A13="0" A14="0" A145="&lt;[1100]1100&gt;&lt;[20012]20012&lt;20013&gt;&gt;" A148="1" A404="5" A405="64" A406="0" A407="0" A792="1" A793="0" A794="0" A1261="0" A1262="8" A1263="0" A1301="100" A4049="0">
+  <S40x1201 A762="376/280">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P144 P1100="GAB1" P20012="0" P20013="V"/>
+  <P150 P1100="GAB1" P20012="0" P20013="V"/>
+  </O70>
+  <O70 Build="12392" A1="70/545377" A3="0" A13="0" A14="0" A145="[20012]&lt;20012&gt;&lt;20013&gt;" A148="1" A404="5" A405="64" A406="0" A407="0" A792="1" A793="0" A794="0" A1261="0" A1262="8" A1263="0" A1301="100" A4049="0">
+  <S40x1201 A762="376/176">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P144 P20012="24" P20013="V"/>
+  <P150 P20012="24" P20013="V"/>
+  </O70>
+  <O70 Build="12392" A1="70/545378" A3="0" A13="0" A14="0" A145="[20012]&lt;20012&gt;&lt;20013&gt;" A148="1" A404="5" A405="64" A406="0" A407="0" A792="1" A793="0" A794="0" A1261="0" A1262="8" A1263="0" A1301="100" A4049="0">
+  <S40x1201 A762="376/172">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P144 P20012="0" P20013="V"/>
+  <P150 P20012="0" P20013="V"/>
+  </O70>
+  <O70 Build="17356" A1="70/545379" A3="0" A13="0" A14="0" A145="[1100]&lt;1100&gt;[20012]&lt;20012&gt;&lt;20013&gt;" A148="1" A404="5" A405="64" A406="0" A407="0" A792="9" A793="0" A794="0" A1261="0" A1262="8" A1263="0" A1301="100" A4049="0">
+  <S40x1201 A762="48/276">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P144 P1100="K1" P20012="24" P20013="V"/>
+  <P150 P1100="K1" P20012="24" P20013="V"/>
+  </O70>
+  <O26 Build="11647" A1="26/545380" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1">
+  <O89 Build="11647" A1="89/545381" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="305" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="12/56" A1652="108/62" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  <O91 Build="11647" A1="91/545382" A3="0" A13="0" A14="0" A404="-127" A405="64" A406="0" A407="0" A411="205" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="93/58.5" A1652="106/61.5" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0" A1671="$(IMG)\Logo_big_10x2(1).png" A1672="" A1673="1" A1674="1181" A1675="236"/>
+  <ExternalFile Path="$(IMG)\Logo_big_10x2(1).png" Coding="Hex" Modification="1625153628">89504e470d0a1a0a0000000d494844520000049d000000ec0806000000de81d730000000097048597300002e2300002e230178a53f7600000a4f6943435050686f746f73686f70204943432070726f66696c65000078da9d53675453e9163df7def4424b8880944b6f5215082052428b801491262a2109104a8821a1d91551c1114545041bc8a088038e8e808c15512c0c8a0ad807e421a28e83a3888acafbe17ba36bd6bcf7e6cdfeb5d73ee7acf39db3cf07c0080c9648335135800ca9421e11e083c7c4c6e1e42e40810a2470001008b3642173fd230100f87e3c3c2b22c007be000178d30b0800c04d9bc0301c87ff0fea42995c01808401c07491384b08801400407a8e42a600404601809d98265300a0040060cb6362e300502d0060277fe6d300809df8997b01005b94211501a09100201365884400683b00accf568a450058300014664bc43900d82d00304957664800b0b700c0ce100bb200080c00305188852900047b0060c8232378008499001446f2573cf12bae10e72a00007899b23cb9243945815b082d710757572e1e28ce49172b14366102619a402ec27999193281340fe0f3cc0000a0911511e083f3fd78ce0eaecece368eb60e5f2deabf06ff226262e3fee5cfab70400000e1747ed1fe2c2fb31a803b06806dfea225ee04685e0ba075f78b66b20f40b500a0e9da57f370f87e3c3c45a190b9d9d9e5e4e4d84ac4425b61ca577dfe67c25fc057fd6cf97e3cfcf7f5e0bee22481325d814704f8e0c2ccf44ca51ccf92098462dce68f47fcb70bfffc1dd322c44962b9582a14e35112718e449a8cf332a52289429229c525d2ff64e2df2cfb033edf3500b06a3e017b912da85d6303f64b27105874c0e2f70000f2bb6fc1d4280803806883e1cf77ffef3ffd47a02500806649927100005e44242e54cab33fc708000044a0812ab0411bf4c1182cc0061cc105dcc10bfc6036844224c4c24210420a64801c726029ac82422886cdb01d2a602fd4401d34c051688693700e2ec255b80e3d700ffa61089ec128bc81090441c808136121da8801628a58238e08179985f821c14804128b2420c9881451224b91354831528a542055481df23d720239875c46ba913bc8003282fc86bc47319481b2513dd40cb543b9a8371a8446a20bd06474319a8f16a09bd072b41a3d8c36a1e7d0ab680fda8f3e43c730c0e8180733c46c302ec6c342b1382c099363cbb122ac0cabc61ab056ac03bb89f563cfb17704128145c0093604774220611e4148584c584ed848a8201c243411da093709038451c2272293a84bb426ba11f9c4186232318758482c23d6128f132f107b8843c437241289433227b9900249b1a454d212d246d26e5223e92ca99b34481a2393c9da646bb20739942c202bc885e49de4c3e433e41be421f25b0a9d624071a4f853e22852ca6a4a19e510e534e5066598324155a39a52dda8a15411358f5a42ada1b652af5187a81334759a39cd8316494ba5ada295d31a681768f769afe874ba11dd951e4e97d057d2cbe947e897e803f4770c0d861583c7886728199b18071867197718af984ca619d38b19c754303731eb98e7990f996f55582ab62a7c1591ca0a954a9526951b2a2f54a9aaa6aadeaa0b55f355cb548fa95e537dae46553353e3a909d496ab55aa9d50eb531b5367a93ba887aa67a86f543fa47e59fd890659c34cc34f43a451a0b15fe3bcc6200b6319b3782c216b0dab86758135c426b1cdd97c762abb98fd1dbb8b3daaa9a13943334a3357b352f394663f07e39871f89c744e09e728a797f37e8ade14ef29e2291ba6344cb931655c6baa96979658ab48ab51ab47ebbd36aeeda79da6bd45bb59fb810e41c74a275c2747678fce059de753d953dda70aa7164d3d3af5ae2eaa6ba51ba1bb4477bf6ea7ee989ebe5e809e4c6fa7de79bde7fa1c7d2ffd54fd6dfaa7f5470c5806b30c2406db0cce183cc535716f3c1d2fc7dbf151435dc34043a561956197e18491b9d13ca3d5468d460f8c69c65ce324e36dc66dc6a326062621264b4dea4dee9a524db9a629a63b4c3b4cc7cdcccda2cdd699359b3d31d732e79be79bd79bdfb7605a785a2cb6a8b6b86549b2e45aa659eeb6bc6e855a3959a558555a5db346ad9dad25d6bbadbba711a7b94e934eab9ed667c3b0f1b6c9b6a9b719b0e5d806dbaeb66db67d6167621767b7c5aec3ee93bd937dba7d8dfd3d070d87d90eab1d5a1d7e73b472143a563ade9ace9cee3f7dc5f496e92f6758cf10cfd833e3b613cb29c4699d539bd347671767b97383f3888b894b82cb2e973e2e9b1bc6ddc8bde44a74f5715de17ad2f59d9bb39bc2eda8dbafee36ee69ee87dc9fcc349f299e593373d0c3c843e051e5d13f0b9f95306bdfac7e4f434f8167b5e7232f632f9157add7b0b7a577aaf761ef173ef63e729fe33ee33c37de32de595fcc37c0b7c8b7cb4fc36f9e5f85df437f23ff64ff7affd100a78025016703898141815b02fbf87a7c21bf8e3f3adb65f6b2d9ed418ca0b94115418f82ad82e5c1ad2168c8ec90ad21f7e798ce91ce690e85507ee8d6d00761e6618bc37e0c2785878557863f8e7088581ad131973577d1dc4373df44fa449644de9b67314f39af2d4a352a3eaa2e6a3cda37ba34ba3fc62e6659ccd5589d58496c4b1c392e2aae366e6cbedffcedf387e29de20be37b17982fc85d7079a1cec2f485a716a92e122c3a96404c884e3894f041102aa8168c25f21377258e0a79c21dc267222fd136d188d8435c2a1e4ef2482a4d7a92ec91bc357924c533a52ce5b98427a990bc4c0d4cdd9b3a9e169a76206d323d3abd31839291907142aa214d93b667ea67e66676cbac6585b2fec56e8bb72f1e9507c96bb390ac05592d0ab642a6e8545a28d72a07b267655766bfcd89ca3996ab9e2bcdedccb3cadb90379cef9fffed12c212e192b6a5864b572d1d58e6bdac6a39b23c7179db0ae315052b865606ac3cb88ab62a6dd54fabed5797ae7ebd267a4d6b815ec1ca82c1b5016beb0b550ae5857debdcd7ed5d4f582f59dfb561fa869d1b3e15898aae14db1797157fd828dc78e51b876fcabf99dc94b4a9abc4b964cf66d266e9e6de2d9e5b0e96aa97e6970e6e0dd9dab40ddf56b4edf5f645db2f97cd28dbbb83b643b9a3bf3cb8bc65a7c9cecd3b3f54a454f454fa5436eed2ddb561d7f86ed1ee1b7bbcf634ecd5db5bbcf7fd3ec9bedb5501554dd566d565fb49fbb3f73fae89aae9f896fb6d5dad4e6d71edc703d203fd07230eb6d7b9d4d51dd23d54528fd62beb470ec71fbefe9def772d0d360d558d9cc6e223704479e4e9f709dff71e0d3ada768c7bace107d31f761d671d2f6a429af29a469b539afb5b625bba4fcc3ed1d6eade7afc47db1f0f9c343c59794af354c969dae982d39367f2cf8c9d959d7d7e2ef9dc60dba2b67be763cedf6a0f6fefba1074e1d245ff8be73bbc3bce5cf2b874f2b2dbe51357b8579aaf3a5f6dea74ea3cfe93d34fc7bb9cbb9aaeb95c6bb9ee7abdb57b66f7e91b9e37ceddf4bd79f116ffd6d59e393dddbdf37a6ff7c5f7f5df16dd7e7227fdcecbbbd97727eeadbc4fbc5ff440ed41d943dd87d53f5bfedcd8efdc7f6ac077a0f3d1dc47f7068583cffe91f58f0f43058f998fcb860d86eb9e383e3939e23f72fde9fca743cf64cf269e17fea2fecbae17162f7ef8d5ebd7ced198d1a197f29793bf6d7ca5fdeac0eb19afdbc6c2c61ebec97833315ef456fbedc177dc771defa3df0f4fe47c207f28ff68f9b1f553d0a7fb93199393ff040398f3fc63332ddb0000000467414d410000b18e7cfb5193000000206348524d00007a25000080830000f9ff000080e9000075300000ea6000003a980000176f925fc54600000a4b4944415478daecdd516e14b1b686d12ed43309e30b6321e383b198a7202520e8c05f656fefb5deee918e6e9fca76d9fee8c031c6b80100000040d2278f000000008034d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d10900000080b8bb47b09fe3e5fbfbff68782aac34a26ffeaf2f9f1fff6f7efd66b6e9bd0e7e5d0357b1d6bacee655ec05586ff602daef05e3f9c993df90e8b43f9b03abcee461aeb10e265df0ad2f3ef6f33f0a7d56b017585ff4da0b589ce8d4ef65012bcde761aeb10e9638c459573c3a1fc7829f09ec05d6153df7020a109d7abc1460974396b9067b052e1de616ac29ec0514213a01800b06fccf1cb97040663d1d93d630d80b388d7fbdce6502803eefec618fc0b903ac59eb167b0157119d00c061105c62c15e00f602e2442700700004175ab01780bd8038d109001cfac0dc813509e68e38d109001cf6c0fc81b50867cc9f196c4e740200970c3087600d8259244e740200073b308f60ed01c4894e00e09201e612ac393097c4894e00e03007e613ac35309fc4894e00e01007e614007b0171a21300002e1b607d8159254e740200073700ec050071a21300002ec700d80b88139d00c0810d007b01409ce804002e19607e01b01710273a010000b8b403c4894e0000b82c03602f204e740200073400ec050071a213000000308b80ba31d1090000170d00204e740200977400ec050071a2130000000071a213000033f9c60600f6824d894e00000000c4894e0050873f0504c05e0094213a0100000010273a01c05c874700602ff008801d894e80031600000071a21300cc23bc827503661ad896e8043860813500d60f986580b8bb4780cd18cc35581725b5fc17acc6f353f979395ebefb997b076016bc03684174c24603e61aac8bdacfce25a4e77a19de039801ef00589d5fafc3a603e61a66ad09ebc2fb053f77f36b8ecd8067c7c6442700c025d33305738b9fbfe70871a2135e9a60aec17a00eb09ccaee70971a21300e050ecf98279056b0ae24427000000ae228e4023a21300e0920100f65a88139d000000b8822802cd884e00002e743e33807d00e244270000170e9f150088bb7b040000db798d3963f1cf07006c4c740200d897b803004ce3d7eb0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d00802b0c8f0000a017d10900b88af00400d088e804000000409ce8c46afc2938e61aac07000036203a010057139e00001a109d701901730db3d684750100b0b1bb4740810bfae17160aea1c5bab036000036223a51f142c29a5c14cd35d681b561a601007ef2eb75808b225807f0a799f6ab9000c03f119d00176eb00ee0d1d916a0008087894e00007c94f80400fc95e8049c711101a0cf3bdf7b1f00f82dd1090080ff253c0100bf109d00a00eff92182bf3ad2700e00dd109008024e10900b8dd6ea213000079c21300203a0100700ae109009a139d00a0167faf1395084f00d098e80400c099842700684a740200e06cc2130034243a01403d7ec58e8a84270068467402000000204e7402809a7cdb898a7cdb09001a119d0000b892f004004d884e0050976f3b0100b02cd1090080abf9b6130034203a01406dbeed0400c0924427000066f06d2700d89ce80400f5f9b6130000cb119d00600fc21300004b119d00601fc213d5f8153b00d898e804007b119e00005882e80400fb119e0000984e7402803d094f00004c253a01c0be84272af0f73a01c0a6442700d8db71139f000098407402801e842700002e253a01401fbef50400c0654427e08c4b2db0fe3ab55601003895e804005947b1cf2a3e0100708abb470034bd6c8335f0fbcfed5f120300204274023a5fb4c11a78ec7f8b100500c087894eb8c481b906735b8700080094213ae17203661ba8f71e119f0080e5f98bc401aebd2802a4de29de2b00c0d244275cccc15c03de2f000071a21300406dc21300b024d1090000008038d10900a03edf76020096233a0100000010273a0100000010273a0100ecc1afd801004b119d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088139d0000000088bb7b040050da58f0331d7e2c0000884e0050cf28f2f9c4270080c6fc7a1d00d4327c563c6f00a002d109003893100200f65d9a129d00c041120000e2442700e06c621900f6036848740200709103c05e0071a21300804b06807796e70a71a213804300e0fd02e0dde579429ce8040038107ba600de619e23c4894e000e04601d789600b3de65de67f6023676f708002e3f181c1e05cdd78135e07201e08c642fa001d109c06181390e6b0000ec0fb033bf5e07000ed6000010273a01c03cc2130000db129d0000000088139d00602edf760200604ba2130000000071a21300d4e19f9206c05e0094213a0100000010273a010030936f6d00602fd894e804000000409ce8040000508b6f850025884e00e0a201000071a2130000b388a800d80b36263a010000b8a803c4894e00e0a201e618007b0171a2130000000071a21300d4e44f0631bf80b5042c4d7402000000ae269a36203a0180c31a985bb0a6c0dc12273a0180431b00f6028038d1090000176300ec05c4894e00e0f006e614ac3130a7c4894e00e01007e613ac358038d109005c3600b01780d9244e740200073a309360dd8199244e740200073b308b60fd8159244e740200073c3083601d8219244e740200073d48cf9dd9037b01983d44270070e003f306d62644e7cdcc71bbdd44270070f803975ab01780bd8013884e163a00f6077091057b01d80b88bb7b04d800015abdfb5effff0d8f1efb36b45fbff602ec059cca379d009b1af45d4fd61466c7dee8339b1f3f0fcc0ea7f14da7bd5f02a3d8e70570599cfb19fc8937f669e73eac71b384bd8018d1a9c74b6114f99cb0d35c43c5f7defbcf659d99516afdcc9cf9b01760cdb2d6108de11d020000004096bfd3090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d1090000008038d10900000080b81f000000ffff0300d48bf2155ac4017f0000000049454e44ae426082</ExternalFile>
+  <O17 Build="11647" A1="17/545383" A3="25" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="PE" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="1" A1262="298" A1263="0" A1381="1302" A1382="1" A1383="2" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="100/88">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0"/>
+  <P150 P20013="XD" P20014="1"/>
+  <S53x5 Build="11647" A3="0" A4="17" R7="17/545383" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-10" A503="20" A506="0" A771="20028" A772="1" A773="0" A774="0" A951="2" A952="0" A953="0" A954="16" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="11647" A3="0" A4="18" R7="17/545383" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="421" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0.526/-1.513" A502="17/545383/17" A503="18" A506="0" A771="20029" A772="1" A773="0" A774="0" A951="2" A952="0" A953="0" A954="16" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="11647" A3="0" A4="19" R7="17/545383" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="400" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-6/0" A503="4" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="6" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="11647" A3="0" A4="20" R7="17/545383" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="440" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-6/-3" A502="17/545383/19" A503="14" A506="0" A771="20300" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="6" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="11647" A3="0" A4="21" R7="17/545383" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="500" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-6/-3.84" A502="17/545383/20" A503="14" A506="0" A771="20027" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="6" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="11647" A3="0" A4="22" R7="17/545383" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-6/-3.84" A502="17/545383/21" A503="14" A506="0" A771="20901" A772="1" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="6" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="11647" A3="0" A4="23" R7="17/545383" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="501" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-6/-3.84" A502="17/545383/22" A503="14" A506="0" A771="20011" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="6" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="11647" A3="0" A4="24" R7="17/545383" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="502" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-6/-3.84" A502="17/545383/23" A503="14" A506="0" A771="20025" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="6" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="11647" A3="0" A4="25" R7="17/545383" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="503" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-6/-3.84" A502="17/545383/24" A503="10" A506="0" A771="20024" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="6" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="13143" A1="17/545384" A3="179" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="1" A190="0/-36" A191="96/0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="0" A1263="0" A1381="1303" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="12/92">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20100_1="FES.195716" P20101_1="1" P20101_2="1" P20101_3="1" P20101_4="1" P20101_5="1" P20101_6="1" P20101_7="1" P20101_8="1" P20101_9="1" P20101_10="1" P20102_1="1" P20102_2="0" P20102_3="0" P20102_4="0" P20102_5="0" P20102_6="0" P20102_7="0" P20102_8="0" P20102_9="0" P20102_10="0" P20164="0" P20167="0" P20184="0" P20189="0" P20202_1="[20064&lt;117,1&lt;22001,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0&gt;&gt;]" P20202_2="[20064&lt;117,1&lt;22002,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0&gt;&gt;]" P20216="0" P20917_1="0"/>
+  <P144 P20013="XD" P20014="1"/>
+  <P150 P20013="XD" P20014="1"/>
+  <S89x5 Build="13143" A3="0" A4="1" R7="17/545384" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="305" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-36" A1652="96/0" A1653="0" A1654="0" A1655="4" A1656="0" A1657="0"/>
+  <S53x5 Build="13143" A3="0" A4="171" R7="17/545384" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="400" A412="L" A413="L" A414="L" A415="L" A416="0" A503="4" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="3" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="1" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="13143" A3="0" A4="172" R7="17/545384" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="440" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/545384/171" A503="14" A506="0" A771="20300" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="1" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="13143" A3="0" A4="173" R7="17/545384" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="500" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/545384/172" A503="14" A506="0" A771="20027" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="13143" A3="0" A4="174" R7="17/545384" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/545384/173" A503="14" A506="0" A771="20901" A772="1" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="13143" A3="0" A4="175" R7="17/545384" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="501" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/545384/174" A503="14" A506="0" A771="20120" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="13143" A3="0" A4="176" R7="17/545384" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="502" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/545384/175" A503="14" A506="0" A771="20025" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="13143" A3="0" A4="177" R7="17/545384" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="503" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/545384/176" A503="10" A506="0" A771="20024" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="13143" A3="0" A4="178" R7="17/545384" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="108" A412="L" A413="L" A414="L" A415="L" A416="0" A501="4/4" A503="0" A506="0" A771="20201" A772="1" A773="20064" A774="0" A951="2" A952="0" A953="0" A954="3" A955="0">
+  <S54x505 A961="1.8" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="13143" A3="0" A4="179" R7="17/545384" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="108" A412="L" A413="L" A414="L" A415="L" A416="0" A501="4/1.5" A503="0" A506="0" A771="20201" A772="2" A773="20064" A774="0" A951="2" A952="0" A953="0" A954="3" A955="0">
+  <S54x505 A961="1.8" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  </O26>
+  <O26 Build="11647" A1="26/545385" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1">
+  <O89 Build="11647" A1="89/545386" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="306" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="132/84" A1652="172/92" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  <O89 Build="11647" A1="89/545387" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="306" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="116/56" A1652="188/62" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  <O91 Build="11647" A1="91/545388" A3="0" A13="0" A14="0" A404="-127" A405="64" A406="0" A407="0" A411="205" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="173/58.5" A1652="186/61.5" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0" A1671="$(IMG)\Logo_big_10x2(1).png" A1672="" A1673="1" A1674="1181" A1675="236"/>
+  <O17 Build="17359" A1="17/545389" A3="70" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="3" A186="0V" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="-X20" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="34" A1263="0" A1381="300" A1382="2" A1383="7" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="156/88">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20406="-X20" P31030="0"/>
+  <P150 P20013="KE" P20014="1"/>
+  <S53x5 Build="17359" A3="0" A4="69" R7="17/545389" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="2/0" A503="0" A506="0" A771="20036" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="70" R7="17/545389" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-6" A503="0" A506="0" A771="20039" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="1.5707963267949" A963="0" A964="L" A965="0" A966="6" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="17359" A1="17/545390" A3="60" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="1" A186="24V El./Sen." A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="34" A1263="0" A1381="300" A1382="2" A1383="5" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="140/88">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20406="-X20" P31030="0"/>
+  <P150 P20013="KE" P20014="1"/>
+  <S53x5 Build="17359" A3="0" A4="58" R7="17/545390" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="400" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-2/0" A503="0" A506="0" A771="20406" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="6" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="59" R7="17/545390" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="2/0" A503="0" A506="0" A771="20036" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="60" R7="17/545390" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-6" A503="0" A506="0" A771="20039" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="1.5707963267949" A963="0" A964="L" A965="0" A966="6" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="17359" A1="17/545391" A3="59" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="2" A186="24V Out./Val." A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="-X20" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="34" A1263="0" A1381="300" A1382="2" A1383="5" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="148/88">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20406="-X20" P31030="0"/>
+  <P150 P20013="KE" P20014="1"/>
+  <S53x5 Build="17359" A3="0" A4="58" R7="17/545391" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="2/0" A503="0" A506="0" A771="20036" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="59" R7="17/545391" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-6" A503="0" A506="0" A771="20039" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="1.5707963267949" A963="0" A964="L" A965="0" A966="6" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="17359" A1="17/545392" A3="70" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="4" A186="FE" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="-X20" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="34" A1263="0" A1381="300" A1382="2" A1383="8" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="164/88">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20406="-X20" P31030="0"/>
+  <P150 P20013="KE" P20014="1"/>
+  <S53x5 Build="17359" A3="0" A4="69" R7="17/545392" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="2/0" A503="0" A506="0" A771="20036" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="70" R7="17/545392" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-6" A503="0" A506="0" A771="20039" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="1.5707963267949" A963="0" A964="L" A965="0" A966="6" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="17359" A1="17/545393" A3="512" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="0" A190="0/-36" A191="72/0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-127" A793="0" A794="0" A1261="0" A1262="1" A1263="0" A1381="301" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="116/92">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20202_1="[20064&lt;117,1&lt;22001,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0&gt;&gt;]" P20202_2="[20064&lt;117,1&lt;22002,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0&gt;&gt;]" P20202_3="[20064&lt;117,1&lt;22005,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]" P20216="0" P20466="0" P31030="0"/>
+  <P144 P20013="KE" P20014="1"/>
+  <P150 P20013="KE" P20014="1"/>
+  <S89x5 Build="17359" A3="0" A4="1" R7="17/545393" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="306" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-36" A1652="72/0" A1653="0" A1654="0" A1655="4" A1656="0" A1657="0"/>
+  <S53x5 Build="17359" A3="0" A4="503" R7="17/545393" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="400" A412="L" A413="L" A414="L" A415="L" A416="0" A503="4" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="3" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="1" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="504" R7="17/545393" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="440" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/545393/503" A503="14" A506="0" A771="20300" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="505" R7="17/545393" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="500" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/545393/504" A503="14" A506="0" A771="20027" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="506" R7="17/545393" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="504" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/545393/505" A503="14" A506="0" A771="20901" A772="1" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="507" R7="17/545393" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="501" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/545393/506" A503="14" A506="0" A771="20011" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="508" R7="17/545393" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="502" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/545393/507" A503="14" A506="0" A771="20025" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="509" R7="17/545393" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="503" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/545393/508" A503="10" A506="0" A771="20024" A772="0" A773="0" A774="0" A951="2" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="3" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="510" R7="17/545393" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="108" A412="L" A413="L" A414="L" A415="L" A416="0" A501="4/4" A503="0" A506="0" A771="20201" A772="1" A773="20064" A774="0" A951="2" A952="0" A953="0" A954="3" A955="0">
+  <S54x505 A961="1.8" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="511" R7="17/545393" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="108" A412="L" A413="L" A414="L" A415="L" A416="0" A501="4/1.5" A503="0" A506="0" A771="20201" A772="2" A773="20064" A774="0" A951="2" A952="0" A953="0" A954="3" A955="0">
+  <S54x505 A961="1.8" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17359" A3="0" A4="512" R7="17/545393" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="108" A412="L" A413="L" A414="L" A415="L" A416="0" A501="1/0" A503="0" A506="0" A771="20201" A772="3" A773="20064" A774="0" A951="2" A952="0" A953="0" A954="1" A955="0">
+  <S54x505 A961="L" A962="L" A963="0" A964="L" A965="0" A966="1" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  </O26>
+  <O26 Build="11647" A1="26/545394" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1">
+  <O31 Build="11647" A1="31/545395" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="164/212" A532="165.573978270103/211.996861913414"/>
+  <O31 Build="11647" A1="31/545396" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="167.046380989746/211.947729819404" A532="167.046380989746/213.097729819404"/>
+  <O31 Build="11647" A1="31/545397" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="166.46876636908/211.041285399655" A532="167.71876636908/211.041285399655"/>
+  <O31 Build="11647" A1="31/545398" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="166.207891599801/211.462615732663" A532="167.957891599801/211.462615732663"/>
+  <O32 Build="11647" A1="32/545399" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="167.077821964148/211.9888944613" A556="1.5/0" A557="1" A558="0" A559="0"/>
+  <O31 Build="11647" A1="31/545400" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="165.940474047975/211.914071512838" A532="168.190474047975/211.914071512838"/>
+  </O26>
+  <O26 Build="11647" A1="26/545401" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1">
+  <O31 Build="11647" A1="31/545402" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="164.75/188" A532="166.323978270103/187.996861913414"/>
+  <O31 Build="11647" A1="31/545403" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="167.796380989746/187.947729819404" A532="167.796380989746/189.097729819404"/>
+  <O31 Build="11647" A1="31/545404" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="167.21876636908/187.041285399655" A532="168.46876636908/187.041285399655"/>
+  <O31 Build="11647" A1="31/545405" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="166.957891599801/187.462615732663" A532="168.707891599801/187.462615732663"/>
+  <O32 Build="11647" A1="32/545406" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="167.827821964148/187.9888944613" A556="1.5/0" A557="1" A558="0" A559="0"/>
+  <O31 Build="11647" A1="31/545407" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="166.690474047975/187.914071512838" A532="168.940474047975/187.914071512838"/>
+  </O26>
+  <O26 Build="12402" A1="26/545408" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1">
+  <O31 Build="12402" A1="31/545409" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="100.75/112" A532="102.323978270103/111.996861913414"/>
+  <O31 Build="12402" A1="31/545410" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="103.796380989746/111.947729819404" A532="103.796380989746/113.097729819404"/>
+  <O31 Build="12402" A1="31/545411" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="103.21876636908/111.041285399655" A532="104.46876636908/111.041285399655"/>
+  <O31 Build="12402" A1="31/545412" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="102.957891599801/111.462615732663" A532="104.707891599801/111.462615732663"/>
+  <O32 Build="12402" A1="32/545413" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="103.827821964148/111.9888944613" A556="1.5/0" A557="1" A558="0" A559="0"/>
+  <O31 Build="12402" A1="31/545414" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="102.690474047975/111.914071512838" A532="104.940474047975/111.914071512838"/>
+  </O26>
+  </O4>
+ </MacroVariant>
+</EplanPxfRoot>

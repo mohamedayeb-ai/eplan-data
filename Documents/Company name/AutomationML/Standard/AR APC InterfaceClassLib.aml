@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile FileName="AR APC InterfaceClassLib V1_0_0.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AdditionalInformation>
+		<WriterHeader>
+			<WriterName>AutomationML Editor</WriterName>
+			<WriterID>916578CA-FE0D-474E-A4FC-9E1719892369</WriterID>
+			<WriterVendor>AutomationML e.V.</WriterVendor>
+			<WriterVendorURL>www.AutomationML.org</WriterVendorURL>
+			<WriterVersion>4.4.8.0</WriterVersion>
+			<WriterRelease>4.4.8.0</WriterRelease>
+			<LastWritingDateTime>2016-12-08T10:09:39.8749925+01:00</LastWritingDateTime>
+			<WriterProjectTitle>unspecified</WriterProjectTitle>
+			<WriterProjectID>unspecified</WriterProjectID>
+		</WriterHeader>
+	</AdditionalInformation>
+	<AdditionalInformation AutomationMLVersion="2.0" />
+	<InterfaceClassLib Name="AutomationProjectConfigurationInterfaceClassLib">
+		<Description>Automation Markup Language Automation Project Configuration InterfaceClass Library</Description>
+		<Version>1.0.0</Version>
+		<InterfaceClass Name="Tag" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector/PLCopenXMLInterface/VariableInterface">
+			<Attribute Name="DataType" AttributeDataType="xs:string" />
+			<Attribute Name="LogicalAddress" AttributeDataType="xs:string" />
+			<Attribute Name="Comment" AttributeDataType="xs:string" />
+		</InterfaceClass>
+		<InterfaceClass Name="CommunicationPortInterface" RefBaseClassPath="CommunicationInterfaceClassLib/PhysicalEndPoint" />
+		<InterfaceClass Name="Channel" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication/SignalInterface">
+			<Attribute Name="Type" AttributeDataType="xs:string" />
+			<Attribute Name="IoType" AttributeDataType="xs:string" />
+			<Attribute Name="Number" AttributeDataType="xs:int" />
+			<Attribute Name="Length" AttributeDataType="xs:int" />
+		</InterfaceClass>
+	</InterfaceClassLib>
+</CAEXFile>

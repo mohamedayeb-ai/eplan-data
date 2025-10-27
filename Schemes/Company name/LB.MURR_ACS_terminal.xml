@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings format="2">
+  <CAT name="USER">
+    <MOD name="Labelling">
+      <LEV1 name="Config" nodekind="scheme">
+        <LEV2 name="MURR_ACS_Klemmen">
+          <Setting name="Description" type="mlstring">
+            <Val>??_??@Beschriftung Klemmen nach MURR;</Val>
+          </Setting>
+          <Setting name="Name" type="mlstring">
+            <Val>??_??@MURR_ACS_KLEMMEN;</Val>
+          </Setting>
+          <Setting name="ReadOnly" type="bool">
+            <Val />
+          </Setting>
+          <LEV3 name="Data" nodekind="block">
+            <Setting name="DocumentTypeID" type="int">
+              <Val>9</Val>
+            </Setting>
+            <LEV4 name="File">
+              <Setting name="Destination" type="string">
+                <Val>C:\MURR\MURR_ACS_KLEMMEN.PRN</Val>
+              </Setting>
+              <Setting name="Format" type="string">
+                <Val>XmlLblTextExportConverterImpl</Val>
+              </Setting>
+              <Setting name="Template" type="string">
+                <Val />
+              </Setting>
+            </LEV4>
+            <LEV4 name="Footer">
+              <Setting name="OnEachPage" type="bool">
+                <Val />
+              </Setting>
+            </LEV4>
+            <LEV4 name="Header">
+              <Setting name="OnEachPage" type="bool">
+                <Val>1</Val>
+              </Setting>
+            </LEV4>
+            <LEV4 name="Record">
+              <Setting name="NrLinePerPage" type="int">
+                <Val>999</Val>
+              </Setting>
+              <Setting name="NrRecPerLine" type="int">
+                <Val>1</Val>
+              </Setting>
+              <Setting name="RecSeparator" type="string">
+                <Val>;</Val>
+              </Setting>
+              <LEV5 name="FormatElements">
+                <Setting name="Element" type="int">
+                  <Val />
+                  <Val>1</Val>
+                </Setting>
+                <Setting name="ID" type="int">
+                  <Val>7</Val>
+                  <Val />
+                </Setting>
+                <LEV6 name="Interspace7">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>15</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>SP</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack0">
+                  <Setting name="Length" type="int">
+                    <Val>10</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val>2</Val>
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>7</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val>2084188894</Val>
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>20000</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Klemmeneigenschaften</Val>
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val />
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>20030</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[20030&lt;10&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P20030</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack7">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[SP15]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>SP</Val>
+                  </Setting>
+                </LEV6>
+              </LEV5>
+            </LEV4>
+          </LEV3>
+        </LEV2>
+      </LEV1>
+    </MOD>
+  </CAT>
+</Settings>

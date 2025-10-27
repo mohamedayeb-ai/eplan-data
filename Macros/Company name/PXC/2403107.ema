@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<EplanPxfRoot Name="2403107" Type="WindowMacro" Version="2.7.11337" PxfVersion="1.23" SchemaVersion="1.7.11337" Source="" SourceProject="D:\EPLAN\QM\2.7.1.11337\SYSTEM\Projekte\HMI\ESS_Sample_Project.elk" Description="" ConfigurationFlags="0" NumMainObjects="1" NumProjectSteps="1" NumMDSteps="0" Custompagescaleused="true" StreamSchema="EBitmap, ,2,1,2;EPosition3D, ,0,3,2;ERay3D, ,0,4,2;EStreamableVector, ,0,5,2;BaseTextLine@W3D, ,2,22,2;Box3d@W3D, ,0,23,2;DMNCDataSet, ,1,25,2;DMNCDataSetVector, ,1,26,2;Linetype@W3D, ,0,28,2;Color@W3D, ,0,29,2;Material@W3D, ,3,30,2;Mesh3d@W3D, ,8,32,2;Mesh3dX@W3D, ,2,33,2;MeshBox@W3D, ,5,34,2;MeshEdge3d@W3D, ,0,35,2;MeshFace3d@W3D, ,2,36,2;MeshPoint3d@W3D, ,1,37,2;MeshPolygon3d@W3D, ,1,38,2;MeshSimpleTextureTriangle3d@W3D, ,2,39,2;MeshSimpleTriangle3d@W3D, ,1,40,2;MeshText3dX@W3D, ,0,41,2;MeshTriangle3d@W3D, ,2,42,2;MeshTriangleFace3d@W3D, ,0,43,2;MeshTriangleFaceEdge3D@W3D, ,0,44,2;CTexture@W3D,W3dBaseGeometry,0,77,2;MeshMate@W3D,W3dMeshModeller,7,78,2;MeshMateFace@W3D,W3dMeshModeller,1,79,2;MeshMateGrid@W3D,W3dMeshModeller,8,80,2;MeshMateGridLine@W3D,W3dMeshModeller,1,81,2;MeshMateLine@W3D,W3dMeshModeller,1,82,2">
+ <EplPxfDir>
+  <EplPxfDirEntry MacroFuncType="1" VariantId="0"/>
+ </EplPxfDir>
+ <MacroVariant MacroFuncType="1" VariantId="0" ReferencePoint="20/104/0" Version="2.7.11337" PxfVersion="1.23" SchemaVersion="1.7.11337" Source="" SourceProject="D:\EPLAN\QM\2.7.1.11337\SYSTEM\Projekte\HMI\ESS_Sample_Project.elk" Description="" ConfigurationFlags="0" DocumentType="1" SelectionArea="8.13180882964519/108.848969072165/405.560674809027/55.2664948453608" Customgost="0">
+  <ESymLib Name="SPECIAL" ID="0"/>
+  <ESymLib Name="IEC_symbol" ID="1"/>
+  <ESymLib Name="IEC_topology_symbol_M20" ID="2"/>
+  <ESymLib Name="GRAPHICS" ID="3"/>
+  <ESymLib Name="PID_ESS" ID="4"/>
+  <ESymLib Name="PNE1ESS" ID="5"/>
+  <ESymLib/>
+  <O76 Build="11337" A1="76/198352" A3="0" A13="0" A14="0" A1422="1" A1423="1" A1424="0" A1425="??_??@0;" A1426="1002" A1427="0" A1428="-5" A1429="0" A1430="-1" A1433="0" A1434="0" A1435="0">
+  <S54x1432 A961="2" A962="0" A963="0" A964="0" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </O76>
+  <O76 Build="11337" A1="76/198353" A3="0" A13="0" A14="0" A1422="1" A1423="1" A1424="VORDERGRUND" A1425="??_??@VORDERGRUND;" A1426="1003" A1427="0" A1428="160" A1429="0.25" A1430="-1" A1433="0" A1434="0" A1435="0">
+  <S54x1432 A961="2" A962="0" A963="0" A964="0" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </O76>
+  <O76 Build="11337" A1="76/198354" A3="0" A13="0" A14="0" A1422="1" A1423="1" A1424="1" A1425="??_??@1;" A1426="1004" A1427="0" A1428="-5" A1429="0.25" A1430="-1" A1433="0" A1434="0" A1435="0">
+  <S54x1432 A961="2" A962="0" A963="0" A964="0" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </O76>
+  <O76 Build="11337" A1="76/198355" A3="0" A13="0" A14="0" A1422="1" A1423="1" A1424="PXC_SPS_Uebersicht" A1425="" A1426="1006" A1427="0" A1428="269" A1429="0.129999995231628" A1430="1" A1433="0" A1434="0" A1435="0">
+  <S54x1432 A961="2.5" A962="0" A963="0" A964="0" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </O76>
+  <O14 Build="11337" A1="14/1" A3="0" A13="0" A14="0" A133="ESS_Sample_Project_V3_3D@1481189838" A134="2.7.1.11337" A135="3">
+  <P11 P10000="EPL_DEMO" P10002="&lt;1100&gt;&lt;1101&gt;&lt;1102&gt;&lt;1103&gt;&lt;1104&gt;&lt;1105&gt;&lt;1106&gt;&lt;1107&gt;&lt;1108&gt;&lt;1109&gt;" P10004="&lt;1200&gt;&lt;1201&gt;&lt;1202&gt;&lt;1203&gt;&lt;1204&gt;&lt;1205&gt;&lt;1206&gt;&lt;1207&gt;&lt;1208&gt;&lt;1209&gt;" P10006="&lt;1500&gt;" P10008="0" P10011="de_DE@Schleifmaschine;en_US@Grinding machine;es_ES@Rectificadora;fr_FR@Meuleuse;nl_NL@Slijpmachine;sv_SE@Slipmaskin;da_DK@Slibemaskine;ru_RU@Шлифовальный станок;zh_CN@磨床;pl_PL@Szlifierka;pt_BR@Retificadora;cs_CZ@Bruska;it_IT@Molatrice;hu_HU@Köszörűgép;pt_PT@Rectificadora;ko_KR@연마 기계;ja_JP@切削マシン;tr_TR@Zımpara makinesi;" P10012="0" P10013="001" P10014="??_??@EPLAN;" P10015="EPLAN Software &amp; Service&#10;GmbH &amp; Co. KG" P10016="An der alten Ziegelei 2" P10017="D-40789 Monheim am Rhein / Germany" P10018="16&#9;==&#9;.&#9;=&#9;.&#9;++&#9;.&#9;+&#9;.&#9;&#9;&#9;&amp;&#9;&#9;#&#9;#&#9;-&#9;-" P10019="16&#9;1&#9;1&#9;1&#9;1&#9;1&#9;1&#9;1&#9;1&#9;0&#9;0&#9;0&#9;0&#9;1&#9;0&#9;1&#9;0" P10020="EPL" P10021="1481189829" P10024="1490711830" P10025="EPLAN" P10028="1425919454" P10029="4&#9;0&#9;0&#9;0&#9;0" P10031="de_DE@Schleifmaschine, Typ 1;en_US@Grinding machine, Type 1;es_ES@Rectificadora, tipo 1;fr_FR@Meuleuse, type 1;nl_NL@Slijpmachine, type 1;sv_SE@Slipmaskin, typ 1;da_DK@Slibemaskine, type 1;ru_RU@Шлифовальный станок, тип 1;zh_CN@磨床,类型 1;pl_PL@Szlifierka, typ 1;pt_BR@Retificadora, tipo 1;cs_CZ@Bruska, typ 1;it_IT@Molatrice, tipo 1;hu_HU@Köszörűgép, 1 típus;pt_PT@Rectificadora, tipo 1;ko_KR@연마 기계, 유형 1;ja_JP@切削マシン、タイプ 1;tr_TR@Zımpara makinesi, Tip 1;" P10032="de_DE@Halle 17 / Abschnitt B;en_US@Hall 17 / Section B;es_ES@Sala 17/sección B;fr_FR@Hall 17 / section B;nl_NL@Hal 17 / sectie B;sv_SE@Hall 17 / Sektion B;da_DK@Hal 17 / afsnit B;ru_RU@Цех 17 / раздел B;zh_CN@厂房 17/段落 B;pl_PL@Hala 17 / Część B;pt_BR@Setor 17 / Área B;cs_CZ@Hala 17 / úsek B;it_IT@Sala 17 / Sezione B;hu_HU@Csarnok 17/B szakasz;pt_PT@Sector 17 / Área B;ko_KR@홀 17 / 섹션 B;ja_JP@ホール 17 / セクション B;tr_TR@Salon 17 / Bölüm B;" P10034="de_DE@Keine;en_US@None;es_ES@Ninguno;fr_FR@Aucune;nl_NL@Geen;sv_SE@Inga;da_DK@Ingen;ru_RU@Нет;zh_CN@无;pl_PL@Brak;pt_BR@Nenhum;cs_CZ@Žádné;it_IT@Nessuno;hu_HU@Egy se;pt_PT@Nenhum;ko_KR@없음;ja_JP@なし;tr_TR@Yok;" P10042="2016/2017" P10050="&lt;10002&gt;&lt;10004&gt;&lt;10006&gt;&lt;11012&gt;&lt;11013&gt;" P10051="&lt;10002&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;" P10053="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10054="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10055="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10056="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10057="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10059="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10060="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10061="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10062="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10063="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10064="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10069="ESS_Sample_Project_V3.elk" P10070="&lt;10002&gt;&lt;10004&gt;&lt;10006&gt;&lt;11012&gt;&lt;11013&gt;" P10071="&lt;10002&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;" P10072="11337" P10073="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10074="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10075="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10076="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10077="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10079="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10080="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10081="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10082="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10083="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10084="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10085="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10086="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10089="&lt;10001&gt;&lt;10002&gt;&lt;10003&gt;&lt;10004&gt;&lt;10006&gt;&lt;10007&gt;&lt;10005&gt;" P10090="0" P10092="3&#9;10002&#9;0&#9;1&#9;10004&#9;0&#9;1&#9;10006&#9;0&#9;1&#9;11017&#9;0&#9;0" P10093="0" P10094="3&#9;10002&#9;0&#9;1&#9;10004&#9;0&#9;1&#9;20013&#9;0&#9;1&#9;20012&#9;0&#9;0&#9;20014&#9;0&#9;0&#9;20015&#9;0&#9;0" P10095="0" P10097="0" P10100="Muster GmbH" P10230="EPLAN" P10231="Firma" P10232="EPLAN Software &amp; Service" P10233="GmbH &amp; Co. KG" P10235="An der alten Ziegelei 2" P10237="40789" P10238="Monheim am Rhein" P10239="Deutschland" P10240="+49 (0)2173 - 39 64 - 0" P10241="+49 (0)2173 - 39 64 - 25" P10310="5" P10311="1" P10312="1" P10313_1="188,80 W" P10313_2="58,14 W" P10313_3="0,00 W" P10400="##_##@1499/SchemeDataProject;??_??@Higher-level function mounting location document type;" P10401="##_##@701/SchemeDataProject;" P10403="##_##@715/SchemeDataProject;" P10405="##_##@703/SchemeDataProject;" P10406="##_##@703/SchemeDataProject;" P10407="##_##@703/SchemeDataProject;" P10409="##_##@715/SchemeDataProject;" P10410="##_##@715/SchemeDataProject;" P10411="##_##@715/SchemeDataProject;" P10412="##_##@703/SchemeDataProject;" P10413="##_##@703/SchemeDataProject;" P10414="##_##@715/SchemeDataProject;" P10420="##_##@1500/SchemeDataProject;??_??@Higher-level function, mounting location and document type  (identifying);" P10421="##_##@701/SchemeDataProject;" P10423="##_##@715/SchemeDataProject;" P10425="##_##@703/SchemeDataProject;" P10426="##_##@703/SchemeDataProject;" P10427="##_##@703/SchemeDataProject;" P10429="##_##@715/SchemeDataProject;" P10430="##_##@715/SchemeDataProject;" P10431="##_##@715/SchemeDataProject;" P10432="##_##@703/SchemeDataProject;" P10433="##_##@703/SchemeDataProject;" P10434="##_##@715/SchemeDataProject;" P10450="0" P10510="1" P10511="1" P10512="1" P10513="0" P10514="0" P10515="0" P10516="0" P10517="$(MD_PROJECTS)" P10518="Sample project V2.7&#13;&#10;" P10607_1="[117,1&lt;22069,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;]" P10609_5="[20221&lt;20010,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;]-[20222,1&lt;4&lt;11037,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,5&gt;&gt;][20222,1&lt;4&lt;11042,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]-[20222,1&lt;20221&lt;19006,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]/[20222,1&lt;20221&lt;19005,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]" P10660_5="=│de_DE@0;en_US@1;es_ES@1;fr_FR@1;nl_NL@1;sv_SE@1;da_DK@1;ru_RU@1;zh_CN@1;pl_PL@1;pt_BR@1;cs_CZ@1;it_IT@1;hu_HU@1;pt_PT@1;ko_KR@1;│de_DE@E;en_US@E;es_ES@E;fr_FR@E;nl_NL@E;sv_SE@E;da_DK@E;ru_RU@E;zh_CN@E;pl_PL@E;pt_BR@E;cs_CZ@E;it_IT@E;hu_HU@E;pt_PT@E;ko_KR@E;ja_JP@E;║=│de_DE@2;en_US@2;es_ES@2;fr_FR@2;nl_NL@2;sv_SE@2;da_DK@2;ru_RU@2;zh_CN@2;pl_PL@2;pt_BR@2;cs_CZ@2;it_IT@2;hu_HU@2;pt_PT@2;ko_KR@2;│de_DE@H;en_US@H;es_ES@H;fr_FR@H;nl_NL@H;sv_SE@H;da_DK@H;ru_RU@H;zh_CN@H;pl_PL@H;pt_BR@H;cs_CZ@H;it_IT@H;hu_HU@H;pt_PT@H;ko_KR@H;ja_JP@H;║=│de_DE@3;en_US@3;es_ES@3;fr_FR@3;nl_NL@3;sv_SE@3;da_DK@3;ru_RU@3;zh_CN@3;pl_PL@3;pt_BR@3;cs_CZ@3;it_IT@3;hu_HU@3;pt_PT@3;ko_KR@3;│de_DE@P;en_US@P;es_ES@P;fr_FR@P;nl_NL@P;sv_SE@P;da_DK@P;ru_RU@P;zh_CN@P;pl_PL@P;pt_BR@P;cs_CZ@P;it_IT@P;hu_HU@P;pt_PT@P;ko_KR@P;ja_JP@P;║=│de_DE@4;en_US@4;es_ES@4;fr_FR@4;nl_NL@4;sv_SE@4;da_DK@4;ru_RU@4;zh_CN@4;pl_PL@4;pt_BR@4;cs_CZ@4;it_IT@4;hu_HU@4;pt_PT@4;ko_KR@4;│de_DE@C;en_US@C;es_ES@C;fr_FR@C;nl_NL@C;sv_SE@C;da_DK@C;ru_RU@C;zh_CN@C;pl_PL@C;pt_BR@C;cs_CZ@C;it_IT@C;hu_HU@C;pt_PT@C;ko_KR@C;ja_JP@C;║=│de_DE@5;en_US@5;es_ES@5;fr_FR@5;nl_NL@5;sv_SE@5;da_DK@5;ru_RU@5;zh_CN@5;pl_PL@5;pt_BR@5;cs_CZ@5;it_IT@5;hu_HU@5;pt_PT@5;ko_KR@5;│de_DE@L;en_US@L;es_ES@L;fr_FR@L;nl_NL@L;sv_SE@L;da_DK@L;ru_RU@L;zh_CN@L;pl_PL@L;pt_BR@L;cs_CZ@L;it_IT@L;hu_HU@L;pt_PT@L;ko_KR@L;ja_JP@L;║=│??_??@6;│de_DE@V;en_US@V;es_ES@V;fr_FR@V;nl_NL@V;sv_SE@V;da_DK@V;ru_RU@V;zh_CN@V;pl_PL@V;pt_BR@V;cs_CZ@V;it_IT@V;hu_HU@V;pt_PT@V;ko_KR@V;ja_JP@V;║=│de_DE@7;en_US@7;es_ES@7;fr_FR@7;nl_NL@7;sv_SE@7;da_DK@7;ru_RU@7;zh_CN@7;pl_PL@7;pt_BR@7;cs_CZ@7;it_IT@7;hu_HU@7;pt_PT@7;ko_KR@7;│de_DE@F;en_US@F;es_ES@F;fr_FR@F;nl_NL@F;sv_SE@F;da_DK@F;ru_RU@F;zh_CN@F;pl_PL@F;pt_BR@F;cs_CZ@F;it_IT@F;hu_HU@F;pt_PT@F;ko_KR@F;ja_JP@F;║=│??_??@8;│de_DE@K;en_US@K;es_ES@K;fr_FR@K;nl_NL@K;sv_SE@K;da_DK@K;ru_RU@K;zh_CN@K;pl_PL@K;pt_BR@K;cs_CZ@K;it_IT@K;hu_HU@K;pt_PT@K;ko_KR@K;ja_JP@K;║=│??_??@9;│de_DE@G;en_US@G;es_ES@G;fr_FR@G;nl_NL@G;sv_SE@G;da_DK@G;ru_RU@G;zh_CN@G;pl_PL@G;pt_BR@G;cs_CZ@G;it_IT@G;hu_HU@G;pt_PT@G;ko_KR@G;ja_JP@G;" P10901_1="de_DE@EPLAN Beispielprojekt;en_US@EPLAN sample project;es_ES@Projecto de ejemplo EPLAN;fr_FR@Exemple de projet EPLAN;nl_NL@EPLAN voorbeeldproject;sv_SE@EPLAN exempelprojekt;da_DK@EPLAN Projekteksempel;ru_RU@Образец проекта EPLAN;zh_CN@EPLAN 示例项目;pl_PL@Przykładowy projekt EPLAN;pt_BR@Exemplo de projeto EPLAN;cs_CZ@Vzorový projekt EPLAN;it_IT@Progetto di esempio EPLAN;hu_HU@EPLAN példa projekt;pt_PT@Exemplo de projecto EPLAN;ko_KR@EPLAN 샘플 프로젝트;ja_JP@EPLAN サンプル プロジェクト;tr_TR@EPLAN örnek projesi;" P10902="1" P10904="0" P19031="[14&lt;10155,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;][LF][14&lt;10157,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;][LF][14&lt;10158,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;]" P59984="de_DE@Einzeln;en_US@Individual;es_ES@Individual;fr_FR@Unique;nl_NL@Afzonderlijk;sv_SE@Enskilt;da_DK@Enkel;ru_RU@Отдельно;zh_CN@单独;pl_PL@Pojedynczo;pt_BR@Individualmente;cs_CZ@Jednotlivě;it_IT@Singolarmente;hu_HU@Egyenként;pt_PT@Individual;ko_KR@개별;ja_JP@個別;tr_TR@Tek;" P59985="de_DE@0,75 mm²;en_US@0,75 mm²;es_ES@0,75 mm²;fr_FR@0,75 mm²;nl_NL@0,75 mm²;sv_SE@0,75 mm²;da_DK@0,75 mm²;ru_RU@0,75 мм²;zh_CN@0,75 mm²;pl_PL@0,75 mm²;pt_BR@0,75 mm²;cs_CZ@0,75 mm²;it_IT@0,75 mm²;hu_HU@0,75 mm²;pt_PT@0,75 mm²;ko_KR@0,75 mm²;ja_JP@0,75 mm²;tr_TR@0,75 mm²;" P59986="de_DE@1,5 mm²;en_US@1,5 mm²;es_ES@1,5 mm²;fr_FR@1,5 mm²;nl_NL@1,5 mm²;sv_SE@1,5 mm²;da_DK@1,5 mm²;ru_RU@1,5 мм²;zh_CN@1,5 mm²;pl_PL@1,5 mm²;pt_BR@1,5 mm²;cs_CZ@1,5 mm²;it_IT@1,5 mm²;hu_HU@1,5 mm²;pt_PT@1,5 mm²;ko_KR@1,5 mm²;ja_JP@1,5 mm²;tr_TR@1,5 mm²;" P59987="de_DE@1,5 mm²;en_US@1,5 mm²;es_ES@1,5 mm²;fr_FR@1,5 mm²;nl_NL@1,5 mm²;sv_SE@1,5 mm²;da_DK@1,5 mm²;ru_RU@1,5 мм²;zh_CN@1,5 mm²;pl_PL@1,5 mm²;pt_BR@1,5 mm²;cs_CZ@1,5 mm²;it_IT@1,5 mm²;hu_HU@1,5 mm²;pt_PT@1,5 mm²;ko_KR@1,5 mm²;ja_JP@1,5 mm²;tr_TR@1,5 mm²;" P59988="de_DE@2,5 mm²;en_US@2,5 mm²;es_ES@2,5 mm²;fr_FR@2,5 mm²;nl_NL@2,5 mm²;sv_SE@2,5 mm²;da_DK@2,5 mm²;ru_RU@2,5 мм²;zh_CN@2,5 mm²;pl_PL@2,5 mm²;pt_BR@2,5 mm²;cs_CZ@2,5 mm²;it_IT@2,5 mm²;hu_HU@2,5 mm²;pt_PT@2,5 mm²;ko_KR@2,5 mm²;ja_JP@2,5 mm²;tr_TR@2,5 mm²;" P59989="de_DE@Reihenklemmen Phoenix UK;en_US@Terminal blocks Phoenix UK;es_ES@Bloques de bornes de paso Phoenix UK;fr_FR@Bornes de série Phoenix UK;nl_NL@Aansluitklemmen Phoenix UK;sv_SE@Radplintar Phoenix UK;da_DK@Rækkeklemmer Phoenix UK;ru_RU@Присоединительные клеммы Phoenix UK;zh_CN@组合端子 Phoenix UK;pl_PL@Zaciski szeregowe Phoenix UK;pt_BR@Réguas de bornes Phoenix UK;cs_CZ@Řadové svorky Phoenix UK;it_IT@Morsetti componibili Phoenix UK;hu_HU@Phoenix UK sorkapcsok;pt_PT@Réguas de bornes Phoenix UK;ko_KR@터미널 블록 Phoenix UK;ja_JP@端子ブロック、Phoenix UK;tr_TR@Sıralı klemensler Phoenix UK;" P59990="de_DE@Reihenklemmen Phoenix UK;en_US@Terminal blocks Phoenix UK;es_ES@Bloques de bornes de paso Phoenix UK;fr_FR@Bornes de série Phoenix UK;nl_NL@Aansluitklemmen Phoenix UK;sv_SE@Radplintar Phoenix UK;da_DK@Rækkeklemmer Phoenix UK;ru_RU@Присоединительные клеммы Phoenix UK;zh_CN@组合端子 Phoenix UK;pl_PL@Zaciski szeregowe Phoenix UK;pt_BR@Réguas de bornes Phoenix UK;cs_CZ@Řadové svorky Phoenix UK;it_IT@Morsetti componibili Phoenix UK;hu_HU@Phoenix UK sorkapcsok;pt_PT@Réguas de bornes Phoenix UK;ko_KR@터미널 블록 Phoenix UK;ja_JP@端子ブロック、Phoenix UK;tr_TR@Sıralı klemensler Phoenix UK;" P59991="de_DE@IP43;en_US@IP43;es_ES@IP43;fr_FR@IP43;nl_NL@IP43;sv_SE@IP43;da_DK@IP43;ru_RU@IP43;zh_CN@IP43;pl_PL@IP43;pt_BR@IP43;cs_CZ@IP43;it_IT@IP43;hu_HU@IP43;pt_PT@IP43;ko_KR@IP43;ja_JP@IP43;tr_TR@IP43;" P59992="de_DE@RAL 9016;en_US@RAL 9016;es_ES@RAL 9016;fr_FR@RAL 9016;nl_NL@RAL 9016;sv_SE@RAL 9016;da_DK@RAL 9016;ru_RU@RAL 9016;zh_CN@RAL 9016;pl_PL@RAL 9016;pt_BR@RAL 9016;cs_CZ@RAL 9016;it_IT@RAL 9016;hu_HU@RAL 9016;pt_PT@RAL 9016;ko_KR@RAL 9016;ja_JP@RAL 9016;tr_TR@RAL 9016;" P59993="de_DE@RITTAL TS8;en_US@RITTAL TS8;es_ES@RITTAL TS8;fr_FR@RITTAL TS8;nl_NL@RITTAL TS8;sv_SE@RITTAL TS8;da_DK@RITTAL TS8;ru_RU@RITTAL TS8;zh_CN@RITTAL TS8;pl_PL@RITTAL TS8;pt_BR@RITTAL TS8;cs_CZ@RITTAL TS8;it_IT@RITTAL TS8;hu_HU@RITTAL TS8;pt_PT@RITTAL TS8;ko_KR@RITTAL TS8;ja_JP@RITTAL TS8;tr_TR@RITTAL TS8;" P59994="de_DE@RITTAL TS8;en_US@RITTAL TS8;es_ES@RITTAL TS8;fr_FR@RITTAL TS8;nl_NL@RITTAL TS8;sv_SE@RITTAL TS8;da_DK@RITTAL TS8;ru_RU@RITTAL TS8;zh_CN@RITTAL TS8;pl_PL@RITTAL TS8;pt_BR@RITTAL TS8;cs_CZ@RITTAL TS8;it_IT@RITTAL TS8;hu_HU@RITTAL TS8;pt_PT@RITTAL TS8;ko_KR@RITTAL TS8;ja_JP@RITTAL TS8;tr_TR@RITTAL TS8;" P59995="de_DE@Nein;en_US@No;es_ES@No;fr_FR@Non;nl_NL@Nee;sv_SE@Nej;da_DK@Nej;ru_RU@Нет;zh_CN@否;pl_PL@Nie;pt_BR@Não;cs_CZ@Ne;it_IT@No;hu_HU@Nem;pt_PT@Não;ko_KR@아니오;ja_JP@いいえ;tr_TR@Hayır;" P59996="de_DE@24 V DC;en_US@24 V DC;es_ES@24 V DC;fr_FR@24 V DC;nl_NL@24 V DC;sv_SE@24 V DC;da_DK@24 V DC;ru_RU@24 V DC;zh_CN@24 V DC;pl_PL@24 V DC;pt_BR@24 V DC;cs_CZ@24 V DC;it_IT@24 V DC;hu_HU@24 V DC;pt_PT@24 V DC;ko_KR@24 V DC;ja_JP@24 V DC;tr_TR@24 V DC;" P59997="en_US@NYM 5x6 mm²;de_DE@NYM 5x6 mm²;es_ES@NYM 5x6 mm²;fr_FR@NYM 5x6 mm²;nl_NL@NYM 5x6 mm²;sv_SE@NYM 5x6 mm²;da_DK@NYM 5x6 mm²;ru_RU@NYM 5x6 mm²;zh_CN@NYM 5x6 mm²;pl_PL@NYM 5x6 mm²;pt_BR@NYM 5x6 mm²;cs_CZ@NYM 5x6 mm²;it_IT@NYM 5x6 mm²;hu_HU@NYM 5x6 mm²;pt_PT@NYM 5x6 mm²;ko_KR@NYM 5x6 mm²;ja_JP@NYM 5x6 mm²;tr_TR@NYM 5x6 mm²;" P59998="en_US@400 V 50 Hz 50 A;de_DE@400 V 50 Hz 50 A;es_ES@400 V 50 Hz 50 A;fr_FR@400 V 50 Hz 50 A;nl_NL@400 V 50 Hz 50 A;sv_SE@400 V 50 Hz 50 A;da_DK@400 V 50 Hz 50 A;ru_RU@400 V 50 Hz 50 A;zh_CN@400 V 50 Hz 50 A;pl_PL@400 V 50 Hz 50 A;pt_BR@400 V 50 Hz 50 A;cs_CZ@400 V 50 Hz 50 A;it_IT@400 V 50 Hz 50 A;hu_HU@400 V 50 Hz 50 A;pt_PT@400 V 50 Hz 50 A;ko_KR@400 V 50 Hz 50 A;ja_JP@400 V 50 Hz 50 A;tr_TR@400 V 50 Hz 50 A;"/>
+  </O14>
+  <O6 Build="11287" A1="6/1193" A3="0" A13="0" A14="0" A81="1100" A82="S01" A83="-11.3954678362573" A85="10002" A86="" A4049="0">
+  <P11 P1002="de_DE@Maschinenbedienung;en_US@Machine operation;es_ES@Manejo de la máquina;fr_FR@Utilisation des machines;nl_NL@Machinebediening;sv_SE@Maskinhantering;da_DK@Maskinbetjening;ru_RU@Управление машинами;zh_CN@机器操作;pl_PL@Obsługa maszyny;pt_BR@Comando das máquinas;cs_CZ@Obsluha stroje;it_IT@Comando macchine;hu_HU@A gép kezelése;pt_PT@Operação de máquinas;ko_KR@기계 작동;ja_JP@加工操作;tr_TR@Makine kullanımı;"/>
+  </O6>
+  <O6 Build="10540" A1="6/806" A3="0" A13="0" A14="0" A81="1200" A82="A2" A83="-12.2875" A85="10004" A86="" A4049="0">
+  <P11 P1002="de_DE@Schaltschrank 2;en_US@Enclosure 2;es_ES@Armario 2;fr_FR@Armoire de distribution 2;nl_NL@Schakelkast 2;sv_SE@Kopplingsskåp 2;da_DK@Tavle 2;ru_RU@Электрошкаф 2;zh_CN@箱柜 2;pl_PL@Szafa sterownicza 2;pt_BR@Painel 2;cs_CZ@Rozvaděč 2;it_IT@Armadio elettrico 2;hu_HU@2 kapcsolószekrény;pt_PT@Quadro 2;ko_KR@인클로저 2;ja_JP@エンクロージャ 2;tr_TR@Şalt panosu 2;"/>
+  </O6>
+  <O6 Build="10348" A1="6/9" A3="0" A13="0" A14="0" A81="1500" A82="" A83="-117.723943302068" A85="10006" A86="" A4049="0"/>
+  <O4 Build="11335" A1="4/1576" A3="0" A13="0" A14="0" A47="1" A48="1491206753" A50="0" A59="1" A404="1" A405="64" A406="0" A407="0" A431="1" A699="66fa16c4e4a8a322e9ddd66e291600bd" A1101="1" A1102="" A1103="" A4043="0" A4049="0">
+  <P11 P10185="WUPDU10553" P11006="0" P11011="de_DE@Versorgung Schrank-Panel;en_US@Power supply enclosure panel;es_ES@Fuente de alimentación panel del armario;fr_FR@Alimentation Panneau d&apos;armoire;nl_NL@Voeding kastpaneel;sv_SE@Matning skåp-panel;da_DK@Forsyning tavlepanel;ru_RU@Электроснабжение панели электрошкафа;zh_CN@箱柜面板电源;pl_PL@Zasilanie panelu szafy;pt_BR@Alimentação do painel do armário;cs_CZ@Napájení panel rozváděče;it_IT@Alimentazione pannello armadio;hu_HU@Kapcsolószekrény-panel táp;pt_PT@Alimentação painel do quadro;ko_KR@전원 공급 인클로저 패널;ja_JP@電源エンクロージャ パネル;tr_TR@Besleme Pano paneli;" P11020="EPL" P11021="1481189829" P11022="STP" P11024="1492603026" P11037="0" P11048="1" P11050="0"/>
+  <P49 P1100="S01" P1200="A2" P1500="EFS1" P11012="1"/>
+  <O31 Build="10552" A1="31/198126" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="152/94" A532="151/94"/>
+  <O31 Build="10552" A1="31/198127" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="137/98" A532="137/93"/>
+  <O31 Build="10552" A1="31/198128" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="151/98" A532="151/93"/>
+  <O89 Build="10552" A1="89/198129" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A1651="136/92" A1652="152/98" A1653="6.28318530717958" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  <O31 Build="10552" A1="31/198130" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="151/93" A532="137/93"/>
+  <O31 Build="10552" A1="31/198131" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="152/97" A532="151/97"/>
+  <O31 Build="10552" A1="31/198132" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.5" A415="L" A416="2" A531="149.013536124991/93.196547609906" A532="139.002560523221/93.196547609906"/>
+  <O31 Build="10552" A1="31/198133" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="139/94" A532="139/93"/>
+  <O31 Build="10552" A1="31/198134" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="149/94" A532="149/93"/>
+  <O31 Build="10552" A1="31/198135" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="149/94" A532="139/94"/>
+  <O31 Build="10552" A1="31/198136" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="142/97" A532="140/97"/>
+  <O31 Build="10552" A1="31/198137" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="148/97" A532="146/97"/>
+  <O31 Build="10552" A1="31/198138" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="140/98" A532="140/97"/>
+  <O31 Build="10552" A1="31/198139" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="142/98" A532="142/97"/>
+  <O31 Build="10552" A1="31/198140" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="146/98" A532="146/97"/>
+  <O31 Build="10552" A1="31/198141" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="148/98" A532="148/97"/>
+  <O31 Build="10552" A1="31/198142" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="138/93" A532="138/92"/>
+  <O31 Build="10552" A1="31/198143" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="150/93" A532="150/92"/>
+  <O31 Build="10552" A1="31/198144" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="137/94" A532="136/94"/>
+  <O31 Build="10552" A1="31/198145" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="137/97" A532="136/97"/>
+  <O31 Build="10552" A1="31/198146" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="131/93" A532="117/93"/>
+  <O89 Build="10552" A1="89/198147" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A1651="116/92" A1652="132/98" A1653="6.28318530717958" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  <O31 Build="10552" A1="31/198148" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="131/98" A532="131/93"/>
+  <O31 Build="10552" A1="31/198149" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="117/98" A532="117/93"/>
+  <O31 Build="10552" A1="31/198150" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="132/94" A532="131/94"/>
+  <O31 Build="10552" A1="31/198151" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="132/97" A532="131/97"/>
+  <O31 Build="10552" A1="31/198152" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="117/97" A532="116/97"/>
+  <O31 Build="10552" A1="31/198153" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="117/94" A532="116/94"/>
+  <O31 Build="10552" A1="31/198154" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="130/93" A532="130/92"/>
+  <O31 Build="10552" A1="31/198155" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="118/93" A532="118/92"/>
+  <O31 Build="10552" A1="31/198156" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="128/98" A532="128/97"/>
+  <O31 Build="10552" A1="31/198157" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="126/98" A532="126/97"/>
+  <O31 Build="10552" A1="31/198158" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="122/98" A532="122/97"/>
+  <O31 Build="10552" A1="31/198159" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="120/98" A532="120/97"/>
+  <O31 Build="10552" A1="31/198160" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="128/97" A532="126/97"/>
+  <O31 Build="10552" A1="31/198161" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="122/97" A532="120/97"/>
+  <O31 Build="10552" A1="31/198162" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="129/94" A532="119/94"/>
+  <O31 Build="10552" A1="31/198163" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="129/94" A532="129/93"/>
+  <O31 Build="10552" A1="31/198164" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="119/94" A532="119/93"/>
+  <O31 Build="10552" A1="31/198165" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.5" A415="L" A416="2" A531="129.013536124991/93.196547609906" A532="119.002560523221/93.196547609906"/>
+  <O31 Build="10552" A1="31/198166" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="168/98" A532="168/97"/>
+  <O31 Build="10552" A1="31/198167" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="158/93" A532="158/92"/>
+  <O31 Build="10552" A1="31/198168" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="170/93" A532="170/92"/>
+  <O31 Build="10552" A1="31/198169" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="157/94" A532="156/94"/>
+  <O31 Build="10552" A1="31/198170" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="157/97" A532="156/97"/>
+  <O31 Build="10552" A1="31/198171" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="172/97" A532="171/97"/>
+  <O31 Build="10552" A1="31/198172" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="172/94" A532="171/94"/>
+  <O31 Build="10552" A1="31/198173" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="157/98" A532="157/93"/>
+  <O31 Build="10552" A1="31/198174" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="171/98" A532="171/93"/>
+  <O89 Build="10552" A1="89/198175" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A1651="156/92" A1652="172/98" A1653="6.28318530717958" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  <O31 Build="10552" A1="31/198176" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="171/93" A532="157/93"/>
+  <O31 Build="10552" A1="31/198177" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="166/98" A532="166/97"/>
+  <O31 Build="10552" A1="31/198178" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="162/98" A532="162/97"/>
+  <O31 Build="10552" A1="31/198179" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="160/98" A532="160/97"/>
+  <O31 Build="10552" A1="31/198180" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="168/97" A532="166/97"/>
+  <O31 Build="10552" A1="31/198181" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="162/97" A532="160/97"/>
+  <O31 Build="10552" A1="31/198182" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="169/94" A532="159/94"/>
+  <O31 Build="10552" A1="31/198183" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="169/94" A532="169/93"/>
+  <O31 Build="10552" A1="31/198184" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="159/94" A532="159/93"/>
+  <O31 Build="10552" A1="31/198185" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.5" A415="L" A416="2" A531="169.013536124991/93.196547609906" A532="159.002560523221/93.196547609906"/>
+  <O31 Build="10552" A1="31/198186" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="177/97" A532="176/97"/>
+  <O31 Build="10552" A1="31/198187" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="192/97" A532="191/97"/>
+  <O31 Build="10552" A1="31/198188" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="177/94" A532="176/94"/>
+  <O31 Build="10552" A1="31/198189" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="190/93" A532="190/92"/>
+  <O31 Build="10552" A1="31/198190" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="178/93" A532="178/92"/>
+  <O31 Build="10552" A1="31/198191" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="188/98" A532="188/97"/>
+  <O31 Build="10552" A1="31/198192" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="186/98" A532="186/97"/>
+  <O31 Build="10552" A1="31/198193" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="182/98" A532="182/97"/>
+  <O31 Build="10552" A1="31/198194" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="180/98" A532="180/97"/>
+  <O31 Build="10552" A1="31/198195" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="188/97" A532="186/97"/>
+  <O31 Build="10552" A1="31/198196" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="182/97" A532="180/97"/>
+  <O31 Build="10552" A1="31/198197" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="189/94" A532="179/94"/>
+  <O31 Build="10552" A1="31/198198" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="189/94" A532="189/93"/>
+  <O31 Build="10552" A1="31/198199" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="179/94" A532="179/93"/>
+  <O31 Build="10552" A1="31/198200" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.5" A415="L" A416="2" A531="189.013536124991/93.196547609906" A532="179.002560523221/93.196547609906"/>
+  <O31 Build="10552" A1="31/198201" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="191/93" A532="177/93"/>
+  <O89 Build="10552" A1="89/198202" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A1651="176/92" A1652="192/98" A1653="6.28318530717958" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  <O31 Build="10552" A1="31/198203" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="191/98" A532="191/93"/>
+  <O31 Build="10552" A1="31/198204" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="177/98" A532="177/93"/>
+  <O31 Build="10552" A1="31/198205" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A531="192/94" A532="191/94"/>
+  <O32 Build="10552" A1="32/198206" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="306/96" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198207" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="302/96" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198208" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="316/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198209" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="312/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198210" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="308/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198211" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="304/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198212" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="300/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198213" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="314/96" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198214" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="310/96" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O34 Build="10552" A1="34/198215" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="367.669018237472/68.965378199788;367.474773072396/69.084702080798;367.176020633687/69.159139306632;365.64521692171/69.157929161042;365.294328909173/69.060576355684;364.891228581863/68.888508876478;364.518009401574/68.701530339507;364.279255382876/68.447452042599;363.958425611836/68.111168124065;363.749611771648/67.767505417589;363.593140115514/67.334276010992;363.518826855813/66.878709533499;363.489170028463/66.609861854406;363.481962431849/66.281293203321;363.542031689648/65.863169658414;363.714146394047/65.400330649663;363.945946651548/65.004744882728;364.297200659338/64.639122906903;364.603538496211/64.415344880609;364.917296443068/64.251311438908;365.178747624769/64.132040686245;365.558901100721/64.048707002518;365.807584613565/64.022021170739;366.815680175751/64.016097494221;367.205416630991/64.090332256897;367.474155692136/64.198074396864;367.668973447829/64.299037493993;367.6746421083/65.629721935973;367.412655525823/65.481661498865;367.157325790997/65.414253594536;366.942314353312/65.353598168879;366.559240058558/65.353295337322;366.236587424754/65.433687541227;365.90037670527/65.661922356032;365.678405588379/65.903688692344;365.530419530948/66.071586851546;365.45633884047/66.266425858577;365.402409329308/66.474722007435;365.402138374758/66.817472692215;365.462421902016/67.072903370895;365.576486181074/67.30821474726;365.757793666599/67.496535040331;365.97268822193/67.70504370256;366.207824274764/67.812759278359;366.490020477737/67.900350239009;366.953747305272/67.893996222915;367.222624500108/67.827002719661;367.404160437507/67.726337141253;367.572255171579/67.625660937175;367.679869803524/67.518216315925" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198216" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="390.674923781734/75.002398768321;392.561591772085/74.995275338527;393.441257313191/73.798500110416;394.422394657758/75.013976151453;396.309049027458/75.024082504125;394.493173006675/72.662165327458;394.493377316463/72.403718590468;396.390676054601/69.846594166034;394.41785915192/69.853649492568;393.451813147392/71.343262919339;392.488116705404/69.860738870731;390.67038146557/69.850687000669;392.503344251966/72.393530513881;392.494518240621/72.660585331778" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198217" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="388.032418201043/75.003996823486;389.935021065943/75.005500887295;389.927286115761/69.841283769128;388.024683250861/69.839779705319" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198218" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="382.043050409683/75.003228305838;383.213034172666/75.001784699386;385.549055077565/72.77189137726;385.539404820015/75.003623764156;387.282211304975/75.005001504206;387.294186888493/69.831790298798;385.906256736396/69.822807091859;383.846383058893/71.879426559833;383.848010163659/69.821179987096;382.042109427022/69.827638376299" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198219" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="377.161117941717/74.991036509359;381.393658198839/74.994382457557;381.394595064335/73.809271185564;379.475011200602/73.809744685952;379.475594005891/73.072510665868;381.316731785172/73.070065428175;381.317727796326/71.810136388565;379.476596184297/71.804780208057;379.477163571453/71.087049733479;381.396315532753/71.084666168303;381.407163695016/69.828231685138;377.192419469629/69.831753043344;377.191281756001/71.270932148413;377.36937373505/71.387577983368;377.513172456509/71.538462899071;377.643259292618/71.696190213241;377.732215890356/71.867591488973;377.793764970445/72.032117860137;377.792447945112/72.831204383375;377.716895508276/73.042224390927;377.603680082618/73.215521815135;377.430156199223/73.388771563721;377.309479689227/73.464061784656;377.158648950364/73.539328167778" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198220" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="377.171566678878/74.99354881747;376.458516259033/74.990481081957;376.052245929521/74.922439226815;375.772978575307/74.820637428063;375.578362026239/74.718902548276;375.25690310738/74.447765679756;374.994699752125/74.176675654511;374.808702197184/73.880250614793;374.639715106031/73.482257992695;374.521511806066/73.09277060249;374.514130812769/71.721420867285;374.607581293246/71.298240452435;374.777210806455/70.883585345165;375.014500736709/70.545169497695;375.395697035706/70.206867412463;375.759849411437/70.01245831218;376.056240991673/69.868786159813;376.428737993782/69.826755200684;377.182136851446/69.818885698948;377.180979153369/71.283344627912;376.791598833506/71.266106639651;376.596835062715/71.350603531175;376.41052968054/71.443572195111;376.266482781974/71.62122512367;376.190156527522/71.798931587403;376.079956567218/71.993541444578;376.070849064651/72.806182482047;376.138368951873/73.060188432645;376.265231397347/73.204195179835;376.417475700572/73.36515216374;376.586663548618/73.509192370409;377.170747412204/73.518119191774" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198221" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="368.607178165124/75.000964060435;370.412170988728/75.002390960623;370.413470836161/73.358116676107;372.218473433052/73.347180611747;372.217173585622/74.991454896263;373.9850677423/75.005215441131;373.976809559119/69.812760558846;372.233631558241/69.811382525103;372.244626262332/71.542207334723;370.427260700893/71.55313362579;370.428628961347/69.822318589458;368.611273173199/69.820881915981" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198222" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="365.473189010633/74.986169905932;366.542082163765/74.98701489757;367.050055860053/74.911608393373;367.330617466899/74.820860498715;367.501272419555/74.711073701492;367.626469524998/74.567137335904;367.732693649215/74.449718796964;367.827531587551/74.351243275011;367.907249870818/74.19969014983;368.013629809092/73.885170745774;368.051647685735/73.741165462431;368.052330870464/72.876953976918;368.006941941013/72.755625179757;367.90102944492/72.478841988462;367.81782339925/72.247561590744;367.723162249943/72.122403438813;367.609537108679/72.01239190977;367.446729640287/71.784838988394;367.245955234465/71.63685452907;367.071689666012/71.519214254736;366.863271532776/71.450822228862;366.685140652465/71.427938989407;365.476002653/71.426983130073;365.478870155583/72.594429712188;366.278644819806/72.595061957707;366.361976715297/72.667145502834;366.40363517198/72.712663278526;366.464227656379/72.780938443855;366.502092715387/72.830243624375;366.536107444658/72.955353833519;366.554945586798/73.099404063225;366.554831722676/73.243439310809;366.532002418858/73.353342968578;366.501562348296/73.501144646023;366.425667426948/73.611006353853;366.353568899699/73.713290255604;366.270114150818/73.796613161819;365.474129887846/73.795983912727" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198223" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="356.55370783866/64.992018715617;357.019739353948/65.623998481614;357.01680025058/69.341890266474;357.763249566461/69.342480356729;357.772350430991/66.909348356797;358.081154405804/66.687093021108;358.963974269776/66.68779091631;359.451952174834/66.795837703573;359.789199063317/66.910942735266;359.990086751598/67.011585167469;360.169453595963/67.097855783305;360.45638494229/67.306227261868;360.650049841743/67.464283198274;360.829359946661/67.622327786787;361.030190895494/67.794744191677;361.159202480089/68.024523035259;361.302585881053/68.232781034927;361.410099317511/68.419478473067;361.539099554215/68.663612111186;361.64655057728/68.929260919276;361.710914520961/69.223585272769;361.873431459581/69.843646447056;361.889969298366/69.704612738348;361.973205879014/64.756135782552" A622="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198224" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="361.929171791633/74.970238294548;362.155146168576/74.973740127287;362.30468977418/74.973858345928;362.427692510276/74.917461296915;362.511001327566/74.868054749569;362.580638119541/74.81788640557;362.633848585526/74.768080570328;362.687061678591/74.714951543852;362.731647772554/74.653334163749;362.783549815986/74.56880731483;362.833468615706/74.479120557682;362.882572793392/74.37576446367;362.893806763527/74.286466325922;362.899453532882/74.204140882145;362.888696912259/73.827957179245" A622="0;0;0;0;0" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198225" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="358.238052264305/73.849867994493;357.778266176765/73.592627298072;357.773661826134/71.860195882408;357.905143969799/71.788613156345;358.018685567887/71.74091180328;358.162110759318/71.675312407431;358.299562065599/71.609708289048;358.425065601584/71.544094725603;358.55658080298/71.430694803499;358.634307425373/71.347121804344;358.735967368622/71.21577661413;358.801765110851/71.108298629312;358.891482006335/70.970970108886;358.933398375564/70.845551578489;358.999290568448/70.618595890699;359.005831157534/69.901734395386;358.952231479846/69.692605912385;358.86874348628/69.507349357314;358.72553553136/69.298150036321;358.594232843941/69.142725126733;358.462906543857/69.017169642886;358.331547186044/68.933431355085;358.146432306959/68.837702794187;357.991167963487/68.76589338655;357.919519121964/68.718045634965;357.746352013177/68.622326519132;357.763249566461/69.342480356729;357.85919939894/69.452786282931;358.002464024256/69.590298982139;358.103925621128/69.709856968169;358.187460840019/69.835374671753;358.229155250207/69.99072874335;358.234708829937/70.522409244121;358.139022771834/70.653759156868;358.025396168156/70.80899044261;357.887925971743/70.898490101585;357.780325201074/70.988013373228;357.630945014626/71.029712505946;357.51141536379/71.095330791925;357.397887933299/71.125110489547;357.272441067709/71.119037431209;357.123136441787/71.06515440155;356.961884045564/71.011261926827;356.866372721179/70.92157808907;356.764887511643/70.83188952878;356.651487589538/70.700374327385;356.56797598331/70.544987198059;356.544269344027/70.30601290198;356.55045102062/70.043166677968;356.568467126722/69.923703142592;356.634274314015/69.804277387479;356.729936759452/69.702796900474;356.819611152143/69.619233346385;356.951126353538/69.505833424279;357.064715176953/69.398393219727;357.017533302497/68.627724255279;356.8621933985/68.651497010019;356.676932120897/68.740958888734;356.509554718477/68.878226016236;356.366091746786/68.991616493274;356.246519593154/69.110999745591;356.07908552034/69.319953494877;355.953468643568/69.528940301896;355.839799537094/69.737936553977;355.791880947519/69.899193672731;355.773690107701/70.239690958609;355.779413698613/70.556311594026;355.856890026766/70.789354507751;355.964254670793/70.998525493547;356.053725994573/71.171839000854;356.167116471612/71.315301972547;356.340245800136/71.458812169567;356.513384573727/71.590374596292;356.698499452813/71.686103157188;356.883590719234/71.81170114383;356.997056756799/71.859581953142;357.001986962195/73.179815293545;356.906197008372/73.442590679562;356.774658194311/73.58586002741;356.661050480764/73.71719577256;356.439908112006/73.854420397265" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198226" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="362.835064374742/64.765891612736;362.780994589724/64.53189835616;362.678844616107/64.342659904035;362.497491674886/64.236356605752;362.377886164145/64.15326428793;362.186867067276/64.066255154341;361.831576296544/64.069116816021" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198227" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="352.113210601317/65.053583986533;352.112557145183/64.752171444556;352.212788646224/64.541475594681;352.312996584299/64.360586303976;352.406758495135/64.254208361983;352.606979135277/64.139398413677;352.796529329681/64.056515649136;352.907239406592/64.056603168726" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198228" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="352.123223886389/73.753370550415;352.125184818815/74.199970851839;352.208330843468/74.399039133596;352.309996038973/74.588866122638;352.40247664916/74.68844050748;352.525039021721/74.788038672842;352.696191351881/74.892303216337;352.846569066139/74.931759808207;353.017803713491/74.931895174258" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198229" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="363.617325846728/74.982359891318;365.47881383193/74.983831452602;365.482901502163/69.813031493706;363.628806213574/69.804178914867" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198230" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="352.060319560703/73.825894400868;352.055681226832/64.992758844492;353.718398195468/64.897982778582;353.533912632472/65.15022311478;353.33165522968/65.342981653907;353.31610689683/73.390423853719;353.683221753726/73.831670479344" A622="0;0;0" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198231" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="361.858388655818/64.009019761477;352.822044209503/64.001876264052;352.055681226832/64.992758844492;361.857614776931/64.987957076496" A622="0;0;0" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198232" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="362.887583262417/73.845730856729;362.89480793595/64.70670067807;361.858388655818/64.009019761477;361.860716919405/73.856328621475" A622="0;0;0" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198233" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="361.93206481876/74.974489286485;352.939873329943/74.995836942051;352.060319560703/73.825894400868;362.88624837665/73.8369936458" A622="0;0;0" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198234" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="361.884130267591/70.302823873521;361.725221586886/71.130490423541;361.633641957036/71.483447041678;361.529961096282/71.745093486224;361.408044184092/71.976291978899;361.261761211652/72.23181803807;361.103348137998/72.432554143712;360.896241437596/72.633251755604;360.713500797442/72.809621800997;360.518610809195/72.955548706234;360.244545560295/73.162280092561;359.994884865395/73.295990285642;359.672154860062/73.466162958156;359.410344817068/73.569430011081;359.099836335613/73.678745273599;358.844137054558/73.751583621524;358.503190244664/73.866961528792;361.860779532704/73.836182982364" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198235" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="370.649147482885/69.167042070173;369.701851457816/69.166293204661;369.27012806971/68.998781923313;368.908113864737/68.761671586111;368.46266889457/68.329463637971;368.184437862094/67.841664546975;368.059456905222/67.34005577209;368.031760448348/67.131071388161;368.046671405051/65.89123907396;368.158591543546/65.292301748166;368.451491252705/64.846746650716;368.813967992259/64.498762384195;369.176378655443/64.234363061062;369.552621027975/64.095352165742;369.942750173491/64.01207557874;371.294040091606/64.013143813369;371.711887719452/64.110989962498;372.032208567283/64.222689846432;372.422018343683/64.543407152474;372.714345390981/64.822254897728;372.936941229691/65.198563346625;373.117700545796/65.630562052932;373.187057321627/66.006749361823;373.18615427792/67.149076921468;373.143998386197/67.608761071921;373.032287489538/67.94301274365;372.655725747891/68.486017532018;372.307234895876/68.764358691776;371.889111949827/69.014783140099;371.652188829006/69.139973338802;371.35960848896/69.181534543206;370.59468274277/69.167461082072;370.591628228312/67.786869724455;370.807248330789/67.745581051105;371.022868433266/67.704292377755;371.209530189288/67.549481807252;371.318900082834/67.411171564125;371.384565781607/67.272826771537;371.428379382993/67.134464704221;371.472152676681/67.047090864137;371.472970347186/66.01275825456;371.40030276986/65.794179698274;371.247476285993/65.619241996088;371.101853219186/65.54628650661;370.919833023043/65.444166096071;370.78147671397/65.393068462221;370.388138961032/65.392757517101;370.205974808813/65.472737918102;370.052958302929/65.538173287156;369.907179763562/65.661886674148;369.812349143726/65.836628596072;369.739336071818/66.055091987496;369.724687391493/66.157056925475;369.716746919328/66.98743086788;369.847611899192/67.300747912111;370.02954572169/67.51212880958;370.196951786966/67.672509963326;370.488261261252/67.738296585204;370.779622559723/67.738526914923" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198236" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="373.671436323116/69.205991866319;374.927728380142/69.206985002331;377.175933201047/66.951693778675;377.174165755605/69.187467778469;378.930836910463/69.199503028457;378.934944117017/64.003990114656;377.582833174285/64.002921230982;375.473100741766/66.173149525078;375.46417114591/64.001246366015;373.675551946077/63.999832409659" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198237" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="379.471765308301/69.166661344318;383.954706561588/69.160846292731;383.95568316641/67.925465773254;382.617346871789/67.933766728025;382.620461649292/63.993651586365;380.804826643394/63.992216273218;380.811078207745/67.922979870069;379.472756710167/67.912562938184" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198238" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="385.078868279384/69.157578164522;386.797328193137/69.158936657887;388.807741222217/63.987696681332;387.124166999641/63.995088918357;386.048468480633/67.47477628335;384.986989145006/64.002122568304;383.312151861008/63.992075407695" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198239" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="386.703773353745/66.123205726857;385.421477674413/66.113468881992;385.064725124532/64.979177069728;387.044879441397/64.980742440257" A623="1" A624="1"/>
+  <O34 Build="10552" A1="34/198240" A3="0" A13="0" A14="0" A404="65" A405="64" A406="1" A407="0" A411="100" A412="0" A413="-5" A414="0.13" A415="L" A416="0" A621="390.643140151262/69.15410903162;396.464934038771/69.158711331795;396.465908643515/67.925860861502;395.404296429324/67.913606336394;395.407391701797/63.998164564993;393.455378457161/63.996621440815;393.463689442702/67.923487518467;391.534497738214/67.933377724659;391.203526749319/67.841793768179;390.998168984469/67.693232666333;390.827084138372/67.510452790445;390.713057654701/67.350548599411;390.62187978353/67.16783189235;390.564938734637/66.996557539772;390.565036699388/66.367232719973;390.642946762736/66.063088266527;390.785509842328/65.849609489395;390.979821941623/65.675006435478;391.167615525873/65.558650449607;391.355378410075/65.481129253551;391.704901751753/65.468460624058;392.002630023656/65.475168456072;392.24857345913/65.488307819657;392.468560517954/65.585568761139;392.630295392056/65.682783652547;392.740235196381/65.799375005464;392.74141203161/64.310708062581;392.48906264794/64.213421537723;392.204340706075/64.129054359431;391.900191135953/64.057616761049;391.667233563817/63.992707911064;390.948784835578/63.998612425118;390.417976191341/64.082334902374;390.094265959416/64.192110973103;389.640988744586/64.450651404621;389.23290621769/64.851621882183;388.993153830065/65.194473208572;388.798683113849/65.56972267653;388.72722504877/65.899762106529;388.714177785332/66.02920117256;388.713190267078/67.278386911585;388.784090614593/67.653846163217;388.945656638423/67.964652398604;389.171911495219/68.320817055522;389.417660497049/68.579910087932;389.650525969037/68.761323307361;389.974016183941/68.929863230303;390.245742029119/69.078944824935;390.582248807413/69.156880471661" A623="1" A624="1"/>
+  <O89 Build="10552" A1="89/198241" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A1651="77.4/89.8" A1652="90.9/101.5" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  <O31 Build="10552" A1="31/198242" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="85.95/100.15" A532="85.95/98.35"/>
+  <O31 Build="10552" A1="31/198243" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="81.45/100.15" A532="81.45/98.35"/>
+  <O31 Build="10552" A1="31/198244" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="82.35/100.15" A532="82.35/98.35"/>
+  <O31 Build="10552" A1="31/198245" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="83.25/100.15" A532="83.25/98.35"/>
+  <O31 Build="10552" A1="31/198246" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="84.15/100.15" A532="84.15/98.35"/>
+  <O31 Build="10552" A1="31/198247" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="85.05/100.15" A532="85.05/98.35"/>
+  <O31 Build="10552" A1="31/198248" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="86.85/100.15" A532="86.85/98.35"/>
+  <O31 Build="10552" A1="31/198249" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="82.35/100.15" A532="81/100.15"/>
+  <O89 Build="10552" A1="89/198250" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A1651="78.75/91.15" A1652="89.55/100.15" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  <O34 Build="10552" A1="34/198251" A3="0" A13="0" A14="0" A404="65" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.13" A415="L" A416="0" A621="85.5/91.6;85.5/92.5;86.85/92.5;86.85/93.58;88.38/93.58;88.38/99.25;86.85/99.25;86.85/100.15;89.55/100.15;89.55/91.15;78.75/91.15;78.75/100.15;81.45/100.15;81.45/99.25;79.92/99.25;79.92/96.1;79.92/93.58;81.45/93.58;81.45/92.5;82.8/92.5;82.8/91.6" A623="1" A624="1"/>
+  <O89 Build="10552" A1="89/198252" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A1651="97.4/89.8" A1652="110.9/101.5" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  <O31 Build="10552" A1="31/198253" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="105.95/100.15" A532="105.95/98.35"/>
+  <O31 Build="10552" A1="31/198254" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="101.45/100.15" A532="101.45/98.35"/>
+  <O31 Build="10552" A1="31/198255" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="102.35/100.15" A532="102.35/98.35"/>
+  <O31 Build="10552" A1="31/198256" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="103.25/100.15" A532="103.25/98.35"/>
+  <O31 Build="10552" A1="31/198257" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="104.15/100.15" A532="104.15/98.35"/>
+  <O31 Build="10552" A1="31/198258" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="105.05/100.15" A532="105.05/98.35"/>
+  <O31 Build="10552" A1="31/198259" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="106.85/100.15" A532="106.85/98.35"/>
+  <O31 Build="10552" A1="31/198260" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A531="102.35/100.15" A532="101/100.15"/>
+  <O89 Build="10552" A1="89/198261" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.13" A415="L" A416="0" A1651="98.75/91.15" A1652="109.55/100.15" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  <O34 Build="10552" A1="34/198262" A3="0" A13="0" A14="0" A404="65" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.13" A415="L" A416="0" A621="105.5/91.6;105.5/92.5;106.85/92.5;106.85/93.58;108.38/93.58;108.38/99.25;106.85/99.25;106.85/100.15;109.55/100.15;109.55/91.15;98.75/91.15;98.75/100.15;101.45/100.15;101.45/99.25;99.92/99.25;99.92/96.1;99.92/93.58;101.45/93.58;101.45/92.5;102.8/92.5;102.8/91.6" A623="1" A624="1"/>
+  <O32 Build="10552" A1="32/198263" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="346/96" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198264" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="342/96" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O89 Build="10552" A1="89/198265" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="330/85.832817523151" A1652="367.06549251362/103.082577523151" A1653="0" A1654="1" A1655="1" A1656="0" A1657="0"/>
+  <O32 Build="10552" A1="32/198266" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.35" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="364.19053251362/94.457697523151" A556="0/1.43748000000004" A557="1" A558="0" A559="0"/>
+  <O31 Build="10552" A1="31/198267" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="361.046211149039/92.360268120925" A532="360/98"/>
+  <O32 Build="10552" A1="32/198268" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="3.14159265358979" A554="5.14872129338327" A555="358.44061251362/91.145257523151" A556="0/2.87495999999997" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198269" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="3.3389882134397" A554="4.90978454023457" A555="357.5/97.5" A556="-2.54950975679645/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198270" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="356/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O31 Build="10552" A1="31/198271" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="339.066132152374/88.270297523151" A532="358.44061251362/88.270297523151"/>
+  <O32 Build="10552" A1="32/198272" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="352/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198273" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="348/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O31 Build="10552" A1="31/198274" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="357/100" A532="341.000000000001/100"/>
+  <O32 Build="10552" A1="32/198275" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="344/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198276" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="340/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198277" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="4.51499342053529" A554="6.08578974732936" A555="340.500000000001/97.499999999999" A556="-2.54950975679759/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198278" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="354/96" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O31 Build="10552" A1="31/198279" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="338/98" A532="336.460533878201/92.360268120925"/>
+  <O32 Build="10552" A1="32/198280" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="1.13446401379631" A554="3.14159265358979" A555="339.06613251362/91.145257523151" A556="0/2.87495999999997" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198281" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.35" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="333.31621251362/94.457697523151" A556="0/1.43748000000004" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198282" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="350/96" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O89 Build="10552" A1="89/198283" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="290/85.665635046302" A1652="327.06549251362/102.915395046302" A1653="0" A1654="1" A1655="1" A1656="0" A1657="0"/>
+  <O32 Build="10552" A1="32/198284" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.35" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="324.19053251362/94.290515046302" A556="0/1.43748000000004" A557="1" A558="0" A559="0"/>
+  <O31 Build="10552" A1="31/198285" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="321.046211149039/92.193085644076" A532="320/97.832817523151"/>
+  <O32 Build="10552" A1="32/198286" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="3.14159265358979" A554="5.14872129338327" A555="318.44061251362/90.978075046302" A556="0/2.87495999999997" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198287" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="3.3389882134397" A554="4.90978454023457" A555="317.5/97.332817523151" A556="-2.54950975679645/0" A557="1" A558="0" A559="0"/>
+  <O31 Build="10552" A1="31/198288" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="299.066132152374/88.103115046302" A532="318.44061251362/88.103115046302"/>
+  <O31 Build="10552" A1="31/198289" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="317/99.832817523151" A532="301.000000000001/99.832817523151"/>
+  <O32 Build="10552" A1="32/198290" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="4.51499342053529" A554="6.08578974732936" A555="300.500000000001/97.33281752315" A556="-2.54950975679759/0" A557="1" A558="0" A559="0"/>
+  <O31 Build="10552" A1="31/198291" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="298/97.832817523151" A532="296.460533878201/92.193085644076"/>
+  <O32 Build="10552" A1="32/198292" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="1.13446401379631" A554="3.14159265358979" A555="299.06613251362/90.978075046302" A556="0/2.87495999999997" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198293" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.35" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="293.31621251362/94.290515046302" A556="0/1.43748000000004" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198294" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="266/96" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198295" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="262/96" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O89 Build="10552" A1="89/198296" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="250/85.832817523151" A1652="287.06549251362/103.082577523151" A1653="0" A1654="1" A1655="1" A1656="0" A1657="0"/>
+  <O32 Build="10552" A1="32/198297" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.35" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="284.19053251362/94.457697523151" A556="0/1.43748000000004" A557="1" A558="0" A559="0"/>
+  <O31 Build="10552" A1="31/198298" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="281.046211149039/92.360268120925" A532="280/98"/>
+  <O32 Build="10552" A1="32/198299" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="3.14159265358979" A554="5.14872129338327" A555="278.44061251362/91.145257523151" A556="0/2.87495999999997" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198300" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="3.3389882134397" A554="4.90978454023457" A555="277.5/97.5" A556="-2.54950975679645/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198301" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="276/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O31 Build="10552" A1="31/198302" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="259.066132152374/88.270297523151" A532="278.44061251362/88.270297523151"/>
+  <O32 Build="10552" A1="32/198303" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="272/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198304" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="268/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O31 Build="10552" A1="31/198305" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="277/100" A532="261.000000000001/100"/>
+  <O32 Build="10552" A1="32/198306" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="264/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198307" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="260/92" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198308" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="4.51499342053529" A554="6.08578974732936" A555="260.500000000001/97.499999999999" A556="-2.54950975679759/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198309" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="274/96" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O31 Build="10552" A1="31/198310" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="258/98" A532="256.460533878201/92.360268120925"/>
+  <O32 Build="10552" A1="32/198311" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="1.13446401379631" A554="3.14159265358979" A555="259.06613251362/91.145257523151" A556="0/2.87495999999997" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198312" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.35" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="253.31621251362/94.457697523151" A556="0/1.43748000000004" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198313" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="-1.22514845490862e-16" A555="270/96" A556="-1/0" A557="1" A558="0" A559="0"/>
+  <O89 Build="10552" A1="89/198314" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="202/85.665635046302" A1652="239.06549251362/102.915395046302" A1653="0" A1654="1" A1655="1" A1656="0" A1657="0"/>
+  <O32 Build="10552" A1="32/198315" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.35" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="236.19053251362/94.290515046302" A556="0/1.43748000000004" A557="1" A558="0" A559="0"/>
+  <O31 Build="10552" A1="31/198316" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="233.046211149039/92.193085644076" A532="232/97.832817523151"/>
+  <O32 Build="10552" A1="32/198317" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="3.14159265358979" A554="5.14872129338327" A555="230.44061251362/90.978075046302" A556="0/2.87495999999997" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198318" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="3.3389882134397" A554="4.90978454023457" A555="229.5/97.332817523151" A556="-2.54950975679645/0" A557="1" A558="0" A559="0"/>
+  <O31 Build="10552" A1="31/198319" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="211.066132152374/88.103115046302" A532="230.44061251362/88.103115046302"/>
+  <O31 Build="10552" A1="31/198320" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="229/99.832817523151" A532="213.000000000001/99.832817523151"/>
+  <O32 Build="10552" A1="32/198321" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="4.51499342053529" A554="6.08578974732936" A555="212.500000000001/97.33281752315" A556="-2.54950975679759/0" A557="1" A558="0" A559="0"/>
+  <O31 Build="10552" A1="31/198322" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A531="210/97.832817523151" A532="208.460533878201/92.193085644076"/>
+  <O32 Build="10552" A1="32/198323" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="L" A415="L" A416="0" A553="1.13446401379631" A554="3.14159265358979" A555="211.06613251362/90.978075046302" A556="0/2.87495999999997" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198324" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="100" A412="0" A413="L" A414="0.35" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="205.31621251362/94.290515046302" A556="0/1.43748000000004" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198325" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="225/94.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198326" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="221/94.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198327" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="217/94.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198328" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="213/94.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198329" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="228/97.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198330" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="224/97.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198331" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="220/97.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198332" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="216/97.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198333" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="212/97.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198334" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="229/94.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198335" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="212/91.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198336" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="216/91.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198337" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="220/91.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198338" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="224/91.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O32 Build="10552" A1="32/198339" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="L" A413="L" A414="0.18" A415="L" A416="0" A553="0" A554="6.28318530717959" A555="228/91.103115046302" A556="1/0" A557="1" A558="0" A559="0"/>
+  <O17 Build="11287" A1="17/198340" A3="1" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="1" A190="0/-44" A191="380/0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="0" A1263="0" A1381="1303" A1382="1" A1383="1" A2489="" A4023="" A4049="0">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="20/104">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20068="0" P20100_1="PXC.2403107" P20101_1="1" P20102_1="1" P20164="FALSE" P20167="FALSE" P20184="FALSE" P20189="FALSE" P20216="0" P20294="0" P20468="PXC\2403107.ema" P31030="0"/>
+  <P144 P20013="PH" P20014="1"/>
+  <P150 P1100="S01" P1200="A2" P20013="PH" P20014="1"/>
+  <S89x5 Build="11287" A3="0" A4="1" R7="17/198340" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="305" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-44" A1652="380/0" A1653="0" A1654="0" A1655="4" A1656="0" A1657="0"/>
+  </O17>
+  <O17 Build="11287" A1="17/198341" A3="2" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="X5USB" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="X4USB" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="17" A1263="0" A1381="1302" A1382="1" A1383="1" A2489="" A4023="" A4049="0">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="144/96">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20294="0" P20406="X5USB" P20468="PXC\2403107.ema" P31030="0"/>
+  <P150 P1100="S01" P1200="A2" P20013="PH" P20014="1"/>
+  <S53x5 Build="11287" A3="0" A4="1" R7="17/198341" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="2.3/1.5" A503="0" A506="0" A771="20039" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="11287" A3="0" A4="2" R7="17/198341" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-4" A503="0" A506="0" A771="20036" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="11287" A1="17/198342" A3="1" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="X3ETH" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="X2ETH" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="17" A1263="0" A1381="1302" A1382="1" A1383="1" A2489="" A4023="" A4049="0">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="104/96">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20294="0" P20406="X3ETH" P20468="PXC\2403107.ema" P31030="0"/>
+  <P150 P1100="S01" P1200="A2" P20013="PH" P20014="1"/>
+  <S53x5 Build="11287" A3="0" A4="1" R7="17/198342" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-6" A503="0" A506="0" A771="20036" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="11287" A1="17/198343" A3="2" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="X4USB" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="X3ETH" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="17" A1263="0" A1381="1302" A1382="1" A1383="1" A2489="" A4023="" A4049="0">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="124/96">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20294="0" P20406="X4USB" P20468="PXC\2403107.ema" P31030="0"/>
+  <P150 P1100="S01" P1200="A2" P20013="PH" P20014="1"/>
+  <S53x5 Build="11287" A3="0" A4="1" R7="17/198343" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="2.3/1.5" A503="0" A506="0" A771="20039" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="11287" A3="0" A4="2" R7="17/198343" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-4" A503="0" A506="0" A771="20036" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="11287" A1="17/198344" A3="1" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="X2ETH" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="17" A1263="0" A1381="1302" A1382="1" A1383="1" A2489="" A4023="" A4049="0">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="84/96">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20294="0" P20406="X2ETH" P20468="PXC\2403107.ema" P31030="0"/>
+  <P150 P1100="S01" P1200="A2" P20013="PH" P20014="1"/>
+  <S53x5 Build="11287" A3="0" A4="1" R7="17/198344" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-6" A503="0" A506="0" A771="20036" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="11287" A1="17/198345" A3="2" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="X6USB" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="X5USB" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="17" A1263="0" A1381="1302" A1382="1" A1383="1" A2489="" A4023="" A4049="0">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="164/96">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20294="0" P20406="X6USB" P20468="PXC\2403107.ema" P31030="0"/>
+  <P150 P1100="S01" P1200="A2" P20013="PH" P20014="1"/>
+  <S53x5 Build="11287" A3="0" A4="1" R7="17/198345" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="2.3/1.5" A503="0" A506="0" A771="20039" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="11287" A3="0" A4="2" R7="17/198345" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-4" A503="0" A506="0" A771="20036" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="11287" A1="17/198346" A3="2" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="X7USB" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="X6USB" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="17" A1263="0" A1381="1302" A1382="1" A1383="1" A2489="" A4023="" A4049="0">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="184/96">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20294="0" P20406="X7USB" P20468="PXC\2403107.ema" P31030="0"/>
+  <P150 P1100="S01" P1200="A2" P20013="PH" P20014="1"/>
+  <S53x5 Build="11287" A3="0" A4="1" R7="17/198346" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="2.3/1.5" A503="0" A506="0" A771="20039" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="11287" A3="0" A4="2" R7="17/198346" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="420" A412="L" A413="L" A414="L" A415="L" A416="0" A501="0/-4" A503="0" A506="0" A771="20036" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="2" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="11287" A1="17/198347" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="X1.2" A186="0 V (-)" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="X1" A404="1" A405="64" A406="0" A407="0" A792="1" A793="0" A794="0" A1261="0" A1262="17" A1263="0" A1381="1302" A1382="1" A1383="1" A2489="" A4023="" A4049="0">
+  <S61x183 A14="0" A1061="1" A1063="0">
+  <S16x1062 A14="0" A161="1" A162="1" A163="" A164="0" A165="" A166="0" A167="0" A168="2" A169="0" A170="1" A171="0" A172="0" A173="0" A174="0" A175=""/>
+  </S61x183>
+  <S40x1201 A762="36/92">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20294="0" P20406="X1" P20468="PXC\2403107.ema" P31030="0"/>
+  <P150 P1100="S01" P1200="A2" P20013="PH" P20014="1"/>
+  </O17>
+  <O17 Build="11287" A1="17/198348" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="X1.1" A186="+24 V DC" A190="1.79769313486232e+52/1.79769313486232e+52" A191="-1.79769313486232e+52/-1.79769313486232e+52" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="1" A793="0" A794="0" A1261="0" A1262="17" A1263="0" A1381="1302" A1382="1" A1383="1" A2489="" A4023="" A4049="0">
+  <S61x183 A14="0" A1061="1" A1063="0">
+  <S16x1062 A14="0" A161="1" A162="1" A163="" A164="0" A165="" A166="0" A167="0" A168="2" A169="0" A170="1" A171="0" A172="0" A173="0" A174="0" A175=""/>
+  </S61x183>
+  <S40x1201 A762="28/92">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20294="0" P20406="X1" P20468="PXC\2403107.ema" P31030="0"/>
+  <P150 P1100="S01" P1200="A2" P20013="PH" P20014="1"/>
+  </O17>
+  <O17 Build="11287" A1="17/198349" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="X1.3" A186="USV (A)" A190="1.79769313486232e+308/1.79769313486232e+308" A191="-1.79769313486232e+308/-1.79769313486232e+308" A192="-1" A194="X1" A404="1" A405="64" A406="0" A407="0" A792="1" A793="0" A794="0" A1261="0" A1262="17" A1263="0" A1381="1302" A1382="1" A1383="1" A2489="" A4023="" A4049="0">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="44/92">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20294="0" P31030="0"/>
+  <P150 P1100="S01" P1200="A2" P20013="PH" P20014="1"/>
+  </O17>
+  <O17 Build="11287" A1="17/198350" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="X1.4" A186="USV (B)" A190="1.79769313486232e+308/1.79769313486232e+308" A191="-1.79769313486232e+308/-1.79769313486232e+308" A192="-1" A194="X1" A404="1" A405="64" A406="0" A407="0" A792="1" A793="0" A794="0" A1261="0" A1262="17" A1263="0" A1381="1302" A1382="1" A1383="1" A2489="" A4023="" A4049="0">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="52/92">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20294="0" P31030="0"/>
+  <P150 P1100="S01" P1200="A2" P20013="PH" P20014="1"/>
+  </O17>
+  <O37 Build="11337" A1="37/198351" A3="1" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A682="1" A683="31/198126;31/198127;31/198128;89/198129;31/198130;31/198131;31/198132;31/198133;31/198134;31/198135;31/198136;31/198137;31/198138;31/198139;31/198140;31/198141;31/198142;31/198143;31/198144;31/198145;31/198146;89/198147;31/198148;31/198149;31/198150;31/198151;31/198152;31/198153;31/198154;31/198155;31/198156;31/198157;31/198158;31/198159;31/198160;31/198161;31/198162;31/198163;31/198164;31/198165;31/198166;31/198167;31/198168;31/198169;31/198170;31/198171;31/198172;31/198173;31/198174;89/198175;31/198176;31/198177;31/198178;31/198179;31/198180;31/198181;31/198182;31/198183;31/198184;31/198185;31/198186;31/198187;31/198188;31/198189;31/198190;31/198191;31/198192;31/198193;31/198194;31/198195;31/198196;31/198197;31/198198;31/198199;31/198200;31/198201;89/198202;31/198203;31/198204;31/198205;32/198206;32/198207;32/198208;32/198209;32/198210;32/198211;32/198212;32/198213;32/198214;34/198215;34/198216;34/198217;34/198218;34/198219;34/198220;34/198221;34/198222;34/198223;34/198224;34/198225;34/198226;34/198227;34/198228;34/198229;34/198230;34/198231;34/198232;34/198233;34/198234;34/198235;34/198236;34/198237;34/198238;34/198239;34/198240;89/198241;31/198242;31/198243;31/198244;31/198245;31/198246;31/198247;31/198248;31/198249;89/198250;34/198251;89/198252;31/198253;31/198254;31/198255;31/198256;31/198257;31/198258;31/198259;31/198260;89/198261;34/198262;32/198263;32/198264;89/198265;32/198266;31/198267;32/198268;32/198269;32/198270;31/198271;32/198272;32/198273;31/198274;32/198275;32/198276;32/198277;32/198278;31/198279;32/198280;32/198281;32/198282;89/198283;32/198284;31/198285;32/198286;32/198287;31/198288;31/198289;32/198290;31/198291;32/198292;32/198293;32/198294;32/198295;89/198296;32/198297;31/198298;32/198299;32/198300;32/198301;31/198302;32/198303;32/198304;31/198305;32/198306;32/198307;32/198308;32/198309;31/198310;32/198311;32/198312;32/198313;89/198314;32/198315;31/198316;32/198317;32/198318;31/198319;31/198320;32/198321;31/198322;32/198323;32/198324;32/198325;32/198326;32/198327;32/198328;32/198329;32/198330;32/198331;32/198332;32/198333;32/198334;32/198335;32/198336;32/198337;32/198338;32/198339;17/198340;17/198341;17/198342;17/198343;17/198344;17/198345;17/198346;17/198347;17/198348;17/198349;17/198350" A684="0" A687="8" A688="2" A689="-1" A690="-1" A691="0" A693="1" A695="0" A699="00000000000000000000000000000000" A792="0" A793="0" A794="0" A1261="0" A1262="44" A1263="0" A1631="0/-44" A1632="381.5/0">
+  <S109x692 R1906="31/198126"/>
+  <S109x692 R1906="31/198127"/>
+  <S109x692 R1906="31/198128"/>
+  <S109x692 R1906="89/198129"/>
+  <S109x692 R1906="31/198130"/>
+  <S109x692 R1906="31/198131"/>
+  <S109x692 R1906="31/198132"/>
+  <S109x692 R1906="31/198133"/>
+  <S109x692 R1906="31/198134"/>
+  <S109x692 R1906="31/198135"/>
+  <S109x692 R1906="31/198136"/>
+  <S109x692 R1906="31/198137"/>
+  <S109x692 R1906="31/198138"/>
+  <S109x692 R1906="31/198139"/>
+  <S109x692 R1906="31/198140"/>
+  <S109x692 R1906="31/198141"/>
+  <S109x692 R1906="31/198142"/>
+  <S109x692 R1906="31/198143"/>
+  <S109x692 R1906="31/198144"/>
+  <S109x692 R1906="31/198145"/>
+  <S109x692 R1906="31/198146"/>
+  <S109x692 R1906="89/198147"/>
+  <S109x692 R1906="31/198148"/>
+  <S109x692 R1906="31/198149"/>
+  <S109x692 R1906="31/198150"/>
+  <S109x692 R1906="31/198151"/>
+  <S109x692 R1906="31/198152"/>
+  <S109x692 R1906="31/198153"/>
+  <S109x692 R1906="31/198154"/>
+  <S109x692 R1906="31/198155"/>
+  <S109x692 R1906="31/198156"/>
+  <S109x692 R1906="31/198157"/>
+  <S109x692 R1906="31/198158"/>
+  <S109x692 R1906="31/198159"/>
+  <S109x692 R1906="31/198160"/>
+  <S109x692 R1906="31/198161"/>
+  <S109x692 R1906="31/198162"/>
+  <S109x692 R1906="31/198163"/>
+  <S109x692 R1906="31/198164"/>
+  <S109x692 R1906="31/198165"/>
+  <S109x692 R1906="31/198166"/>
+  <S109x692 R1906="31/198167"/>
+  <S109x692 R1906="31/198168"/>
+  <S109x692 R1906="31/198169"/>
+  <S109x692 R1906="31/198170"/>
+  <S109x692 R1906="31/198171"/>
+  <S109x692 R1906="31/198172"/>
+  <S109x692 R1906="31/198173"/>
+  <S109x692 R1906="31/198174"/>
+  <S109x692 R1906="89/198175"/>
+  <S109x692 R1906="31/198176"/>
+  <S109x692 R1906="31/198177"/>
+  <S109x692 R1906="31/198178"/>
+  <S109x692 R1906="31/198179"/>
+  <S109x692 R1906="31/198180"/>
+  <S109x692 R1906="31/198181"/>
+  <S109x692 R1906="31/198182"/>
+  <S109x692 R1906="31/198183"/>
+  <S109x692 R1906="31/198184"/>
+  <S109x692 R1906="31/198185"/>
+  <S109x692 R1906="31/198186"/>
+  <S109x692 R1906="31/198187"/>
+  <S109x692 R1906="31/198188"/>
+  <S109x692 R1906="31/198189"/>
+  <S109x692 R1906="31/198190"/>
+  <S109x692 R1906="31/198191"/>
+  <S109x692 R1906="31/198192"/>
+  <S109x692 R1906="31/198193"/>
+  <S109x692 R1906="31/198194"/>
+  <S109x692 R1906="31/198195"/>
+  <S109x692 R1906="31/198196"/>
+  <S109x692 R1906="31/198197"/>
+  <S109x692 R1906="31/198198"/>
+  <S109x692 R1906="31/198199"/>
+  <S109x692 R1906="31/198200"/>
+  <S109x692 R1906="31/198201"/>
+  <S109x692 R1906="89/198202"/>
+  <S109x692 R1906="31/198203"/>
+  <S109x692 R1906="31/198204"/>
+  <S109x692 R1906="31/198205"/>
+  <S109x692 R1906="32/198206"/>
+  <S109x692 R1906="32/198207"/>
+  <S109x692 R1906="32/198208"/>
+  <S109x692 R1906="32/198209"/>
+  <S109x692 R1906="32/198210"/>
+  <S109x692 R1906="32/198211"/>
+  <S109x692 R1906="32/198212"/>
+  <S109x692 R1906="32/198213"/>
+  <S109x692 R1906="32/198214"/>
+  <S109x692 R1906="34/198215"/>
+  <S109x692 R1906="34/198216"/>
+  <S109x692 R1906="34/198217"/>
+  <S109x692 R1906="34/198218"/>
+  <S109x692 R1906="34/198219"/>
+  <S109x692 R1906="34/198220"/>
+  <S109x692 R1906="34/198221"/>
+  <S109x692 R1906="34/198222"/>
+  <S109x692 R1906="34/198223"/>
+  <S109x692 R1906="34/198224"/>
+  <S109x692 R1906="34/198225"/>
+  <S109x692 R1906="34/198226"/>
+  <S109x692 R1906="34/198227"/>
+  <S109x692 R1906="34/198228"/>
+  <S109x692 R1906="34/198229"/>
+  <S109x692 R1906="34/198230"/>
+  <S109x692 R1906="34/198231"/>
+  <S109x692 R1906="34/198232"/>
+  <S109x692 R1906="34/198233"/>
+  <S109x692 R1906="34/198234"/>
+  <S109x692 R1906="34/198235"/>
+  <S109x692 R1906="34/198236"/>
+  <S109x692 R1906="34/198237"/>
+  <S109x692 R1906="34/198238"/>
+  <S109x692 R1906="34/198239"/>
+  <S109x692 R1906="34/198240"/>
+  <S109x692 R1906="89/198241"/>
+  <S109x692 R1906="31/198242"/>
+  <S109x692 R1906="31/198243"/>
+  <S109x692 R1906="31/198244"/>
+  <S109x692 R1906="31/198245"/>
+  <S109x692 R1906="31/198246"/>
+  <S109x692 R1906="31/198247"/>
+  <S109x692 R1906="31/198248"/>
+  <S109x692 R1906="31/198249"/>
+  <S109x692 R1906="89/198250"/>
+  <S109x692 R1906="34/198251"/>
+  <S109x692 R1906="89/198252"/>
+  <S109x692 R1906="31/198253"/>
+  <S109x692 R1906="31/198254"/>
+  <S109x692 R1906="31/198255"/>
+  <S109x692 R1906="31/198256"/>
+  <S109x692 R1906="31/198257"/>
+  <S109x692 R1906="31/198258"/>
+  <S109x692 R1906="31/198259"/>
+  <S109x692 R1906="31/198260"/>
+  <S109x692 R1906="89/198261"/>
+  <S109x692 R1906="34/198262"/>
+  <S109x692 R1906="32/198263"/>
+  <S109x692 R1906="32/198264"/>
+  <S109x692 R1906="89/198265"/>
+  <S109x692 R1906="32/198266"/>
+  <S109x692 R1906="31/198267"/>
+  <S109x692 R1906="32/198268"/>
+  <S109x692 R1906="32/198269"/>
+  <S109x692 R1906="32/198270"/>
+  <S109x692 R1906="31/198271"/>
+  <S109x692 R1906="32/198272"/>
+  <S109x692 R1906="32/198273"/>
+  <S109x692 R1906="31/198274"/>
+  <S109x692 R1906="32/198275"/>
+  <S109x692 R1906="32/198276"/>
+  <S109x692 R1906="32/198277"/>
+  <S109x692 R1906="32/198278"/>
+  <S109x692 R1906="31/198279"/>
+  <S109x692 R1906="32/198280"/>
+  <S109x692 R1906="32/198281"/>
+  <S109x692 R1906="32/198282"/>
+  <S109x692 R1906="89/198283"/>
+  <S109x692 R1906="32/198284"/>
+  <S109x692 R1906="31/198285"/>
+  <S109x692 R1906="32/198286"/>
+  <S109x692 R1906="32/198287"/>
+  <S109x692 R1906="31/198288"/>
+  <S109x692 R1906="31/198289"/>
+  <S109x692 R1906="32/198290"/>
+  <S109x692 R1906="31/198291"/>
+  <S109x692 R1906="32/198292"/>
+  <S109x692 R1906="32/198293"/>
+  <S109x692 R1906="32/198294"/>
+  <S109x692 R1906="32/198295"/>
+  <S109x692 R1906="89/198296"/>
+  <S109x692 R1906="32/198297"/>
+  <S109x692 R1906="31/198298"/>
+  <S109x692 R1906="32/198299"/>
+  <S109x692 R1906="32/198300"/>
+  <S109x692 R1906="32/198301"/>
+  <S109x692 R1906="31/198302"/>
+  <S109x692 R1906="32/198303"/>
+  <S109x692 R1906="32/198304"/>
+  <S109x692 R1906="31/198305"/>
+  <S109x692 R1906="32/198306"/>
+  <S109x692 R1906="32/198307"/>
+  <S109x692 R1906="32/198308"/>
+  <S109x692 R1906="32/198309"/>
+  <S109x692 R1906="31/198310"/>
+  <S109x692 R1906="32/198311"/>
+  <S109x692 R1906="32/198312"/>
+  <S109x692 R1906="32/198313"/>
+  <S109x692 R1906="89/198314"/>
+  <S109x692 R1906="32/198315"/>
+  <S109x692 R1906="31/198316"/>
+  <S109x692 R1906="32/198317"/>
+  <S109x692 R1906="32/198318"/>
+  <S109x692 R1906="31/198319"/>
+  <S109x692 R1906="31/198320"/>
+  <S109x692 R1906="32/198321"/>
+  <S109x692 R1906="31/198322"/>
+  <S109x692 R1906="32/198323"/>
+  <S109x692 R1906="32/198324"/>
+  <S109x692 R1906="32/198325"/>
+  <S109x692 R1906="32/198326"/>
+  <S109x692 R1906="32/198327"/>
+  <S109x692 R1906="32/198328"/>
+  <S109x692 R1906="32/198329"/>
+  <S109x692 R1906="32/198330"/>
+  <S109x692 R1906="32/198331"/>
+  <S109x692 R1906="32/198332"/>
+  <S109x692 R1906="32/198333"/>
+  <S109x692 R1906="32/198334"/>
+  <S109x692 R1906="32/198335"/>
+  <S109x692 R1906="32/198336"/>
+  <S109x692 R1906="32/198337"/>
+  <S109x692 R1906="32/198338"/>
+  <S109x692 R1906="32/198339"/>
+  <S109x692 R1906="17/198340"/>
+  <S109x692 R1906="17/198341"/>
+  <S109x692 R1906="17/198342"/>
+  <S109x692 R1906="17/198343"/>
+  <S109x692 R1906="17/198344"/>
+  <S109x692 R1906="17/198345"/>
+  <S109x692 R1906="17/198346"/>
+  <S109x692 R1906="17/198347"/>
+  <S109x692 R1906="17/198348"/>
+  <S109x692 R1906="17/198349"/>
+  <S109x692 R1906="17/198350"/>
+  <S40x1201 A762="18.5/104">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <S89x5 Build="11337" A3="0" A4="1" R7="37/198351" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="308" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-44" A1652="381.5/0" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  </O37>
+  </O4>
+ </MacroVariant>
+</EplanPxfRoot>

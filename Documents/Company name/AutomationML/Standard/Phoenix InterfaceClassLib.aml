@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile FileName="Phoenix InterfaceClassLib.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AdditionalInformation AutomationMLVersion="2.0" />
+	<AdditionalInformation>
+		<WriterHeader>
+			<WriterName>Moeller D.</WriterName>
+			<WriterID>
+			</WriterID>
+			<WriterVendor>Phoenix Contact</WriterVendor>
+			<WriterVendorURL>http://www.phoenixcontact.com</WriterVendorURL>
+			<WriterVersion>1.0</WriterVersion>
+			<WriterRelease>1.0.1</WriterRelease>
+			<LastWritingDateTime>22.05.2013</LastWritingDateTime>
+			<WriterProjectTitle>
+			</WriterProjectTitle>
+			<WriterProjectID>
+			</WriterProjectID>
+		</WriterHeader>
+	</AdditionalInformation>
+	<InterfaceClassLib Name="Phoenix InterfaceClassLib">
+		<InterfaceClass Name="CLIPLINE Interfaces">
+			<InterfaceClass Name="AnschlussInterfaces" RefBaseClassPath="Phoenix InterfaceClassLib/CLIPLINE Interfaces">
+				<InterfaceClass Name="Leiteranschluss" RefBaseClassPath="Phoenix InterfaceClassLib/CLIPLINE Interfaces/AnschlussInterfaces" />
+				<InterfaceClass Name="Brueckenanschluss" RefBaseClassPath="Phoenix InterfaceClassLib/CLIPLINE Interfaces/AnschlussInterfaces" />
+			</InterfaceClass>
+			<InterfaceClass Name="Beschriftungsinterfaces" RefBaseClassPath="Phoenix InterfaceClassLib/CLIPLINE Interfaces">
+				<Attribute Name="Beschrifungsart" />
+				<Attribute Name="Beschriftungsposition" />
+				<Attribute Name="Beschriftungstext">
+					<Attribute Name="Druckbild" />
+				</Attribute>
+				<Attribute Name="Montageart" />
+			</InterfaceClass>
+			<InterfaceClass Name="AccessoryInterface" RefBaseClassPath="Phoenix InterfaceClassLib/CLIPLINE Interfaces">
+				<Attribute Name="AccessoryTyp" />
+				<Attribute Name="AnschlussArt">
+					<Attribute Name="Verbindung">
+						<Description>Gibt an ob Stecker oder Kupplung</Description>
+					</Attribute>
+				</Attribute>
+			</InterfaceClass>
+			<InterfaceClass Name="MarkingInterface" RefBaseClassPath="Phoenix InterfaceClassLib/CLIPLINE Interfaces">
+				<Attribute Name="Text" />
+				<Attribute Name="Level" />
+				<Attribute Name="Align" />
+				<Attribute Name="Color" />
+				<Attribute Name="Direction" />
+				<Attribute Name="DirectionChar" />
+				<Attribute Name="HeightOfText" />
+			</InterfaceClass>
+			<InterfaceClass Name="BridgingInterface" RefBaseClassPath="Phoenix InterfaceClassLib/CLIPLINE Interfaces">
+				<Attribute Name="SlotNumber" />
+				<Attribute Name="Slot Level" />
+				<Attribute Name="Material" />
+			</InterfaceClass>
+		</InterfaceClass>
+		<InterfaceClass Name="Allgemeine Interfaces">
+			<InterfaceClass Name="KatatlogInterface" RefBaseClassPath="Phoenix InterfaceClassLib/Allgemeine Interfaces">
+				<Attribute Name="Katalogangabe">
+					<Description>Gibt den Katalog an</Description>
+					<Attribute Name="Seitenangabe">
+						<Description>Gibt die Seite im Katalog an</Description>
+					</Attribute>
+				</Attribute>
+				<Attribute Name="ProductURL">
+					<Description>Gibt den Link zur Produktseite an www</Description>
+				</Attribute>
+			</InterfaceClass>
+			<InterfaceClass Name="OrderInterface" RefBaseClassPath="Phoenix InterfaceClassLib/Allgemeine Interfaces">
+				<Attribute Name="Spacing" />
+			</InterfaceClass>
+		</InterfaceClass>
+	</InterfaceClassLib>
+</CAEXFile>

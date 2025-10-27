@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings format="2">
+  <CAT name="USER">
+    <MOD name="Labelling">
+      <LEV1 name="Config" nodekind="scheme">
+        <LEV2 name="Standard Betriebsmittel">
+          <Setting name="Description" type="mlstring">
+            <Val>??_??@Beschriftung Betriebsmittel Standard nach Text;</Val>
+          </Setting>
+          <Setting name="Name" type="mlstring">
+            <Val>??_??@Standard Betriebsmittel;</Val>
+          </Setting>
+          <Setting name="ReadOnly" type="bool">
+            <Val />
+          </Setting>
+          <LEV3 name="Data" nodekind="block">
+            <Setting name="DocumentTypeID" type="int">
+              <Val>13</Val>
+            </Setting>
+            <LEV4 name="File">
+              <Setting name="Destination" type="string">
+                <Val>C:\BESCHRIFTUNG_BMK_STANDARD.TXT</Val>
+              </Setting>
+              <Setting name="Format" type="string">
+                <Val>XmlLblTextExportConverterImpl</Val>
+              </Setting>
+              <Setting name="Template" type="string">
+                <Val />
+              </Setting>
+            </LEV4>
+            <LEV4 name="Footer">
+              <Setting name="OnEachPage" type="bool">
+                <Val />
+              </Setting>
+            </LEV4>
+            <LEV4 name="Header">
+              <Setting name="OnEachPage" type="bool">
+                <Val>1</Val>
+              </Setting>
+            </LEV4>
+            <LEV4 name="Record">
+              <Setting name="NrLinePerPage" type="int">
+                <Val>40</Val>
+              </Setting>
+              <Setting name="NrRecPerLine" type="int">
+                <Val>1</Val>
+              </Setting>
+              <Setting name="RecSeparator" type="string">
+                <Val>;</Val>
+              </Setting>
+              <LEV5 name="FormatElements">
+                <Setting name="Element" type="int">
+                  <Val>1</Val>
+                  <Val />
+                  <Val>1</Val>
+                  <Val />
+                  <Val />
+                  <Val>1</Val>
+                  <Val />
+                  <Val>1</Val>
+                  <Val />
+                  <Val>1</Val>
+                </Setting>
+                <Setting name="ID" type="int">
+                  <Val />
+                  <Val>11</Val>
+                  <Val>12</Val>
+                  <Val>13</Val>
+                  <Val>1</Val>
+                  <Val>15</Val>
+                  <Val>7</Val>
+                  <Val>2</Val>
+                  <Val>3</Val>
+                  <Val>14</Val>
+                </Setting>
+                <LEV6 name="Interspace1">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>-</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="Interspace11">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>;</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="Interspace13">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>;</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="Interspace3">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>;</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="Interspace7">
+                  <Setting name="CharacterCount" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="CharacterType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Separator" type="string">
+                    <Val>;</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack0">
+                  <Setting name="Length" type="int">
+                    <Val>25</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>1226324</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val>1226312</Val>
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>20000</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Betriebsmitteldaten</Val>
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val />
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>1140</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[1140&lt;...&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P1140</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack1">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>-</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>-</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack11">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>;</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>;</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack12">
+                  <Setting name="Length" type="int">
+                    <Val>25</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>1226324</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val>1226312</Val>
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>20000</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Betriebsmitteldaten</Val>
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val />
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>1240</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[1240&lt;...&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P1240</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack13">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>;</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>;</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack14">
+                  <Setting name="Length" type="int">
+                    <Val>10</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>1226324</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val>1226312</Val>
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>17</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Betriebsmitteldaten (indiziert) [1]</Val>
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val />
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>19007</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[19007&lt;...&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P19007</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack15">
+                  <Setting name="Length" type="int">
+                    <Val>25</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>1226324</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val>1226312</Val>
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>20000</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Betriebsmitteldaten</Val>
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val />
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>20008</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[20008&lt;...&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P20008</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack2">
+                  <Setting name="Length" type="int">
+                    <Val>32</Val>
+                  </Setting>
+                  <Setting name="LengthType" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="PHGroupType" type="int">
+                    <Val>1226324</Val>
+                  </Setting>
+                  <Setting name="PHType" type="int">
+                    <Val>1226312</Val>
+                  </Setting>
+                  <Setting name="RelationId" type="int">
+                    <Val>17</Val>
+                  </Setting>
+                  <Setting name="RelationIndex" type="int">
+                    <Val>1</Val>
+                  </Setting>
+                  <Setting name="RelationName" type="string">
+                    <Val>Betriebsmitteldaten (indiziert) [1]</Val>
+                  </Setting>
+                  <Setting name="RightAlign" type="bool">
+                    <Val />
+                  </Setting>
+                  <Setting name="SelectedPropertyId" type="int">
+                    <Val>20031</Val>
+                  </Setting>
+                  <Setting name="SelectedPropertyIndex" type="int">
+                    <Val />
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>[20031&lt;...&gt;]</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>P20031</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack3">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>;</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>;</Val>
+                  </Setting>
+                </LEV6>
+                <LEV6 name="PropertyPack7">
+                  <Setting name="SeparatorType" type="int">
+                    <Val>3</Val>
+                  </Setting>
+                  <Setting name="Settings" type="string">
+                    <Val>;</Val>
+                  </Setting>
+                  <Setting name="Symbol" type="string">
+                    <Val>;</Val>
+                  </Setting>
+                </LEV6>
+              </LEV5>
+            </LEV4>
+          </LEV3>
+        </LEV2>
+      </LEV1>
+    </MOD>
+  </CAT>
+</Settings>

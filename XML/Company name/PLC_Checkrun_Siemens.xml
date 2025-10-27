@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PlcRules FileVersion="1.0" FormatVersion="1.0" Author="EPLAN Software &amp; Service GmbH" ModifiedDateTime="2017-05-24T00:00:00">
+  <PlcRule plcType="6ES7 21*">
+    <Slot>1</Slot>
+	<StationType>S71200</StationType>
+  </PlcRule>
+  <PlcRule PlcType="6ES7 31*">
+    <Slot>2</Slot>
+	<StationType>S7300</StationType>
+  </PlcRule>
+  <PlcRule plcType="6ES7 51*">
+    <Slot>1</Slot>
+	<StationType>S71500</StationType>
+  </PlcRule>  
+  <PlcRule PlcType="6ES7 305*">
+    <Slot>1</Slot>	
+  </PlcRule>
+  <PlcRule PlcType="6ES7 307*">
+	<Slot>1</Slot>
+  </PlcRule> 
+  <PlcRule PlcType="6ES7 405*">
+	<Slot>1</Slot>
+  </PlcRule> 
+  <PlcRule PlcType="6ES7 407*">
+	<Slot>1</Slot>
+  </PlcRule> 
+  <PlcRule PlcType="6ES7 461*">
+    <Slot>MAX</Slot>
+    <Racks>
+		<Rack>greater 0</Rack>
+	</Racks>
+  </PlcRule>
+  <PlcRule PlcType="6ES7 360-3AA01-0AA0">
+    <Slot>3</Slot>
+    <Racks>
+		<Rack>0</Rack>
+	</Racks>	
+  </PlcRule>  
+  <PlcRule PlcType="6ES7 361-3CA01-0AA0">
+    <Slot>3</Slot>
+    <Racks>
+		<Rack>1</Rack>
+		<Rack>2</Rack>
+		<Rack>3</Rack>
+	</Racks>
+  </PlcRule>
+  <PlcRule PlcType="6ES7 365-0BA01-0AA0">
+    <Slot>3</Slot>
+    <Racks>
+		<Rack>0</Rack>
+		<Rack>1</Rack>
+	</Racks>
+  </PlcRule>
+  
+  <!--Signalboard-->
+  <PlcRule PlcType="6ES7 221*">
+    <Racks>
+		<Rack>CPU</Rack>
+	</Racks>
+  </PlcRule>
+  <PlcRule PlcType="6ES7 222*">
+    <Racks>
+		<Rack>CPU</Rack>
+	</Racks>
+  </PlcRule>
+   <PlcRule PlcType="6ES7 223*">
+    <Racks>
+		<Rack>CPU</Rack>
+	</Racks>
+  </PlcRule>
+   <PlcRule PlcType="6ES7 231*">
+    <Racks>
+		<Rack>CPU</Rack>
+	</Racks>
+  </PlcRule>  
+   <PlcRule PlcType="6ES7 232*">
+    <Racks>
+		<Rack>CPU</Rack>
+	</Racks>
+  </PlcRule>  
+  <!--Communication boards-->
+  <PlcRule PlcType="6ES7 241-1CH30-1XB0">
+    <Racks>
+		<Rack>CPU</Rack>
+	</Racks>
+  </PlcRule>  
+  <!--Battery boards -->  
+  <PlcRule PlcType="6ES7 297-0AX30-0XA0">
+    <Racks>
+		<Rack>CPU</Rack>
+	</Racks>
+  </PlcRule>
+  <PlcRule PlcType="6GK7 443-1GX20-0XE0">
+    <Interfaces>
+      <Interface Label="X1" Type="Ethernet">
+        <PlugDTs>
+          <PlugDT>P1</PlugDT>
+        </PlugDTs>
+      </Interface>
+      <Interface Label="X2" Type="Ethernet">
+        <PlugDTs>
+          <PlugDT>P1 R</PlugDT>
+          <PlugDT>P2 R</PlugDT>
+          <PlugDT>P3</PlugDT>
+          <PlugDT>P4</PlugDT>
+        </PlugDTs>
+      </Interface>
+    </Interfaces>
+  </PlcRule>
+  <PlcRule PlcType="6ES7 155-5BA00-0AB0">
+    <Interfaces>
+      <Interface Type="Profibus">
+        <PlugDTs>
+          <PlugDT>Any</PlugDT>
+        </PlugDTs>
+      </Interface>
+    </Interfaces>
+  </PlcRule>
+  <PlcRule PlcType="6ES7 313-6CF03-0AB0">
+    <Interfaces>
+      <Interface Type="Mpi-Bus">
+        <PlugDTs>
+          <PlugDT>X1</PlugDT>
+        </PlugDTs>
+      </Interface>
+      <Interface Type="Profibus">
+        <PlugDTs>
+          <PlugDT>X2</PlugDT>
+        </PlugDTs>
+      </Interface>
+    </Interfaces>
+  </PlcRule>
+  <PlcRule PlcType="3RA6 970-3A">
+    <Interfaces>
+      <Interface Type="Asi">
+        <PlugDTs>
+          <PlugDT>ADDR</PlugDT>
+        </PlugDTs>
+      </Interface>
+    </Interfaces>
+  </PlcRule>
+</PlcRules>

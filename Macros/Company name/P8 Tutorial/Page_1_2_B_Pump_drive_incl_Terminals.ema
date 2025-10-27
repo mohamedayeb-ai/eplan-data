@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<EplanPxfRoot Name="Page_1_2_B_Pump_drive_incl_Terminals" Type="WindowMacro" Version="2022.0.17463" PxfVersion="1.23" SchemaVersion="1.7.17463" Source="" SourceProject="D:\Program Files\EPLAN\2022.0.1.17463\Data\Projekte\QS\EPLAN Tutorial Makroprojekt.elk" Description="" ConfigurationFlags="8193" NumMainObjects="1" NumProjectSteps="1" NumMDSteps="0" Custompagescaleused="true" StreamSchema="EBitmap, ,2,1,2;EPosition3D, ,0,3,2;ERay3D, ,0,4,2;EStreamableVector, ,0,5,2;BaseTextLine@W3D, ,2,9,2;Box3d@W3D, ,0,10,2;DMNCDataSet, ,1,12,2;DMNCDataSetVector, ,1,13,2;Linetype@W3D, ,0,15,2;Color@W3D, ,0,16,2;Material@W3D, ,3,17,2;Mesh3d@W3D, ,8,19,2;Mesh3dX@W3D, ,2,20,2;MeshBox@W3D, ,5,21,2;MeshEdge3d@W3D, ,0,22,2;MeshFace3d@W3D, ,2,23,2;MeshPoint3d@W3D, ,1,24,2;MeshPolygon3d@W3D, ,1,25,2;MeshSimpleTextureTriangle3d@W3D, ,2,26,2;MeshSimpleTriangle3d@W3D, ,1,27,2;MeshText3dX@W3D, ,0,28,2;MeshTriangle3d@W3D, ,2,29,2;MeshTriangleFace3d@W3D, ,0,30,2;MeshTriangleFaceEdge3D@W3D, ,0,31,2;CTexture@W3D,W3dBaseGeometry,0,81,2;MeshMate@W3D,W3dMeshModeller,7,82,2;MeshMateFace@W3D,W3dMeshModeller,1,83,2;MeshMateGrid@W3D,W3dMeshModeller,8,84,2;MeshMateGridLine@W3D,W3dMeshModeller,1,85,2;MeshMateLine@W3D,W3dMeshModeller,1,86,2">
+ <EplPxfDir>
+  <EplPxfDirEntry MacroFuncType="1" VariantId="0"/>
+ </EplPxfDir>
+ <MacroVariant MacroFuncType="1" VariantId="0" ReferencePoint="148/104/0" Version="2022.0.17463" PxfVersion="1.23" SchemaVersion="1.7.17463" Source="" SourceProject="D:\Program Files\EPLAN\2022.0.1.17463\Data\Projekte\QS\EPLAN Tutorial Makroprojekt.elk" Description="" ConfigurationFlags="0" DocumentType="1" SelectionArea="124/280/260/28" Customgost="0">
+  <ESymLib Name="SPECIAL" ID="0"/>
+  <ESymLib Name="IEC_symbol" ID="1"/>
+  <ESymLib Name="IEC_topology_symbol_M20" ID="2"/>
+  <ESymLib Name="GRAPHICS" ID="3"/>
+  <ESymLib Name="PID_ESS" ID="4"/>
+  <ESymLib Name="PNE1ESS" ID="5"/>
+  <ESymLib/>
+  <O76 Build="17463" A1="76/5619" A3="0" A13="0" A14="0" A1422="1" A1423="1" A1424="SIEMENS_Zusatzfeld_20" A1425="de_DE@SIEMENS.Eigenschaftsplatzierung.Zusatzfeld[20];en_US@SIEMENS.Property Placement.Additional Field[20];" A1426="1000" A1427="0" A1428="9" A1429="0.25" A1430="-4" A1433="0" A1434="0" A1435="0">
+  <S54x1432 A961="1.5" A962="0" A963="0" A964="0" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+  </O76>
+  <O14 Build="17461" A1="14/1" A3="0" A13="0" A14="0" A133="IEC_bas003_sample_project@1620204834" A134="2022.0.1.17461" A135="1">
+  <P11 P10000="EPL_DEMO" P10002="&lt;1100&gt;&lt;1101&gt;&lt;1102&gt;&lt;1103&gt;&lt;1104&gt;&lt;1105&gt;&lt;1106&gt;&lt;1107&gt;&lt;1108&gt;&lt;1109&gt;" P10004="&lt;1200&gt;&lt;1201&gt;&lt;1202&gt;&lt;1203&gt;&lt;1204&gt;&lt;1205&gt;&lt;1206&gt;&lt;1207&gt;&lt;1208&gt;&lt;1209&gt;" P10006="&lt;1500&gt;" P10008="0" P10011="de_DE@Basisprojekt auf Grundlage des Beispielprojekts ESS_Sample_Project;en_US@Basic project on the basis of the sample project ESS_Sample_Project;es_ES@Proyecto básico basado en el proyecto de ejemplo ESS_Sample_Project;fr_FR@Projet de base sur la base du projet de base ESS_Sample_Project;nl_NL@Basisproject op basis van het voorbeeldproject ESS_Sample_Project;sv_SE@Basprojekt grundat på exempelprojektet ESS_Sample_Project;da_DK@Basisprojekt på grundlag af eksempelprojekt ESS_Sample_Project;ru_RU@Базовый проект на основе образца проекта ESS_Sample_Project;zh_CN@在示例项目 ESS_Sample_项目基础上的基本项目;pl_PL@Projekt bazowy na podstawie projektu przykładowego ESS_Sample_Project;pt_BR@Projeto de base com base no exemplo de projeto ESS_Sample_Project;cs_CZ@Základní projekt na základě vzorového projektu ESS_Sample_Project;it_IT@Progetto di base sulla base del progetto di esempio ESS_Sample_Project;hu_HU@Bázisprojekt az ESS_Sample_Project példaprojekt alapján;pt_PT@Projeto baseado no projeto modelo ESS_Sample_Projeletricamente;ko_KR@샘플 프로젝트 ESS_Sample_Project 기반의 기본 프로젝트;ja_JP@サンプル プロジェクト ESS_Sample_Project に基づいた基本プロジェクト;tr_TR@ESS_Sample_Project örnek projesi temelinde ana proje;ro_RO@Proiect de bază pe baza proiectului eşantion ESS_Sample_Project;" P10012="0" P10013="IEC_bas003_sample_project" P10014="??_??@EPLAN;" P10015="EPLAN GmbH &amp; Co. KG" P10016="An der alten Ziegelei 2" P10017="D-40789 Monheim am Rhein / Germany" P10018="16&#9;==&#9;.&#9;=&#9;.&#9;++&#9;.&#9;+&#9;.&#9;&#9;&#9;&amp;&#9;&#9;#&#9;#&#9;-&#9;-" P10019="16&#9;1&#9;1&#9;1&#9;1&#9;1&#9;1&#9;1&#9;1&#9;0&#9;0&#9;0&#9;0&#9;1&#9;0&#9;1&#9;0" P10020="EPLAN" P10021="1620204824" P10024="1620209050" P10025="EPL" P10028="1620204847" P10029="4&#9;0&#9;0&#9;0&#9;0" P10034="de_DE@Keine;en_US@None;es_ES@Ninguno;fr_FR@Aucune;nl_NL@Geen;sv_SE@Inga;da_DK@Ingen;ru_RU@Нет;zh_CN@无;pl_PL@Brak;pt_BR@Nenhum;cs_CZ@Žádné;it_IT@Nessuno;hu_HU@Egy se;pt_PT@Nenhum;ko_KR@없음;ja_JP@なし;tr_TR@Yok;ro_RO@Niciuna;" P10042="2016/2017" P10050="&lt;10002&gt;&lt;10004&gt;&lt;10006&gt;&lt;11012&gt;&lt;11013&gt;" P10051="&lt;10002&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;" P10053="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10054="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10055="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10056="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10057="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10059="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10060="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10061="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10062="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10063="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10064="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10069="IEC_bas003_sample_project.zw9" P10070="&lt;10002&gt;&lt;10004&gt;&lt;10006&gt;&lt;11012&gt;&lt;11013&gt;" P10071="&lt;10002&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;" P10072="17463" P10073="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10074="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10075="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10076="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10077="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10079="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10080="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10081="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10082="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10083="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10084="&lt;10002&gt;&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10085="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10086="&lt;10004&gt;&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;" P10089="&lt;10001&gt;&lt;10002&gt;&lt;10003&gt;&lt;10004&gt;&lt;10006&gt;&lt;10007&gt;&lt;10005&gt;" P10090="0" P10092="3&#9;11017&#9;0&#9;0&#9;10002&#9;0&#9;1&#9;10004&#9;0&#9;1&#9;10006&#9;0&#9;1" P10093="0" P10094="3&#9;10002&#9;0&#9;1&#9;10004&#9;0&#9;1&#9;20012&#9;0&#9;0&#9;20013&#9;0&#9;1&#9;20014&#9;0&#9;0&#9;20015&#9;0&#9;0" P10095="0" P10097="0" P10100="Muster GmbH" P10230="EPLAN" P10231="Firma" P10232="EPLAN GmbH &amp; Co. KG" P10235="An der alten Ziegelei 2" P10237="40789" P10238="Monheim am Rhein" P10239="Deutschland" P10240="+49 (0)2173 - 39 64 - 0" P10241="+49 (0)2173 - 39 64 - 25" P10310="5" P10311="1" P10312="1" P10313_1="188,80 W" P10313_2="58,14 W" P10313_3="0,00 W" P10400="##_##@1499/SchemeDataProject;??_??@Higher-level function mounting location document type;" P10401="##_##@701/SchemeDataProject;" P10403="##_##@715/SchemeDataProject;" P10405="##_##@703/SchemeDataProject;" P10406="##_##@703/SchemeDataProject;" P10407="##_##@703/SchemeDataProject;" P10409="##_##@715/SchemeDataProject;" P10410="##_##@715/SchemeDataProject;" P10411="##_##@715/SchemeDataProject;" P10412="##_##@703/SchemeDataProject;" P10413="##_##@703/SchemeDataProject;" P10414="##_##@715/SchemeDataProject;" P10420="##_##@1500/SchemeDataProject;??_??@Higher-level function, mounting location and document type  (identifying);" P10421="##_##@701/SchemeDataProject;" P10423="##_##@715/SchemeDataProject;" P10425="##_##@703/SchemeDataProject;" P10426="##_##@703/SchemeDataProject;" P10427="##_##@703/SchemeDataProject;" P10429="##_##@715/SchemeDataProject;" P10430="##_##@715/SchemeDataProject;" P10431="##_##@715/SchemeDataProject;" P10432="##_##@703/SchemeDataProject;" P10433="##_##@703/SchemeDataProject;" P10434="##_##@715/SchemeDataProject;" P10450="0" P10510="1" P10511="1" P10512="1" P10513="0" P10514="0" P10515="0" P10516="0" P10517="D:\Masterdata" P10607_1="[117,1&lt;22069,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;]" P10608_10="[20203,6&lt;20201&lt;31090,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0,0&gt;&gt;]" P10609_5="[20221&lt;20010,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;]-[20222,1&lt;4&lt;11037,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,5&gt;&gt;][20222,1&lt;4&lt;11042,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]-[20222,1&lt;20221&lt;19006,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]/[20222,1&lt;20221&lt;19005,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]" P10660_5="=│de_DE@0;en_US@1;es_ES@1;fr_FR@1;nl_NL@1;sv_SE@1;da_DK@1;ru_RU@1;zh_CN@1;pl_PL@1;pt_BR@1;cs_CZ@1;it_IT@1;hu_HU@1;pt_PT@1;ko_KR@1;│de_DE@E;en_US@E;es_ES@E;fr_FR@E;nl_NL@E;sv_SE@E;da_DK@E;ru_RU@E;zh_CN@E;pl_PL@E;pt_BR@E;cs_CZ@E;it_IT@E;hu_HU@E;pt_PT@E;ko_KR@E;ja_JP@E;║=│de_DE@2;en_US@2;es_ES@2;fr_FR@2;nl_NL@2;sv_SE@2;da_DK@2;ru_RU@2;zh_CN@2;pl_PL@2;pt_BR@2;cs_CZ@2;it_IT@2;hu_HU@2;pt_PT@2;ko_KR@2;│de_DE@H;en_US@H;es_ES@H;fr_FR@H;nl_NL@H;sv_SE@H;da_DK@H;ru_RU@H;zh_CN@H;pl_PL@H;pt_BR@H;cs_CZ@H;it_IT@H;hu_HU@H;pt_PT@H;ko_KR@H;ja_JP@H;║=│de_DE@3;en_US@3;es_ES@3;fr_FR@3;nl_NL@3;sv_SE@3;da_DK@3;ru_RU@3;zh_CN@3;pl_PL@3;pt_BR@3;cs_CZ@3;it_IT@3;hu_HU@3;pt_PT@3;ko_KR@3;│de_DE@P;en_US@P;es_ES@P;fr_FR@P;nl_NL@P;sv_SE@P;da_DK@P;ru_RU@P;zh_CN@P;pl_PL@P;pt_BR@P;cs_CZ@P;it_IT@P;hu_HU@P;pt_PT@P;ko_KR@P;ja_JP@P;║=│de_DE@4;en_US@4;es_ES@4;fr_FR@4;nl_NL@4;sv_SE@4;da_DK@4;ru_RU@4;zh_CN@4;pl_PL@4;pt_BR@4;cs_CZ@4;it_IT@4;hu_HU@4;pt_PT@4;ko_KR@4;│de_DE@C;en_US@C;es_ES@C;fr_FR@C;nl_NL@C;sv_SE@C;da_DK@C;ru_RU@C;zh_CN@C;pl_PL@C;pt_BR@C;cs_CZ@C;it_IT@C;hu_HU@C;pt_PT@C;ko_KR@C;ja_JP@C;║=│de_DE@5;en_US@5;es_ES@5;fr_FR@5;nl_NL@5;sv_SE@5;da_DK@5;ru_RU@5;zh_CN@5;pl_PL@5;pt_BR@5;cs_CZ@5;it_IT@5;hu_HU@5;pt_PT@5;ko_KR@5;│de_DE@L;en_US@L;es_ES@L;fr_FR@L;nl_NL@L;sv_SE@L;da_DK@L;ru_RU@L;zh_CN@L;pl_PL@L;pt_BR@L;cs_CZ@L;it_IT@L;hu_HU@L;pt_PT@L;ko_KR@L;ja_JP@L;║=│??_??@6;│de_DE@V;en_US@V;es_ES@V;fr_FR@V;nl_NL@V;sv_SE@V;da_DK@V;ru_RU@V;zh_CN@V;pl_PL@V;pt_BR@V;cs_CZ@V;it_IT@V;hu_HU@V;pt_PT@V;ko_KR@V;ja_JP@V;║=│de_DE@7;en_US@7;es_ES@7;fr_FR@7;nl_NL@7;sv_SE@7;da_DK@7;ru_RU@7;zh_CN@7;pl_PL@7;pt_BR@7;cs_CZ@7;it_IT@7;hu_HU@7;pt_PT@7;ko_KR@7;│de_DE@F;en_US@F;es_ES@F;fr_FR@F;nl_NL@F;sv_SE@F;da_DK@F;ru_RU@F;zh_CN@F;pl_PL@F;pt_BR@F;cs_CZ@F;it_IT@F;hu_HU@F;pt_PT@F;ko_KR@F;ja_JP@F;║=│??_??@8;│de_DE@K;en_US@K;es_ES@K;fr_FR@K;nl_NL@K;sv_SE@K;da_DK@K;ru_RU@K;zh_CN@K;pl_PL@K;pt_BR@K;cs_CZ@K;it_IT@K;hu_HU@K;pt_PT@K;ko_KR@K;ja_JP@K;║=│??_??@9;│de_DE@G;en_US@G;es_ES@G;fr_FR@G;nl_NL@G;sv_SE@G;da_DK@G;ru_RU@G;zh_CN@G;pl_PL@G;pt_BR@G;cs_CZ@G;it_IT@G;hu_HU@G;pt_PT@G;ko_KR@G;ja_JP@G;" P10901_1="??_??@Seitenstruktur mit Funktionskennzeichen und Ortskennzeichen und Dokumentenart;" P10902="2" P10904="0" P19031="[14&lt;10155,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;][LF][14&lt;10157,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;][LF][14&lt;10158,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;]" P59984="de_DE@Einzeln;en_US@Individual;es_ES@Individual;fr_FR@Unique;nl_NL@Afzonderlijk;sv_SE@Enskilt;da_DK@Enkel;ru_RU@Отдельно;zh_CN@单独;pl_PL@Pojedynczo;pt_BR@Individualmente;cs_CZ@Jednotlivě;it_IT@Singolarmente;hu_HU@Egyenként;pt_PT@Individual;ko_KR@개별;ja_JP@個別;tr_TR@Tek;ro_RO@Individual;" P59985="de_DE@0,75 mm²;en_US@0,75 mm²;es_ES@0,75 mm²;fr_FR@0,75 mm²;nl_NL@0,75 mm²;sv_SE@0,75 mm²;da_DK@0,75 mm²;ru_RU@0,75 мм²;zh_CN@0,75 mm²;pl_PL@0,75 mm²;pt_BR@0,75 mm²;cs_CZ@0,75 mm²;it_IT@0,75 mm²;hu_HU@0,75 mm²;pt_PT@0,75 mm²;ko_KR@0,75 mm²;ja_JP@0,75 mm²;tr_TR@0,75 mm²;ro_RO@0,75 mm²;" P59986="de_DE@1,5 mm²;en_US@1,5 mm²;es_ES@1,5 mm²;fr_FR@1,5 mm²;nl_NL@1,5 mm²;sv_SE@1,5 mm²;da_DK@1,5 mm²;ru_RU@1,5 мм²;zh_CN@1,5 mm²;pl_PL@1,5 mm²;pt_BR@1,5 mm²;cs_CZ@1,5 mm²;it_IT@1,5 mm²;hu_HU@1,5 mm²;pt_PT@1,5 mm²;ko_KR@1,5 mm²;ja_JP@1,5 mm²;tr_TR@1,5 mm²;ro_RO@1,5 mm²;" P59987="de_DE@1,5 mm²;en_US@1,5 mm²;es_ES@1,5 mm²;fr_FR@1,5 mm²;nl_NL@1,5 mm²;sv_SE@1,5 mm²;da_DK@1,5 mm²;ru_RU@1,5 мм²;zh_CN@1,5 mm²;pl_PL@1,5 mm²;pt_BR@1,5 mm²;cs_CZ@1,5 mm²;it_IT@1,5 mm²;hu_HU@1,5 mm²;pt_PT@1,5 mm²;ko_KR@1,5 mm²;ja_JP@1,5 mm²;tr_TR@1,5 mm²;ro_RO@1,5 mm²;" P59988="de_DE@2,5 mm²;en_US@2,5 mm²;es_ES@2,5 mm²;fr_FR@2,5 mm²;nl_NL@2,5 mm²;sv_SE@2,5 mm²;da_DK@2,5 mm²;ru_RU@2,5 мм²;zh_CN@2,5 mm²;pl_PL@2,5 mm²;pt_BR@2,5 mm²;cs_CZ@2,5 mm²;it_IT@2,5 mm²;hu_HU@2,5 mm²;pt_PT@2,5 mm²;ko_KR@2,5 mm²;ja_JP@2,5 mm²;tr_TR@2,5 mm²;ro_RO@2,5 mm²;" P59989="de_DE@Reihenklemmen Phoenix UK;en_US@Terminal blocks Phoenix UK;es_ES@Bloques de bornes de paso Phoenix UK;fr_FR@Bornes de série Phoenix UK;nl_NL@Aansluitklemmen Phoenix UK;sv_SE@Radplintar Phoenix UK;da_DK@Rækkeklemmer Phoenix UK;ru_RU@Присоединительные клеммы Phoenix UK;zh_CN@组合端子 Phoenix UK;pl_PL@Zaciski szeregowe Phoenix UK;pt_BR@Réguas de bornes Phoenix UK;cs_CZ@Řadové svorky Phoenix UK;it_IT@Morsetti componibili Phoenix UK;hu_HU@Phoenix UK sorkapcsok;pt_PT@Réguas de bornes Phoenix UK;ko_KR@터미널 블록 Phoenix UK;ja_JP@端子ブロック、Phoenix UK;tr_TR@Sıralı klemensler Phoenix UK;ro_RO@Cleme în serie Phoenix UK;" P59990="de_DE@Reihenklemmen Phoenix UK;en_US@Terminal blocks Phoenix UK;es_ES@Bloques de bornes de paso Phoenix UK;fr_FR@Bornes de série Phoenix UK;nl_NL@Aansluitklemmen Phoenix UK;sv_SE@Radplintar Phoenix UK;da_DK@Rækkeklemmer Phoenix UK;ru_RU@Присоединительные клеммы Phoenix UK;zh_CN@组合端子 Phoenix UK;pl_PL@Zaciski szeregowe Phoenix UK;pt_BR@Réguas de bornes Phoenix UK;cs_CZ@Řadové svorky Phoenix UK;it_IT@Morsetti componibili Phoenix UK;hu_HU@Phoenix UK sorkapcsok;pt_PT@Réguas de bornes Phoenix UK;ko_KR@터미널 블록 Phoenix UK;ja_JP@端子ブロック、Phoenix UK;tr_TR@Sıralı klemensler Phoenix UK;ro_RO@Cleme în serie Phoenix UK;" P59991="de_DE@IP43;en_US@IP43;es_ES@IP43;fr_FR@IP43;nl_NL@IP43;sv_SE@IP43;da_DK@IP43;ru_RU@IP43;zh_CN@IP43;pl_PL@IP43;pt_BR@IP43;cs_CZ@IP43;it_IT@IP43;hu_HU@IP43;pt_PT@IP43;ko_KR@IP43;ja_JP@IP43;tr_TR@IP43;ro_RO@IP43;" P59992="de_DE@RAL 9016;en_US@RAL 9016;es_ES@RAL 9016;fr_FR@RAL 9016;nl_NL@RAL 9016;sv_SE@RAL 9016;da_DK@RAL 9016;ru_RU@RAL 9016;zh_CN@RAL 9016;pl_PL@RAL 9016;pt_BR@RAL 9016;cs_CZ@RAL 9016;it_IT@RAL 9016;hu_HU@RAL 9016;pt_PT@RAL 9016;ko_KR@RAL 9016;ja_JP@RAL 9016;tr_TR@RAL 9016;ro_RO@RAL 9016;" P59993="de_DE@RITTAL VX;en_US@RITTAL VX;es_ES@RITTAL VX;fr_FR@RITTAL VX;nl_NL@RITTAL VX;sv_SE@RITTAL VX;da_DK@RITTAL VX;ru_RU@RITTAL VX;zh_CN@RITTAL VX;pl_PL@RITTAL VX;pt_BR@RITTAL VX;cs_CZ@RITTAL VX;it_IT@RITTAL VX;hu_HU@RITTAL VX;pt_PT@RITTAL VX;ko_KR@RITTAL VX;ja_JP@RITTAL VX;tr_TR@RITTAL VX;ro_RO@RITTAL VX;" P59994="de_DE@RITTAL VX;en_US@RITTAL VX;es_ES@RITTAL VX;fr_FR@RITTAL VX;nl_NL@RITTAL VX;sv_SE@RITTAL VX;da_DK@RITTAL VX;ru_RU@RITTAL VX;zh_CN@RITTAL VX;pl_PL@RITTAL VX;pt_BR@RITTAL VX;cs_CZ@RITTAL VX;it_IT@RITTAL VX;hu_HU@RITTAL VX;pt_PT@RITTAL VX;ko_KR@RITTAL VX;ja_JP@RITTAL VX;tr_TR@RITTAL VX;ro_RO@RITTAL VX;" P59995="de_DE@Nein;en_US@No;es_ES@No;fr_FR@Non;nl_NL@Nee;sv_SE@Nej;da_DK@Nej;ru_RU@Нет;zh_CN@否;pl_PL@Nie;pt_BR@Não;cs_CZ@Ne;it_IT@No;hu_HU@Nem;pt_PT@Não;ko_KR@아니오;ja_JP@いいえ;tr_TR@Hayır;ro_RO@Nu;" P59996="de_DE@24 V DC;en_US@24 V DC;es_ES@24 V DC;fr_FR@24 V DC;nl_NL@24 V DC;sv_SE@24 V DC;da_DK@24 V DC;ru_RU@24 V DC;zh_CN@24 V DC;pl_PL@24 V DC;pt_BR@24 V DC;cs_CZ@24 V DC;it_IT@24 V DC;hu_HU@24 V DC;pt_PT@24 V DC;ko_KR@24 V DC;ja_JP@24 V DC;tr_TR@24 V DC;ro_RO@24 V DC;" P59997="en_US@NYM 5x6 mm²;de_DE@NYM 5x6 mm²;es_ES@NYM 5x6 mm²;fr_FR@NYM 5x6 mm²;nl_NL@NYM 5x6 mm²;sv_SE@NYM 5x6 mm²;da_DK@NYM 5x6 mm²;ru_RU@NYM 5x6 мм²;zh_CN@NYM 5x6 mm²;pl_PL@NYM 5x6 mm²;pt_BR@NYM 5x6 mm²;cs_CZ@NYM 5x6 mm²;it_IT@NYM 5x6 mm²;hu_HU@NYM 5x6 mm²;pt_PT@NYM 5x6 mm²;ko_KR@NYM 5x6 mm²;ja_JP@NYM 5x6 mm²;tr_TR@NYM 5x6 mm²;ro_RO@NYM 5x6 mm²;" P59998="en_US@400 V 50 Hz 50 A;de_DE@400 V 50 Hz 50 A;es_ES@400 V 50 Hz 50 A;fr_FR@400 V 50 Hz 50 A;nl_NL@400 V 50 Hz 50 A;sv_SE@400 V 50 Hz 50 A;da_DK@400 V 50 Hz 50 A;ru_RU@400 V 50 Hz 50 A;zh_CN@400 V 50 Hz 50 A;pl_PL@400 V 50 Hz 50 A;pt_BR@400 V 50 Hz 50 A;cs_CZ@400 V 50 Hz 50 A;it_IT@400 V 50 Hz 50 A;hu_HU@400 V 50 Hz 50 A;pt_PT@400 V 50 Hz 50 A;ko_KR@400 V 50 Hz 50 A;ja_JP@400 V 50 Hz 50 A;tr_TR@400 V 50 Hz 50 A;ro_RO@400 V 50 Hz 50 A;"/>
+  </O14>
+  <O6 Build="11369" A1="6/4" A3="0" A13="0" A14="0" A81="1100" A82="" A83="-35.5413011695906" A85="10002" A86="" A4049="0"/>
+  <O6 Build="11369" A1="6/5" A3="0" A13="0" A14="0" A81="1200" A82="" A83="-29.4479166666667" A85="10004" A86="" A4049="0"/>
+  <O6 Build="12413" A1="6/9" A3="0" A13="0" A14="0" A81="1500" A82="" A83="-226.786038761835" A85="10006" A86="" A4049="0"/>
+  <O4 Build="17461" A1="4/8" A3="0" A13="0" A14="0" A47="1" A48="1621259609" A50="1" A59="1" A404="1" A405="64" A406="0" A407="0" A431="1" A699="00000000000000000000000000000000" A700="00000000-0000-0000-0000-000000000000" A1101="3" A1102="" A1103="" A4043="0" A4049="0">
+  <P11 P10185="EPLSNWHNWA" P11006="0" P11011="de_DE@Page_1_2_B_Pump_drive_incl_Terminals;" P11020="LUKACD" P11021="1620205046" P11022="EPL" P11024="1621588341" P11037="0" P11048="1" P11050="0"/>
+  <P49 P11012="3"/>
+  <O34 Build="17303" A1="34/5599" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="100" A412="3" A413="L" A414="0.35052" A415="L" A416="0" A621="204/104;228/104" A623="0" A624="0"/>
+  <O42 Build="17303" A1="42/5600" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="70" A1263="3">
+  <S40x1201 A762="184/268">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  </O42>
+  <O83 Build="17451" A1="83/5601" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="110" A412="0" A413="L" A414="0" A415="1" A416="0" A501="184/36" A503="0" A506="22" A511="de_DE@Pumpe;en_US@Pump;es_ES@Bomba;fr_FR@Pompe;nl_NL@Pomp;sv_SE@Pump;da_DK@Pumpe;ru_RU@Насос;zh_CN@泵;pl_PL@Pompa;pt_BR@Bomba;cs_CZ@Čerpadlo;it_IT@Pompa;hu_HU@Szivattyú;pt_PT@Bomba;ko_KR@펌프;ja_JP@ポンプ;tr_TR@Pompa;ro_RO@Pompă;zh_TW@泵;">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="0" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+  </O83>
+  <O106 Build="17460" A1="106/5602" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A408="0" A792="0" A793="0" A794="0" A1261="0" A1262="323" A1263="0" A1892="P0_1" A1896="Part_Cabel_W1;Part_Motor_M1;Part_MOS" A1897="0" A1900="0;0;0" A4073="1" A4074="0">
+  <S40x1201 A762="168/248">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <S114x1894 A2011="Pump drive 0,55 kW" A2012="LAPP.00100654;??_??@SEW.K19DRS71M4/TF\;;SIE.3RV2011-1AA15"/>
+  <S114x1894 A2011="Pump drive 1,5 kW" A2012="LAPP.00350173;SEW.DRN90L4/FE/TH;SIE.3RV2011-1EA25-0BA0"/>
+  <S109x1895 R1906="17/96">
+  <S115x1904 A1911="20100" A1912="1" A1913="??_??@&lt;Part_Motor_M1&gt;;"/>
+  </S109x1895>
+  <S109x1895 R1906="34/5599"/>
+  <S109x1895 R1906="42/5600"/>
+  <S109x1895 R1906="42/5603"/>
+  <S109x1895 R1906="42/5604"/>
+  <S109x1895 R1906="83/5601"/>
+  <S109x1895 R1906="17/5607"/>
+  <S109x1895 R1906="17/5612">
+  <S115x1904 A1911="20100" A1912="1" A1913="??_??@&lt;Part_Cabel_W1&gt;;"/>
+  </S109x1895>
+  <S109x1895 R1906="17/5613">
+  <S115x1904 A1911="20100" A1912="1" A1913="??_??@&lt;Part_MOS&gt;;"/>
+  </S109x1895>
+  <S109x1895 R1906="17/5614"/>
+  <S109x1895 R1906="59/5608"/>
+  <S109x1895 R1906="17/5618">
+  <S115x1904 A1911="20100" A1912="1" A1913="??_??@&lt;Part_Motor_M1&gt;;"/>
+  </S109x1895>
+  <S109x1895 R1906="17/5615"/>
+  <S109x1895 R1906="59/5609"/>
+  <S109x1895 R1906="17/5616"/>
+  <S109x1895 R1906="59/5610"/>
+  <S109x1895 R1906="17/5606"/>
+  <S109x1895 R1906="17/5617"/>
+  <S109x1895 R1906="59/5611"/>
+  <S108x1898/>
+  <S108x4072>
+  <S115x1904 A1911="10609" A1912="5" A1913="??_??@[20221&lt;20010,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;]-[20222,1&lt;4&lt;11037,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,5&gt;&gt;][20222,1&lt;4&lt;11042,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]-[20222,1&lt;20221&lt;19006,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;]/[20222,1&lt;20221&lt;19005,0,0,0,0,0,0,0,0,de_DE,0,0,0,0,0,0&gt;&gt;];"/>
+  <S115x1904 A1911="19031" A1912="0" A1913="??_??@[14&lt;10155,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;][LF][14&lt;10157,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;][LF][14&lt;10158,1,0,0,0,0,0,0,0,,0,0,,0,0&gt;];"/>
+  </S108x4072>
+  <P11 P19301="Pump drive 0,55 kW"/>
+  </O106>
+  <O42 Build="17303" A1="42/5603" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="70" A1263="3">
+  <S40x1201 A762="192/260">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  </O42>
+  <O42 Build="17303" A1="42/5604" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="70" A1263="3">
+  <S40x1201 A762="200/252">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  </O42>
+  <O37 Build="17456" A1="37/5605" A3="1" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A682="0" A683="34/5599;42/5600;83/5601;106/5602;42/5603;42/5604;17/5606;17/5607;59/5608;59/5609;59/5610;59/5611;17/5612;17/5613;17/5614;17/5615;17/5616;17/5617;17/96" A684="0" A687="8" A688="2" A689="1" A690="0" A691="0" A693="0" A695="5" A699="00000000000000000000000000000000" A702="1" A792="0" A793="0" A794="0" A1261="0" A1262="44" A1263="0" A1631="0/-252" A1632="136/0">
+  <S109x692 R1906="34/5599"/>
+  <S109x692 R1906="42/5600"/>
+  <S109x692 R1906="83/5601"/>
+  <S109x692 R1906="106/5602"/>
+  <S109x692 R1906="42/5603"/>
+  <S109x692 R1906="42/5604"/>
+  <S109x692 R1906="17/5606"/>
+  <S109x692 R1906="17/5607"/>
+  <S109x692 R1906="59/5608"/>
+  <S109x692 R1906="59/5609"/>
+  <S109x692 R1906="59/5610"/>
+  <S109x692 R1906="59/5611"/>
+  <S109x692 R1906="17/5612"/>
+  <S109x692 R1906="17/5613"/>
+  <S109x692 R1906="17/5614"/>
+  <S109x692 R1906="17/5615"/>
+  <S109x692 R1906="17/5616"/>
+  <S109x692 R1906="17/5617"/>
+  <S109x692 R1906="17/96"/>
+  <S40x1201 A762="124/280">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P11008_1="$(MD_MACROS)\P8 Tutorial\Page_1_2_B_Pump_drive_incl_Terminals" P23001="$(MD_MACROS)\P8 Tutorial\Page_1_2_B_Pump_drive_incl_Terminals" P23002="V1"/>
+  <S89x5 Build="17456" A3="0" A4="1" R7="37/5605" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="308" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="0/-252" A1652="136/0" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0"/>
+  </O37>
+  <O17 Build="17451" A1="17/5606" A3="0" A13="0" A14="0" A145="[20012]&lt;20013&gt;" A147="1" A148="1" A182="0" A185="" A186="" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="30" A1263="2" A1381="1304" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="208/104">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0"/>
+  <P144 P20013="PE"/>
+  <P150 P20013="PE"/>
+  </O17>
+  <O17 Build="17451" A1="17/5607" A3="0" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="0" A1262="6" A1263="0" A1381="102" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="148/104">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20011="de_DE@Antrieb Pumpe;en_US@Pump drive;es_ES@Accionamiento de la bomba;fr_FR@Entraînement de la pompe;nl_NL@Pompaandrijving;sv_SE@Pumpdrift;da_DK@Pumpedrev;ru_RU@Привод насоса;zh_CN@泵驱动;pl_PL@Napęd pompy;pt_BR@Acionamento da bomba;cs_CZ@Pohon čerpadla;it_IT@Azionamento della pompa;hu_HU@Szivattyú meghajtás;pt_PT@Bomba de condução;ko_KR@구동 펌프;ja_JP@ポンプ駆動;tr_TR@Tahrik pompası;ro_RO@Acționarea pompei;zh_TW@泵驱动;" P20051="0" P20216="0" P20468="P:\1_Content\1_1_Projects\1_1_20_EPLAN_2022\1_1_20_3_Workflows\2_Concept\Workflow_Stammdaten\3_Makros\P8 Tutorial\Page_1_2_B_Pump_drive_incl_Terminals.ema"/>
+  <P144 P20013="XD" P20014="1"/>
+  <P150 P20013="XD" P20014="1"/>
+  </O17>
+  <O59 Build="17461" A1="59/5608" A3="0" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="2" A793="0" A794="0" R1031="17/5612" A1261="0" A1262="311" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="184/80">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="P:\1_Content\1_1_Projects\1_1_20_EPLAN_2022\1_1_20_3_Workflows\2_Concept\Workflow_Stammdaten\3_Makros\P8 Tutorial\Page_1_2_B_Pump_drive_incl_Terminals.ema" P31004="BN" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31059="4" P31142="1"/>
+  <P150 P20013="WD" P20014="1"/>
+  </O59>
+  <O59 Build="17461" A1="59/5609" A3="0" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="2" A793="0" A794="0" R1031="17/5612" A1261="0" A1262="311" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="192/80">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="P:\1_Content\1_1_Projects\1_1_20_EPLAN_2022\1_1_20_3_Workflows\2_Concept\Workflow_Stammdaten\3_Makros\P8 Tutorial\Page_1_2_B_Pump_drive_incl_Terminals.ema" P31004="BK" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31059="4" P31142="1"/>
+  <P150 P20013="WD" P20014="1"/>
+  </O59>
+  <O59 Build="17461" A1="59/5610" A3="0" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="2" A793="0" A794="0" R1031="17/5612" A1261="0" A1262="311" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="200/80">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="P:\1_Content\1_1_Projects\1_1_20_EPLAN_2022\1_1_20_3_Workflows\2_Concept\Workflow_Stammdaten\3_Makros\P8 Tutorial\Page_1_2_B_Pump_drive_incl_Terminals.ema" P31004="GY" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31059="4" P31142="1"/>
+  <P150 P20013="WD" P20014="1"/>
+  </O59>
+  <O59 Build="17461" A1="59/5611" A3="0" A13="0" A14="0" A145="" A147="0" A148="0" A182="0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="2" A793="0" A794="0" R1031="17/5612" A1261="0" A1262="311" A1263="0" A1381="4" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="208/80">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20216="0" P20468="P:\1_Content\1_1_Projects\1_1_20_EPLAN_2022\1_1_20_3_Workflows\2_Concept\Workflow_Stammdaten\3_Makros\P8 Tutorial\Page_1_2_B_Pump_drive_incl_Terminals.ema" P31004="GNYE" P31005="-16002" P31015="-16002" P31016="-16002" P31018="-16002" P31059="4" P31142="1"/>
+  <P150 P20013="WD" P20014="1"/>
+  </O59>
+  <O17 Build="17461" A1="17/5612" A3="8" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="1" A191="40/0" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="-128" A793="0" A794="0" A1261="0" A1262="4" A1263="0" A1381="400" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="176/80">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20040="ÖLFLEX® CLASSIC 100" P20042="4G" P20043="1,5" P20044="300/500V" P20054="300/500V" P20067="de_DE@ÖLFLEX CLASSIC 100 4G1,5;en_US@ÖLFLEX CLASSIC 100 4G1,5;pl_PL@ÖLFLEX CLASSIC 100 4G1,5;es_ES@ÖLFLEX CLASSIC 100 4G1,5;fr_FR@ÖLFLEX CLASSIC 100 4G1,5;nl_NL@ÖLFLEX CLASSIC 100 4G1,5;sv_SE@ÖLFLEX CLASSIC 100 4G1,5;da_DK@ÖLFLEX CLASSIC 100 4G1,5;ru_RU@ÖLFLEX CLASSIC 100 4G1,5;zh_CN@ÖLFLEX CLASSIC 100 4G1,5;pt_BR@ÖLFLEX CLASSIC 100 4G1,5;cs_CZ@ÖLFLEX CLASSIC 100 4G1,5;it_IT@ÖLFLEX CLASSIC 100 4G1,5;hu_HU@ÖLFLEX CLASSIC 100 4G1,5;pt_PT@ÖLFLEX CLASSIC 100 4G1,5;ko_KR@ÖLFLEX CLASSIC 100 4G1,5;ja_JP@ÖLFLEX CLASSIC 100 4G1,5;tr_TR@ÖLFLEX CLASSIC 100 4G1,5;" P20068="1" P20100_1="LAPP.00100654" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20444="0" P20468="P:\1_Content\1_1_Projects\1_1_20_EPLAN_2022\1_1_20_3_Workflows\2_Concept\Workflow_Stammdaten\3_Makros\P8 Tutorial\Page_1_2_B_Pump_drive_incl_Terminals.ema" P20904_1="0" P31030="0"/>
+  <P144 P20013="WD" P20014="1"/>
+  <P150 P20013="WD" P20014="1"/>
+  <S31x5 Build="17461" A3="0" A4="1" R7="17/5612" A13="0" A14="0" A189="0" A404="9" A405="64" A406="0" A407="0" A411="304" A412="L" A413="L" A414="L" A415="L" A416="0" A532="40/0"/>
+  <S53x5 Build="17461" A3="0" A4="2" R7="17/5612" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="501" A412="L" A413="L" A414="L" A415="L" A416="0" A501="-6.14367953270592/-10.3237195733872" A503="20" A506="0" A771="20011" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="9" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  <P11 P19202="-6.14367953270592/-10.3237195733872"/>
+  </S53x5>
+  <S53x5 Build="17461" A3="0" A4="3" R7="17/5612" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="514" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/5612/2" A503="22" A506="0" A771="20044" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="9" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17461" A3="0" A4="4" R7="17/5612" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="514" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/5612/3" A503="22" A506="0" A771="20053" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="9" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17461" A3="0" A4="5" R7="17/5612" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="514" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/5612/4" A503="22" A506="0" A771="20041" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="9" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17461" A3="0" A4="6" R7="17/5612" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="514" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/5612/5" A503="22" A506="0" A771="20040" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="9" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17461" A3="0" A4="7" R7="17/5612" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="440" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/5612/6" A503="22" A506="0" A771="20300" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="9" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  <S53x5 Build="17461" A3="0" A4="8" R7="17/5612" A13="0" A14="0" A189="0" A404="1" A405="64" A406="0" A407="0" A411="407" A412="L" A413="L" A414="L" A415="L" A416="0" A502="17/5612/7" A503="18" A506="0" A771="20010" A772="0" A773="0" A774="0" A951="15" A952="0" A953="0" A954="0" A955="0">
+  <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="9" A967="0" A968="0" A969="0" A4000="L" A4001="0" A4013="0"/>
+  </S53x5>
+  </O17>
+  <O17 Build="17461" A1="17/5613" A3="0" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="1" A185="1/L1;2/T1;3/L2;4/T2;5/L3;6/T3" A186=";;;;;" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="97" A1263="0" A1381="502" A1382="1" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="184/228">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20027="1,1...1,6A, N:  21A" P20044="400" P20054="400" P20057="6" P20068="0" P20100_1="SIE.3RV2011-1AA15" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20444="0" P20904_1="0" P31030="0"/>
+  <P144 P20013="FC" P20014="5"/>
+  <P150 P20013="FC" P20014="5"/>
+  </O17>
+  <O17 Build="17303" A1="17/5614" A3="0" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="0" A185="a;b;;" A186=";;;" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="0" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="184/92">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="1" P20034="0" P20035="0" P20044="800" P20054="800" P20057="2,5" P20068="0" P20100_1="PXC.3031212" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20444="0" P20468="P:\1_Content\1_1_Projects\1_1_20_EPLAN_2022\1_1_20_3_Workflows\2_Concept\Workflow_Stammdaten\3_Makros\P8 Tutorial\Page_1_2_B_Pump_drive_incl_Terminals.ema" P20808="0" P31030="0"/>
+  <P144 P20013="XD" P20014="1"/>
+  <P150 P20013="XD" P20014="1"/>
+  </O17>
+  <O17 Build="17303" A1="17/5615" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="a;b;;" A186=";;;" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="0" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="192/92">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="2" P20034="0" P20035="0" P20044="800" P20054="800" P20057="2,5" P20068="0" P20100_1="PXC.3031212" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20444="0" P20468="P:\1_Content\1_1_Projects\1_1_20_EPLAN_2022\1_1_20_3_Workflows\2_Concept\Workflow_Stammdaten\3_Makros\P8 Tutorial\Page_1_2_B_Pump_drive_incl_Terminals.ema" P20808="0" P31030="0"/>
+  <P150 P20013="XD" P20014="1"/>
+  </O17>
+  <O17 Build="17303" A1="17/5616" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="a;b;;" A186=";;;" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="0" A1381="100" A1382="6" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="200/92">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="3" P20034="0" P20035="0" P20044="800" P20054="800" P20057="2,5" P20068="0" P20100_1="PXC.3031212" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20444="0" P20468="P:\1_Content\1_1_Projects\1_1_20_EPLAN_2022\1_1_20_3_Workflows\2_Concept\Workflow_Stammdaten\3_Makros\P8 Tutorial\Page_1_2_B_Pump_drive_incl_Terminals.ema" P20808="0" P31030="0"/>
+  <P150 P20013="XD" P20014="1"/>
+  </O17>
+  <O17 Build="17303" A1="17/5617" A3="0" A13="0" A14="0" A145="" A147="1" A148="1" A182="0" A185="a;b;;" A186=";;;" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="1352" A1263="0" A1381="100" A1382="6" A1383="3" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="0" A1063="0"/>
+  <S40x1201 A762="208/92">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20030="4" P20034="0" P20035="0" P20057="4" P20068="0" P20100_1="PXC.3031238" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20228="0" P20231="0" P20280="0" P20283="0" P20444="0" P20468="P:\1_Content\1_1_Projects\1_1_20_EPLAN_2022\1_1_20_3_Workflows\2_Concept\Workflow_Stammdaten\3_Makros\P8 Tutorial\Page_1_2_B_Pump_drive_incl_Terminals.ema" P20808="0" P31030="0"/>
+  <P150 P20013="XD" P20014="1"/>
+  </O17>
+  <O17 Build="17463" A1="17/5618" A3="0" A13="0" A14="0" A145="[20012]&lt;20013&gt;&lt;20014&gt;" A147="1" A148="1" A182="1" A185="U1;V1;W1;PE" A186=";;;" A190="inf/inf" A191="-inf/-inf" A192="-1" A194="" A404="1" A405="64" A406="0" A407="0" A792="0" A793="0" A794="0" A1261="1" A1262="307" A1263="0" A1381="1000" A1382="3" A1383="1" A2489="" A4023="" A4049="0" A4068="">
+  <S61x183 A14="0" A1061="1" A1063="0"/>
+  <S40x1201 A762="184/60">
+  <S39x761 A751="1" A752="0" A753="0" A754="1"/>
+  </S40x1201>
+  <P11 P20027="0,55 kW" P20068="0" P20100_1="SEW.K19DRS71M4/TF" P20101_1="1" P20102_1="1" P20164="0" P20167="0" P20184="0" P20189="0" P20216="0" P20444="0" P31030="0"/>
+  <P144 P20013="MA" P20014="1"/>
+  <P150 P20013="MA" P20014="1"/>
+  </O17>
+  </O4>
+ </MacroVariant>
+</EplanPxfRoot>

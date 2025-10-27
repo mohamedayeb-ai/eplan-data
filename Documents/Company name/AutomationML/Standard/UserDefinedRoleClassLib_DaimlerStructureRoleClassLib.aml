@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile FileName="UserDefinedRoleClassLib_DaimlerStructureRoleClassLib.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AdditionalInformation AutomationMLVersion="2.0" />
+	<AdditionalInformation>
+		<WriterHeader>
+			<WriterName>Moeller D.</WriterName>
+			<WriterID>
+			</WriterID>
+			<WriterVendor>Phoenix Contact</WriterVendor>
+			<WriterVendorURL>http://www.phoenixcontact.com</WriterVendorURL>
+			<WriterVersion>1.0</WriterVersion>
+			<WriterRelease>1.0.1</WriterRelease>
+			<LastWritingDateTime>22.05.2013</LastWritingDateTime>
+			<WriterProjectTitle>
+			</WriterProjectTitle>
+			<WriterProjectID>
+			</WriterProjectID>
+		</WriterHeader>
+	</AdditionalInformation>
+	<RoleClassLib Name="UserDefinedRoleClassLib_DaimlerStructureRoleClassLib">
+		<Version>2.0</Version>
+		<RoleClass Name="Location" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+		<RoleClass Name="ShopfloorArea" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+		<RoleClass Name="Assembly" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+		<RoleClass Name="Component" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+		<RoleClass Name="Station" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+		<RoleClass Name="Line" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+		<RoleClass Name="Emergency_Stop" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+		<RoleClass Name="PLC_Area" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+		<RoleClass Name="Safety_Area" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+	</RoleClassLib>
+</CAEXFile>

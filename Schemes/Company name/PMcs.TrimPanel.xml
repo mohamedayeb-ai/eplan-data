@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Settings format="2">
+ <CAT name="USER">
+  <MOD name="PartsManagementGui">
+   <LEV1 name="ConfigurablePropertiesScheme" nodekind="scheme">
+    <LEV2 name="Trim panel">
+     <LEV3 name="Data" nodekind="block">
+      <Setting name="Identname" type="string">
+       <Val>EPLAN.ECLASS.0173-1#01-ACN625.0173-1#02-BAB664</Val>
+       <Val>EPLAN.ECLASS.0173-1#01-ACN625.0173-1#02-AAG011</Val>
+       <Val>EPLAN.ECLASS.0173-1#01-ACN625.0173-1#02-BAF785</Val>
+      </Setting>
+      <Setting name="Value" type="mlstring">
+       <Val/>
+       <Val/>
+       <Val/>
+      </Setting>
+     </LEV3>
+     <Setting name="Description" type="mlstring">
+      <Val>##_##@1848/SchemeData;??_??@Blende;</Val>
+     </Setting>
+     <Setting name="Name" type="mlstring">
+      <Val>##_##@1848/SchemeData;??_??@Blende;</Val>
+     </Setting>
+     <Setting name="ReadOnly" type="bool">
+      <Val>0</Val>
+     </Setting>
+    </LEV2>
+   </LEV1>
+  </MOD>
+ </CAT>
+</Settings>

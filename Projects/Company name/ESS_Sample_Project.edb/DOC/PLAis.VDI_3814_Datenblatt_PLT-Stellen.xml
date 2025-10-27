@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- PlanningGui_USER_ImportScheme: PLAis.VDI 3814 Datenblatt PLT-Stellen.xml -->
+<Settings format="2">
+ <CAT name="USER">
+  <MOD name="PlanningGui">
+   <LEV1 name="ImportScheme" nodekind="scheme">
+    <LEV2 name="VDI 3814 Datenblatt PLT-Stellen">
+     <LEV3 name="Data" nodekind="block">
+      <Setting name="DefName" type="string">
+       <Val/>
+       <Val>Eplan.Base.StructureNode.Common</Val>
+       <Val>Eplan.Base.StructureNode.Common</Val>
+       <Val>Eplan.Base.StructureNode.Common</Val>
+       <Val>Eplan.Base.StructureNode.Common</Val>
+       <Val>Eplan.Base.StructureNode.Common</Val>
+       <Val>Eplan.Base.StructureNode.Common</Val>
+       <Val>Eplan.Base.StructureNode.Common</Val>
+       <Val>Eplan.Base.StructureNode.Common</Val>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+      </Setting>
+      <Setting name="ExternalField" type="string">
+       <Val>Zeile Nr.</Val>
+       <Val> Anlage 1</Val>
+       <Val> Anlage 1</Val>
+       <Val> Anlage 2</Val>
+       <Val> Anlage 2</Val>
+       <Val> Anlage 3</Val>
+       <Val> Anlage 3</Val>
+       <Val> Anlage 4</Val>
+       <Val> Anlage 4</Val>
+       <Val>Technische Einrichtung</Val>
+       <Val>Messgröße</Val>
+       <Val>Verarbeitungsfunktion</Val>
+       <Val>Nummer</Val>
+       <Val>Verarbeitungsfunktion 2</Val>
+       <Val>Nummer 2</Val>
+       <Val>Importstufe</Val>
+       <Val>Segmentdefinition: Name (identifizierend)</Val>
+       <Val>Segmentdefinition: Name (identifizierend) 2</Val>
+       <Val>EPLAN - Makro</Val>
+       <Val>Geräte Beschreibung</Val>
+       <Val> Binäre Ausgabe Schalten/Stellen 1)</Val>
+       <Val> Analoge Ausgabe Stellen</Val>
+       <Val> Binäre Eingabe Melden</Val>
+       <Val> Binäre Eingabe Zählen</Val>
+       <Val> Analoge Eingabe Messen 2)</Val>
+       <Val>Richtung[1]</Val>
+       <Val>Datentyp[1]</Val>
+       <Val>Zähler[1]</Val>
+       <Val>Richtung[2]</Val>
+       <Val>Datentyp[2]</Val>
+       <Val>Zähler[2]</Val>
+       <Val>Richtung[3]</Val>
+       <Val>Datentyp[3]</Val>
+       <Val>Zähler[3]</Val>
+       <Val> Binärer Ausgabewert, Schalten</Val>
+       <Val> Analoger Ausgabewert, Stellen/Sollwert</Val>
+       <Val> Binärer Eingabewert, Zustand</Val>
+       <Val> Zählwerteingabe </Val>
+       <Val> Analoger Eingabewert, Messen</Val>
+       <Val> Grenzwert fest</Val>
+       <Val> Grenzwert gleitend</Val>
+       <Val> Betriebsstunden-Erfassung</Val>
+       <Val> Ereigniszählung</Val>
+       <Val> Befehlsausführkontrolle</Val>
+       <Val> Meldungsbearbeitung 4)</Val>
+       <Val> Anlagensteuerung </Val>
+       <Val> Motorsteuerung</Val>
+       <Val> Umschaltung 5)</Val>
+       <Val> Folgesteuerung 5)</Val>
+       <Val> Sicherheits-/Frostschutzsteuerung</Val>
+       <Val> P-Regelung</Val>
+       <Val> PI-/PID-Regelung</Val>
+       <Val> Sollwertführung/-kennlinie</Val>
+       <Val> Stellausgabe stetig</Val>
+       <Val> Stellausgabe 2-Punkt 6)</Val>
+       <Val> Stellausgabe Pulsweitenmodulation</Val>
+       <Val> Begrenzung Sollwert/Stellgösse</Val>
+       <Val> Parameterumschaltung</Val>
+       <Val> h,x geführte Strategie 7)</Val>
+       <Val> Arithmetische Berechnung 7)</Val>
+       <Val> Ereignisabhängiges Schalten</Val>
+       <Val> Zeitabhängiges Schalten</Val>
+       <Val> Gleitendes Ein-/Ausschalten</Val>
+       <Val> Zyklisches Schalten</Val>
+       <Val> Nachtkühlbetrieb</Val>
+       <Val> Raumtemperaturbegrenzung</Val>
+       <Val> Energierückgewinnung 7)</Val>
+       <Val> Netzersatzbetrieb</Val>
+       <Val> Netzwiederkehrprogramm</Val>
+       <Val> Höchstlastbegrenzung</Val>
+       <Val> Tarifabhängiges Schalten</Val>
+       <Val> Ein-/Ausgabe Objekttyp 9)</Val>
+       <Val> Komplexer Objekttyp 8) 9)</Val>
+       <Val> Ereignis-Langzeitspeicherung</Val>
+       <Val> Historisierung in Datenbank</Val>
+       <Val> Grafik/Anlagenbild</Val>
+       <Val> Dynamische Einblendung</Val>
+       <Val> Ereignis-Anweisungstext</Val>
+       <Val> Nachricht an externe Stelle</Val>
+       <Val>ANMERKUNG&#10;Definition der Funktionen gemäß&#10;VDI 3814 Blatt 1 : 25&#10;(DIN EN ISO 16484-3)&#10;Kennzeichne projektspezifische Beschreibung nicht genormter Funktionen in der Bemerkungsspalte &#10;der Datenpunkt-Zeile z. B. mit&#10;Zeile Nr., Abschnitt Nr., Spalte Nr., &#10;Beiblatt/Beschreibung Nr.&#10;&#10;BIBBs =&#10;BACnet Interoperability Building Blocks,&#10;siehe DIN EN ISO 16484-5 </Val>
+      </Setting>
+      <Setting name="Filter" type="string">
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+       <Val/>
+      </Setting>
+      <Setting name="Identifying" type="bool">
+       <Val>1</Val>
+       <Val>0</Val>
+       <Val>1</Val>
+       <Val>0</Val>
+       <Val>1</Val>
+       <Val>0</Val>
+       <Val>1</Val>
+       <Val>0</Val>
+       <Val>1</Val>
+       <Val>0</Val>
+       <Val>1</Val>
+       <Val>0</Val>
+       <Val>1</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>1</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+      </Setting>
+      <Setting name="Level" type="long">
+       <Val>0</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>2</Val>
+       <Val>2</Val>
+       <Val>3</Val>
+       <Val>3</Val>
+       <Val>4</Val>
+       <Val>4</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>5</Val>
+       <Val>0</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>5</Val>
+       <Val>0</Val>
+      </Setting>
+      <Setting name="PropIndex" type="long">
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>1</Val>
+       <Val>2</Val>
+       <Val>2</Val>
+       <Val>2</Val>
+       <Val>3</Val>
+       <Val>3</Val>
+       <Val>3</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+      </Setting>
+      <Setting name="PropertyId" type="string">
+       <Val>0</Val>
+       <Val>1128</Val>
+       <Val>44004</Val>
+       <Val>1128</Val>
+       <Val>44004</Val>
+       <Val>1128</Val>
+       <Val>44004</Val>
+       <Val>1128</Val>
+       <Val>44004</Val>
+       <Val>44035</Val>
+       <Val>44036</Val>
+       <Val>44037</Val>
+       <Val>44038</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>44001</Val>
+       <Val>0</Val>
+       <Val>44008</Val>
+       <Val>44005</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>44020</Val>
+       <Val>44021</Val>
+       <Val>44064</Val>
+       <Val>44020</Val>
+       <Val>44021</Val>
+       <Val>44064</Val>
+       <Val>44020</Val>
+       <Val>44021</Val>
+       <Val>44064</Val>
+       <Val>EPLAN.VDI3814.2.1_BinaryValueOutputSwitching</Val>
+       <Val>EPLAN.VDI3814.2.2_AnalogValueOutputPositioning_Setpoint</Val>
+       <Val>EPLAN.VDI3814.2.3_BinaryValueInputState</Val>
+       <Val>EPLAN.VDI3814.2.4_Accumulated_TotalisedValueInput</Val>
+       <Val>EPLAN.VDI3814.2.5_AnalogValueInputMeasuring</Val>
+       <Val>EPLAN.VDI3814.3.1_FixedLimit</Val>
+       <Val>EPLAN.VDI3814.3.2_Sliding_FloatingLimit</Val>
+       <Val>EPLAN.VDI3814.3.3_RunTimeTotalisation</Val>
+       <Val>EPLAN.VDI3814.3.4_EventCounting</Val>
+       <Val>EPLAN.VDI3814.3.5_CommandExecutionCheck</Val>
+       <Val>EPLAN.VDI3814.3.6_StateProcessing</Val>
+       <Val>EPLAN.VDI3814.4.1_PlantControl</Val>
+       <Val>EPLAN.VDI3814.4.2_MotorControl</Val>
+       <Val>EPLAN.VDI3814.4.3_SwitchOver</Val>
+       <Val>EPLAN.VDI3814.4.4_StepControl</Val>
+       <Val>EPLAN.VDI3814.4.5_Safety_FrostProtectionControl</Val>
+       <Val>EPLAN.VDI3814.5.1_P_ControlLoop</Val>
+       <Val>EPLAN.VDI3814.5.2_PI_PIDControlLoop</Val>
+       <Val>EPLAN.VDI3814.5.3_Sliding_Floating_CurveSetpoint</Val>
+       <Val>EPLAN.VDI3814.5.4_ProportionalOutputStage</Val>
+       <Val>EPLAN.VDI3814.5.5_ProportionalToOn_OffConversion</Val>
+       <Val>EPLAN.VDI3814.5.6_ProportionalToPulseWidthModulation</Val>
+       <Val>EPLAN.VDI3814.5.7_Setpoint_OutputLimitation</Val>
+       <Val>EPLAN.VDI3814.5.8_SwitchoverOfParameters</Val>
+       <Val>EPLAN.VDI3814.6.1_h_x_DirectedControl</Val>
+       <Val>EPLAN.VDI3814.6.2_ArithmeticCalculation</Val>
+       <Val>EPLAN.VDI3814.6.3_EventSwitching</Val>
+       <Val>EPLAN.VDI3814.6.4_TimeSchedule</Val>
+       <Val>EPLAN.VDI3814.6.5_OptimumStart_Stop</Val>
+       <Val>EPLAN.VDI3814.6.6_DutyCycling</Val>
+       <Val>EPLAN.VDI3814.6.7_NightCooling</Val>
+       <Val>EPLAN.VDI3814.6.8_RoomTemperatureLimitation</Val>
+       <Val>EPLAN.VDI3814.6.9_EnergyRecovery</Val>
+       <Val>EPLAN.VDI3814.6.10_BackupPowerOperation</Val>
+       <Val>EPLAN.VDI3814.6.11_MainsPowerRecoveryProgram</Val>
+       <Val>EPLAN.VDI3814.6.12_PeakLoadLimitation</Val>
+       <Val>EPLAN.VDI3814.6.13_EnergyTariffDependentSwitching</Val>
+       <Val>EPLAN.VDI3814.7.1_Input_Output_ValueObjectTypes</Val>
+       <Val>EPLAN.VDI3814.7.2_ComplexObjectTypes</Val>
+       <Val>EPLAN.VDI3814.7.3_EventStorage</Val>
+       <Val>EPLAN.VDI3814.7.4_HistoricalDatabase</Val>
+       <Val>EPLAN.VDI3814.8.1_Graphic_staticPlantSchematic</Val>
+       <Val>EPLAN.VDI3814.8.2_DynamicDisplay</Val>
+       <Val>EPLAN.VDI3814.8.3_EventInstructionText</Val>
+       <Val>EPLAN.VDI3814.8.4_RemoteMessaging</Val>
+       <Val>0</Val>
+       <Val>EPLAN.VDI3814.6.10_BackupPowerOperation</Val>
+       <Val>EPLAN.VDI3814.6.11_MainsPowerRecoveryProgram</Val>
+       <Val>EPLAN.VDI3814.6.12_PeakLoadLimitation</Val>
+       <Val>EPLAN.VDI3814.6.13_EnergyTariffDependentSwitching</Val>
+       <Val>EPLAN.VDI3814.7.1_Input_Output_ValueObjectTypes</Val>
+       <Val>EPLAN.VDI3814.7.2_ComplexObjectTypes</Val>
+       <Val>EPLAN.VDI3814.7.3_EventStorage</Val>
+       <Val>EPLAN.VDI3814.7.4_HistoricalDatabase</Val>
+       <Val>EPLAN.VDI3814.8.1_Graphic_staticPlantSchematic</Val>
+       <Val>EPLAN.VDI3814.8.2_DynamicDisplay</Val>
+       <Val>EPLAN.VDI3814.8.3_EventInstructionText</Val>
+       <Val>EPLAN.VDI3814.8.4_RemoteMessaging</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+       <Val>0</Val>
+      </Setting>
+     </LEV3>
+     <Setting name="Description" type="mlstring">
+      <Val/>
+     </Setting>
+     <Setting name="Name" type="mlstring">
+      <Val>??_??@VDI 3814 Datenblatt PLT-Stellen;</Val>
+     </Setting>
+     <Setting name="ReadOnly" type="bool">
+      <Val>0</Val>
+     </Setting>
+    </LEV2>
+   </LEV1>
+  </MOD>
+ </CAT>
+</Settings>

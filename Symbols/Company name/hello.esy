@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<EplanPxfRoot Name="hello" Type="Symbol" Version="2022.0.17561" PxfVersion="1.23" SchemaVersion="1.7.17561" Source="" SourceProject="C:\Users\Public\EPLAN\Data\Symbols\Company name\prisaaa.sdb.elk" Description="" ConfigurationFlags="65536" NumMainObjects="1" NumProjectSteps="0" NumMDSteps="0" Customcompany="Company name" StreamSchema="EBitmap, ,2,1,2;EPosition3D, ,0,3,2;ERay3D, ,0,4,2;EStreamableVector, ,0,5,2;BaseTextLine@W3D, ,2,9,2;Box3d@W3D, ,0,10,2;DMNCDataSet, ,1,12,2;DMNCDataSetVector, ,1,13,2;Linetype@W3D, ,0,15,2;Color@W3D, ,0,16,2;Material@W3D, ,3,17,2;Mesh3d@W3D, ,8,19,2;Mesh3dX@W3D, ,2,20,2;MeshBox@W3D, ,5,21,2;MeshEdge3d@W3D, ,0,22,2;MeshFace3d@W3D, ,2,23,2;MeshPoint3d@W3D, ,1,24,2;MeshPolygon3d@W3D, ,1,25,2;MeshSimpleTextureTriangle3d@W3D, ,2,26,2;MeshSimpleTriangle3d@W3D, ,1,27,2;MeshText3dX@W3D, ,0,28,2;MeshTriangle3d@W3D, ,2,29,2;MeshTriangleFace3d@W3D, ,0,30,2;MeshTriangleFaceEdge3D@W3D, ,0,31,2;CTexture@W3D,W3dBaseGeometry,0,81,2;MeshMate@W3D,W3dMeshModeller,7,82,2;MeshMateFace@W3D,W3dMeshModeller,1,83,2;MeshMateGrid@W3D,W3dMeshModeller,8,84,2;MeshMateGridLine@W3D,W3dMeshModeller,1,85,2;MeshMateLine@W3D,W3dMeshModeller,1,86,2">
+ <O20 Build="17561" A1="20/1518" A3="0" A13="0" A14="0" A241="hi" A242="0" A245="1" A247="1" A1381="1301" A1382="99" A1383="1">
+ <S61x248 A14="0" A1061="0" A1063="0"/>
+ <P11 P16020="MOHAMED" P16021="1759741125"/>
+ <O45 Build="17561" A1="45/12523" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A431="1" A822="0" A824="0" A825="0" A827="0"/>
+ </O20>
+</EplanPxfRoot>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<EplanPxfRoot Name="F03_004" Type="Form" Version="2022.0.17528" PxfVersion="1.23" SchemaVersion="1.7.17528" Source="" SourceProject="D:\Master Data\Projects\Translate20.elk" Description="" ConfigurationFlags="65536" NumMainObjects="0" NumProjectSteps="0" NumMDSteps="0" StreamSchema="EBitmap, ,2,1,2;EPosition3D, ,0,3,2;ERay3D, ,0,4,2;EStreamableVector, ,0,5,2;BaseTextLine@W3D, ,2,9,2;Box3d@W3D, ,0,10,2;DMNCDataSet, ,1,12,2;DMNCDataSetVector, ,1,13,2;Linetype@W3D, ,0,15,2;Color@W3D, ,0,16,2;Material@W3D, ,3,17,2;Mesh3d@W3D, ,8,19,2;Mesh3dX@W3D, ,2,20,2;MeshBox@W3D, ,5,21,2;MeshEdge3d@W3D, ,0,22,2;MeshFace3d@W3D, ,2,23,2;MeshPoint3d@W3D, ,1,24,2;MeshPolygon3d@W3D, ,1,25,2;MeshSimpleTextureTriangle3d@W3D, ,2,26,2;MeshSimpleTriangle3d@W3D, ,1,27,2;MeshText3dX@W3D, ,0,28,2;MeshTriangle3d@W3D, ,2,29,2;MeshTriangleFace3d@W3D, ,0,30,2;MeshTriangleFaceEdge3D@W3D, ,0,31,2;CTexture@W3D,W3dBaseGeometry,0,76,2;MeshMate@W3D,W3dMeshModeller,7,77,2;MeshMateFace@W3D,W3dMeshModeller,1,78,2;MeshMateGrid@W3D,W3dMeshModeller,8,79,2;MeshMateGridLine@W3D,W3dMeshModeller,1,80,2;MeshMateLine@W3D,W3dMeshModeller,1,81,2">
+ <O76 Build="17528" A1="76/11769" A3="0" A13="0" A14="0" A1422="1" A1423="1" A1424="0" A1425="" A1426="1000" A1427="0" A1428="5" A1429="0" A1430="1" A1433="0" A1434="0" A1435="0">
+ <S54x1432 A961="2" A962="0" A963="0" A964="0" A965="0" A966="7" A967="0" A968="0" A969="0" A4000="100" A4001="0" A4013="0"/>
+ </O76>
+ <O51 Build="17406" A1="51/11678" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A431="1" A901="13" A902="F03_004">
+ <P11 P13002="1" P13004="1" P13005="37" P13006="204" P13007="0" P13008="0" P13009="0" P13019="1;1|5;1|6;:|5;1|3;1" P13042="0" P13043="0" P13060="1" P13102="0" P13105="0" P14020="EPL" P14021="1182949900" P14022="EPL" P14023="1628081302" P18011="de_DE@PDF-Export;en_US@PDF export;es_ES@Exportación de PDF;fr_FR@Export PDF;nl_NL@PDF-export;sv_SE@PDF-export;da_DK@PDF-eksport;ru_RU@Экспорт PDF;zh_CN@PDF 导出;pl_PL@Eksport PDF;pt_BR@Exportação de PDF;cs_CZ@Export PDF;it_IT@Esportazione PDF;hu_HU@PDF-exportálása;pt_PT@Exportação de PDF;ko_KR@PDF 내보내기;ja_JP@PDF エクスポート;tr_TR@PDF dışa aktarma;ro_RO@Export PDF;zh_TW@PDF 導出;" P18061="4"/>
+ <O30 Build="17406" A1="30/11679" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="108/258" A503="0" A506="22" A511="de_DE@Eigenschaften;en_US@Properties;es_ES@Propiedades;fr_FR@Propriétés;nl_NL@Eigenschappen;sv_SE@Egenskaper;da_DK@Egenskaber;ru_RU@Свойства;zh_CN@属性;pl_PL@Właściwości;pt_BR@Propriedades;cs_CZ@Vlastnosti;it_IT@Proprietà;hu_HU@Tulajdonságok;pt_PT@Propriedades;ko_KR@속성;ja_JP@プロパティ;tr_TR@Özellikler;ro_RO@Proprietăți;zh_TW@屬性;">
+ <S54x505 A961="3.5" A962="0" A963="0" A964="L" A965="0" A966="5" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11680" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="108/162" A503="0" A506="22" A511="de_DE@Artikeleigenschaften;en_US@Part properties;es_ES@Propiedades de artículos;fr_FR@Propriétés d&apos;article;nl_NL@Artikeleigenschappen;sv_SE@Artikelegenskaper;da_DK@Artikelegenskaber;ru_RU@Свойства изделия;zh_CN@部件属性;pl_PL@Właściwości artykułu;pt_BR@Propriedades de peças;cs_CZ@Vlastnosti artiklu;it_IT@Proprietà articolo;hu_HU@Cikktulajdonságok;pt_PT@Propriedades de peças;ko_KR@부품 속성;ja_JP@部品プロパティ;tr_TR@Ürün özellikleri;ro_RO@Proprietăți componentă;zh_TW@零件屬性;">
+ <S54x505 A961="3.5" A962="0" A963="0" A964="L" A965="0" A966="5" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11681" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="312/258" A503="0" A506="22" A511="de_DE@Verweise;en_US@References;es_ES@Referencias;fr_FR@Renvois;nl_NL@Verwijzingen;sv_SE@Hänvisningar;da_DK@Referencer;ru_RU@Ссылки;zh_CN@参考;pl_PL@Powiązania;pt_BR@Referências;cs_CZ@Odkazy;it_IT@Riferimenti;hu_HU@Hivatkozások;pt_PT@Referências;ko_KR@참조;ja_JP@参照;tr_TR@Referanslar;ro_RO@Referințe;zh_TW@參考;">
+ <S54x505 A961="3.5" A962="0" A963="0" A964="L" A965="0" A966="5" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11682" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/249" A503="0" A506="22" A511="de_DE@Betriebsmittelkennzeichen;en_US@Device tag;es_ES@Identificador de medios de explotación;fr_FR@Désignation de composant;nl_NL@Onderdeelcode;sv_SE@Postbeteckning;da_DK@Komponentbetegnelse;ru_RU@Обозначение устройства;zh_CN@设备标识符;pl_PL@Identyfikator aparatu;pt_BR@Tag;cs_CZ@Označení přístroje;it_IT@Sigla elemento funzionale;hu_HU@Tervjel;pt_PT@DT;ko_KR@장치 태그;ja_JP@デバイス タグ;tr_TR@Cihaz etiketi;ro_RO@Etichetă aparat;zh_TW@裝置標籤;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11683" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/225" A503="0" A506="22" A511="de_DE@Technische Kenngrößen;en_US@Technical characteristics;es_ES@Parámetros técnicos;fr_FR@Caractéristiques techniques;nl_NL@Technische waarden;sv_SE@Tekniska data;da_DK@Tekniske størrelser;ru_RU@Технические параметры;zh_CN@技术参数;pl_PL@Charakterystyki techniczne;pt_BR@Parâmetros técnicos;cs_CZ@Technické veličiny;it_IT@Parametri tecnici;hu_HU@Műszaki jellemzők;pt_PT@Características técnicas;ko_KR@기술 특성;ja_JP@技術特性;tr_TR@Teknik karakteristikler;ro_RO@Parametri tehnici;zh_TW@技術特性;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11684" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/243" A503="0" A506="22" A511="de_DE@Funktionstext;en_US@Function text;es_ES@Texto de función;fr_FR@Texte de fonction;nl_NL@Functietekst;sv_SE@Funktionstext;da_DK@Funktionstekst;ru_RU@Функциональный текст;zh_CN@功能文本;pl_PL@Tekst funkcyjny;pt_BR@Texto de Função;cs_CZ@Funkční text;it_IT@Testo funzionale;hu_HU@Funkciószöveg;pt_PT@Texto de função;ko_KR@기능 문자;ja_JP@機能テキスト;tr_TR@Fonksiyon metni;ro_RO@Text descriere funcție;zh_TW@功能文字;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11685" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/237" A503="0" A506="22" A511="de_DE@Zähler;en_US@Counter;es_ES@Contador;fr_FR@Compteur;nl_NL@Teller;sv_SE@Räknare;da_DK@Tæller;ru_RU@Счетчик;zh_CN@计数器;pl_PL@Licznik;pt_BR@Contador;cs_CZ@Čítač;it_IT@Contatore;hu_HU@Számláló;pt_PT@Contador;ko_KR@카운터;ja_JP@連番;tr_TR@Sayaç;ro_RO@Contor;zh_TW@計數器;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11686" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/153" A503="0" A506="22" A511="de_DE@Artikelnummer;en_US@Part number;es_ES@Número de artículo;fr_FR@Numéro d&apos;article;nl_NL@Artikelnummer;sv_SE@Artikelnummer;da_DK@Artikelnummer;ru_RU@Номер изделия;zh_CN@部件编号;pl_PL@Numer artykułu;pt_BR@Número de peça;cs_CZ@Číslo artiklu;it_IT@Numero articolo;hu_HU@Cikkszám;pt_PT@Número de peça;ko_KR@부품 번호;ja_JP@部品番号;tr_TR@Ürün numarası;ro_RO@Cod componentă;zh_TW@零件編號;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11687" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/147" A503="0" A506="22" A511="de_DE@Typnummer;en_US@Type number;es_ES@Número de tipo;fr_FR@Numéro de type;nl_NL@Typenummer;sv_SE@Typnummer;da_DK@Typenummer;ru_RU@Номер типа;zh_CN@类型号;pl_PL@Numer typu;pt_BR@Número de tipo;cs_CZ@Typové číslo;it_IT@Numero tipo;hu_HU@Típus szám;pt_PT@Número de tipo;ko_KR@유형 번호;ja_JP@タイプ番号;tr_TR@Tip numarası;ro_RO@Număr tip;zh_TW@類型編號;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11688" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/141" A503="0" A506="22" A511="de_DE@Bezeichnung 1;en_US@Designation 1;es_ES@Designación 1;fr_FR@Désignation 1;nl_NL@Code 1;sv_SE@Benämning 1;da_DK@Betegnelse 1;ru_RU@Обозначение 1;zh_CN@名称 1;pl_PL@Oznaczenie 1;pt_BR@Designação 1;cs_CZ@Označení 1;it_IT@Designazione 1;hu_HU@Megnevezés 1;pt_PT@Designação 1;ko_KR@지정 1;ja_JP@名称 1;tr_TR@Tanımlayıcı metin 1;ro_RO@Denumirea 1;zh_TW@名稱 1;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11689" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/135" A503="0" A506="22" A511="de_DE@Hersteller;en_US@Manufacturer;es_ES@Fabricante;fr_FR@Fabricant;nl_NL@Fabrikant;sv_SE@Tillverkare;da_DK@Fabrikant;ru_RU@Производитель;zh_CN@制造商;pl_PL@Producent;pt_BR@Fabricante;cs_CZ@Výrobce;it_IT@Produttore;hu_HU@Gyártó;pt_PT@Fabricante;ko_KR@제조업체;ja_JP@メーカー;tr_TR@Üretici;ro_RO@Producător;zh_TW@製造商;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11690" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/129" A503="0" A506="22" A511="de_DE@Lieferant;en_US@Supplier;es_ES@Proveedor;fr_FR@Fournisseur;nl_NL@Leverancier;sv_SE@Leverantör;da_DK@Leverandør;ru_RU@Поставщик;zh_CN@供应商;pl_PL@Dostawca;pt_BR@Fornecedor;cs_CZ@Dodavatel;it_IT@Fornitore;hu_HU@Szállító;pt_PT@Fornecedor;ko_KR@공급업체;ja_JP@サプライヤー;tr_TR@Tedarikçi;ro_RO@Furnizor;zh_TW@供應商;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11691" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/123" A503="0" A506="22" A511="de_DE@Menge;en_US@Quantity;es_ES@Cantidad;fr_FR@Quantité;nl_NL@Hoeveelheid;sv_SE@Mängd;da_DK@Mængde;ru_RU@Количество;zh_CN@数量;pl_PL@Ilość;pt_BR@Quantidade;cs_CZ@Množství;it_IT@Quantità;hu_HU@Mennyiség;pt_PT@Quantidade;ko_KR@수량;ja_JP@数量;tr_TR@Miktar;ro_RO@Cantitate;zh_TW@數量;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11692" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/117" A503="0" A506="22" A511="de_DE@Breite [mm];en_US@Width [mm];es_ES@Ancho [mm];fr_FR@Largeur [mm];nl_NL@Breedte [mm];sv_SE@Bredd [mm];da_DK@Bredde [ mm ];ru_RU@Ширина [мм];zh_CN@宽度 [mm];pl_PL@Szerokość [mm];pt_BR@Largura [mm];cs_CZ@Šířka [mm];it_IT@Larghezza [mm];hu_HU@Szélesség [mm];pt_PT@Largura [mm];ko_KR@너비 [mm];ja_JP@幅 [mm];tr_TR@Genişlik [mm];ro_RO@Lățime [mm];zh_TW@寬度 [mm];">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11693" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/111" A503="0" A506="22" A511="de_DE@Höhe [mm];en_US@Height [mm];es_ES@Altura [mm];fr_FR@Hauteur [mm];nl_NL@Hoogte [mm];sv_SE@Höjd [mm];da_DK@Højde [ mm ];ru_RU@Высота [мм];zh_CN@高度 [mm];pl_PL@Wysokość [mm];pt_BR@Altura [mm];cs_CZ@Výška [mm];it_IT@Altezza [mm];hu_HU@Magasság [ mm ];pt_PT@Altura [mm];ko_KR@높이 [mm];ja_JP@高さ [mm];tr_TR@Yükseklik [mm];ro_RO@Înălțime [mm];zh_TW@高度 [mm];">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11694" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/105" A503="0" A506="22" A511="de_DE@Tiefe [mm];en_US@Depth [mm];es_ES@Profundidad [mm];fr_FR@Profondeur [mm];nl_NL@Diepte [mm];sv_SE@Djup [mm];da_DK@Dybde [ mm ];ru_RU@Глубина [мм];zh_CN@深度 [mm];pl_PL@Głębokość [mm];pt_BR@Profundidade [mm];cs_CZ@Hloubka [mm];it_IT@Profondità [mm];hu_HU@Mélység [ mm ];pt_PT@Porfundidade [mm];ko_KR@깊이 [mm];ja_JP@奥行 [mm];tr_TR@Derinlik [mm];ro_RO@Adâncime [mm];zh_TW@深度 [mm];">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O31 Build="17406" A1="31/11695" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="0.35" A415="L" A416="0" A531="12/168" A532="204/168"/>
+ <O31 Build="17406" A1="31/11696" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/252" A532="204/252"/>
+ <O31 Build="17406" A1="31/11697" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/156" A532="204/156"/>
+ <O31 Build="17406" A1="31/11698" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="216/252" A532="408/252"/>
+ <O31 Build="17406" A1="31/11699" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="0.35" A415="L" A416="0" A531="12/280" A532="12/30"/>
+ <O31 Build="17406" A1="31/11700" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="0.35" A415="L" A416="0" A531="204/264" A532="204/30"/>
+ <O31 Build="17406" A1="31/11701" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="0.35" A415="L" A416="0" A531="216/246" A532="216/252"/>
+ <O31 Build="17406" A1="31/11702" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="0.35" A415="L" A416="0" A531="408/246" A532="408/252"/>
+ <O31 Build="17406" A1="31/11703" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="0.35" A415="L" A416="0" A531="216/22" A532="408/22"/>
+ <O128 Build="17406" A1="128/11704" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="216/246" A1652="408/252" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0" A2096="1" A2097="0" A2099="0" A2100="" A4010="0"/>
+ <O30 Build="17406" A1="30/11705" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/205" A503="0" A506="22" A511="en_US@No. of conductors;es_ES@Número de conductores;fr_FR@Nombre de conducteurs;nl_NL@Aantal aders;sv_SE@Antal ledare;da_DK@Lederantal;ru_RU@Число жил;zh_CN@导线芯数;pl_PL@Liczba żył;pt_BR@Nº de condutores;cs_CZ@Počet žil;it_IT@Numero conduttori;hu_HU@Érszám;pt_PT@Número de condutores;de_DE@Aderzahl;ko_KR@심선 수;ja_JP@導体数;tr_TR@İletken sayısı;ro_RO@Număr conductoare;zh_TW@導線數;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11706" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/199" A503="0" A506="22" A511="de_DE@Aderquerschnitt / -durchmesser;en_US@Conductor cross-section / diameter;es_ES@Sección / diámetro del conductor;fr_FR@Section / diamètre du conducteur;nl_NL@Aderdoorsnede / -diameter;sv_SE@Ledararea / -diameter;da_DK@Ledertværsnit / -diameter;ru_RU@Поперечное сечение / диаметр жил;zh_CN@芯线截面积/直径;pl_PL@Przekrój/ średnica żyły;pt_BR@Seção transversal / diâmetro de condutores;cs_CZ@Průřez / průměr žíly;it_IT@Sezione / Diametro conduttori;hu_HU@Érkeresztmetszet / -átmérő;pt_PT@Seção / diâmetro dos condutores;ko_KR@심선 단면적/지름;ja_JP@導体の断面積 / 直径;tr_TR@İletken kesiti / çapı;ro_RO@Secțiune conductor / diametru conductor;zh_TW@導線截面 / 直徑;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11707" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/175" A503="0" A506="22" A511="de_DE@Kabelbez. in der Grafik;en_US@Cable designation in graphic;es_ES@Designación de cable en el gráfico;fr_FR@Désignation de câble dans le graphique;nl_NL@Kabelcode in de tekening;sv_SE@Kabelbeteckning i grafik;da_DK@Kabelbetegnelse i grafik;ru_RU@Обозначение кабеля в графике;zh_CN@图形中的电缆代号;pl_PL@Oznaczenie kabla na grafice;pt_BR@Designação do cabo no gráfico;cs_CZ@Označení kabelu v grafice;it_IT@Designazione cavo nella grafica;hu_HU@Kábelmegnevezés a grafikában;pt_PT@Designação do cabo no gráfico;ko_KR@그래픽으로 케이블 지정;ja_JP@グラフィックスでのケーブル名称;tr_TR@Grafikteki kablo tanımlayıcı metni;ro_RO@Den. cablu în grafic;zh_TW@以圖形呈現電纜名稱;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11708" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/181" A503="0" A506="22" A511="de_DE@Kabeltyp;en_US@Cable type;es_ES@Tipo de cable;fr_FR@Type de câble;nl_NL@Kabeltype;sv_SE@Kabeltyp;da_DK@Kabeltype;ru_RU@Тип кабеля;zh_CN@电缆型号;pl_PL@Typ kabla;pt_BR@Tipo de cabo;cs_CZ@Typ kabelu;it_IT@Tipo cavo;hu_HU@Kábeltípus;pt_PT@Tipo de cabo;ko_KR@케이블 유형;ja_JP@ケーブル タイプ;tr_TR@Kablo tipi;ro_RO@Tip cablu;zh_TW@電纜類型;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O31 Build="17406" A1="31/11709" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/222" A532="204/222"/>
+ <O30 Build="17406" A1="30/11710" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/93" A503="0" A506="22" A511="de_DE@CE-Zertifikat;en_US@CE certificate;es_ES@Certificado CE;fr_FR@Certification CE;nl_NL@CE-certificering;sv_SE@CE-certifikat;da_DK@CE-certifikat;ru_RU@Сертификат CE;zh_CN@CE-认证;pl_PL@Certyfikat CE;pt_BR@Certificado CE;cs_CZ@Certifikát CE;it_IT@Certificato CE;hu_HU@CE-tanúsítvány;pt_PT@Certificado CE;ko_KR@CE 인증;ja_JP@CE 証明書;tr_TR@CE sertifikası;ro_RO@Certificat CE;zh_TW@CE 認證;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11711" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/99" A503="0" A506="22" A511="de_DE@EK-Preis 1. Währung;en_US@Purchase price. Currency 1;es_ES@Precio de compra 1. moneda;fr_FR@Prix d&apos;achat 1. Devise;nl_NL@Inkoopprijs 1. valuta;sv_SE@Inköpspris 1. Valuta;da_DK@Indkøbspris 1. Valuta;ru_RU@Закупочная цена 1. Валюта;zh_CN@购买价格 币种 1;pl_PL@Cena zakupu 1. waluta;pt_BR@Preço de compra 1. moeda;cs_CZ@Nákupní cena 1. Měna;it_IT@Prezzo di acquisto 1 valuta;hu_HU@Beszerzési ár 1. pénznem;pt_PT@Preço de compra 1. moeda;ko_KR@구매 가격. 통화 %1;ja_JP@購入価格。通貨 1;tr_TR@SA fiyatı 1. para birimi;ro_RO@Preț cump. 1. Valuta;zh_TW@購買價格.貨幣 1;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11712" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/87" A503="0" A506="22" A511="en_US@Description;es_ES@Descripción;fr_FR@Description;nl_NL@Beschrijving;sv_SE@Beskrivning;da_DK@Beskrivelse;ru_RU@Описание;zh_CN@描述;pl_PL@Opis;pt_BR@Descrição;cs_CZ@Popis;it_IT@Descrizione;hu_HU@Leírás;pt_PT@Descrição;de_DE@Beschreibung;ko_KR@설명;ja_JP@説明;tr_TR@Açıklama;ro_RO@Descriere;zh_TW@說明;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11713" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/187" A503="0" A506="22" A511="de_DE@Abgeschirmt von;en_US@Shielded by;es_ES@Apantallado de;fr_FR@Blindé par;nl_NL@Afgeschermd door;sv_SE@Avskärmad från;da_DK@Skærmet for;ru_RU@Экранировано от;zh_CN@屏蔽自;pl_PL@Ekranowany przez;pt_BR@Blindado de;cs_CZ@Odstíněno od;it_IT@Schermato da;hu_HU@Árnyékolva;pt_PT@Blindado de;ko_KR@다음에 의해 차폐(쉴드);ja_JP@シールド;tr_TR@Ekranlama yapılan;ro_RO@Ecranat de;zh_TW@遭隔離;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O30 Build="17406" A1="30/11714" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/231" A503="0" A506="22" A511="de_DE@Seitenname;en_US@Page name;es_ES@Nombre de página;fr_FR@Nom de page;nl_NL@Paginanaam;sv_SE@Bladnamn;da_DK@Sidenavn;ru_RU@Имя страницы;zh_CN@页名;pl_PL@Nazwa strony;pt_BR@Nome da página;cs_CZ@Název strany;it_IT@Nome pagina;hu_HU@Tervlap név;pt_PT@Nome da página;ko_KR@페이지 이름;ja_JP@ページ名;tr_TR@Sayfa adı;ro_RO@Denumire pagină;zh_TW@頁面名稱;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O31 Build="17406" A1="31/11715" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="0.35" A415="L" A416="0" A531="12/30" A532="204/30"/>
+ <O31 Build="17406" A1="31/11716" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="0.35" A415="L" A416="0" A531="216/252" A532="216/264"/>
+ <O128 Build="17406" A1="128/11717" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A1651="216/22" A1652="408/22" A1653="0" A1654="0" A1655="0" A1656="0" A1657="0" A2096="4" A2097="0" A2099="0" A2100="" A4010="0"/>
+ <O30 Build="17406" A1="30/11718" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="L" A415="L" A416="0" A501="14/193" A503="0" A506="22" A511="de_DE@Kabellänge;en_US@Cable length;es_ES@Longitud de cable;fr_FR@Longueur de câble;nl_NL@Kabellengte;sv_SE@Kabellängd;da_DK@Kabellængde;ru_RU@Длина кабеля;zh_CN@电缆长度;pl_PL@Długość kabla;pt_BR@Comprimento do cabo;cs_CZ@Délka kabelu;it_IT@Lunghezza cavo;hu_HU@Kábelhossz;pt_PT@Comprimento do cabo;ko_KR@케이블 길이;ja_JP@ケーブル長さ;tr_TR@Kablo uzunluğu;ro_RO@Lungime cablu;zh_TW@電纜長度;">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O30>
+ <O31 Build="17406" A1="31/11719" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="0.35" A415="L" A416="0" A531="12/280" A532="408/280"/>
+ <O31 Build="17406" A1="31/11720" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="0.35" A415="L" A416="0" A531="12/264" A532="408/264"/>
+ <O31 Build="17406" A1="31/11721" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/246" A532="204/246"/>
+ <O31 Build="17406" A1="31/11722" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/240" A532="204/240"/>
+ <O31 Build="17406" A1="31/11723" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/234" A532="204/234"/>
+ <O31 Build="17406" A1="31/11724" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/228" A532="204/228"/>
+ <O31 Build="17406" A1="31/11725" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/202" A532="204/202"/>
+ <O31 Build="17406" A1="31/11726" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/196" A532="204/196"/>
+ <O31 Build="17406" A1="31/11727" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/190" A532="204/190"/>
+ <O31 Build="17406" A1="31/11728" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/184" A532="204/184"/>
+ <O31 Build="17406" A1="31/11729" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/178" A532="204/178"/>
+ <O31 Build="17406" A1="31/11730" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/208" A532="204/208"/>
+ <O31 Build="17406" A1="31/11731" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/150" A532="204/150"/>
+ <O31 Build="17406" A1="31/11732" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/144" A532="204/144"/>
+ <O31 Build="17406" A1="31/11733" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/138" A532="204/138"/>
+ <O31 Build="17406" A1="31/11734" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/132" A532="204/132"/>
+ <O31 Build="17406" A1="31/11735" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/126" A532="204/126"/>
+ <O31 Build="17406" A1="31/11736" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/120" A532="204/120"/>
+ <O31 Build="17406" A1="31/11737" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/114" A532="204/114"/>
+ <O31 Build="17406" A1="31/11738" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/108" A532="204/108"/>
+ <O31 Build="17406" A1="31/11739" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/102" A532="204/102"/>
+ <O31 Build="17406" A1="31/11740" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/96" A532="204/96"/>
+ <O31 Build="17406" A1="31/11741" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="2" A413="L" A414="L" A415="L" A416="0" A531="12/90" A532="204/90"/>
+ <O31 Build="17406" A1="31/11742" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="200" A412="L" A413="L" A414="0.35" A415="L" A416="0" A531="408/252" A532="408/280"/>
+ <O52 Build="17406" A1="52/11743" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="210/272" A503="0" A506="22" A511="" A941="20006" A942="0" A943="20000" A944="0" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="7" A962="0" A963="0" A964="L" A965="0" A966="5" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11744" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/249" A503="0" A506="22" A511="" A941="20006" A942="0" A943="20000" A944="0" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11745" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/225" A503="0" A506="22" A511="" A941="20027" A942="0" A943="17" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11746" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/243" A503="0" A506="22" A511="" A941="20031" A942="0" A943="17" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11747" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/237" A503="0" A506="22" A511="" A941="20014" A942="0" A943="20000" A944="0" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11748" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/153" A503="0" A506="22" A511="" A941="22001" A942="0" A943="117" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11749" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/141" A503="0" A506="22" A511="" A941="22004" A942="0" A943="117" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11750" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/147" A503="0" A506="22" A511="" A941="22002" A942="0" A943="117" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11751" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/135" A503="0" A506="22" A511="" A941="22007" A942="0" A943="117" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11752" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/129" A503="0" A506="22" A511="" A941="22008" A942="0" A943="117" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11753" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/123" A503="0" A506="22" A511="" A941="20482" A942="0" A943="10001" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11754" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/117" A503="0" A506="22" A511="" A941="22013" A942="0" A943="117" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11755" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/111" A503="0" A506="22" A511="" A941="22012" A942="0" A943="117" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11756" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/105" A503="0" A506="22" A511="" A941="22014" A942="0" A943="117" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11757" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="224/249" A503="0" A506="22" A511="" A941="19007" A942="0" A943="17" A944="0" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11758" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/205" A503="0" A506="22" A511="" A941="20042" A942="0" A943="17" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11759" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/199" A503="0" A506="22" A511="" A941="20070" A942="0" A943="17" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11760" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/175" A503="0" A506="22" A511="" A941="20067" A942="0" A943="17" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11761" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/181" A503="0" A506="22" A511="" A941="20040" A942="0" A943="17" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11762" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/93" A503="0" A506="22" A511="" A941="22113" A942="0" A943="117" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11763" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/99" A503="0" A506="22" A511="" A941="22109" A942="0" A943="117" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11764" A3="0" A13="0" A14="0" A404="33" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/89.25" A503="0" A506="22" A511="" A941="22009" A942="0" A943="117" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="16" A966="1" A967="112" A968="57.25" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11765" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/187" A503="0" A506="22" A511="" A941="31049" A942="0" A943="17" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11766" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/231" A503="0" A506="22" A511="" A941="19023" A942="0" A943="17" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11767" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="400/249" A503="0" A506="22" A511="" A941="20400" A942="0" A943="17" A944="0" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="6" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ <O52 Build="17406" A1="52/11768" A3="0" A13="0" A14="0" A404="1" A405="64" A406="0" A407="0" A411="450" A412="0" A413="L" A414="L" A415="L" A416="0" A501="88/193" A503="0" A506="22" A511="" A941="20041" A942="0" A943="17" A944="1" A945="1" A946="0" A947="1" A949="-4" A950="" A4017="" A4019="2147483647" A4020="-1" A4051="-1" A4052="-2" A4064="0">
+ <S54x505 A961="L" A962="0" A963="0" A964="L" A965="0" A966="4" A967="0" A968="0" A969="0" A4000="L" A4001="L" A4013="0"/>
+ </O52>
+ </O51>
+</EplanPxfRoot>

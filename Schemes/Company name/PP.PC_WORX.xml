@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- PlcProcessor_PROJECT_Scheme: PP.PC WORX.xml -->
+<Settings format="2">
+ <CAT name="PROJECT">
+  <MOD name="PlcProcessor">
+   <LEV1 name="Scheme" nodekind="scheme">
+    <LEV2 name="PC WORX">
+     <LEV3 name="Data" nodekind="block">
+      <LEV4 name="ALFormat">
+       <LEV5 name="ALAddressFormat">
+        <LEV6 name="ByteAddress1">
+         <Setting name="BoxLength" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="CharacterCount" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="RightAlignment" type="bool">
+          <Val>0</Val>
+         </Setting>
+        </LEV6>
+        <LEV6 name="Code0">
+         <Setting name="BoxLength" type="int">
+          <Val>2</Val>
+         </Setting>
+         <Setting name="CharacterCount" type="int">
+          <Val>3</Val>
+         </Setting>
+         <Setting name="RightAlignment" type="bool">
+          <Val>0</Val>
+         </Setting>
+        </LEV6>
+        <Setting name="Element" type="int">
+         <Val>7</Val>
+         <Val>8</Val>
+        </Setting>
+        <Setting name="ID" type="int">
+         <Val>0</Val>
+         <Val>1</Val>
+        </Setting>
+       </LEV5>
+       <LEV5 name="ALLineFormat">
+        <LEV6 name="Address0">
+         <Setting name="BoxLength" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="CharacterCount" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="RightAlignment" type="bool">
+          <Val>0</Val>
+         </Setting>
+        </LEV6>
+        <LEV6 name="DataType2">
+         <Setting name="BoxLength" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="CharacterCount" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="RightAlignment" type="bool">
+          <Val>0</Val>
+         </Setting>
+        </LEV6>
+        <Setting name="Element" type="int">
+         <Val>2</Val>
+         <Val>6</Val>
+         <Val>5</Val>
+         <Val>6</Val>
+         <Val>4</Val>
+         <Val>6</Val>
+         <Val>3</Val>
+        </Setting>
+        <LEV6 name="FunctionText6">
+         <Setting name="BoxLength" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="CharacterCount" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="RightAlignment" type="bool">
+          <Val>0</Val>
+         </Setting>
+        </LEV6>
+        <Setting name="ID" type="int">
+         <Val>0</Val>
+         <Val>1</Val>
+         <Val>2</Val>
+         <Val>3</Val>
+         <Val>4</Val>
+         <Val>5</Val>
+         <Val>6</Val>
+        </Setting>
+        <LEV6 name="Interspace1">
+         <Setting name="CharacterCount" type="int">
+          <Val>1</Val>
+         </Setting>
+         <Setting name="Mode" type="int">
+          <Val>2</Val>
+         </Setting>
+         <Setting name="Separator" type="string">
+          <Val>;</Val>
+         </Setting>
+        </LEV6>
+        <LEV6 name="Interspace3">
+         <Setting name="CharacterCount" type="int">
+          <Val>1</Val>
+         </Setting>
+         <Setting name="Mode" type="int">
+          <Val>2</Val>
+         </Setting>
+         <Setting name="Separator" type="string">
+          <Val>;</Val>
+         </Setting>
+        </LEV6>
+        <LEV6 name="Interspace5">
+         <Setting name="CharacterCount" type="int">
+          <Val>1</Val>
+         </Setting>
+         <Setting name="Mode" type="int">
+          <Val>2</Val>
+         </Setting>
+         <Setting name="Separator" type="string">
+          <Val>;</Val>
+         </Setting>
+        </LEV6>
+        <LEV6 name="SymbolicAddress4">
+         <Setting name="BoxLength" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="CharacterCount" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="RightAlignment" type="bool">
+          <Val>0</Val>
+         </Setting>
+        </LEV6>
+       </LEV5>
+       <Setting name="AlAddress" type="string" desc="1266">
+        <Val>KKK[Y...]</Val>
+       </Setting>
+       <Setting name="AlLine" type="string" desc="1265">
+        <Val>[A...];[D...];[S...];[F...]</Val>
+       </Setting>
+       <Setting name="CharacterSet" type="string" desc="680">
+        <Val>ANSI</Val>
+       </Setting>
+       <Setting name="EnableGerman" type="bool" desc="681">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="FileName" type="string" desc="1264">
+        <Val>$(MD_DOCUMENTS)\%TEMP%\zuli.csv</Val>
+       </Setting>
+       <Setting name="Footnote" type="string" desc="683">
+        <Val/>
+       </Setting>
+       <Setting name="Header" type="string" desc="682">
+        <Val/>
+       </Setting>
+       <Setting name="SettingDesc" type="bool" desc="1311">
+        <Val/>
+       </Setting>
+      </LEV4>
+      <LEV4 name="Address">
+       <Setting name="BitCodeIn" type="string" desc="659">
+        <Val>%IX</Val>
+       </Setting>
+       <Setting name="BitCodeOut" type="string" desc="1256">
+        <Val>%QX</Val>
+       </Setting>
+       <Setting name="BitDataTypeIn" type="string" desc="660">
+        <Val>BOOL</Val>
+       </Setting>
+       <Setting name="BitDataTypeOut" type="string" desc="673">
+        <Val>BOOL</Val>
+       </Setting>
+       <Setting name="BitIncrementIn" type="string" desc="662">
+        <Val>0.1</Val>
+       </Setting>
+       <Setting name="BitIncrementOut" type="string" desc="674">
+        <Val>0.1</Val>
+       </Setting>
+       <Setting name="BitSignalTypeIn" type="int" desc="661">
+        <Val>6</Val>
+       </Setting>
+       <Setting name="BitSignalTypeOut" type="int" desc="1257">
+        <Val>7</Val>
+       </Setting>
+       <Setting name="ByteCodeIn" type="string" desc="663">
+        <Val>%IB</Val>
+       </Setting>
+       <Setting name="ByteCodeOut" type="string" desc="1258">
+        <Val>%QB</Val>
+       </Setting>
+       <Setting name="ByteDataTypeIn" type="string" desc="664">
+        <Val>BYTE</Val>
+       </Setting>
+       <Setting name="ByteDataTypeOut" type="string" desc="675">
+        <Val>BYTE</Val>
+       </Setting>
+       <Setting name="ByteIncrementIn" type="string" desc="666">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="ByteIncrementOut" type="string" desc="676">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="ByteSignalTypeIn" type="int" desc="665">
+        <Val>8</Val>
+       </Setting>
+       <Setting name="ByteSignalTypeOut" type="int" desc="1259">
+        <Val>9</Val>
+       </Setting>
+       <Setting name="DWordCodeIn" type="string" desc="670">
+        <Val>%ID</Val>
+       </Setting>
+       <Setting name="DWordCodeOut" type="string" desc="1261">
+        <Val>%QD</Val>
+       </Setting>
+       <Setting name="DWordDataTypeIn" type="string" desc="671">
+        <Val>DWORD</Val>
+       </Setting>
+       <Setting name="DWordDataTypeOut" type="string" desc="678">
+        <Val>DWORD</Val>
+       </Setting>
+       <Setting name="DWordIncrementIn" type="string" desc="1365">
+        <Val>4</Val>
+       </Setting>
+       <Setting name="DWordIncrementOut" type="string" desc="1369">
+        <Val>4</Val>
+       </Setting>
+       <Setting name="DWordSignalTypeIn" type="int" desc="672">
+        <Val>8</Val>
+       </Setting>
+       <Setting name="DWordSignalTypeOut" type="int" desc="1367">
+        <Val>9</Val>
+       </Setting>
+       <Setting name="WordCodeIn" type="string" desc="667">
+        <Val>%IW</Val>
+       </Setting>
+       <Setting name="WordCodeOut" type="string" desc="1260">
+        <Val>%QW</Val>
+       </Setting>
+       <Setting name="WordDataTypeIn" type="string" desc="668">
+        <Val>WORD</Val>
+       </Setting>
+       <Setting name="WordDataTypeOut" type="string" desc="677">
+        <Val>WORD</Val>
+       </Setting>
+       <Setting name="WordIncrementIn" type="string" desc="1364">
+        <Val>2</Val>
+       </Setting>
+       <Setting name="WordIncrementOut" type="string" desc="1368">
+        <Val>2</Val>
+       </Setting>
+       <Setting name="WordSignalTypeIn" type="int" desc="669">
+        <Val>8</Val>
+       </Setting>
+       <Setting name="WordSignalTypeOut" type="int" desc="1366">
+        <Val>9</Val>
+       </Setting>
+      </LEV4>
+      <LEV4 name="AddressFormat">
+       <LEV5 name="AnalogAddressIO">
+        <LEV6 name="Counter0">
+         <Setting name="BoxWidth" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="ConfigurationValue" type="string">
+          <Val>O</Val>
+         </Setting>
+         <Setting name="EndValue" type="int">
+          <Val>65535</Val>
+         </Setting>
+         <Setting name="NumberingBase" type="string">
+          <Val>d</Val>
+         </Setting>
+         <Setting name="StartValue" type="int">
+          <Val>0</Val>
+         </Setting>
+        </LEV6>
+        <Setting name="Element" type="int">
+         <Val>0</Val>
+        </Setting>
+        <Setting name="ID" type="int">
+         <Val>0</Val>
+        </Setting>
+       </LEV5>
+       <LEV5 name="AnalogAddressIO_Out">
+        <LEV6 name="Counter0">
+         <Setting name="BoxWidth" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="ConfigurationValue" type="string">
+          <Val>O</Val>
+         </Setting>
+         <Setting name="EndValue" type="int">
+          <Val>65535</Val>
+         </Setting>
+         <Setting name="NumberingBase" type="string">
+          <Val>d</Val>
+         </Setting>
+         <Setting name="StartValue" type="int">
+          <Val>0</Val>
+         </Setting>
+        </LEV6>
+        <Setting name="Element" type="int">
+         <Val>0</Val>
+        </Setting>
+        <Setting name="ID" type="int">
+         <Val>0</Val>
+        </Setting>
+       </LEV5>
+       <Setting name="AnalogFormat" type="string" desc="1263">
+        <Val>[C&lt;d,0,65535,0,O&gt;]</Val>
+       </Setting>
+       <Setting name="AnalogFormatOut" type="string">
+        <Val>[C&lt;d,0,65535,0,O&gt;]</Val>
+       </Setting>
+       <LEV5 name="DigitalAddressIO">
+        <LEV6 name="Counter0">
+         <Setting name="BoxWidth" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="ConfigurationValue" type="string">
+          <Val>O</Val>
+         </Setting>
+         <Setting name="EndValue" type="int">
+          <Val>65535</Val>
+         </Setting>
+         <Setting name="NumberingBase" type="string">
+          <Val>d</Val>
+         </Setting>
+         <Setting name="StartValue" type="int">
+          <Val>1</Val>
+         </Setting>
+        </LEV6>
+        <LEV6 name="Counter2">
+         <Setting name="BoxWidth" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="ConfigurationValue" type="string">
+          <Val>O</Val>
+         </Setting>
+         <Setting name="EndValue" type="int">
+          <Val>7</Val>
+         </Setting>
+         <Setting name="NumberingBase" type="string">
+          <Val>d</Val>
+         </Setting>
+         <Setting name="StartValue" type="int">
+          <Val>0</Val>
+         </Setting>
+        </LEV6>
+        <Setting name="Element" type="int">
+         <Val>0</Val>
+         <Val>1</Val>
+         <Val>0</Val>
+        </Setting>
+        <Setting name="ID" type="int">
+         <Val>0</Val>
+         <Val>1</Val>
+         <Val>2</Val>
+        </Setting>
+        <LEV6 name="Separator1">
+         <Setting name="CharacterCount" type="int">
+          <Val>1</Val>
+         </Setting>
+         <Setting name="Mode" type="int">
+          <Val>2</Val>
+         </Setting>
+         <Setting name="Separator" type="string">
+          <Val>.</Val>
+         </Setting>
+        </LEV6>
+       </LEV5>
+       <LEV5 name="DigitalAddressIO_Out">
+        <LEV6 name="Counter0">
+         <Setting name="BoxWidth" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="ConfigurationValue" type="string">
+          <Val>O</Val>
+         </Setting>
+         <Setting name="EndValue" type="int">
+          <Val>65535</Val>
+         </Setting>
+         <Setting name="NumberingBase" type="string">
+          <Val>d</Val>
+         </Setting>
+         <Setting name="StartValue" type="int">
+          <Val>1</Val>
+         </Setting>
+        </LEV6>
+        <LEV6 name="Counter2">
+         <Setting name="BoxWidth" type="int">
+          <Val>0</Val>
+         </Setting>
+         <Setting name="ConfigurationValue" type="string">
+          <Val>O</Val>
+         </Setting>
+         <Setting name="EndValue" type="int">
+          <Val>7</Val>
+         </Setting>
+         <Setting name="NumberingBase" type="string">
+          <Val>d</Val>
+         </Setting>
+         <Setting name="StartValue" type="int">
+          <Val>0</Val>
+         </Setting>
+        </LEV6>
+        <Setting name="Element" type="int">
+         <Val>0</Val>
+         <Val>1</Val>
+         <Val>0</Val>
+        </Setting>
+        <Setting name="ID" type="int">
+         <Val>0</Val>
+         <Val>1</Val>
+         <Val>2</Val>
+        </Setting>
+        <LEV6 name="Separator1">
+         <Setting name="CharacterCount" type="int">
+          <Val>1</Val>
+         </Setting>
+         <Setting name="Mode" type="int">
+          <Val>2</Val>
+         </Setting>
+         <Setting name="Separator" type="string">
+          <Val>.</Val>
+         </Setting>
+        </LEV6>
+       </LEV5>
+       <Setting name="DigitalFormat" type="string" desc="1262">
+        <Val>[C&lt;d,1,65535,0,O&gt;].[C&lt;d,0,7,0,O&gt;]</Val>
+       </Setting>
+       <Setting name="DigitalFormatOut" type="string">
+        <Val>[C&lt;d,1,65535,0,O&gt;].[C&lt;d,0,7,0,O&gt;]</Val>
+       </Setting>
+       <Setting name="NeedsInOutUpdate" type="bool">
+        <Val>0</Val>
+       </Setting>
+       <Setting name="SeparateAddress" type="bool" desc="679">
+        <Val/>
+       </Setting>
+       <Setting name="SettingDesc" type="bool" desc="1309">
+        <Val/>
+       </Setting>
+      </LEV4>
+      <LEV4 name="FormatElements">
+       <LEV5 name="Address">
+        <Setting name="BoxLength" type="int">
+         <Val>2</Val>
+        </Setting>
+        <Setting name="CharacterCount" type="int">
+         <Val>3</Val>
+        </Setting>
+        <Setting name="RightAlignment" type="bool">
+         <Val/>
+        </Setting>
+        <Setting name="Symbol" type="string">
+         <Val>A</Val>
+        </Setting>
+       </LEV5>
+       <LEV5 name="BitAddress">
+        <Setting name="BoxLength" type="int">
+         <Val>2</Val>
+        </Setting>
+        <Setting name="CharacterCount" type="int">
+         <Val>3</Val>
+        </Setting>
+        <Setting name="RightAlignment" type="bool">
+         <Val/>
+        </Setting>
+        <Setting name="Symbol" type="string">
+         <Val>B</Val>
+        </Setting>
+       </LEV5>
+       <LEV5 name="ByteAddress">
+        <Setting name="BoxLength" type="int">
+         <Val>2</Val>
+        </Setting>
+        <Setting name="CharacterCount" type="int">
+         <Val>3</Val>
+        </Setting>
+        <Setting name="RightAlignment" type="bool">
+         <Val/>
+        </Setting>
+        <Setting name="Symbol" type="string">
+         <Val>Y</Val>
+        </Setting>
+       </LEV5>
+       <LEV5 name="Code">
+        <Setting name="BoxLength" type="int">
+         <Val>2</Val>
+        </Setting>
+        <Setting name="CharacterCount" type="int">
+         <Val>3</Val>
+        </Setting>
+        <Setting name="RightAlignment" type="bool">
+         <Val/>
+        </Setting>
+        <Setting name="Symbol" type="string">
+         <Val>K</Val>
+        </Setting>
+       </LEV5>
+       <LEV5 name="Counter">
+        <Setting name="BoxWidth" type="int">
+         <Val>3</Val>
+        </Setting>
+        <Setting name="ConfigurationValue" type="string">
+         <Val>O</Val>
+        </Setting>
+        <Setting name="EndValue" type="int">
+         <Val>3</Val>
+        </Setting>
+        <Setting name="NumberingBase" type="string">
+         <Val>d</Val>
+        </Setting>
+        <Setting name="Separator" type="string">
+         <Val/>
+        </Setting>
+        <Setting name="StartValue" type="int">
+         <Val>1</Val>
+        </Setting>
+        <Setting name="Symbol" type="string">
+         <Val>C</Val>
+        </Setting>
+       </LEV5>
+       <LEV5 name="DataType">
+        <Setting name="BoxLength" type="int">
+         <Val>2</Val>
+        </Setting>
+        <Setting name="CharacterCount" type="int">
+         <Val>3</Val>
+        </Setting>
+        <Setting name="RightAlignment" type="bool">
+         <Val/>
+        </Setting>
+        <Setting name="Symbol" type="string">
+         <Val>D</Val>
+        </Setting>
+       </LEV5>
+       <LEV5 name="FunctionText">
+        <Setting name="BoxLength" type="int">
+         <Val>2</Val>
+        </Setting>
+        <Setting name="CharacterCount" type="int">
+         <Val>3</Val>
+        </Setting>
+        <Setting name="RightAlignment" type="bool">
+         <Val/>
+        </Setting>
+        <Setting name="Symbol" type="string">
+         <Val>F</Val>
+        </Setting>
+       </LEV5>
+       <LEV5 name="Interspace">
+        <Setting name="CharacterCount" type="int">
+         <Val>1</Val>
+        </Setting>
+        <Setting name="Mode" type="int">
+         <Val>2</Val>
+        </Setting>
+        <Setting name="Separator" type="string">
+         <Val>.</Val>
+        </Setting>
+        <Setting name="UserSeparator" type="string">
+         <Val>.</Val>
+        </Setting>
+       </LEV5>
+       <LEV5 name="Separator">
+        <Setting name="CharacterCount" type="int">
+         <Val/>
+        </Setting>
+        <Setting name="Mode" type="int">
+         <Val>2</Val>
+        </Setting>
+        <Setting name="Separator" type="string">
+         <Val/>
+        </Setting>
+        <Setting name="UserSeparator" type="string">
+         <Val/>
+        </Setting>
+       </LEV5>
+       <Setting name="SettingDesc" type="bool" desc="1310">
+        <Val/>
+       </Setting>
+       <LEV5 name="SymbolicAddress">
+        <Setting name="BoxLength" type="int">
+         <Val>2</Val>
+        </Setting>
+        <Setting name="CharacterCount" type="int">
+         <Val>3</Val>
+        </Setting>
+        <Setting name="RightAlignment" type="bool">
+         <Val/>
+        </Setting>
+        <Setting name="Symbol" type="string">
+         <Val>S</Val>
+        </Setting>
+       </LEV5>
+      </LEV4>
+      <LEV4 name="SymbolicAddressFormat">
+       <Setting name="ConnectionDesignation" type="bool" desc="702">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="FunctionalAssignmentMain" type="bool" desc="831">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="FunctionalAssignmentSub" type="bool" desc="690">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="GenerateSymbolicAddress" type="bool" desc="684">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="InstallationNumberMain" type="bool" desc="697">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="InstallationNumberSub" type="bool">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="MountingLocationMain" type="bool" desc="695">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="MountingLocationSub" type="bool" desc="690">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="PlaceOfInstallationMain" type="bool" desc="693">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="PlaceOfInstallationSub" type="bool" desc="690">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="PlantDesignationMain" type="bool" desc="691">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="PlantDesignationSub" type="bool" desc="690">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="PlugDesignation" type="bool" desc="2406">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="SepConnectionDesignation" type="string" desc="701">
+        <Val>:</Val>
+       </Setting>
+       <Setting name="SepDeviceTag" type="string" desc="701">
+        <Val>-</Val>
+       </Setting>
+       <Setting name="SepFunctionalAssignmentMain" type="string" desc="686">
+        <Val>==</Val>
+       </Setting>
+       <Setting name="SepFunctionalAssignmentSub" type="string" desc="688">
+        <Val>.</Val>
+       </Setting>
+       <Setting name="SepInstallationNumberMain" type="string" desc="698">
+        <Val/>
+       </Setting>
+       <Setting name="SepInstallationNumberSub" type="string">
+        <Val/>
+       </Setting>
+       <Setting name="SepMountingLocationMain" type="string" desc="696">
+        <Val>+</Val>
+       </Setting>
+       <Setting name="SepMountingLocationSub" type="string" desc="688">
+        <Val>.</Val>
+       </Setting>
+       <Setting name="SepPlaceOfInstallationMain" type="string" desc="694">
+        <Val>++</Val>
+       </Setting>
+       <Setting name="SepPlaceOfInstallationSub" type="string" desc="688">
+        <Val>.</Val>
+       </Setting>
+       <Setting name="SepPlantDesignationMain" type="string" desc="692">
+        <Val>=</Val>
+       </Setting>
+       <Setting name="SepPlantDesignationSub" type="string" desc="688">
+        <Val>.</Val>
+       </Setting>
+       <Setting name="SepPlugDesignation" type="string" desc="701">
+        <Val>:</Val>
+       </Setting>
+       <Setting name="SepSubCounter" type="string" desc="688">
+        <Val>.</Val>
+       </Setting>
+       <Setting name="SepUserDefinedMain" type="string" desc="700">
+        <Val>#</Val>
+       </Setting>
+       <Setting name="SepUserDefinedSub" type="string" desc="688">
+        <Val>#</Val>
+       </Setting>
+       <Setting name="UserDefinedMain" type="bool" desc="699">
+        <Val>1</Val>
+       </Setting>
+       <Setting name="UserDefinedSub" type="bool" desc="690">
+        <Val>1</Val>
+       </Setting>
+      </LEV4>
+     </LEV3>
+     <Setting name="Description" type="mlstring">
+      <Val>##_##@1502/SchemeDataProject;??_??@Formats for PC Worx from Phoenix Contact;</Val>
+     </Setting>
+     <Setting name="Name" type="mlstring">
+      <Val>##_##@1503/SchemeDataProject;??_??@PC Worx;</Val>
+     </Setting>
+     <Setting name="ReadOnly" type="bool">
+      <Val>0</Val>
+     </Setting>
+    </LEV2>
+   </LEV1>
+  </MOD>
+ </CAT>
+</Settings>

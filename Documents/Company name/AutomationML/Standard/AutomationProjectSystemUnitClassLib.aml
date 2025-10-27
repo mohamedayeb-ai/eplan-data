@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile FileName="AutomationProjectSystemUnitClassLib.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AdditionalInformation AutomationMLVersion="2.0" />
+  <AdditionalInformation>
+    <WriterHeader>
+      <WriterName>AutomationML Editor</WriterName>
+      <WriterID>916578CA-FE0D-474E-A4FC-9E1719892369</WriterID>
+      <WriterVendor>AutomationML e.V.</WriterVendor>
+      <WriterVendorURL>www.AutomationML.org</WriterVendorURL>
+      <WriterVersion>4.1.5</WriterVersion>
+      <WriterRelease>4.1.5.0</WriterRelease>
+      <LastWritingDateTime>2016-01-25T11:16:50</LastWritingDateTime>
+      <WriterProjectTitle>unspecified</WriterProjectTitle>
+      <WriterProjectID>unspecified</WriterProjectID>
+    </WriterHeader>
+  </AdditionalInformation>
+  <SystemUnitClassLib Name="AutomationProjectSystemUnitClassLib">
+    <Version>0.9</Version>
+    <SystemUnitClass Name="AutomationProject">
+      <Attribute Name="ProjectManufacturer" AttributeDataType="xs:string">
+        <Description>Projekthersteller</Description>
+      </Attribute>
+      <Attribute Name="ProjectSign" AttributeDataType="xs:string">
+        <Description>Kennzeichen / Nummer des Projektes</Description>
+      </Attribute>
+      <Attribute Name="ProjectRevision" AttributeDataType="xs:string">
+        <Description>Revisionsnummer des Projektes</Description>
+      </Attribute>
+      <Attribute Name="ProjectInformation" AttributeDataType="xs:string">
+        <Description>Informationstext zum Projekt</Description>
+      </Attribute>
+      <SupportedRoleClass RefRoleClassPath="AutomationProjectConfigurationRoleClassLib/AutomationProject" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Device">
+      <Attribute Name="TypeIdentifier" AttributeDataType="xs:string" />
+      <Attribute Name="Comment" AttributeDataType="xs:string" />
+      <SupportedRoleClass RefRoleClassPath="AutomationProjectConfigurationRoleClassLib/Device" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="DeviceItem">
+      <Attribute Name="TypeName" AttributeDataType="xs:string">
+        <Description>Katalog-Bezeichnung z.B CPU317</Description>
+      </Attribute>
+      <Attribute Name="DeviceItemType" AttributeDataType="xs:string">
+        <Description>Gruppe z.B. CPU, Rack, Module</Description>
+      </Attribute>
+      <Attribute Name="PositionNumber" AttributeDataType="xs:int">
+        <Description>Steckplatz im Rack</Description>
+      </Attribute>
+      <Attribute Name="BuiltIn" AttributeDataType="xs:boolean">
+        <Description>eingebaut, ja-nein</Description>
+        <DefaultValue>false</DefaultValue>
+      </Attribute>
+      <Attribute Name="TypeIdentifier" AttributeDataType="xs:string">
+        <DefaultValue>not applicable</DefaultValue>
+      </Attribute>
+      <Attribute Name="FirmwareVersion" AttributeDataType="xs:string" />
+      <Attribute Name="PlantDesignation IEC" AttributeDataType="xs:string">
+        <Description>Product oriented reference designation following IEC 81346. , z.B.: =EB3+ET1-W24</Description>
+        <RefSemantic CorrespondingAttributePath="IEC81346" />
+      </Attribute>
+      <Attribute Name="LocationIdentifier IEC" AttributeDataType="xs:string">
+        <Description>Location oriented reference designation following IEC 81346.</Description>
+        <RefSemantic CorrespondingAttributePath="IEC81346" />
+      </Attribute>
+      <Attribute Name="Comment" AttributeDataType="xs:string" />
+      <Attribute Name="Address">
+        <RefSemantic CorrespondingAttributePath="OrderedListType" />
+        <Attribute Name="1">
+          <Attribute Name="StartAddress" AttributeDataType="xs:string" />
+          <Attribute Name="Length" AttributeDataType="xs:string" />
+          <Attribute Name="IoType" AttributeDataType="xs:string" />
+        </Attribute>
+        <Attribute Name="2">
+          <Attribute Name="StartAddress" AttributeDataType="xs:string" />
+          <Attribute Name="Length" AttributeDataType="xs:string" />
+          <Attribute Name="IoType" AttributeDataType="xs:string" />
+        </Attribute>
+        <Attribute Name="3">
+          <Attribute Name="StartAddress" AttributeDataType="xs:string" />
+          <Attribute Name="Length" AttributeDataType="xs:string" />
+          <Attribute Name="IoType" AttributeDataType="xs:string" />
+        </Attribute>
+      </Attribute>
+      <SystemUnitClass Name="SUC Rail">
+        <Attribute Name="TypeName" AttributeDataType="xs:string">
+          <Description>Katalog-Bezeichnung z.B CPU317</Description>
+        </Attribute>
+        <Attribute Name="PositionNumber" AttributeDataType="xs:int">
+          <Description>Steckplatz im Rack</Description>
+        </Attribute>
+        <Attribute Name="BuiltIn" AttributeDataType="xs:boolean">
+          <Description>eingebaut, ja-nein</Description>
+          <DefaultValue>false</DefaultValue>
+        </Attribute>
+        <Attribute Name="TypeIdentifier" AttributeDataType="xs:string"></Attribute>
+        <SupportedRoleClass RefRoleClassPath="AutomationProjectConfigurationRoleClassLib/DeviceItem" />
+      </SystemUnitClass>
+      <SystemUnitClass Name="SUC PS">
+        <Attribute Name="TypeName" AttributeDataType="xs:string">
+          <Description>Katalog-Bezeichnung z.B PS307</Description>
+        </Attribute>
+        <Attribute Name="PositionNumber" AttributeDataType="xs:int">
+          <Description>Steckplatz im Rack</Description>
+        </Attribute>
+        <Attribute Name="BuiltIn" AttributeDataType="xs:boolean">
+          <Description>eingebaut, ja-nein</Description>
+          <DefaultValue>false</DefaultValue>
+        </Attribute>
+        <Attribute Name="TypeIdentifier" AttributeDataType="xs:string"></Attribute>
+        <SupportedRoleClass RefRoleClassPath="AutomationProjectConfigurationRoleClassLib/DeviceItem" />
+      </SystemUnitClass>
+      <SystemUnitClass Name="SUC CPU">
+        <Attribute Name="TypeName" AttributeDataType="xs:string">
+          <Description>Katalog-Bezeichnung z.B CPU317</Description>
+        </Attribute>
+        <Attribute Name="DeviceItemType" AttributeDataType="xs:string">
+          <Description>Gruppe z.B. CPU, Rack, Module</Description>
+          <Value>CPU</Value>
+        </Attribute>
+        <Attribute Name="PositionNumber" AttributeDataType="xs:int">
+          <Description>Steckplatz im Rack</Description>
+        </Attribute>
+        <Attribute Name="BuiltIn" AttributeDataType="xs:boolean">
+          <Description>eingebaut, ja-nein</Description>
+          <DefaultValue>false</DefaultValue>
+        </Attribute>
+        <Attribute Name="TypeIdentifier" AttributeDataType="xs:string"></Attribute>
+        <Attribute Name="FirmwareVersion" AttributeDataType="xs:string" />
+        <SupportedRoleClass RefRoleClassPath="AutomationProjectConfigurationRoleClassLib/DeviceItem" />
+      </SystemUnitClass>
+      <SystemUnitClass Name="SUC DI">
+        <Attribute Name="TypeName" AttributeDataType="xs:string"></Attribute>
+        <Attribute Name="PositionNumber" AttributeDataType="xs:int">
+          <Description>Steckplatz im Rack</Description>
+        </Attribute>
+        <Attribute Name="BuiltIn" AttributeDataType="xs:boolean">
+          <Description>eingebaut, ja-nein</Description>
+          <DefaultValue>false</DefaultValue>
+        </Attribute>
+        <Attribute Name="TypeIdentifier" AttributeDataType="xs:string"></Attribute>
+        <Attribute Name="Address">
+          <RefSemantic CorrespondingAttributePath="OrderedListType" />
+          <Attribute Name="1">
+            <Attribute Name="StartAddress" AttributeDataType="xs:string" />
+            <Attribute Name="Length" AttributeDataType="xs:string" />
+            <Attribute Name="IoType" AttributeDataType="xs:string" />
+          </Attribute>
+          <Attribute Name="2">
+            <Attribute Name="StartAddress" AttributeDataType="xs:string" />
+            <Attribute Name="Length" AttributeDataType="xs:string" />
+            <Attribute Name="IoType" AttributeDataType="xs:string" />
+          </Attribute>
+          <Attribute Name="3">
+            <Attribute Name="StartAddress" AttributeDataType="xs:string" />
+            <Attribute Name="Length" AttributeDataType="xs:string" />
+            <Attribute Name="IoType" AttributeDataType="xs:string" />
+          </Attribute>
+        </Attribute>
+        <SupportedRoleClass RefRoleClassPath="AutomationProjectConfigurationRoleClassLib/DeviceItem" />
+      </SystemUnitClass>
+      <SystemUnitClass Name="SUC DO">
+        <Attribute Name="TypeName" AttributeDataType="xs:string"></Attribute>
+        <Attribute Name="PositionNumber" AttributeDataType="xs:int">
+          <Description>Steckplatz im Rack</Description>
+        </Attribute>
+        <Attribute Name="BuiltIn" AttributeDataType="xs:boolean">
+          <Description>eingebaut, ja-nein</Description>
+          <DefaultValue>false</DefaultValue>
+        </Attribute>
+        <Attribute Name="TypeIdentifier" AttributeDataType="xs:string"></Attribute>
+        <Attribute Name="Address">
+          <RefSemantic CorrespondingAttributePath="OrderedListType" />
+          <Attribute Name="1">
+            <Attribute Name="StartAddress" AttributeDataType="xs:string" />
+            <Attribute Name="Length" AttributeDataType="xs:string" />
+            <Attribute Name="IoType" AttributeDataType="xs:string" />
+          </Attribute>
+          <Attribute Name="2">
+            <Attribute Name="StartAddress" AttributeDataType="xs:string" />
+            <Attribute Name="Length" AttributeDataType="xs:string" />
+            <Attribute Name="IoType" AttributeDataType="xs:string" />
+          </Attribute>
+          <Attribute Name="3">
+            <Attribute Name="StartAddress" AttributeDataType="xs:string" />
+            <Attribute Name="Length" AttributeDataType="xs:string" />
+            <Attribute Name="IoType" AttributeDataType="xs:string" />
+          </Attribute>
+        </Attribute>
+        <SupportedRoleClass RefRoleClassPath="AutomationProjectConfigurationRoleClassLib/DeviceItem" />
+      </SystemUnitClass>
+    </SystemUnitClass>
+    <SystemUnitClass Name="TagTable">
+      <Attribute Name="AssigToDefault" AttributeDataType="xs:boolean" />
+      <SupportedRoleClass RefRoleClassPath="AutomationProjectConfigurationRoleClassLib/TagTable" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="TagUserFolder">
+      <SupportedRoleClass RefRoleClassPath="AutomationProjectConfigurationRoleClassLib/TagUserFolder" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Subnet">
+      <Attribute Name="Type" AttributeDataType="xs:string" />
+      <InternalElement Name="Bus Object" ID="c60cf678-771c-46b6-b3b4-9ab6ba613fa7">
+        <ExternalInterface Name="LogicalEndPoint_instance_1" RefBaseClassPath="CommunicationInterfaceClassLib/LogicalEndPoint" ID="a91472b6-94af-4ae5-93a8-d949c0f310e0" />
+        <RoleRequirements RefBaseRoleClassPath="CommunicationRoleClassLib/LogicalConnection" />
+      </InternalElement>
+      <SupportedRoleClass RefRoleClassPath="AutomationProjectConfigurationRoleClassLib/Subnet" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Node">
+      <Attribute Name="Type" AttributeDataType="xs:string" />
+      <Attribute Name="NetworkAddress" AttributeDataType="xs:string" />
+      <Attribute Name="DeviceNumber" AttributeDataType="xs:string" />
+      <Attribute Name="SubnetMask" AttributeDataType="xs:string" />
+      <ExternalInterface Name="LogicalEndPoint_1" RefBaseClassPath="CommunicationInterfaceClassLib/LogicalEndPoint" ID="624d9e95-e6b0-4374-aada-e22e0af1a3df" />
+      <SupportedRoleClass RefRoleClassPath="AutomationProjectConfigurationRoleClassLib/Node" />
+    </SystemUnitClass>
+  </SystemUnitClassLib>
+</CAEXFile>
